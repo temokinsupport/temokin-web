@@ -1,0 +1,28 @@
+// @import "~bootstrap/scss/bootstrap";
+@import "./fonts.css";
+
+html,
+body,
+#root {
+    height: 100%;
+}
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#root {
+    width: 100%;
+}
+.ml-auto {
+    margin-left: auto;
+}
+* {
+    transition: padding 0.5s;
+    transition: margin 0.5s;
+    transition: width 0.5s;
+    transition: max-width 0.5s;
+    transition: min-width 0.5s;
+    transition: flex 0.5s;
+}

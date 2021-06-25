@@ -1,0 +1,56 @@
+/*
+*
+|  Page Name       : navigation.scss
+|  Description     : scss for navigation use
+|  Created by      : May Altamerano
+|  Date Created    : June 25 2021
+|  Last Update by  : May Altamerano
+|  Last update     : June 25 2021
+*
+*/
+.--navigation {
+    padding: 2vw 5vw !important;
+    transition: padding 0.5s;
+    background-color: transparent !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    a {
+        &.--logo {
+            img {
+                width: 11vw;
+                height: auto;
+                object-fit: contain;
+                object-position: 0 0;
+                image-rendering: -webkit-optimize-contrast;
+            }
+        }
+    }
+    .navbar-nav {
+        li {
+            margin-right: 6vw;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                display: inline-block;
+                padding: 1vw 0.5vw;
+                transition: padding 0.5s;
+                text-transform: uppercase;
+                font-size: 0.8vw;
+                text-decoration: none;
+                color: #676ab1;
+                font-family: "gill sans",sans-serif;
+                letter-spacing: 0.09vw;
+                font-weight: 600;
+                &:hover {
+                    color: #283a97 !important;
+                    transition: color 0.3s;
+                }
+            }
+        }
+    }
+}
