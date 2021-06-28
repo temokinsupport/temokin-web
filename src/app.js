@@ -11,16 +11,19 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { PageTransition } from '@steveeeie/react-page-transition';
  
 export default function App() {
+  var AOS = require('aos');
+  AOS.init();
+
   return (
     <BrowserRouter>
-      <Navigation/>
       <Route
         render={({ location }) => {
           return (
             <PageTransition
               preset="fadeBottomFadeTop"
-              transitionKey={location.pathname}
+              transitionKey={location.pathname} 
             >
+              <Navigation/>
               <Switch location={location}>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about-temokin" component={AboutTemokin} />
