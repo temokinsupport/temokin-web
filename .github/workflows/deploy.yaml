@@ -30,7 +30,9 @@ jobs:
       run: npm ci --ignore-scripts
 
     - name: Build
-      run: npm run build
+      run: |-
+        npm rebuild node-sass
+        npm run build
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.4
