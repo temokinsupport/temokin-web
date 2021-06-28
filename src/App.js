@@ -13,14 +13,14 @@ import { PageTransition } from '@steveeeie/react-page-transition';
 export default function App() {
   return (
     <BrowserRouter>
-      <Navigation/>
       <Route
         render={({ location }) => {
           return (
             <PageTransition
               preset="fadeBottomFadeTop"
-              transitionKey={location.pathname}
+              transitionKey={location.pathname} 
             >
+              <Navigation/>
               <Switch location={location}>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about-temokin" component={AboutTemokin} />

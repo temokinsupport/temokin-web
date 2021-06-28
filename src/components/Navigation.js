@@ -5,6 +5,19 @@ import '../assets/styles/navigation.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navigation() {
+
+// const [navigation, setNavbar ] = useState(false);
+
+// const changeBackground = () => {
+//     if(window.scrollY >= 80) {
+//         setNavbar(true);
+//     } else {
+//         setNavbar(false);
+//     }
+// }
+
+// window.addEventListener('scroll', changeBackground);
+
     return (
         <Navbar 
             expand="lg"
