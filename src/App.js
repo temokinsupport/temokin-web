@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css';
-import './assets/styles/App.scss';
+import './app.css';
+import './assets/styles/app.scss';
 import Navigation from './components/Navigation';
 import Home from './views/Home';
 import AboutTemokin from './views/AboutTemokin';

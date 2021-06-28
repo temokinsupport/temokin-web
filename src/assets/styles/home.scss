@@ -237,10 +237,11 @@
             }
             p {
                 font-family: "gill sans",sans-serif !important;
-                font-size: 1vw;
+                font-size: 1.2vw;
                 line-height: 1.6;
                 color: #4d569c;
                 margin-bottom: 0;
+                letter-spacing: 0.1vw;
                 &.--txt {  
                     font-weight: 600;
                     &:nth-child(3) {
@@ -250,6 +251,7 @@
                 &.--desc {
                     font-size: 0.7vw !important;
                     line-height: 2;
+                    letter-spacing: 0;
                 }
             }
             
