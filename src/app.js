@@ -11,6 +11,9 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { PageTransition } from '@steveeeie/react-page-transition';
  
 export default function App() {
+  var AOS = require('aos');
+  AOS.init();
+
   return (
     <BrowserRouter>
       <Route

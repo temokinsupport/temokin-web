@@ -9,7 +9,10 @@ function Home() {
         <Container>
           <Row>
             <Col>
-              <h1 className="--title">Winning <br/>Your Trust <br/>Every Time</h1>
+              <h1 className="--title" 
+              data-aos="fade-up"
+              data-aos-duration="4000"
+              >Winning <br/>Your Trust <br/>Every Time</h1>
             </Col>
           </Row>
         </Container>
@@ -17,8 +20,10 @@ function Home() {
       <div className="--bg-2">
         <Container className="--container-2 --max">
           <Row>
-            <Col>
-            <h1 className="--title">What We Do</h1>
+            <Col
+            >
+            <h1 className="--title"
+            >What We Do</h1>
             </Col>
           </Row>
           <Row>
