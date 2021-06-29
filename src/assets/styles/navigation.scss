@@ -49,6 +49,11 @@
                     color: #283a97 !important;
                     transition: color 0.3s;
                 }
+                &.active {
+                    color: #283a97 !important;
+                    transition: color 0.3s;
+                    font-weight: 600;
+                }
             }
         }
     }

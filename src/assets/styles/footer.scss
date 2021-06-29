@@ -10,10 +10,68 @@
 */
 
 .--footer {
-    a {
-        &.--link {
-            display: block;
-            
+    padding: 3vw 0;
+    .--max {
+        max-width: 90%;
+    }
+    .--left-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        a {
+            &.--logo {
+                display: block;
+                img {
+                    height: 45px;
+                    width: 15vw;
+                    object-fit: contain;
+                    object-position: 0 0;
+                    image-rendering: -webkit-optimize-contrast;
+                }
+            }
+        }
+        .--address {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            width: 30vw;
+            span {
+                display: block;
+                p {
+                    &:nth-child(1) {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            p {
+                font-family: "gill sans",sans-serif;
+                font-weight: 400 !important;
+                margin-bottom: 0;
+                font-size: 0.8vw;
+                color: #4d569c;
+            }
+        }
+    }
+    .--right-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        p {
+            font-family: "gill sans",sans-serif;
+            font-weight: 400 !important;
+            margin-bottom: 10px;
+            font-size: 1vw;
+            color: #4d569c;
+        }
+        sub {
+            font-family: "gill sans",sans-serif;
+            font-weight: 400 !important;
+            margin-bottom: 0;
+            color: #4d569c;
+            margin-right: 1vw;
         }
     }
 }
