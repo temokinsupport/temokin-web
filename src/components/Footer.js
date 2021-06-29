@@ -11,7 +11,7 @@ function Footer() {
                 <Row>
                     <Col md={8}>
                         <Link to="/" className="--logo">
-                            <img src={require('../assets/Logo.png').default} alt='logo'/>
+                            {/* <img src={require('../assets/Logo.png').default} alt='logo'/> */}
                         </Link>
                     </Col>
                     <Col md={4}></Col>
