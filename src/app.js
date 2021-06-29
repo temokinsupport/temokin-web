@@ -23,6 +23,7 @@ export default function App() {
             <PageTransition
               preset="fadeBottomFadeTop"
               transitionKey={location.pathname} 
+              className="--page"
             >
               <Navigation/>
               <Switch location={location}>
