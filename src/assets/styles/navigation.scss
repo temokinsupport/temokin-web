@@ -31,6 +31,60 @@
     .navbar-nav {
         li {
             margin-right: 6vw;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .--dropdown {
+                position: absolute;
+                top: 3vw;
+                background-color: #283a97;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                padding: 0;
+                max-height: 0;
+                display: block;
+                overflow: hidden;
+                opacity: 0;
+                min-width: 170px;
+                &.--active {
+                    max-height: 300px;
+                    opacity: 1;
+                }
+                li {
+                    margin: 0 !important;
+                    width: 100%;
+                    padding: 0 1vw;
+                    &:last-child {
+                        a {
+                            border-bottom: 0 !important;
+                        }
+                    }
+                    a {
+                        display: block;
+                        text-align: center;
+                        width: 100%;
+                        font-size: 11px;
+                        color: #ffffff;
+                        font-family: "Myriad Pro", sans-serif;
+                        font-weight: 400;
+                        border-bottom:1px solid #fff;
+                        padding: 1.1vw 0;
+                        &:hover {
+                            color: #ffffff !important;
+                            transition: color 0.3s;
+                        }
+                        &.active {
+                            color: #ffffff !important;
+                            transition: color 0.3s;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
             &:last-child {
                 margin-right: 0;
             }
@@ -45,6 +99,7 @@
                 font-family: "gill sans",sans-serif;
                 letter-spacing: 0.09vw;
                 font-weight: 600;
+                cursor: pointer;
                 &:hover {
                     color: #283a97 !important;
                     transition: color 0.3s;

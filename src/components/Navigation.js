@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import '../assets/styles/navigation.scss';
@@ -6,17 +6,31 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navigation() {
 
-// const [navigation, setNavbar ] = useState(false);
+    const aboutLinkdirects = [
+        {   
+            id:0,
+            linkname:"About Us",
+            linkpath:"/about-temokin"
+        },
+        {   
+            id:1,
+            linkname:"Team Leaders",
+            linkpath:"/team-leaders"
+        },
+        {   
+            id:2,
+            linkname:"Awards & Achievements",
+            linkpath:"/awars-and-achievements"
+        },
+        {   
+            id:3,
+            linkname:"Licenses & Registrations",
+            linkpath:"/licenses-and-registrations"
+        },
+    ];
 
-// const changeBackground = () => {
-//     if(window.scrollY >= 80) {
-//         setNavbar(true);
-//     } else {
-//         setNavbar(false);
-//     }
-// }
-
-// window.addEventListener('scroll', changeBackground);
+    const [hovered, setHovered] = useState(false);
+    const toggleHover = () => setHovered(!hovered);
 
     return (
         <Navbar 
@@ -32,8 +46,19 @@ function Navigation() {
                     <li>
                         <NavLink exact to="/">Home</NavLink>
                     </li>
-                    <li>
-                        <NavLink exact to="/about-temokin">About Temokin</NavLink>
+                    <li 
+                        onMouseEnter={toggleHover}
+                        onMouseLeave={toggleHover}>
+                        <a >About Temokin</a>
+                        <ul
+                            className={hovered ? '--dropdown --active' : '--dropdown'}
+                        >
+                            {aboutLinkdirects.map((linkdir) => (
+                                <li>
+                                    <NavLink exact to={linkdir.linkpath} key={linkdir.id}>{linkdir.linkname}</NavLink>
+                                </li>
+                            ))}
+                        </ul>
                     </li>
                     <li>
                         <NavLink exact to="/civil-engineering">Civil Engineering</NavLink>
