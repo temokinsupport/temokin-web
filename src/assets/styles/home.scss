@@ -11,16 +11,41 @@
 
 .--home {
     min-height: 100vh;
-    background: url("../images/home/Home_BG-02.png") top 29.8vw center,
+    background: url("../images/home/About_BG-07.png") top 34.8vw center,
     url("../images/home/Home_BG-03.png") top 112.8vw center,
     url("../images/home/Home_BG-04.png") top 158vw center,
     url("../images/home/Home_BG-01.png")  top -7vw center;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-size: 100vw 93vw, 100vw 47vw, 100vw 62vw, 100% auto;
+    background-size: 100vw 83vw, 100vw 47vw, 100vw 62vw, 100% auto;
     transition: background 0.3s;
     background-attachment: scroll;
     margin-top: -8vw;
     width: 100%;
+    &::before {
+        content: "";
+        height: 17vw;
+        width: 50vw;
+        transition: height 0.3s;
+        transition: width 0.3s;
+        background-color: #1018699c;
+        position: absolute;
+        top: 33.3vw;
+        left: -11vw;
+        transform: rotate3d(2.5, -2, 2, 53deg);
+    }
+    &::after {
+        content: "";
+        height: 12vw;
+        width: 69vw;
+        transition: height 0.3s;
+        transition: width 0.3s;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        position: absolute;
+        top: 44.3vw;
+        left: 16vw;
+        transform: rotate3d(3.5, -3.5, 3, 57deg);
+    }
     .--header {
         position: relative;
         width: 100%;
