@@ -163,6 +163,7 @@
                         background-color: transparent;
                         transition: background-color 0.5s;
                         margin: 0 20px;
+                        cursor: pointer;
                         &.active {
                             transition: background-color 0.5s;
                             background-color: #ffffff;
