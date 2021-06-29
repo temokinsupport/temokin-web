@@ -2,6 +2,7 @@ import React from 'react';
 import './app.css';
 import './assets/styles/app.scss';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 import Home from './views/Home';
 import AboutTemokin from './views/AboutTemokin';
 import PorpertyDevelopment from './views/PorpertyDevelopment';
@@ -31,6 +32,7 @@ export default function App() {
                 <Route exact path="/property-development" component={PorpertyDevelopment} />
                 <Route exact path="/contact-us" component={ContactUs} />
               </Switch>
+              <Footer/>
             </PageTransition>
           );
         }}
