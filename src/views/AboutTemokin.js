@@ -94,11 +94,16 @@ function AboutTemokin() {
             </SplideSlide>
         </Splide>
       </div>
-      <div>
+      <div className="--container-2">
         <Container>
           <Row>
             <Col>
-               <h2 className="--title">OUR VISION</h2>
+              <h2 className="--title">OUR VISION</h2>
+              <p className="--sub-title">We aim to be the one <br/>
+              company that</p>
+              <h1 className="--title">WINS <br/>
+              YOUR TRUST <br/>
+              EVERY TIME</h1>
             </Col>
           </Row>
         </Container>
