@@ -18,33 +18,33 @@
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: 100vw 83vw, 100vw 47vw, 100vw 62vw, 100% auto;
     transition: background 0.3s;
-    background-attachment: scroll;
+    background-attachment: scroll, scroll, scroll, local;
     margin-top: -8vw;
     width: 100%;
     &::before {
         content: "";
-        height: 17vw;
+        height: 12vw;
         width: 50vw;
-        transition: height 0.3s;
-        transition: width 0.3s;
         background-color: #1018699c;
         position: absolute;
-        top: 33.3vw;
+        top: 35.8vw;
         left: -11vw;
-        transform: rotate3d(2.5, -2, 2, 53deg);
+        transition: height 0.3s;
+        transition: width 0.3s;
+        transform: skew(328deg, 19deg);
     }
     &::after {
         content: "";
-        height: 12vw;
-        width: 69vw;
-        transition: height 0.3s;
-        transition: width 0.3s;
+        height: 8vw;
+        width: 54vw;
         background-color: transparent;
         border: 1px solid #ffffff;
         position: absolute;
-        top: 44.3vw;
-        left: 16vw;
-        transform: rotate3d(3.5, -3.5, 3, 57deg);
+        top: 46.8vw;
+        left: 25vw;
+        transition: height 0.3s;
+        transition: width 0.3s;
+        transform: skew(322deg, 21deg);
     }
     .--header {
         position: relative;

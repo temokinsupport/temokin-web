@@ -27,7 +27,11 @@ body {
     transition: min-width 0.5s;
     transition: flex 0.5s;
 }
+.--pl3v {
+    padding-left: 3.9vw !important;
+    padding-right: 0 !important;
+}
 .--page,
 .--page > div {
-    overflow: auto !important;
+    overflow: unset !important;
 }

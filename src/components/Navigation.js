@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Button } from 'react-bootstrap';
 import '../assets/styles/navigation.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -48,8 +48,9 @@ function Navigation() {
                     </li>
                     <li 
                         onMouseEnter={toggleHover}
-                        onMouseLeave={toggleHover}>
-                        <a >About Temokin</a>
+                        onMouseLeave={toggleHover}
+                    >
+                        <Button>About Temokin</Button>
                         <ul
                             className={hovered ? '--dropdown --active' : '--dropdown'}
                         >
