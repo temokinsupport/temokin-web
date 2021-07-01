@@ -132,7 +132,7 @@ function AboutTemokin() {
       <div className="--container-5">
         <div className="--bg-1"/>
         <div className="--bg-2"/>
-        <Container>
+        <Container className="--max">
           <Row>
             <Col>
             <Splide
@@ -188,7 +188,7 @@ function AboutTemokin() {
       <div className="--container-6"></div>
       <div className="--container-7">
         <div className="--bg-1"/>
-        <Container>
+        <Container className="--max">
           <Row>
             <Col>
             <Splide

@@ -220,9 +220,9 @@
     .--container-4 {
         background: url("../images/aboutus/About_BG-04.png") bottom center;
         image-rendering: -webkit-optimize-contrast;
-        height: 50vw;
+        height: 60vw;
         background-repeat: no-repeat;
-        background-size: 100vw auto;
+        background-size: 101vw auto;
         transition: background 0.3s;
         background-attachment: scroll;
         padding: 10vw 0;
@@ -232,11 +232,14 @@
         height: 50vw;
         padding: 0;
         position: relative;
+        .--max {
+            max-width: 75%;
+        }
         .--bg-1 {
             background: url("../images/aboutus/About_BG-07.png") top left;
             image-rendering: -webkit-optimize-contrast;
             background-repeat: no-repeat;
-            background-size: 60vw 55vw;
+            background-size: 76vw 55vw;
             transition: background 0.3s;
             background-attachment: scroll;
             height: 100vw;
@@ -257,13 +260,13 @@
             background: url("../images/aboutus/About_BG-07.png") top left;
             image-rendering: -webkit-optimize-contrast;
             background-repeat: no-repeat;
-            background-size: 65vw 55vw;
+            background-size: 105vw 55vw;
             transition: background 0.3s;
             background-attachment: scroll;
             height: 100vw;
             width: 100%;
             position: absolute;
-            bottom: -14vw;
+            bottom: -4vw;
             transform: scale(-1, -1);
         }
         .splide {
@@ -276,14 +279,14 @@
             margin: 0 auto;
             .splide__track {
                 position: relative;
-                top: -23vw;
+                top: -26.5vw;
                 width: 100%;
                 img {
                     // width: 66%;
-                    width: 44vw;
-                    height: 44vw;
-                    object-fit: contain;
-                    object-position: center;
+                    width: 65vw;
+                    height: 40vw;
+                    object-fit: cover;
+                    object-position: center;          
                 }
                 .splide__list {
                     width: 100%;
@@ -308,11 +311,11 @@
             left: unset;
             transform: unset;
             li {
-                margin: 0 1vw;
+                margin: 0 1.1vw;
             }
             .splide__pagination__page {
-                height: 23px;
-                width: 23px;
+                height: 25px;
+                width: 25px;
                 background-color: transparent !important;
                 border: 1px solid #ffffff !important;
                 &.is-active {
@@ -328,7 +331,7 @@
             width: 44%;
             hr {
                 height: 3px;
-                background-color: #676ab0;
+                background-color: #3472a9;
                 width: 68vh;
                 right: 0vw;
                 position: absolute;
@@ -340,22 +343,23 @@
                     font-weight: 600 !important;
                     text-transform: uppercase;
                     line-height: 2.5vw;
-                    font-size: 0.9vw;
+                    font-size: 1.2vw;
                     color: #ffffff;
                     margin: 0;
                     text-align: center;
                     width: 95%;
                     margin-left: auto;
+                    margin-bottom: 0.8vw;
                 }
             }
             p {
                 &.--desc {
-                    font-family: "Myriad Pro",sans-serif !important;
+                    font-family: "gill sans light",sans-serif !important;
                     letter-spacing: 0.2vw;
                     font-weight: 400 !important;
                     text-transform: uppercase;
-                    line-height: 2vw;
-                    font-size: 1vw;
+                    line-height: 2.3vw;
+                    font-size: 1.4vw;
                     color: #ffffff;
                     margin: 2.5vw 0 0 0;
                     text-align: center;
@@ -368,7 +372,7 @@
     .--container-6 {
         background: url("../images/aboutus/About_BG-05.png") bottom center;
         image-rendering: -webkit-optimize-contrast;
-        height: 50vw;
+        height: 53vw;
         background-repeat: no-repeat;
         background-size: 100vw auto;
         transition: background 0.3s;
@@ -382,22 +386,25 @@
         height: 50vw;
         padding: 0;
         position: relative;
+        .--max {
+            max-width: 73%;
+        }
         .--bg-1 {
             background: url("../images/aboutus/About_BG-07.png") top left;
             image-rendering: -webkit-optimize-contrast;
             background-repeat: no-repeat;
-            background-size: 60vw 55vw;
+            background-size: 60vw 32vw;
             transition: background 0.3s;
             background-attachment: scroll;
             height: 50vw;
             width: 100%;
             position: absolute;
-            top: -15vw;
+            top: -10vw;
             &::before {
                 content: "";
                 background-color: #283997;
                 position: absolute;
-                top: 15vw;
+                top: 10vw;
                 left: 0;
                 width: 100%;
                 height: 50vw;
@@ -426,14 +433,14 @@
             margin: 0 auto;
             .splide__track {
                 position: relative;
-                top: -18vw;
+                top: -16vw;
                 width: 100%;
                 img {
                     // width: 66%;
-                    width: 44vw;
-                    height: 44vw;
-                    object-fit: contain;
-                    object-position: center;
+                    width: 65vw;
+                    height: 40vw;
+                    object-fit: cover;
+                    object-position: center;     
                 }
                 .splide__list {
                     width: 100%;
@@ -490,22 +497,23 @@
                     font-weight: 600 !important;
                     text-transform: uppercase;
                     line-height: 2.5vw;
-                    font-size: 0.9vw;
+                    font-size: 1.2vw;
                     color: #ffffff;
                     margin: 0;
                     text-align: center;
                     width: 95%;
                     margin-left: auto;
+                    margin-bottom: 0.8vw;
                 }
             }
             p {
                 &.--desc {
-                    font-family: "Myriad Pro",sans-serif !important;
+                    font-family: "gill sans light",sans-serif !important;
                     letter-spacing: 0.2vw;
                     font-weight: 400 !important;
                     text-transform: uppercase;
-                    line-height: 2vw;
-                    font-size: 1vw;
+                    line-height: 2.3vw;
+                    font-size: 1.4vw;
                     color: #ffffff;
                     margin: 2.5vw 0 0 0;
                     text-align: center;
@@ -520,31 +528,31 @@
         image-rendering: -webkit-optimize-contrast;
         height: 59vw;
         background-repeat: no-repeat;
-        background-size: 100vw auto;
+        background-size: 99vw 59vw;
         transition: background 0.3s;
         background-attachment: scroll;
         padding: 10vw 0;
-        position: relative;   
+        position: relative;
         .--title {
             font-family: "gill sans",sans-serif !important;
             letter-spacing: 0.6vw;
             font-weight: 600 !important;
             text-transform: uppercase;
             line-height: 3vw;
-            font-size: 2.5vw;
+            font-size: 3.2vw;
             color: #283a97;
             margin: 8vw 0 0 0;
             text-align: center;
         } 
         .--desc {
             font-family: "gill sans",sans-serif !important;
-            letter-spacing: 0.1vw;
+            letter-spacing: 0.2vw;
             font-weight: 600 !important;
             text-transform: uppercase;
-            line-height: 3vw;
-            font-size: 1.2vw;
+            line-height: 3.5vw;
+            font-size: 1.3vw;
             color: #283a97;
-            margin: 4vw 0 0 0;
+            margin: 6vw 0 0 0;
             text-align: center;
         }
     }
