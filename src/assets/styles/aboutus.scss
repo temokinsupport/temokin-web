@@ -122,7 +122,7 @@
         }
     }
     .--container-2 {
-        background: url("../images/aboutus/About_BG-Shapes-02.png") top center, url("../images/aboutus/About_BG-02.png") top -1vw center;
+        background: url("../images/aboutus/About_BG-Shapes-02.png") top center, url("../images/aboutus/About_BG-02.png") center;
         height: 50vw;
         background-repeat: no-repeat, no-repeat;
         background-size: 100vw auto, 100vw auto;
@@ -168,5 +168,409 @@
                 text-align: center;
             }
         }
+    }
+    .--container-3 {
+        background: url("../images/aboutus/About_BG-03.png") top center;
+        height: 54.5vw;
+        background-repeat: no-repeat;
+        background-size: 116vw 55vw;
+        transition: background 0.3s;
+        background-attachment: scroll;
+        padding: 10vw 0;
+        position: relative;
+        img {
+            &.--img {
+                position: absolute;
+                height: 12vw;
+                width: 12vw;
+                image-rendering: -webkit-optimize-contrast;
+                object-fit: contain;
+                object-position: 0 0;
+                top: 11vw;
+            }
+        }
+        h2 {
+            &.--title {
+                font-family: "gill sans",sans-serif !important;
+                letter-spacing: 0.6vw;
+                font-weight: 600 !important;
+                text-transform: uppercase;
+                line-height: 3vw;
+                font-size: 1.8vw;
+                color: #ffffff;
+                margin: 6vw 0 0 0;
+                text-align: center;
+            }
+        }
+        p {
+            &.--sub-title {
+                font-family: "gill sans",sans-serif !important;
+                letter-spacing: 0.2vw;
+                font-weight: 600 !important;
+                text-transform: uppercase;
+                line-height: 3vw;
+                font-size: 1.6vw;
+                color: #ffffff;
+                margin: 4vw 0 0 0;
+                text-align: center;
+            }
+        }
+    }
+    .--container-4 {
+        background: url("../images/aboutus/About_BG-04.png") bottom center;
+        image-rendering: -webkit-optimize-contrast;
+        height: 50vw;
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+        transition: background 0.3s;
+        background-attachment: scroll;
+        padding: 10vw 0;
+        position: relative;
+    }
+    .--container-5 {
+        height: 50vw;
+        padding: 0;
+        position: relative;
+        .--bg-1 {
+            background: url("../images/aboutus/About_BG-07.png") top left;
+            image-rendering: -webkit-optimize-contrast;
+            background-repeat: no-repeat;
+            background-size: 60vw 55vw;
+            transition: background 0.3s;
+            background-attachment: scroll;
+            height: 100vw;
+            width: 100%;
+            position: absolute;
+            top: -29vw;
+            &::before {
+                content: "";
+                background-color: #283997;
+                position: absolute;
+                top: 19vw;
+                left: 0;
+                width: 100%;
+                height: 50vw;
+            }
+        }
+        .--bg-2 {
+            background: url("../images/aboutus/About_BG-07.png") top left;
+            image-rendering: -webkit-optimize-contrast;
+            background-repeat: no-repeat;
+            background-size: 65vw 55vw;
+            transition: background 0.3s;
+            background-attachment: scroll;
+            height: 100vw;
+            width: 100%;
+            position: absolute;
+            bottom: -14vw;
+            transform: scale(-1, -1);
+        }
+        .splide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 50vw;
+            // width: 1140px;
+            margin: 0 auto;
+            .splide__track {
+                position: relative;
+                top: -23vw;
+                width: 100%;
+                img {
+                    // width: 66%;
+                    width: 44vw;
+                    height: 44vw;
+                    object-fit: contain;
+                    object-position: center;
+                }
+                .splide__list {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    .splide__slide {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+        .splide__arrows {
+            display: none;
+        }
+        .splide__pagination {
+            position: absolute!important;
+            bottom: 20vw;
+            left: unset;
+            transform: unset;
+            li {
+                margin: 0 1vw;
+            }
+            .splide__pagination__page {
+                height: 23px;
+                width: 23px;
+                background-color: transparent !important;
+                border: 1px solid #ffffff !important;
+                &.is-active {
+                    transform: none !important;
+                    background-color: #ffffff !important;
+                }
+            }
+        }
+        .--right-container {
+            top: 4vw;
+            position: relative;
+            left: 0;
+            width: 44%;
+            hr {
+                height: 3px;
+                background-color: #676ab0;
+                width: 68vh;
+                right: 0vw;
+                position: absolute;
+            }
+            h5 {
+                &.--title {
+                    font-family: "gill sans",sans-serif !important;
+                    letter-spacing: 0.3vw;
+                    font-weight: 600 !important;
+                    text-transform: uppercase;
+                    line-height: 2.5vw;
+                    font-size: 0.9vw;
+                    color: #ffffff;
+                    margin: 0;
+                    text-align: center;
+                    width: 95%;
+                    margin-left: auto;
+                }
+            }
+            p {
+                &.--desc {
+                    font-family: "Myriad Pro",sans-serif !important;
+                    letter-spacing: 0.2vw;
+                    font-weight: 400 !important;
+                    text-transform: uppercase;
+                    line-height: 2vw;
+                    font-size: 1vw;
+                    color: #ffffff;
+                    margin: 2.5vw 0 0 0;
+                    text-align: center;
+                    width: 95%;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+    .--container-6 {
+        background: url("../images/aboutus/About_BG-05.png") bottom center;
+        image-rendering: -webkit-optimize-contrast;
+        height: 50vw;
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+        transition: background 0.3s;
+        background-attachment: scroll;
+        padding: 10vw 0;
+        position: relative;    
+        z-index: -1;
+        margin-top: -10vw;
+    }
+    .--container-7 {
+        height: 50vw;
+        padding: 0;
+        position: relative;
+        .--bg-1 {
+            background: url("../images/aboutus/About_BG-07.png") top left;
+            image-rendering: -webkit-optimize-contrast;
+            background-repeat: no-repeat;
+            background-size: 60vw 55vw;
+            transition: background 0.3s;
+            background-attachment: scroll;
+            height: 50vw;
+            width: 100%;
+            position: absolute;
+            top: -15vw;
+            &::before {
+                content: "";
+                background-color: #283997;
+                position: absolute;
+                top: 15vw;
+                left: 0;
+                width: 100%;
+                height: 50vw;
+            }
+        }
+        .--bg-2 {
+            background: url("../images/aboutus/About_BG-07.png") top left;
+            image-rendering: -webkit-optimize-contrast;
+            background-repeat: no-repeat;
+            background-size: 65vw 55vw;
+            transition: background 0.3s;
+            background-attachment: scroll;
+            height: 100vw;
+            width: 100%;
+            position: absolute;
+            bottom: -14vw;
+            transform: scale(-1, -1);
+        }
+        .splide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 50vw;
+            // width: 1140px;
+            margin: 0 auto;
+            .splide__track {
+                position: relative;
+                top: -18vw;
+                width: 100%;
+                img {
+                    // width: 66%;
+                    width: 44vw;
+                    height: 44vw;
+                    object-fit: contain;
+                    object-position: center;
+                }
+                .splide__list {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    .splide__slide {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+        .splide__arrows {
+            display: none;
+        }
+        .splide__pagination {
+            position: absolute!important;
+            bottom: 14vw;
+            left: unset;
+            transform: unset;
+            li {
+                margin: 0 1vw;
+            }
+            .splide__pagination__page {
+                height: 23px;
+                width: 23px;
+                background-color: transparent !important;
+                border: 1px solid #ffffff !important;
+                &.is-active {
+                    transform: none !important;
+                    background-color: #ffffff !important;
+                }
+            }
+        }
+        .--right-container {
+            top: 5vw;
+            position: relative;
+            left: 0;
+            width: 44%;
+            hr {
+                height: 3px;
+                background-color: #676ab0;
+                width: 68vh;
+                right: 0vw;
+                position: absolute;
+            }
+            h5 {
+                &.--title {
+                    font-family: "gill sans",sans-serif !important;
+                    letter-spacing: 0.3vw;
+                    font-weight: 600 !important;
+                    text-transform: uppercase;
+                    line-height: 2.5vw;
+                    font-size: 0.9vw;
+                    color: #ffffff;
+                    margin: 0;
+                    text-align: center;
+                    width: 95%;
+                    margin-left: auto;
+                }
+            }
+            p {
+                &.--desc {
+                    font-family: "Myriad Pro",sans-serif !important;
+                    letter-spacing: 0.2vw;
+                    font-weight: 400 !important;
+                    text-transform: uppercase;
+                    line-height: 2vw;
+                    font-size: 1vw;
+                    color: #ffffff;
+                    margin: 2.5vw 0 0 0;
+                    text-align: center;
+                    width: 95%;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+    .--container-8 {
+        background: url("../images/aboutus/About_BG-06.png") bottom center;
+        image-rendering: -webkit-optimize-contrast;
+        height: 59vw;
+        background-repeat: no-repeat;
+        background-size: 100vw auto;
+        transition: background 0.3s;
+        background-attachment: scroll;
+        padding: 10vw 0;
+        position: relative;   
+        .--title {
+            font-family: "gill sans",sans-serif !important;
+            letter-spacing: 0.6vw;
+            font-weight: 600 !important;
+            text-transform: uppercase;
+            line-height: 3vw;
+            font-size: 2.5vw;
+            color: #283a97;
+            margin: 8vw 0 0 0;
+            text-align: center;
+        } 
+        .--desc {
+            font-family: "gill sans",sans-serif !important;
+            letter-spacing: 0.1vw;
+            font-weight: 600 !important;
+            text-transform: uppercase;
+            line-height: 3vw;
+            font-size: 1.2vw;
+            color: #283a97;
+            margin: 4vw 0 0 0;
+            text-align: center;
+        }
+    }
+    @media (max-width:1500px) {
+        .--container-5 {
+            .splide__pagination {
+                bottom: 17vw;
+            }
+        }
+        .--container-7 {
+            .splide__pagination {
+                bottom: 10vw;
+            }
+        }
+
+    }
+    @media (max-width:1400px) {
+        .--container-5 {
+            .splide__pagination {
+                bottom: 15vw;
+            }
+        }
+        .--container-7 {
+            .splide__pagination {
+                bottom: 8vw;
+            }
+        }
+
     }
 }
