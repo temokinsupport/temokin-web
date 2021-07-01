@@ -10,9 +10,9 @@
 */
 
 .--footer {
-    padding: 3vw 0;
+    padding: 3vw 0 4.4vw 0;
     .--max {
-        max-width: 90%;
+        max-width: 91%;
     }
     .--left-container {
         display: flex;
@@ -23,11 +23,12 @@
             &.--logo {
                 display: block;
                 img {
-                    height: 45px;
-                    width: 15vw;
+                    height: 48px;
+                    width: 17vw;
                     object-fit: contain;
                     object-position: 0 0;
                     image-rendering: -webkit-optimize-contrast;
+                    margin-top: 0.3vw;
                 }
             }
         }
@@ -41,15 +42,15 @@
                 display: block;
                 p {
                     &:nth-child(1) {
-                        margin-bottom: 10px;
+                        margin-bottom: 8px;
                     }
                 }
             }
             p {
-                font-family: "gill sans",sans-serif;
+                font-family: "gill sans medium",sans-serif;
                 font-weight: 400 !important;
                 margin-bottom: 0;
-                font-size: 0.8vw;
+                font-size: 1vw;
                 color: #4d569c;
             }
         }
@@ -60,18 +61,19 @@
         align-items: flex-end;
         flex-direction: column;
         p {
-            font-family: "gill sans",sans-serif;
+            font-family: "gill sans medium",sans-serif;
             font-weight: 400 !important;
             margin-bottom: 10px;
-            font-size: 1vw;
+            font-size: 1.2vw;
             color: #4d569c;
         }
         sub {
-            font-family: "gill sans",sans-serif;
+            font-family: "gill sans medium",sans-serif;
             font-weight: 400 !important;
             margin-bottom: 0;
             color: #4d569c;
             margin-right: 1vw;
+            font-size: 0.8vw;
         }
     }
 }

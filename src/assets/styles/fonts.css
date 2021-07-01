@@ -9,6 +9,26 @@
 }
 
 @font-face {
+    font-family: 'gill sans medium';
+    src: url('../fonts/GillSansNova-Medium.woff') format('woff'),
+    url('../fonts/GillSansNova-Medium.woff2') format('woff2'),
+    url('../fonts/GillSansNova-Medium.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'gill sans light';
+    src: url('../fonts/GillSansNova-Light.woff') format('woff'),
+    url('../fonts/GillSansNova-Light.woff2') format('woff2'),
+    url('../fonts/GillSansNova-Light.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'Myriad Pro';
     src: url('../fonts/MyriadPro-Regular.otf') format('otf');
     font-weight: normal;

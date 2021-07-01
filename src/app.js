@@ -5,6 +5,7 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import Home from './views/Home';
 import AboutTemokin from './views/AboutTemokin';
+import TeamLeaders from './views/TeamLeaders';
 import PorpertyDevelopment from './views/PorpertyDevelopment';
 import CivilEngineering from './views/CivilEngineering';
 import ContactUs from './views/ContactUs';
@@ -29,6 +30,7 @@ export default function App() {
               <Switch location={location}>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about-temokin" component={AboutTemokin} />
+                <Route exact path="/team-leaders" component={TeamLeaders} />
                 <Route exact path="/civil-engineering" component={CivilEngineering} />
                 <Route exact path="/property-development" component={PorpertyDevelopment} />
                 <Route exact path="/contact-us" component={ContactUs} />

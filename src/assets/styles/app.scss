@@ -11,7 +11,8 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    -webkit-font-smooth:antialiased ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 #root {
     width: 100%;
@@ -28,7 +29,7 @@ body {
     transition: flex 0.5s;
 }
 .--pl3v {
-    padding-left: 3.9vw !important;
+    padding-left: 3.2vw !important;
     padding-right: 0 !important;
 }
 .--page,

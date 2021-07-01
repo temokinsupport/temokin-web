@@ -5,23 +5,22 @@
 |  Created by      : May Altamerano
 |  Date Created    : June 29 2021
 |  Last Update by  : May Altamerano
-|  Last update     : June 29 2021
+|  Last update     : July 1 2021
 *
 */
 .--about {
     min-height: 100vh;
-    // background: url("../images/aboutus/About_BG-01.png") top center;
     background-repeat: no-repeat;
     background-size: 100vw auto;
     transition: background 0.3s;
     background-attachment: local, scroll;
-    margin-top: -7.2vw;
+    margin-top: -9.1vw;
     width: 100%;
     .--header-container {
-        background: url("../images/aboutus/About_BG-Shapes-01.png") bottom -4vw right -20vw , url("../images/aboutus/About_BG-01.png")  top -38vw left;
-        height: 50vw;
+        background: url("../images/aboutus/About_BG-Shapes-01.png") bottom -8vw right -20vw , url("../images/aboutus/About_BG-01.png") top -35vw left 0vw;
+        height: 51vw;
         background-repeat: no-repeat, no-repeat;
-        background-size: 120vw auto, auto 96vw;
+        background-size: 120vw auto, auto 101vw;
         transition: background 0.3s;
         background-attachment: scroll;
         // background-position: ;
@@ -29,23 +28,24 @@
             height: 50vw;
             .--title {
                 font-family: "gill sans",sans-serif !important;
-                letter-spacing: 0.6vw;
+                letter-spacing: 0.5vw;
                 font-weight: 600 !important;
                 text-transform: uppercase;
                 line-height: 3vw;
-                font-size: 2vw;
+                font-size: 2.3vw;
                 color: #283a97;
-                margin: 0;
+                margin: 2.4vw 0 0 0;
                 text-align: left;
             }
             .--desc {
-                font-family: "gill sans",sans-serif;
+                font-family: "gill sans medium",sans-serif;
                 font-weight: 400 !important;
                 margin-bottom: 0;
-                font-size: 0.8vw;
-                color:#676ab1;
+                font-size: 0.83vw;
+                color: #676ab1;
                 text-transform: uppercase;
-                line-height: 1.6;
+                line-height: 1.8;
+                margin-top: 2.8vw;
             }
             .--build-project-list {
                 margin-top: 2vw;
@@ -53,7 +53,7 @@
                 justify-content: flex-start;
                 align-items: flex-start;
                 flex-direction: row;
-                max-width: 85% ;
+                max-width: 95%;
                 figure {
                     flex: 1;
                     img {
@@ -97,12 +97,12 @@
             }
             .splide__pagination {
                 position: absolute;
-                left: 28.7vw;
+                left: 27.7vw;
                 right: unset;
                 flex-direction: row;
                 width: auto;
                 justify-content: flex-end;
-                bottom: 13vw;
+                bottom: 9vw;
                 li {
                     height: 20px !important;
                     width: 20px !important;
@@ -122,36 +122,36 @@
         }
     }
     .--container-2 {
-        background: url("../images/aboutus/About_BG-Shapes-02.png") top center, url("../images/aboutus/About_BG-02.png") center;
-        height: 50vw;
+        background: url("../images/aboutus/About_BG-Shapes-02.png") top 3vw center, url("../images/aboutus/About_BG-02.png") top -0.5vw center;
+        height: 68vw;
         background-repeat: no-repeat, no-repeat;
-        background-size: 100vw auto, 100vw auto;
+        background-size: 116vw auto, 100vw auto;
         transition: background 0.3s;
-        background-attachment: scroll, fixed;
+        background-attachment: scroll;
         padding: 10vw 0;
         h1 {
             &.--title {
-                font-family: "gill sans",sans-serif !important;
-                letter-spacing: 0.6vw;
+                font-family: "gill sans light",sans-serif !important;
+                letter-spacing: 0.5vw;
                 font-weight: 600 !important;
                 text-transform: uppercase;
-                line-height: 3.2vw;
-                font-size: 2.2vw;
+                line-height: 1.5;
+                font-size: 2.8vw;
                 color: #283a97;
-                margin: 6vw 0 0 0;
+                margin: 4vw 0 0 0;
                 text-align: center;
             }
         }
         h2 {
             &.--title {
                 font-family: "gill sans",sans-serif !important;
-                letter-spacing: 0.6vw;
+                letter-spacing: 0.4vw;
                 font-weight: 600 !important;
                 text-transform: uppercase;
                 line-height: 3vw;
-                font-size: 1.8vw;
+                font-size: 2.2vw;
                 color: #283a97;
-                margin: 0;
+                margin: 5.5vw 0 0 0;
                 text-align: center;
             }
         }
@@ -161,19 +161,19 @@
                 letter-spacing: 0.2vw;
                 font-weight: 600 !important;
                 text-transform: uppercase;
-                line-height: 2vw;
-                font-size: 1.3vw;
+                line-height: 1.9vw;
+                font-size: 1.5vw;
                 color: #676ab1;
-                margin: 4vw 0 0 0;
+                margin: 5.5vw 0 0 0;
                 text-align: center;
             }
         }
     }
     .--container-3 {
         background: url("../images/aboutus/About_BG-03.png") top center;
-        height: 54.5vw;
+        height: 69.5vw;
         background-repeat: no-repeat;
-        background-size: 116vw 55vw;
+        background-size: 118vw 70vw;
         transition: background 0.3s;
         background-attachment: scroll;
         padding: 10vw 0;
@@ -181,37 +181,38 @@
         img {
             &.--img {
                 position: absolute;
-                height: 12vw;
-                width: 12vw;
+                height: 15vw;
+                width: 15vw;
                 image-rendering: -webkit-optimize-contrast;
                 object-fit: contain;
                 object-position: 0 0;
-                top: 11vw;
+                top: 17vw;
+                left: 14vw;
             }
         }
         h2 {
             &.--title {
                 font-family: "gill sans",sans-serif !important;
-                letter-spacing: 0.6vw;
+                letter-spacing: 0.4vw;
                 font-weight: 600 !important;
                 text-transform: uppercase;
                 line-height: 3vw;
-                font-size: 1.8vw;
+                font-size: 2.2vw;
                 color: #ffffff;
-                margin: 6vw 0 0 0;
+                margin: 14vw 0 0 0;
                 text-align: center;
             }
         }
         p {
             &.--sub-title {
                 font-family: "gill sans",sans-serif !important;
-                letter-spacing: 0.2vw;
+                letter-spacing: 0.5vw;
                 font-weight: 600 !important;
                 text-transform: uppercase;
-                line-height: 3vw;
-                font-size: 1.6vw;
+                line-height: 1.7;
+                font-size: 2vw;
                 color: #ffffff;
-                margin: 4vw 0 0 0;
+                margin: 5vw 0 0 0;
                 text-align: center;
             }
         }
