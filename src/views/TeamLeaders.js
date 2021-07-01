@@ -88,7 +88,6 @@ function TeamLeaders() {
                         </Card>
                     </Col>
                 )) }
-                
             </Row>
         </Container>
         </div>

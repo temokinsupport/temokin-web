@@ -55,8 +55,8 @@ function Navigation() {
                             className={hovered ? '--dropdown --active' : '--dropdown'}
                         >
                             {aboutLinkdirects.map((linkdir) => (
-                                <li>
-                                    <NavLink exact to={linkdir.linkpath} key={linkdir.id}>{linkdir.linkname}</NavLink>
+                                <li key={linkdir.id}>
+                                    <NavLink exact to={linkdir.linkpath} >{linkdir.linkname}</NavLink>
                                 </li>
                             ))}
                         </ul>
