@@ -20,7 +20,7 @@ function Navigation() {
         {   
             id:2,
             linkname:"Awards & Achievements",
-            linkpath:"/awars-and-achievements"
+            linkpath:"/awards-and-achievements"
         },
         {   
             id:3,

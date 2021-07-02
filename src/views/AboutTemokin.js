@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-// import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import '../assets/styles/aboutus.scss';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
