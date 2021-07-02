@@ -19,6 +19,29 @@ function CivilEngineering() {
           </Row>
         </Container>
       </div>
+      <div className="--bg-2">
+        <Container>
+          <Row>
+            <Col>
+              <h1 className="--title">Civil Engineering</h1>
+              <hr/>
+              <p className="--desc">Our expertise in engineering has seen <br/>
+              us build many of the  nation's electricity <br/>
+              substations, major underground sewage <br/>
+              lines, complex bridges and major highways.</p>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="--bg-3">
+        <Container>
+          <Row>
+            <Col>
+              
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 }
