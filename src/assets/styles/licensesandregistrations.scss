@@ -1,0 +1,45 @@
+/*
+*
+|  Page Name       : licensesandregistrations.scss
+|  Description     : scss for licenses and registrations page use
+|  Created by      : May Altamerano
+|  Date Created    : July 2 2021
+|  Last Update by  : May Altamerano
+|  Last update     : July 2 2021
+*
+*/
+.--licenses-and-registrations {
+    background: url("../images/licensesandregistrations/Licenses_Shapes-01.png") top -12.5vw left -7vw,
+    url("../images/licensesandregistrations/Licenses_BG-01.png") top -40.2vw right -27.5vw;
+    background-size: 107vw 80vw, 140vw auto;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+    .--bg-1 {
+        padding: 10vw 0 5vw 0;
+        min-height: 101vh;
+        margin-top: -9.1vw;
+        width: 100%;
+        .--title {
+            font-family: "gill sans",sans-serif !important;
+            letter-spacing: 0.5vw;
+            font-weight: 600 !important;
+            text-transform: uppercase;
+            line-height: 3.1vw;
+            font-size: 2.3vw;
+            color: #283a97;
+            margin: 10.3vw 0 3.4vw 0;
+            text-align: center;
+        }
+        .--desc {
+            font-family: "gill sans medium",sans-serif;
+            font-weight: 500 !important;
+            margin-bottom: 9.4vw;
+            font-size: 1vw;
+            color: #676ab0;
+            line-height: 1.9vw;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+}
