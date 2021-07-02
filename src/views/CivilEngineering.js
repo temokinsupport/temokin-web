@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import '../assets/styles/civilengineering.scss';
 
 function CivilEngineering() {
@@ -34,10 +34,53 @@ function CivilEngineering() {
         </Container>
       </div>
       <div className="--bg-3">
-        <Container>
+        <Container className="--max">
           <Row>
-            <Col>
-              
+            <Col md={6}>
+              <Card>
+                <Card.Img variant="top" src={require('../assets/images/civilengineering/CivilEng_IMG-Seremban.png').default} />
+                <Card.Body>
+                  <Card.Title>
+                    Seremban Middle Ring Road (Mrrs)
+                  </Card.Title>
+                  <Card.Text>
+                    <span className="--title">Client</span>
+                    <span>Public Works Department, Malaysia (JKR)</span>
+                  </Card.Text>
+                  <Card.Text>
+                    <span className="--title">Value</span>
+                    <span>RM2.5 Million</span>
+                  </Card.Text>
+                  <Card.Text>
+                    <span className="--title">Period</span>
+                    <span>May 2014 to Nov 2017</span>
+                  </Card.Text>
+                  <Button className="--btn-view-project">View Project</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={6}>
+              <Card className="--right">
+                <Card.Img variant="top" src={require('../assets/images/civilengineering/CivilEng_IMG-Sungai.png').default} />
+                <Card.Body>
+                  <Card.Title>
+                    Sungai Gombak Bridge
+                  </Card.Title>
+                  <Card.Text>
+                    <span className="--title">Client</span>
+                    <span>Dewan Bandaraya Kuala Lumpur (DBKL)</span>
+                  </Card.Text>
+                  <Card.Text>
+                    <span className="--title">Value</span>
+                    <span>RM10 Million</span>
+                  </Card.Text>
+                  <Card.Text>
+                    <span className="--title">Period</span>
+                    <span>Mar 2002 to Mar 2004</span>
+                  </Card.Text>
+                  <Button className="--btn-view-project">View Project</Button>
+                </Card.Body>
+              </Card>
             </Col>
           </Row>
         </Container>
