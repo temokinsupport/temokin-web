@@ -1,4 +1,6 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import '../assets/styles/propertydevelopment.scss';
 
 function PorpertyDevelopment() {
   return (
