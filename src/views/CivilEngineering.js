@@ -9,7 +9,12 @@ function CivilEngineering() {
         <Container>
           <Row>
             <Col>
-              {/* <h1>Civil Engineering</h1> */}
+              <h1 className="--title">Our Showcase</h1>
+              <p className="--desc">As a builder, we are only as successful as <br/>
+              the milestones that we've built. <br/> <br/>
+              Here, we would like to share with you some <br/>
+              of the work that proudly carry the <br/>
+              TEMOKIN badge</p>
             </Col>
           </Row>
         </Container>

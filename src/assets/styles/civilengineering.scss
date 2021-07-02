@@ -9,5 +9,26 @@
         min-height: 101vh;
         margin-top: -9.1vw;
         width: 100%;
+        .--title {
+            font-family: "gill sans",sans-serif !important;
+            letter-spacing: 0.4vw;
+            font-weight: 600 !important;
+            text-transform: uppercase;
+            line-height: 3.1vw;
+            font-size: 2vw;
+            color: #283a97;
+            margin: 16.1vw 0 2vw 0;
+            text-align: center;
+        }
+        .--desc {
+            font-family: "gill sans",sans-serif;
+            font-weight: 600 !important;
+            margin-bottom: 9.4vw;
+            font-size: 1.6vw;
+            color: #676ab0;
+            line-height: 2.3vw;
+            text-align: center;
+            letter-spacing: 0.25vw;
+        }
     }
 }
