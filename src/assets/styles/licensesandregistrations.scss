@@ -10,11 +10,28 @@
 */
 .--licenses-and-registrations {
     background: url("../images/licensesandregistrations/Licenses_Shapes-01.png") top -12.5vw left -7vw,
-    url("../images/licensesandregistrations/Licenses_BG-01.png") top -40.2vw right -27.5vw;
-    background-size: 107vw 80vw, 140vw auto;
-    background-repeat: no-repeat, no-repeat;
-    background-attachment: scroll;
+    url("../images/licensesandregistrations/Licenses_Shapes-02.png") top 111vw right -52vw,
+    url("../images/licensesandregistrations/Licenses_BG-02.png") top 52vw center,
+    url("../images/licensesandregistrations/Licenses_BG-01.png") top -40.2vw right -27.5vw,
+    url("../images/licensesandregistrations/Licenses_BG-03.png") bottom center;
+    background-size: 107vw 80vw, 175vw auto, 100vw auto, 140vw auto, 100vw auto;
+    background-repeat: no-repeat, no-repeat,no-repeat, no-repeat, no-repeat;
+    background-attachment: scroll, scroll, scroll, scroll, fixed;
     transition: background 0.3s;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 35.5vw;
+        left: -17.5vw;
+        background: url("../images/licensesandregistrations/Licenses_Shapes-03.png")  top 0 left 4.5vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background: background 0.3s;
+        background-attachment: scroll;
+        height: 33vw;
+        width: 67.5vw;
+        transform: scaleX(-1) scaleY(-1);
+    }
     .--bg-1 {
         padding: 10vw 0 5vw 0;
         min-height: 101vh;
@@ -40,6 +57,68 @@
             line-height: 1.9vw;
             text-align: center;
             text-transform: uppercase;
+        }
+    }
+    .--bg-2 {
+        padding: 13vw 0 5vw 0;
+        min-height: 91vw;
+        width: 100%;
+        .carousel {
+            img {
+                height: 100%;
+                object-fit: contain;
+                width: 35vw;
+                object-position: 0 0;
+                margin: 0 auto;
+                display: block;
+            }
+            .carousel-caption {
+                position: relative;
+                right: unset;
+                left: unset;
+                bottom: 0;
+                padding-bottom: 0;
+                padding-top: 0;
+            }
+            .--caption {
+                font-family: "gill sans",sans-serif;
+                font-weight: 500 !important;
+                margin-top: 2vw;
+                font-size: 1vw;
+                color: #ffffff;
+                line-height: 1.9vw;
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: 0.2vw;
+            }
+            .carousel-inner {
+                height: 55vw;
+            }
+            .carousel-control-next,
+            .carousel-control-prev {
+                height: 50vw;
+                span {
+                    display: none;
+                }
+            }
+            .carousel-control-next {
+                background: url("../images/licensesandregistrations/Licenses_Button-02.png") center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background: background 0.3s;
+                width: 5vw;
+                image-rendering: -webkit-optimize-contrast;
+                right: 5vw;
+            }
+            .carousel-control-prev {
+                background: url("../images/licensesandregistrations/Licenses_Button-01.png") center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background: background 0.3s;
+                width: 5vw;
+                image-rendering: -webkit-optimize-contrast;
+                left: 5vw;
+            }
         }
     }
 }
