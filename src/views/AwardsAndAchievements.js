@@ -65,6 +65,33 @@ function AwardsAndAchievements() {
                     </Row>
                 </Container>
             </div>
+            <div className="--bg-3">
+                <Container className="--max">
+                    <Row>
+                        <Col>
+                            <h1 className="--title">Testimonials</h1>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col md={7}>
+                            <Image src={require('../assets/images/awardsandachievements/Awards_IMG-Testimonial-01.png').default} className="--testimonial"/>
+                        </Col>
+                        <Col>
+                            <Carousel.Caption className="--text-container">
+                                <h6 className="--title">"Generally the <br/>
+                                Overall performance <br/>
+                                has been excellent"</h6>
+                                <hr/>
+                                <p className="--desc">Ir Hj Othman Ibrahim, <br/>
+                                Seniour General Manager of <br/>
+                                contruction, special project <br/>
+                                unit I, RoadWorks Division, JKR <br/>
+                                HeadQuarters Malaysia</p>
+                            </Carousel.Caption>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
         </div>
     );
 }
