@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a74af44.chunk.css",
-    "main.js": "/static/js/main.e5a64545.chunk.js",
-    "main.js.map": "/static/js/main.e5a64545.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ca662de4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ca662de4.js.map",
+    "main.css": "/static/css/main.1d4be937.chunk.css",
+    "main.js": "/static/js/main.a6b79473.chunk.js",
+    "main.js.map": "/static/js/main.a6b79473.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b21d1530.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b21d1530.js.map",
     "static/css/2.f547cd71.chunk.css": "/static/css/2.f547cd71.chunk.css",
-    "static/js/2.fc07fe73.chunk.js": "/static/js/2.fc07fe73.chunk.js",
-    "static/js/2.fc07fe73.chunk.js.map": "/static/js/2.fc07fe73.chunk.js.map",
-    "static/js/3.f999c9e9.chunk.js": "/static/js/3.f999c9e9.chunk.js",
-    "static/js/3.f999c9e9.chunk.js.map": "/static/js/3.f999c9e9.chunk.js.map",
+    "static/js/2.f572be8a.chunk.js": "/static/js/2.f572be8a.chunk.js",
+    "static/js/2.f572be8a.chunk.js.map": "/static/js/2.f572be8a.chunk.js.map",
+    "static/js/3.962d1707.chunk.js": "/static/js/3.962d1707.chunk.js",
+    "static/js/3.962d1707.chunk.js.map": "/static/js/3.962d1707.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f547cd71.chunk.css.map": "/static/css/2.f547cd71.chunk.css.map",
-    "static/css/main.0a74af44.chunk.css.map": "/static/css/main.0a74af44.chunk.css.map",
-    "static/js/2.fc07fe73.chunk.js.LICENSE.txt": "/static/js/2.fc07fe73.chunk.js.LICENSE.txt",
+    "static/css/main.1d4be937.chunk.css.map": "/static/css/main.1d4be937.chunk.css.map",
+    "static/js/2.f572be8a.chunk.js.LICENSE.txt": "/static/js/2.f572be8a.chunk.js.LICENSE.txt",
     "static/media/aboutus.scss": "/static/media/About_BG-Shapes-02.2272feba.png",
     "static/media/About_IMG-Accoutability.png": "/static/media/About_IMG-Accoutability.340b77b5.png",
     "static/media/About_IMG-Diligence.png": "/static/media/About_IMG-Diligence.a93a52c0.png",
@@ -29,6 +29,8 @@
     "static/media/Awards_IMG-Winner-01.png": "/static/media/Awards_IMG-Winner-01.3aa1eb7d.png",
     "static/media/Awards_IMG-Winner-02.png": "/static/media/Awards_IMG-Winner-02.27b0e0e7.png",
     "static/media/civilengineering.scss": "/static/media/CivilEng_Shapes-02.0fa65c60.png",
+    "static/media/CivilEng_IMG-Seremban.png": "/static/media/CivilEng_IMG-Seremban.a11c9cd8.png",
+    "static/media/CivilEng_IMG-Sungai.png": "/static/media/CivilEng_IMG-Sungai.b6707802.png",
     "static/media/app.scss": "/static/media/charter_regular-webfont.d3025eb4.woff",
     "static/media/home.scss": "/static/media/Home_BG-04.bb450534.png",
     "static/media/Home_IMG-01.png": "/static/media/Home_IMG-01.365efe5c.png",
@@ -75,10 +77,10 @@
     "static/media/Logo.png": "/static/media/Logo.584bf5b5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ca662de4.js",
+    "static/js/runtime-main.b21d1530.js",
     "static/css/2.f547cd71.chunk.css",
-    "static/js/2.fc07fe73.chunk.js",
-    "static/css/main.0a74af44.chunk.css",
-    "static/js/main.e5a64545.chunk.js"
+    "static/js/2.f572be8a.chunk.js",
+    "static/css/main.1d4be937.chunk.css",
+    "static/js/main.a6b79473.chunk.js"
   ]
 }
