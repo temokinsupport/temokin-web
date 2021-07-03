@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.67a509b6.chunk.css",
-    "main.js": "/static/js/main.27fa13c1.chunk.js",
-    "main.js.map": "/static/js/main.27fa13c1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5f515fa3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5f515fa3.js.map",
+    "main.css": "/static/css/main.31d8daf1.chunk.css",
+    "main.js": "/static/js/main.78ae005c.chunk.js",
+    "main.js.map": "/static/js/main.78ae005c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2deb44f2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2deb44f2.js.map",
     "static/css/2.f547cd71.chunk.css": "/static/css/2.f547cd71.chunk.css",
-    "static/js/2.6ec93ee8.chunk.js": "/static/js/2.6ec93ee8.chunk.js",
-    "static/js/2.6ec93ee8.chunk.js.map": "/static/js/2.6ec93ee8.chunk.js.map",
-    "static/js/3.2a8c7ded.chunk.js": "/static/js/3.2a8c7ded.chunk.js",
-    "static/js/3.2a8c7ded.chunk.js.map": "/static/js/3.2a8c7ded.chunk.js.map",
+    "static/js/2.74a2f047.chunk.js": "/static/js/2.74a2f047.chunk.js",
+    "static/js/2.74a2f047.chunk.js.map": "/static/js/2.74a2f047.chunk.js.map",
+    "static/js/3.50e0db0f.chunk.js": "/static/js/3.50e0db0f.chunk.js",
+    "static/js/3.50e0db0f.chunk.js.map": "/static/js/3.50e0db0f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f547cd71.chunk.css.map": "/static/css/2.f547cd71.chunk.css.map",
-    "static/css/main.67a509b6.chunk.css.map": "/static/css/main.67a509b6.chunk.css.map",
-    "static/js/2.6ec93ee8.chunk.js.LICENSE.txt": "/static/js/2.6ec93ee8.chunk.js.LICENSE.txt",
+    "static/css/main.31d8daf1.chunk.css.map": "/static/css/main.31d8daf1.chunk.css.map",
+    "static/js/2.74a2f047.chunk.js.LICENSE.txt": "/static/js/2.74a2f047.chunk.js.LICENSE.txt",
     "static/media/aboutus.scss": "/static/media/About_BG-Shapes-02.2272feba.png",
     "static/media/About_IMG-Accoutability.png": "/static/media/About_IMG-Accoutability.340b77b5.png",
     "static/media/About_IMG-Diligence.png": "/static/media/About_IMG-Diligence.a93a52c0.png",
@@ -85,13 +85,17 @@
     "static/media/Licenses_IMG-QA-06.png": "/static/media/Licenses_IMG-QA-06.c2a5cb9b.png",
     "static/media/Licenses_IMG-QA-07.png": "/static/media/Licenses_IMG-QA-07.c9d9c90d.png",
     "static/media/Logo.png": "/static/media/Logo.584bf5b5.png",
-    "static/media/propertydevelopment.scss": "/static/media/PropertyDev_BG-01.50883d2d.png"
+    "static/media/propertydevelopment.scss": "/static/media/PropertyDev_Shapes-01.9d3ff6dc.png",
+    "static/media/PropertyDev_IMG-Istana.png": "/static/media/PropertyDev_IMG-Istana.d80ac534.png",
+    "static/media/PropertyDev_IMG-Mahligai.png": "/static/media/PropertyDev_IMG-Mahligai.35b06ff0.png",
+    "static/media/PropertyDev_IMG-NationalCamp.png": "/static/media/PropertyDev_IMG-NationalCamp.b5c5be64.png",
+    "static/media/PropertyDev_IMG-Tropicana.png": "/static/media/PropertyDev_IMG-Tropicana.6cc27be5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5f515fa3.js",
+    "static/js/runtime-main.2deb44f2.js",
     "static/css/2.f547cd71.chunk.css",
-    "static/js/2.6ec93ee8.chunk.js",
-    "static/css/main.67a509b6.chunk.css",
-    "static/js/main.27fa13c1.chunk.js"
+    "static/js/2.74a2f047.chunk.js",
+    "static/css/main.31d8daf1.chunk.css",
+    "static/js/main.78ae005c.chunk.js"
   ]
 }
