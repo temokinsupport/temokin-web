@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.33c9e533.chunk.css",
-    "main.js": "/static/js/main.fc66b487.chunk.js",
-    "main.js.map": "/static/js/main.fc66b487.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.56cf8ee9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.56cf8ee9.js.map",
+    "main.css": "/static/css/main.c18d2694.chunk.css",
+    "main.js": "/static/js/main.b55da8eb.chunk.js",
+    "main.js.map": "/static/js/main.b55da8eb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a6e2a8e9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a6e2a8e9.js.map",
     "static/css/2.f547cd71.chunk.css": "/static/css/2.f547cd71.chunk.css",
-    "static/js/2.b5721217.chunk.js": "/static/js/2.b5721217.chunk.js",
-    "static/js/2.b5721217.chunk.js.map": "/static/js/2.b5721217.chunk.js.map",
-    "static/js/3.eb6d90b3.chunk.js": "/static/js/3.eb6d90b3.chunk.js",
-    "static/js/3.eb6d90b3.chunk.js.map": "/static/js/3.eb6d90b3.chunk.js.map",
+    "static/js/2.c0aa8ba9.chunk.js": "/static/js/2.c0aa8ba9.chunk.js",
+    "static/js/2.c0aa8ba9.chunk.js.map": "/static/js/2.c0aa8ba9.chunk.js.map",
+    "static/js/3.8013f131.chunk.js": "/static/js/3.8013f131.chunk.js",
+    "static/js/3.8013f131.chunk.js.map": "/static/js/3.8013f131.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f547cd71.chunk.css.map": "/static/css/2.f547cd71.chunk.css.map",
-    "static/css/main.33c9e533.chunk.css.map": "/static/css/main.33c9e533.chunk.css.map",
-    "static/js/2.b5721217.chunk.js.LICENSE.txt": "/static/js/2.b5721217.chunk.js.LICENSE.txt",
+    "static/css/main.c18d2694.chunk.css.map": "/static/css/main.c18d2694.chunk.css.map",
+    "static/js/2.c0aa8ba9.chunk.js.LICENSE.txt": "/static/js/2.c0aa8ba9.chunk.js.LICENSE.txt",
     "static/media/aboutus.scss": "/static/media/About_BG-Shapes-02.2272feba.png",
     "static/media/About_IMG-Accoutability.png": "/static/media/About_IMG-Accoutability.340b77b5.png",
     "static/media/About_IMG-Diligence.png": "/static/media/About_IMG-Diligence.a93a52c0.png",
@@ -42,6 +42,9 @@
     "static/media/CivilEng_Icon-05.png": "/static/media/CivilEng_Icon-05.fb8f92fa.png",
     "static/media/CivilEng_Icon-06.png": "/static/media/CivilEng_Icon-06.68e08430.png",
     "static/media/contactus.scss": "/static/media/Contact_BG-01.7776bc83.png",
+    "static/media/Contact_Icon-01.png": "/static/media/Contact_Icon-01.5d9f2483.png",
+    "static/media/Contact_Icon-02.png": "/static/media/Contact_Icon-02.1907127f.png",
+    "static/media/Contact_Icon-03.png": "/static/media/Contact_Icon-03.44fc3b11.png",
     "static/media/app.scss": "/static/media/charter_regular-webfont.d3025eb4.woff",
     "static/media/home.scss": "/static/media/Home_BG-04.bb450534.png",
     "static/media/Home_IMG-01.png": "/static/media/Home_IMG-01.365efe5c.png",
@@ -93,10 +96,10 @@
     "static/media/PropertyDev_IMG-Tropicana.png": "/static/media/PropertyDev_IMG-Tropicana.6cc27be5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.56cf8ee9.js",
+    "static/js/runtime-main.a6e2a8e9.js",
     "static/css/2.f547cd71.chunk.css",
-    "static/js/2.b5721217.chunk.js",
-    "static/css/main.33c9e533.chunk.css",
-    "static/js/main.fc66b487.chunk.js"
+    "static/js/2.c0aa8ba9.chunk.js",
+    "static/css/main.c18d2694.chunk.css",
+    "static/js/main.b55da8eb.chunk.js"
   ]
 }
