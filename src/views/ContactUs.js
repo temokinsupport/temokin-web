@@ -35,6 +35,9 @@ function ContactUs() {
           </Row>
         </Container>
       </div>
+      <div className="--bg-2">
+
+      </div>
     </div>
   );
 }

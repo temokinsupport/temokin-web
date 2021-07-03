@@ -9,9 +9,11 @@
 *
 */
 .--contact-us {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw center;
-    background-size: 100vw auto;
-    background-repeat: no-repeat;
+    background: url("../images/contactus/Contact_Shapes-01.png") top 1vw left -30vw,
+    url("../images/contactus/Contact_BG-02.png") top 44vw center,
+    url("../images/contactus/Contact_BG-01.png") top -8vw center;
+    background-size: 145vw auto, 105vw auto, 100vw auto;
+    background-repeat: no-repeat, no-repeat, no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
@@ -62,5 +64,10 @@
             text-align: center;
             letter-spacing: 0.17vw;
         }
+    }
+    .--bg-2 {
+        padding: 10vw 0 0 0;
+        min-height: 70vw;
+        width: 100%;
     }
 }
