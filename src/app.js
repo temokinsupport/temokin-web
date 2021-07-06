@@ -22,6 +22,7 @@ import TanChienChyi from './views/TanChienChyi';
 import ChanYoonSang from './views/ChanYoonSang';
 import PathooramanBinAbu from './views/PathooramanBinAbu';
 import CrystalWongWaiChing from './views/CrystalWongWaiChing';
+import SerembanMiddleRingRoad from './views/SerembanMiddleRingRoad';
 
 export default function App() {
   var AOS = require('aos');
@@ -59,6 +60,7 @@ export default function App() {
                       <Route exact path="/team-leaders/chan-yoon-sang" component={ChanYoonSang} />
                       <Route exact path="/team-leaders/pathooraman-bin-abu" component={PathooramanBinAbu} />
                       <Route exact path="/team-leaders/crystal-wong-wai-ching" component={CrystalWongWaiChing} />
+                      <Route exact path="/civil-engineering/seremban-middle-ring-road" component={SerembanMiddleRingRoad} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>

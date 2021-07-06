@@ -1,0 +1,57 @@
+/*
+*
+|  Page Name       : projects.scss
+|  Description     : scss for projects page use
+|  Created by      : May Altamerano
+|  Date Created    : July 6 2021
+|  Last Update by  : May Altamerano
+|  Last update     : July 6 2021
+*
+*/
+.--projects {
+    min-height: 100vh;
+    margin-top: -9.1vw;
+    width: 100%;
+    background: url("../images/projects/CivilEng_BG-01.png") top center;
+    transition: background 0.3s;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    position: relative;
+    overflow: hidden;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: url("../images/projects/CivilEng_Shapes-01.png")top 10vw left -13vw;
+        transition: background 0.3s;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: 160vw auto;
+        height: 100vw;
+        width: 100%;
+    }
+    .--bg-1 {
+        min-height: 50vw;
+        padding: 15vw 0 10vw 0;
+        .--max {
+            max-width: 80%;
+        }
+        .--project-details {
+            width: 100%;
+            position: relative;
+            img {
+                width: 58vw !important;
+                margin: 0 auto;
+            }
+        }
+        .--about-content {
+            max-width: 63vw;
+            margin: 3vw auto 5vw auto;
+            display: block;
+        }
+    }
+}

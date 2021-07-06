@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import '../assets/styles/civilengineering.scss';
 
@@ -55,7 +56,7 @@ function CivilEngineering() {
                     <span className="--title">Period</span>
                     <span>May 2014 to Nov 2017</span>
                   </Card.Text>
-                  <Button className="--btn-view-project">View Project</Button>
+                  <NavLink className="--btn-view-project" to="/civil-engineering/seremban-middle-ring-road">View Project</NavLink>
                 </Card.Body>
               </Card>
             </Col>
@@ -78,7 +79,7 @@ function CivilEngineering() {
                     <span className="--title">Period</span>
                     <span>Mar 2002 to Mar 2004</span>
                   </Card.Text>
-                  <Button className="--btn-view-project">View Project</Button>
+                  <NavLink className="--btn-view-project" to="/civil-engineering/seremban-middle-ring-road">View Project</NavLink>
                 </Card.Body>
               </Card>
             </Col>
