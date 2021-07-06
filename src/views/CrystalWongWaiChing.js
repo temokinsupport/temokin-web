@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/leader.scss';
 
-function PathooramanBinAbu() {
+function CrystalWongWaiChing() {
     return (
         <div className="--leader">
             <div className="--bg-1">
@@ -14,44 +14,41 @@ function PathooramanBinAbu() {
                             <div className="--leader-details">
                                 <ul>
                                     <li>
-                                        <NavLink className="control-prev" to="/team-leaders/chan-yoon-sang"/>
+                                        <NavLink className="control-prev" to="/team-leaders/pathooraman-bin-abu"/>
                                     </li>
                                     <li>
-                                        <NavLink className="control-next" to="/team-leaders/crystal-wong-wai-ching"/>
+                                        <NavLink className="control-next" to="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
                                     </li>
                                 </ul>
                                 <Image
                                     className="d-block"
-                                    src={require("../assets/images/leaders/Leaders_IMG-Pathooraman.png").default}
+                                    src={require("../assets/images/leaders/Leaders_IMG-Crystal.png").default}
                                     alt="First slide"
                                 />
                                 <div className="--about-content">
                                     <Row>
                                         <Col md={5}>
                                             <Name>
-                                                Pathooraman <br/>
-                                                Bin Abu
+                                                Crystal Wong <br/>
+                                                Wai Ching
                                             </Name>
                                             <Line/>
                                             <Position>
-                                                GENERAL <br/>
-                                                DIRECTOR
+                                                FINANCE <br/>
+                                                MANAGER
                                             </Position>
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Pathooraman bin Abu is overall-in-charge of operations. He has been integral in the <br/>
-                                                formation of our property development arm and facilitated the smooth transition of <br/>
-                                                the business into our international operations. With more than 20 years of <br/>
-                                                experience, he specialises in project management, construction, investment, market <br/>
-                                                research, feasibility study, mergers and acquisitions. <br/><br/>
-                                                He graduated with a Bachelor of Science in Building Science degree from the <br/>
-                                                University of East Carolina, USA, and a Master in City & Regional Planning degree <br/>
-                                                from Clemson University, USA. Upon graduation, he worked as a lecturer at <br/>
-                                                University Technology MARA and then held managerial positions in the Lion Group, <br/>
-                                                DTZ Nawawi Tie Leung, Bolton Bhd (now Symphony Life), DRB-Hicom and <br/>
-                                                Perbadanan Kemajuan Negeri Selangor (PKNS).
-
+                                                Crystal is a chartered accountant (UK) and is responsible for Temokin’s overall <br/>
+                                                financial operations. She also oversees the financial modelling for all projects and <br/>
+                                                since joining us she has led in the formation of the finance department in our <br/>
+                                                property development arm.<br/><br/>
+                                                After graduating with a Bachelor of Science in Accounting (Hons.) degree from <br/>
+                                                Oxford Brookes University, England, she worked in the finance department of YTL <br/>
+                                                Cement’s ready-mix division where she was involved in the roll-out of the company’s <br/>
+                                                ERP system in preparation for the implementation Goods & Services Tax in Malaysia <br/>
+                                                in 2015.
                                             </Description>
                                         </Col>
                                     </Row>
@@ -112,4 +109,4 @@ const Description = styled.p`
     letter-spacing: 1px;
 `;
 
-export default PathooramanBinAbu;
+export default CrystalWongWaiChing;

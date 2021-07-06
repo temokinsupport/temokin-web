@@ -67,7 +67,7 @@ function TeamLeaders() {
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-09A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-09B.png').default,
             alt:"team leader 9",
-            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
+            pathLeader: "/team-leaders/crystal-wong-wai-ching",
         }
     ]
 

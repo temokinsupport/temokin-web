@@ -21,6 +21,7 @@ import JeremiahTanChienYih from './views/JeremiahTanChienYih';
 import TanChienChyi from './views/TanChienChyi';
 import ChanYoonSang from './views/ChanYoonSang';
 import PathooramanBinAbu from './views/PathooramanBinAbu';
+import CrystalWongWaiChing from './views/CrystalWongWaiChing';
 
 export default function App() {
   var AOS = require('aos');
@@ -57,6 +58,7 @@ export default function App() {
                       <Route exact path="/team-leaders/tan-chien-chyi" component={TanChienChyi} />
                       <Route exact path="/team-leaders/chan-yoon-sang" component={ChanYoonSang} />
                       <Route exact path="/team-leaders/pathooraman-bin-abu" component={PathooramanBinAbu} />
+                      <Route exact path="/team-leaders/crystal-wong-wai-ching" component={CrystalWongWaiChing} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>
