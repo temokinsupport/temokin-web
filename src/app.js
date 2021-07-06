@@ -24,6 +24,7 @@ import PathooramanBinAbu from './views/PathooramanBinAbu';
 import CrystalWongWaiChing from './views/CrystalWongWaiChing';
 import SerembanMiddleRingRoad from './views/SerembanMiddleRingRoad';
 import SungaiGombakBridge from './views/SungaiGombakBridge';
+import Earthworks from './views/Earthworks';
 
 export default function App() {
   var AOS = require('aos');
@@ -63,6 +64,7 @@ export default function App() {
                       <Route exact path="/team-leaders/crystal-wong-wai-ching" component={CrystalWongWaiChing} />
                       <Route exact path="/civil-engineering/seremban-middle-ring-road" component={SerembanMiddleRingRoad} />
                       <Route exact path="/civil-engineering/sungai-gombak-bridge" component={SungaiGombakBridge} />
+                      <Route exact path="/civil-engineering/earthwork-constructio-power-station-bandaru-baru-arang" component={Earthworks} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>

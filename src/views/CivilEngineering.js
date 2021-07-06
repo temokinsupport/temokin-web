@@ -105,7 +105,7 @@ function CivilEngineering() {
                     <span className="--title">Period</span>
                     <span>June 1993 to June 1994</span>
                   </Card.Text>
-                  <Button className="--btn-view-project">View Project</Button>
+                  <NavLink className="--btn-view-project" to="/civil-engineering/earthwork-constructio-power-station-bandaru-baru-arang">View Project</NavLink>
                 </Card.Body>
               </Card>
             </Col>
