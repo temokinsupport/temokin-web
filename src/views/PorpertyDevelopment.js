@@ -142,7 +142,7 @@ function PorpertyDevelopment() {
               <span className="--title">Period</span>
               <span>September 2004 to December 2004</span>
             </p>
-            <Button className="--btn-view-project">View Project</Button>
+            <NavLink className="--btn-view-project" to="/property-development/national-camp-and-services-northern-regions">View Project</NavLink>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
