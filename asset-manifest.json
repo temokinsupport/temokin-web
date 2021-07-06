@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.561d34f2.chunk.css",
-    "main.js": "/static/js/main.186919ac.chunk.js",
-    "main.js.map": "/static/js/main.186919ac.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ecd6afd1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ecd6afd1.js.map",
+    "main.css": "/static/css/main.3284b9f7.chunk.css",
+    "main.js": "/static/js/main.0a94861e.chunk.js",
+    "main.js.map": "/static/js/main.0a94861e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b5afc8cd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b5afc8cd.js.map",
     "static/css/2.f547cd71.chunk.css": "/static/css/2.f547cd71.chunk.css",
-    "static/js/2.6be37266.chunk.js": "/static/js/2.6be37266.chunk.js",
-    "static/js/2.6be37266.chunk.js.map": "/static/js/2.6be37266.chunk.js.map",
-    "static/js/3.a9d03e55.chunk.js": "/static/js/3.a9d03e55.chunk.js",
-    "static/js/3.a9d03e55.chunk.js.map": "/static/js/3.a9d03e55.chunk.js.map",
+    "static/js/2.4f3b72b8.chunk.js": "/static/js/2.4f3b72b8.chunk.js",
+    "static/js/2.4f3b72b8.chunk.js.map": "/static/js/2.4f3b72b8.chunk.js.map",
+    "static/js/3.05b71ef6.chunk.js": "/static/js/3.05b71ef6.chunk.js",
+    "static/js/3.05b71ef6.chunk.js.map": "/static/js/3.05b71ef6.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f547cd71.chunk.css.map": "/static/css/2.f547cd71.chunk.css.map",
-    "static/css/main.561d34f2.chunk.css.map": "/static/css/main.561d34f2.chunk.css.map",
-    "static/js/2.6be37266.chunk.js.LICENSE.txt": "/static/js/2.6be37266.chunk.js.LICENSE.txt",
+    "static/css/main.3284b9f7.chunk.css.map": "/static/css/main.3284b9f7.chunk.css.map",
+    "static/js/2.4f3b72b8.chunk.js.LICENSE.txt": "/static/js/2.4f3b72b8.chunk.js.LICENSE.txt",
     "static/media/aboutus.scss": "/static/media/About_BG-Shapes-02.2272feba.png",
     "static/media/About_IMG-Accoutability.png": "/static/media/About_IMG-Accoutability.340b77b5.png",
     "static/media/About_IMG-Diligence.png": "/static/media/About_IMG-Diligence.a93a52c0.png",
@@ -29,6 +29,7 @@
     "static/media/Awards_IMG-Winner-01.png": "/static/media/Awards_IMG-Winner-01.3aa1eb7d.png",
     "static/media/Awards_IMG-Winner-02.png": "/static/media/Awards_IMG-Winner-02.27b0e0e7.png",
     "static/media/civilengineering.scss": "/static/media/CivilEng_Shapes-05.73104c84.png",
+    "static/media/projects.scss": "/static/media/CivilEng_Shapes-01.e02b7986.png",
     "static/media/CivilEng_IMG-Earthwork.png": "/static/media/CivilEng_IMG-Earthwork.729730a6.png",
     "static/media/CivilEng_IMG-PipeJacking-02.png": "/static/media/CivilEng_IMG-PipeJacking-02.41c18a78.png",
     "static/media/CivilEng_IMG-PipeJacking.png": "/static/media/CivilEng_IMG-PipeJacking.be3e4c2a.png",
@@ -106,10 +107,10 @@
     "static/media/PropertyDev_IMG-Tropicana.png": "/static/media/PropertyDev_IMG-Tropicana.6cc27be5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ecd6afd1.js",
+    "static/js/runtime-main.b5afc8cd.js",
     "static/css/2.f547cd71.chunk.css",
-    "static/js/2.6be37266.chunk.js",
-    "static/css/main.561d34f2.chunk.css",
-    "static/js/main.186919ac.chunk.js"
+    "static/js/2.4f3b72b8.chunk.js",
+    "static/css/main.3284b9f7.chunk.css",
+    "static/js/main.0a94861e.chunk.js"
   ]
 }
