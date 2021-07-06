@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a29a7891.chunk.css",
-    "main.js": "/static/js/main.58f98168.chunk.js",
-    "main.js.map": "/static/js/main.58f98168.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1c909b50.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1c909b50.js.map",
+    "main.js": "/static/js/main.1aa7d913.chunk.js",
+    "main.js.map": "/static/js/main.1aa7d913.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.51287649.js",
+    "runtime-main.js.map": "/static/js/runtime-main.51287649.js.map",
     "static/css/2.f547cd71.chunk.css": "/static/css/2.f547cd71.chunk.css",
-    "static/js/2.0c0bed95.chunk.js": "/static/js/2.0c0bed95.chunk.js",
-    "static/js/2.0c0bed95.chunk.js.map": "/static/js/2.0c0bed95.chunk.js.map",
-    "static/js/3.fb5e120e.chunk.js": "/static/js/3.fb5e120e.chunk.js",
-    "static/js/3.fb5e120e.chunk.js.map": "/static/js/3.fb5e120e.chunk.js.map",
+    "static/js/2.26818176.chunk.js": "/static/js/2.26818176.chunk.js",
+    "static/js/2.26818176.chunk.js.map": "/static/js/2.26818176.chunk.js.map",
+    "static/js/3.80051116.chunk.js": "/static/js/3.80051116.chunk.js",
+    "static/js/3.80051116.chunk.js.map": "/static/js/3.80051116.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f547cd71.chunk.css.map": "/static/css/2.f547cd71.chunk.css.map",
     "static/css/main.a29a7891.chunk.css.map": "/static/css/main.a29a7891.chunk.css.map",
-    "static/js/2.0c0bed95.chunk.js.LICENSE.txt": "/static/js/2.0c0bed95.chunk.js.LICENSE.txt",
+    "static/js/2.26818176.chunk.js.LICENSE.txt": "/static/js/2.26818176.chunk.js.LICENSE.txt",
     "static/media/aboutus.scss": "/static/media/About_BG-Shapes-02.2272feba.png",
     "static/media/About_IMG-Accoutability.png": "/static/media/About_IMG-Accoutability.340b77b5.png",
     "static/media/About_IMG-Diligence.png": "/static/media/About_IMG-Diligence.a93a52c0.png",
@@ -114,13 +114,14 @@
     "static/media/PropertyDev_IMG-NationalCamp.png": "/static/media/PropertyDev_IMG-NationalCamp.b5c5be64.png",
     "static/media/PropertyDev_IMG-Tropicana.png": "/static/media/PropertyDev_IMG-Tropicana.6cc27be5.png",
     "static/media/PropertyDev_Shapes-01.f055c52a.png": "/static/media/PropertyDev_Shapes-01.f055c52a.png",
-    "static/media/PropertyDev_Shapes-02.7634085e.png": "/static/media/PropertyDev_Shapes-02.7634085e.png"
+    "static/media/PropertyDev_Shapes-02.7634085e.png": "/static/media/PropertyDev_Shapes-02.7634085e.png",
+    "static/media/PropertyDev_Shapes-04.89cbe543.png": "/static/media/PropertyDev_Shapes-04.89cbe543.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c909b50.js",
+    "static/js/runtime-main.51287649.js",
     "static/css/2.f547cd71.chunk.css",
-    "static/js/2.0c0bed95.chunk.js",
+    "static/js/2.26818176.chunk.js",
     "static/css/main.a29a7891.chunk.css",
-    "static/js/main.58f98168.chunk.js"
+    "static/js/main.1aa7d913.chunk.js"
   ]
 }
