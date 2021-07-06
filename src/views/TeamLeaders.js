@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Col, Card, Image, Button, Nav } from 'react-bootstrap';
+import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import '../assets/styles/teamleaders.scss';
 
 function TeamLeaders() {
@@ -85,7 +86,7 @@ function TeamLeaders() {
                                 <Card.ImgOverlay>
                                     <Card.Img src={teamLeader.img2} alt={teamLeader.alt} />
                                 </Card.ImgOverlay>
-                                <Nav.Link href="https://temokin.hirayamnl.com/team-leaders/ym-raja-dato-azwane-bin-raja-ariff" target="_blank"/>
+                                <NavLink to="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
                             </Card>
                         </Col>
                     )) }

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Col, Image, Nav } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/leader.scss';
 import buttonImage from '../assets/images/leaders/Leaders_Button-03.png';
@@ -14,10 +15,10 @@ function YmRajaDatoAzwaneBinRajaAriff() {
                             <div className="--leader-details">
                                 <ul>
                                     <li>
-                                        <Nav.Link className="control-prev" href="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
+                                        <NavLink className="control-prev" to="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
                                     </li>
                                     <li>
-                                        <Nav.Link className="control-next" href="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
+                                        <NavLink className="control-next" to="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
                                     </li>
                                 </ul>
                                 <Image
