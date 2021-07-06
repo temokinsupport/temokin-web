@@ -11,6 +11,7 @@ import LicensesAndRegistrations from './views/LicensesAndRegistrations';
 import PorpertyDevelopment from './views/PorpertyDevelopment';
 import CivilEngineering from './views/CivilEngineering';
 import ContactUs from './views/ContactUs';
+import YmRajaDatoAzwaneBinRajaAriff from './views/YmRajaDatoAzwaneBinRajaAriff';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { PageTransition } from '@steveeeie/react-page-transition';
 
@@ -38,6 +39,7 @@ export default function App() {
                 <Route exact path="/civil-engineering" component={CivilEngineering} />
                 <Route exact path="/property-development" component={PorpertyDevelopment} />
                 <Route exact path="/contact-us" component={ContactUs} />
+                <Route exact path="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff" component={YmRajaDatoAzwaneBinRajaAriff} />
               </Switch>
               <Footer/>
             </PageTransition>
