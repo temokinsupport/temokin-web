@@ -78,7 +78,7 @@ function PorpertyDevelopment() {
               <span className="--title">Period</span>
               <span>Feb 2017 to ongoing</span>
             </p>
-            <Button className="--btn-view-project">View Project</Button>
+            <NavLink className="--btn-view-project" to="/property-development/mahligai-at-nusa-damai-two-storey-and-three-storey-housing-johor">View Project</NavLink>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

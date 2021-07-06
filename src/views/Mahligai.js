@@ -3,9 +3,9 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/propertyprojects.scss';
-import overlayImage from '../assets/images/propertyprojects/PropertyDev_Shapes-01.png';
+import overlayImage from '../assets/images/propertyprojects/PropertyDev_Shapes-02.png';
 
-function IstanaNegara() {
+function Mahligai() {
     return (
         <Projects className="--projects">
             <div className="--bg-1">
@@ -15,25 +15,22 @@ function IstanaNegara() {
                             <div className="--project-details">
                                 <Image
                                     className="d-block"
-                                    src={require("../assets/images/propertyprojects/PropertyDev_IMG-Istana.png").default}
+                                    src={require("../assets/images/propertyprojects/PropertyDev_IMG-Mahligai.png").default}
                                     alt="First slide"
                                 />
                                 <div className="--about-content">
                                     <Row>
                                         <Col md={6}>
                                             <Name>
-                                                ISTANA NEGARA
+                                                MAHLIGAI AT NUSA DAMAI,TWO <br/>
+                                                STOREY AND THREE STOREY HOUSING, <br/>
+                                                JOHOR
                                             </Name>
                                             <Line/>
                                             <Description>
-                                                The new Istana Negara or National Palace <br/>
-                                                was built to replace the old palace which <br/>
-                                                has been used since 1957. Upon its <br/>
-                                                completion, then-Works Minister Shaziman <br/>
-                                                Abu Mansor remarked that the new Istana <br/>
-                                                Negara was “Kuala Lumpur’s most amazing <br/>
-                                                architectural achievement, surpassing even <br/>
-                                                the Twin Towers”
+                                                Mahligai at Nusa Damai consists of 164 <br/>
+                                                landed houses in the already-mature <br/>
+                                                neighbourhood of Masai in Johor.
                                             </Description>
                                         </Col>
                                         <Col md={6}>
@@ -42,19 +39,19 @@ function IstanaNegara() {
                                                     Client
                                                 </Label>
                                                 <Text>
-                                                Public Works Department, Malaysia (JKR)
+                                                Temokin Development Sdn. Bhd.
                                                 </Text>
                                                 <Label>
                                                     Value
                                                 </Label>
                                                 <Text>
-                                                RM997 million
+                                                RM100 million
                                                 </Text>
                                                 <Label>
                                                     Period
                                                 </Label>
                                                 <Text>
-                                                Nov 2007 to Jun 2011
+                                                Feb 2017 to ongoing
                                                 </Text>
                                             </TextContainer>
                                         </Col>
@@ -148,4 +145,4 @@ const Text = styled.p`
 `;
 
 
-export default IstanaNegara;
+export default Mahligai;

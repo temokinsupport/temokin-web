@@ -29,6 +29,7 @@ import TnbSubstations from './views/TnbSubstations';
 import PipeJackingWorks from './views/PipeJackingWorks';
 import PipeJackingForSG from './views/PipeJackingForSG';
 import IstanaNegara from './views/IstanaNegara';
+import Mahligai from './views/Mahligai';
 
 export default function App() {
   var AOS = require('aos');
@@ -73,6 +74,7 @@ export default function App() {
                       <Route exact path="/civil-engineering/pipe-jacking-works" component={PipeJackingWorks} />
                       <Route exact path="/civil-engineering/pipe-jacking-for-sg-buloh-to-johor-bahru-for-water-privatization-1500m-dia-and-1350-dia" component={PipeJackingForSG} />
                       <Route exact path="/property-development/istana-negara" component={IstanaNegara} />
+                      <Route exact path="/property-development/mahligai-at-nusa-damai-two-storey-and-three-storey-housing-johor" component={Mahligai} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>
