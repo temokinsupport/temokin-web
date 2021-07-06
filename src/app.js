@@ -27,6 +27,7 @@ import SungaiGombakBridge from './views/SungaiGombakBridge';
 import Earthworks from './views/Earthworks';
 import TnbSubstations from './views/TnbSubstations';
 import PipeJackingWorks from './views/PipeJackingWorks';
+import PipeJackingForSG from './views/PipeJackingForSG';
 
 export default function App() {
   var AOS = require('aos');
@@ -69,6 +70,7 @@ export default function App() {
                       <Route exact path="/civil-engineering/earthwork-constructio-power-station-bandaru-baru-arang" component={Earthworks} />
                       <Route exact path="/civil-engineering/tnb-substations-33-11kv" component={TnbSubstations} />
                       <Route exact path="/civil-engineering/pipe-jacking-works" component={PipeJackingWorks} />
+                      <Route exact path="/civil-engineering/pipe-jacking-for-sg-buloh-to-johor-bahru-for-water-privatization-1500m-dia-and-1350-dia" component={PipeJackingForSG} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>
