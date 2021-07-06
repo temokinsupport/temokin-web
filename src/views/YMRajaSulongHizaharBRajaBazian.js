@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/leader.scss';
 
-function YmRajaDatoAzwaneBinRajaAriff() {
+function YMRajaSulongHizaharBRajaBazian() {
     return (
         <div className="--leader">
             <div className="--bg-1">
@@ -17,47 +17,42 @@ function YmRajaDatoAzwaneBinRajaAriff() {
                                         <NavLink className="control-prev" to="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan"/>
                                     </li>
                                     <li>
-                                        <NavLink className="control-next" to="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan"/>
+                                        <NavLink className="control-next" to="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
                                     </li>
                                 </ul>
                                 <Image
                                     className="d-block"
-                                    src={require("../assets/images/leaders/Leaders_IMG-YMRaja.png").default}
+                                    src={require("../assets/images/leaders/Leaders_IMG-YMRaja-02.png").default}
                                     alt="First slide"
                                 />
                                 <div className="--about-content">
                                     <Row>
                                         <Col md={5}>
                                             <Name>
-                                                Y.M. RAJA DATO’ <br/>
-                                                AZWANE BIN <br/>
-                                                RAJA ARIFF
+                                                Y.M. Raja <br/>
+                                                Sulong Hizahar <br/>
+                                                B. Raja Bazian 
                                             </Name>
                                             <Line/>
                                             <Position>
-                                                EXECUTIVE <br/>
                                                 DIRECTOR
                                             </Position>
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Raja Dato’ Azwane is responsible for the implementation of key growth strategies to <br/>
-                                                increase the capacity of the company while maintaining a prudent cost structure. <br/>
-                                                He also leads our investor relations efforts.  <br/> <br/>
-                                                After obtaining his Bachelor of Science in Accounting & Finance (Hons.) degree from <br/>
-                                                the University of Hull, England, he worked for more than 10 years in audit  <br/>
-                                                supervisory & business management positions before starting his own businesses in  <br/>
-                                                construction, farm management, food & beverage and property development. With his  <br/>
-                                                deep experience and entrepreneurial skill, he strengthens our portfolio of businesses. <br/> <br/>
-                                                He was also the treasurer of the Dewan Perniagaan Melayu Muda.
+                                                Raja Sulong Hizahar brings with him 15 years’ experience in the construction <br/>
+                                                industry, having been involved with numerous large-scale projects across Malaysia. <br/><br/>
+                                                He is an integral part of the core Temokin team and plays a key role in the <br/>
+                                                administration, business development and human resources functions of the company. <br/><br/>
+                                                He also coordinates Temokin’s overseas projects to ensure alignment with our <br/>
+                                                corporate goals and values.
                                             </Description>
                                             <Line/>
                                             <Qoute>
-                                                “Great things usually cannot be done <br/>
-                                                by one person, so we work in teams. <br/>
-                                                Working well in a team is a skill— it <br/>
-                                                can be learned, and it can be <br/>
-                                                taught.”
+                                                “If we trust each other completely, <br/>
+                                                like family, then many things can be <br/>
+                                                done quickly and easily. To earn <br/>
+                                                trust, show trust.”
                                             </Qoute>
                                         </Col>
                                     </Row>
@@ -129,4 +124,4 @@ const Qoute = styled.p`
     letter-spacing: 0.27vw;
 `;
 
-export default YmRajaDatoAzwaneBinRajaAriff;
+export default YMRajaSulongHizaharBRajaBazian;

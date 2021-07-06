@@ -10,55 +10,64 @@ function TeamLeaders() {
             id:0,
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-01A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-01B.png').default,
-            alt:"team leader 1"
+            alt:"team leader 1",
+            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
         },
         {
             id:1,
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-02A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-02B.png').default,
-            alt:"team leader 2"
+            alt:"team leader 2",
+            pathLeader: "/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan",
         },
         {
             id:2,
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-03A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-03B.png').default,
-            alt:"team leader 3"
+            alt:"team leader 3",
+            pathLeader: "/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian",
         },
         {
             id:3,
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-04A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-04B.png').default,
-            alt:"team leader 4"
+            alt:"team leader 4",
+            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
         },
         {
             id:4,
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-05A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-05B.png').default,
-            alt:"team leader 5"
+            alt:"team leader 5",
+            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
         },
         {
             id:5,
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-06A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-06B.png').default,
-            alt:"team leader 6"
+            alt:"team leader 6",
+            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
         },
         {
             id:6,
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-07A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-07B.png').default,
-            alt:"team leader 7"
+            alt:"team leader 7",
+            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
         },
         {
             id:7,
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-08A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-08B.png').default,
-            alt:"team leader 8"
+            alt:"team leader 8",
+            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
         },
         {
             id:8,
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-09A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-09B.png').default,
-            alt:"team leader 9"
+            alt:"team leader 9",
+            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
         }
     ]
 
@@ -86,7 +95,7 @@ function TeamLeaders() {
                                 <Card.ImgOverlay>
                                     <Card.Img src={teamLeader.img2} alt={teamLeader.alt} />
                                 </Card.ImgOverlay>
-                                <NavLink to="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
+                                <NavLink to={teamLeader.pathLeader}/>
                             </Card>
                         </Col>
                     )) }

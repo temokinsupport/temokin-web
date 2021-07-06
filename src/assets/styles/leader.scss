@@ -95,6 +95,21 @@
             max-width: 63vw;
             margin: 6.5vw auto 5vw auto;
             display: block;
+            .--btn-get-to-know {
+                background: url("../images/leaders/Leaders_Button-03.png") top center;
+                transition: background 0.3s;
+                background-attachment: scroll;
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 6vw;
+                width: 26.7vw;
+                min-width: 200px;
+                display: block;
+                border: 0 !important;
+                box-shadow: none !important;
+                outline: 0 !important;
+                margin: 4.5vw auto 0 auto;
+            }
         }
     }
 }

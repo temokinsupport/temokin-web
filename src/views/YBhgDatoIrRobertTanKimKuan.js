@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/leader.scss';
 
-function YmRajaDatoAzwaneBinRajaAriff() {
+function YBhgDatoIrRobertTanKimKuan() {
     return (
         <div className="--leader">
             <div className="--bg-1">
@@ -14,50 +14,54 @@ function YmRajaDatoAzwaneBinRajaAriff() {
                             <div className="--leader-details">
                                 <ul>
                                     <li>
-                                        <NavLink className="control-prev" to="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan"/>
+                                        <NavLink className="control-prev" to="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
                                     </li>
                                     <li>
-                                        <NavLink className="control-next" to="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan"/>
+                                        <NavLink className="control-next" to="/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian"/>
                                     </li>
                                 </ul>
                                 <Image
                                     className="d-block"
-                                    src={require("../assets/images/leaders/Leaders_IMG-YMRaja.png").default}
+                                    src={require("../assets/images/leaders/Leaders_IMG-YBHG.png").default}
                                     alt="First slide"
                                 />
                                 <div className="--about-content">
                                     <Row>
                                         <Col md={5}>
                                             <Name>
-                                                Y.M. RAJA DATO’ <br/>
-                                                AZWANE BIN <br/>
-                                                RAJA ARIFF
+                                                Y. BHG. Dato’ <br/>
+                                                Ir. Robert Tan <br/>
+                                                Kim Kuan
                                             </Name>
                                             <Line/>
                                             <Position>
-                                                EXECUTIVE <br/>
+                                                MANAGING <br/>
                                                 DIRECTOR
                                             </Position>
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Raja Dato’ Azwane is responsible for the implementation of key growth strategies to <br/>
-                                                increase the capacity of the company while maintaining a prudent cost structure. <br/>
-                                                He also leads our investor relations efforts.  <br/> <br/>
-                                                After obtaining his Bachelor of Science in Accounting & Finance (Hons.) degree from <br/>
-                                                the University of Hull, England, he worked for more than 10 years in audit  <br/>
-                                                supervisory & business management positions before starting his own businesses in  <br/>
-                                                construction, farm management, food & beverage and property development. With his  <br/>
-                                                deep experience and entrepreneurial skill, he strengthens our portfolio of businesses. <br/> <br/>
-                                                He was also the treasurer of the Dewan Perniagaan Melayu Muda.
+                                            Dato’ Robert is responsible for the overall strategic direction of Temokin and leads <br/>
+                                            our business development, technical and investment arms.<br/><br/>
+                                            A chartered engineer (UK) by training, he graduated with a Master in Civil <br/>
+                                            Engineering (Hons.) degree from University Malaya, Malaysia, and has worked 40 years <br/>
+                                            in the construction industry. He is well respected among his peers for his technical <br/>
+                                            capabilities which have helped in the construction of key infrastructural and <br/>
+                                            development projects in Malaysia.<br/><br/>
+                                            He holds positions in the Klang Chinese Chamber of Commerce, Master Builders <br/>
+                                            Association Malaysia, Construction Industry Development Board, Board of Engineers <br/>
+                                            Malaysia and Institute of Civil Engineers (Malaysia and UK). He is also passionately <br/>
+                                            involved in charities and NGOs, including Dignity for Children and the Little Sisters of <br/>
+                                            the Poor Home for the Aged.
+
                                             </Description>
                                             <Line/>
                                             <Qoute>
-                                                “Great things usually cannot be done <br/>
-                                                by one person, so we work in teams. <br/>
-                                                Working well in a team is a skill— it <br/>
-                                                can be learned, and it can be <br/>
-                                                taught.”
+                                            “We want to be remembered not just <br/>
+                                            for great work, but as good people <br/>
+                                            who did great work. Integrity, <br/>
+                                            fairness and compassion must be the <br/>
+                                            key in all we do.”
                                             </Qoute>
                                         </Col>
                                     </Row>
@@ -129,4 +133,4 @@ const Qoute = styled.p`
     letter-spacing: 0.27vw;
 `;
 
-export default YmRajaDatoAzwaneBinRajaAriff;
+export default YBhgDatoIrRobertTanKimKuan;
