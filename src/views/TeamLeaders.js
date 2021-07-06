@@ -60,7 +60,7 @@ function TeamLeaders() {
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-08A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-08B.png').default,
             alt:"team leader 8",
-            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
+            pathLeader: "/team-leaders/pathooraman-bin-abu",
         },
         {
             id:8,

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/leader.scss';
 
-function ChanYoonSang() {
+function PathooramanBinAbu() {
     return (
         <div className="--leader">
             <div className="--bg-1">
@@ -14,41 +14,44 @@ function ChanYoonSang() {
                             <div className="--leader-details">
                                 <ul>
                                     <li>
-                                        <NavLink className="control-prev" to="/team-leaders/tan-chien-chyi"/>
+                                        <NavLink className="control-prev" to="/team-leaders/chan-yoon-sang"/>
                                     </li>
                                     <li>
-                                        <NavLink className="control-next" to="/team-leaders/pathooraman-bin-abu"/>
+                                        <NavLink className="control-next" to="/team-leaders/jeremiah-tan-chien-yih"/>
                                     </li>
                                 </ul>
                                 <Image
                                     className="d-block"
-                                    src={require("../assets/images/leaders/Leaders_IMG-ChanYoon.png").default}
+                                    src={require("../assets/images/leaders/Leaders_IMG-TanChien.png").default}
                                     alt="First slide"
                                 />
                                 <div className="--about-content">
                                     <Row>
                                         <Col md={5}>
                                             <Name>
-                                                Chan Yoon <br/>
-                                                Sang
+                                                Pathooraman <br/>
+                                                Bin Abu
                                             </Name>
                                             <Line/>
                                             <Position>
-                                                CONTACTS <br/>
+                                                GENERAL <br/>
                                                 DIRECTOR
                                             </Position>
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Yoon Sang is responsible for securing and implementing project contracts for <br/>
-                                                Temokin. He led in the massive RM2.5 billion Seremban Middle Ring Road project, <br/>
-                                                successfully executing its seven contract packages from conceptual design and pricing <br/>
-                                                negotiation up to implementation and completion.<br/><br/>
-                                                He graduated with an Architecture Certificate and a Diploma in Building Technology <br/>
-                                                from Tunku Abdul Rahman University College, Malaysia, and started his career as a <br/>
-                                                project co-ordinator and quantity surveyor in Sima Construction. He later joined <br/>
-                                                Comtrac Sdn. Bhd., a subsidiary of DRB-HICOM, where he sharpened his skills in <br/>
-                                                contract implementation through exposure to various fast-track turnkey projects.
+                                                Pathooraman bin Abu is overall-in-charge of operations. He has been integral in the <br/>
+                                                formation of our property development arm and facilitated the smooth transition of <br/>
+                                                the business into our international operations. With more than 20 years of <br/>
+                                                experience, he specialises in project management, construction, investment, market <br/>
+                                                research, feasibility study, mergers and acquisitions. <br/><br/>
+                                                He graduated with a Bachelor of Science in Building Science degree from the <br/>
+                                                University of East Carolina, USA, and a Master in City & Regional Planning degree <br/>
+                                                from Clemson University, USA. Upon graduation, he worked as a lecturer at <br/>
+                                                University Technology MARA and then held managerial positions in the Lion Group, <br/>
+                                                DTZ Nawawi Tie Leung, Bolton Bhd (now Symphony Life), DRB-Hicom and <br/>
+                                                Perbadanan Kemajuan Negeri Selangor (PKNS).
+
                                             </Description>
                                         </Col>
                                     </Row>
@@ -109,4 +112,4 @@ const Description = styled.p`
     letter-spacing: 1px;
 `;
 
-export default ChanYoonSang;
+export default PathooramanBinAbu;
