@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3284b9f7.chunk.css",
-    "main.js": "/static/js/main.0a94861e.chunk.js",
-    "main.js.map": "/static/js/main.0a94861e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b5afc8cd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b5afc8cd.js.map",
+    "main.css": "/static/css/main.f6d7c642.chunk.css",
+    "main.js": "/static/js/main.81b4c722.chunk.js",
+    "main.js.map": "/static/js/main.81b4c722.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.af4c272d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.af4c272d.js.map",
     "static/css/2.f547cd71.chunk.css": "/static/css/2.f547cd71.chunk.css",
-    "static/js/2.4f3b72b8.chunk.js": "/static/js/2.4f3b72b8.chunk.js",
-    "static/js/2.4f3b72b8.chunk.js.map": "/static/js/2.4f3b72b8.chunk.js.map",
-    "static/js/3.05b71ef6.chunk.js": "/static/js/3.05b71ef6.chunk.js",
-    "static/js/3.05b71ef6.chunk.js.map": "/static/js/3.05b71ef6.chunk.js.map",
+    "static/js/2.b1050072.chunk.js": "/static/js/2.b1050072.chunk.js",
+    "static/js/2.b1050072.chunk.js.map": "/static/js/2.b1050072.chunk.js.map",
+    "static/js/3.e9992462.chunk.js": "/static/js/3.e9992462.chunk.js",
+    "static/js/3.e9992462.chunk.js.map": "/static/js/3.e9992462.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f547cd71.chunk.css.map": "/static/css/2.f547cd71.chunk.css.map",
-    "static/css/main.3284b9f7.chunk.css.map": "/static/css/main.3284b9f7.chunk.css.map",
-    "static/js/2.4f3b72b8.chunk.js.LICENSE.txt": "/static/js/2.4f3b72b8.chunk.js.LICENSE.txt",
+    "static/css/main.f6d7c642.chunk.css.map": "/static/css/main.f6d7c642.chunk.css.map",
+    "static/js/2.b1050072.chunk.js.LICENSE.txt": "/static/js/2.b1050072.chunk.js.LICENSE.txt",
     "static/media/aboutus.scss": "/static/media/About_BG-Shapes-02.2272feba.png",
     "static/media/About_IMG-Accoutability.png": "/static/media/About_IMG-Accoutability.340b77b5.png",
     "static/media/About_IMG-Diligence.png": "/static/media/About_IMG-Diligence.a93a52c0.png",
@@ -29,7 +29,7 @@
     "static/media/Awards_IMG-Winner-01.png": "/static/media/Awards_IMG-Winner-01.3aa1eb7d.png",
     "static/media/Awards_IMG-Winner-02.png": "/static/media/Awards_IMG-Winner-02.27b0e0e7.png",
     "static/media/civilengineering.scss": "/static/media/CivilEng_Shapes-05.73104c84.png",
-    "static/media/projects.scss": "/static/media/CivilEng_Shapes-01.e02b7986.png",
+    "static/media/projects.scss": "/static/media/CivilEng_BG-01.419a2f9b.png",
     "static/media/CivilEng_IMG-Earthwork.png": "/static/media/CivilEng_IMG-Earthwork.729730a6.png",
     "static/media/CivilEng_IMG-PipeJacking-02.png": "/static/media/CivilEng_IMG-PipeJacking-02.41c18a78.png",
     "static/media/CivilEng_IMG-PipeJacking.png": "/static/media/CivilEng_IMG-PipeJacking.be3e4c2a.png",
@@ -42,6 +42,8 @@
     "static/media/CivilEng_Icon-04.png": "/static/media/CivilEng_Icon-04.62994c6e.png",
     "static/media/CivilEng_Icon-05.png": "/static/media/CivilEng_Icon-05.fb8f92fa.png",
     "static/media/CivilEng_Icon-06.png": "/static/media/CivilEng_Icon-06.68e08430.png",
+    "static/media/CivilEng_Shapes-01.e02b7986.png": "/static/media/CivilEng_Shapes-01.e02b7986.png",
+    "static/media/CivilEng_Shapes-02.4012661b.png": "/static/media/CivilEng_Shapes-02.4012661b.png",
     "static/media/contactus.scss": "/static/media/Contact_Shapes-01.34ec7a3c.png",
     "static/media/Contact_Icon-01.png": "/static/media/Contact_Icon-01.5d9f2483.png",
     "static/media/Contact_Icon-02.png": "/static/media/Contact_Icon-02.1907127f.png",
@@ -107,10 +109,10 @@
     "static/media/PropertyDev_IMG-Tropicana.png": "/static/media/PropertyDev_IMG-Tropicana.6cc27be5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b5afc8cd.js",
+    "static/js/runtime-main.af4c272d.js",
     "static/css/2.f547cd71.chunk.css",
-    "static/js/2.4f3b72b8.chunk.js",
-    "static/css/main.3284b9f7.chunk.css",
-    "static/js/main.0a94861e.chunk.js"
+    "static/js/2.b1050072.chunk.js",
+    "static/css/main.f6d7c642.chunk.css",
+    "static/js/main.81b4c722.chunk.js"
   ]
 }
