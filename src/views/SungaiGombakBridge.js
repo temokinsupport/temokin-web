@@ -3,9 +3,9 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/projects.scss';
-import overlayImage from '../assets/images/projects/CivilEng_Shapes-01.png';
+import overlayImage from '../assets/images/projects/CivilEng_Shapes-02.png';
 
-function SerembanMiddleRingRoad() {
+function SungaiGombakBridge() {
     return (
         <Projects className="--projects">
             <div className="--bg-1">
@@ -15,23 +15,21 @@ function SerembanMiddleRingRoad() {
                             <div className="--project-details">
                                 <Image
                                     className="d-block"
-                                    src={require("../assets/images/projects/CivilEng_IMG-Seremban.png").default}
+                                    src={require("../assets/images/projects/CivilEng_IMG-Sungai.png").default}
                                     alt="First slide"
                                 />
                                 <div className="--about-content">
                                     <Row>
                                         <Col md={5}>
                                             <Name>
-                                                Seremban Middle Ring Road (Mrrs)
+                                                SUNGAI GOMBAK BRIDGE
                                             </Name>
                                             <Line/>
                                             <Description>
-                                                The project was undertaken through a <br/>
-                                                joint venture company, Konsortium <br/>
-                                                Temokin Vila Jelas Sdn. Bhd. The new <br/>
-                                                highway has helped to reduce traffic <br/>
-                                                congestion and improve access to the <br/>
-                                                more secluded areas around Seremban.
+                                                The bridge connects Bandar Baru Sentul <br/>
+                                                to Jalan Pahang, allowing Sentul residents <br/>
+                                                quicker access to Kuala Lumpur’s city <br/>
+                                                centre.
                                             </Description>
                                         </Col>
                                         <Col md={7}>
@@ -40,24 +38,19 @@ function SerembanMiddleRingRoad() {
                                                     Client
                                                 </Label>
                                                 <Text>
-                                                    Public Works Department, Malaysia (JKR)
+                                                    Dewan Bandaraya Kuala Lumpur (DBKL)
                                                 </Text>
                                                 <Label>
                                                     Value
                                                 </Label>
                                                 <Text>
-                                                    RM2.5 billion
+                                                    RM10 million
                                                 </Text>
                                                 <Label>
                                                     Period
                                                 </Label>
                                                 <Text>
-                                                    Phase 1 from May 2004 to Nov 2006 <br/>
-                                                    Phase 2A from Sep 2009 to Feb 2011<br/>
-                                                    Phase 3A from Jun 2010 to Dec 2011<br/>
-                                                    Phase 2B from Jan 2012 to Jul 2014<br/>
-                                                    Phase 3A from Apr 2012 to Apr 2014<br/>
-                                                    Phase 3B from May 2015 to Nov 2017<br/>
+                                                    Mar 2002 to Mar 2004
                                                 </Text>
                                             </TextContainer>
                                         </Col>
@@ -84,7 +77,7 @@ const Projects = styled.div`
         top: 0;
         left: 0;
         right: 0;
-        background: url(${overlayImage}) top 10vw left -13vw;
+        background: url(${overlayImage}) top 8vw left -34vw;
         transition: background 0.3s;
         background-attachment: scroll;
         background-repeat: no-repeat;
@@ -122,7 +115,7 @@ const Description = styled.p`
     color: #283a97;
     margin: 0;
     text-align: left;
-    letter-spacing: 0.18vw;
+    letter-spacing: 0.15vw;
 `;
 const TextContainer = styled.div`
     margin-left: 10vw;
@@ -151,4 +144,4 @@ const Text = styled.p`
 `;
 
 
-export default SerembanMiddleRingRoad;
+export default SungaiGombakBridge;
