@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/leader.scss';
 
-function YMRajaSulongHizaharBRajaBazian() {
+function TanChienWen() {
     return (
         <div className="--leader">
             <div className="--bg-1">
@@ -14,46 +14,41 @@ function YMRajaSulongHizaharBRajaBazian() {
                             <div className="--leader-details">
                                 <ul>
                                     <li>
-                                        <NavLink className="control-prev" to="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan"/>
+                                        <NavLink className="control-prev" to="/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian"/>
                                     </li>
                                     <li>
-                                        <NavLink className="control-next" to="/team-leaders/tan-chien-wen"/>
+                                        <NavLink className="control-next" to="/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian"/>
                                     </li>
                                 </ul>
                                 <Image
                                     className="d-block"
-                                    src={require("../assets/images/leaders/Leaders_IMG-YMRaja-02.png").default}
+                                    src={require("../assets/images/leaders/Leaders_IMG-TanChien.png").default}
                                     alt="First slide"
                                 />
                                 <div className="--about-content">
                                     <Row>
                                         <Col md={5}>
                                             <Name>
-                                                Y.M. Raja <br/>
-                                                Sulong Hizahar <br/>
-                                                B. Raja Bazian 
+                                                Tan Chien <br/>
+                                                Wen
                                             </Name>
                                             <Line/>
                                             <Position>
+                                                EXECUTIVE <br/>
                                                 DIRECTOR
                                             </Position>
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Raja Sulong Hizahar brings with him 15 years’ experience in the construction <br/>
-                                                industry, having been involved with numerous large-scale projects across Malaysia. <br/><br/>
-                                                He is an integral part of the core Temokin team and plays a key role in the <br/>
-                                                administration, business development and human resources functions of the company. <br/><br/>
-                                                He also coordinates Temokin’s overseas projects to ensure alignment with our <br/>
-                                                corporate goals and values.
+                                                Since joining Temokin, Chien Wen has introduced several corporate initiatives to <br/>
+                                                streamline our operations for improved efficiency and effectiveness, and has taken <br/>
+                                                the lead in several large-scale projects.<br/><br/>
+                                                He graduated with a Bachelor in Civil Engineering (Hons.) degree from the University <br/>
+                                                of Manchester, England, and previously worked in Wessex Water, an award-winning <br/>
+                                                utilities company in the United Kingdom, where he was involved in supporting capital <br/>
+                                                programmes Wessex Water, which is United Kingdom’s preeminent awardwinning <br/>
+                                                utilities company that serves over 1.3 million people every day.
                                             </Description>
-                                            <Line/>
-                                            <Qoute>
-                                                “If we trust each other completely, <br/>
-                                                like family, then many things can be <br/>
-                                                done quickly and easily. To earn <br/>
-                                                trust, show trust.”
-                                            </Qoute>
                                         </Col>
                                     </Row>
                                     <Row>
@@ -113,15 +108,4 @@ const Description = styled.p`
     letter-spacing: 1px;
 `;
 
-const Qoute = styled.p`
-    font-weight: 600 !important;
-    line-height: 2.8vw;
-    font-size: 1.6vw;
-    font-family: "gill sans",sans-serif !important;
-    color: #283a97;
-    margin: 0;
-    text-align: left;
-    letter-spacing: 0.27vw;
-`;
-
-export default YMRajaSulongHizaharBRajaBazian;
+export default TanChienWen;

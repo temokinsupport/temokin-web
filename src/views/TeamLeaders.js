@@ -32,7 +32,7 @@ function TeamLeaders() {
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-04A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-04B.png').default,
             alt:"team leader 4",
-            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
+            pathLeader: "/team-leaders/tan-chien-wen",
         },
         {
             id:4,

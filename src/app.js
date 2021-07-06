@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route, } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import ScrollToTop from './components/ScrollToTop';
 import './assets/styles/app.scss';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
@@ -15,7 +16,7 @@ import ContactUs from './views/ContactUs';
 import YmRajaDatoAzwaneBinRajaAriff from './views/YmRajaDatoAzwaneBinRajaAriff';
 import YBhgDatoIrRobertTanKimKuan from './views/YBhgDatoIrRobertTanKimKuan';
 import YMRajaSulongHizaharBRajaBazian from './views/YMRajaSulongHizaharBRajaBazian';
-import ScrollToTop from './components/ScrollToTop';
+import TanChienWen from './views/TanChienWen';
 
 export default function App() {
   var AOS = require('aos');
@@ -47,6 +48,7 @@ export default function App() {
                       <Route exact path="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff" component={YmRajaDatoAzwaneBinRajaAriff} />
                       <Route exact path="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan" component={YBhgDatoIrRobertTanKimKuan} />
                       <Route exact path="/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian" component={YMRajaSulongHizaharBRajaBazian} />
+                      <Route exact path="/team-leaders/tan-chien-wen" component={TanChienWen} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>

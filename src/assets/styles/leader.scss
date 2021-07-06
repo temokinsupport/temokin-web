@@ -109,6 +109,8 @@
                 box-shadow: none !important;
                 outline: 0 !important;
                 margin: 4.5vw auto 0 auto;
+                position: relative;
+                z-index: 5;
             }
         }
     }
