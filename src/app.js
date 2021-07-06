@@ -25,6 +25,7 @@ import CrystalWongWaiChing from './views/CrystalWongWaiChing';
 import SerembanMiddleRingRoad from './views/SerembanMiddleRingRoad';
 import SungaiGombakBridge from './views/SungaiGombakBridge';
 import Earthworks from './views/Earthworks';
+import TnbSubstations from './views/TnbSubstations';
 
 export default function App() {
   var AOS = require('aos');
@@ -65,6 +66,7 @@ export default function App() {
                       <Route exact path="/civil-engineering/seremban-middle-ring-road" component={SerembanMiddleRingRoad} />
                       <Route exact path="/civil-engineering/sungai-gombak-bridge" component={SungaiGombakBridge} />
                       <Route exact path="/civil-engineering/earthwork-constructio-power-station-bandaru-baru-arang" component={Earthworks} />
+                      <Route exact path="/civil-engineering/tnb-substations-33-11kv" component={TnbSubstations} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>
