@@ -28,7 +28,7 @@
         background-position: -17vw 0vw;
         background-size: 130.5vw auto;
         background-repeat: no-repeat;
-        z-index: 2;
+        z-index: 0;
     }
     .--bg-1 {
         padding: 10vw 0 0 0;
@@ -184,6 +184,11 @@
                     padding: 15px 3.3vw;
                     margin-left: 5.7vw;
                     margin-top: 5vw;
+                    text-decoration: none !important;
+                    box-shadow: none !important;
+                    outline: 0 !important;
+                    z-index: 10;
+                    position: relative;
                 }
             }
         }
