@@ -85,7 +85,7 @@ function TeamLeaders() {
                                 <Card.ImgOverlay>
                                     <Card.Img src={teamLeader.img2} alt={teamLeader.alt} />
                                 </Card.ImgOverlay>
-                                <Nav.Link href="https://temokin.hirayamnl.com/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
+                                <Nav.Link href="https://temokin.hirayamnl.com/team-leaders/ym-raja-dato-azwane-bin-raja-ariff" target="_blank"/>
                             </Card>
                         </Col>
                     )) }
