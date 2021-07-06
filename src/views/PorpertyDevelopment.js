@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Container, Row, Col, Carousel, Button } from 'react-bootstrap';
+import { Container, Row, Col, Carousel } from 'react-bootstrap';
 import '../assets/styles/propertydevelopment.scss';
 
 function PorpertyDevelopment() {
@@ -110,7 +110,7 @@ function PorpertyDevelopment() {
               <span className="--title">Period</span>
               <span>September 2020 to on going</span>
             </p>
-            <Button className="--btn-view-project">View Project</Button>
+            <NavLink className="--btn-view-project" to="/property-development/tropicana-miyu-petaling-jaya">View Project</NavLink>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

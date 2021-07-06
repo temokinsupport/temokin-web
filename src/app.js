@@ -31,6 +31,7 @@ import PipeJackingForSG from './views/PipeJackingForSG';
 import IstanaNegara from './views/IstanaNegara';
 import Mahligai from './views/Mahligai';
 import NationalCamp from './views/NationalCamp';
+import Tropicana from './views/Tropicana';
 
 export default function App() {
   var AOS = require('aos');
@@ -77,6 +78,7 @@ export default function App() {
                       <Route exact path="/property-development/istana-negara" component={IstanaNegara} />
                       <Route exact path="/property-development/mahligai-at-nusa-damai-two-storey-and-three-storey-housing-johor" component={Mahligai} />
                       <Route exact path="/property-development/national-camp-and-services-northern-regions" component={NationalCamp} />
+                      <Route exact path="/property-development/tropicana-miyu-petaling-jaya" component={Tropicana} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>
