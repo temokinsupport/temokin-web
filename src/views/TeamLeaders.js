@@ -46,7 +46,7 @@ function TeamLeaders() {
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-06A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-06B.png').default,
             alt:"team leader 6",
-            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
+            pathLeader: "/team-leaders/tan-chien-chyi",
         },
         {
             id:6,

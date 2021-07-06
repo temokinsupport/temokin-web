@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/leader.scss';
 
-function TanChienWen() {
+function TanChienChyi() {
     return (
         <div className="--leader">
             <div className="--bg-1">
@@ -14,23 +14,23 @@ function TanChienWen() {
                             <div className="--leader-details">
                                 <ul>
                                     <li>
-                                        <NavLink className="control-prev" to="/team-leaders/tan-chien-wen"/>
+                                        <NavLink className="control-prev" to="/team-leaders/jeremiah-tan-chien-yih"/>
                                     </li>
                                     <li>
-                                        <NavLink className="control-next" to="/team-leaders/tan-chien-chyi"/>
+                                        <NavLink className="control-next" to="/team-leaders/jeremiah-tan-chien-yih"/>
                                     </li>
                                 </ul>
                                 <Image
                                     className="d-block"
-                                    src={require("../assets/images/leaders/Leaders_IMG-Jeremiah.png").default}
+                                    src={require("../assets/images/leaders/Leaders_IMG-TanChien-02.png").default}
                                     alt="First slide"
                                 />
                                 <div className="--about-content">
                                     <Row>
                                         <Col md={5}>
                                             <Name>
-                                                Jeremiah Tan <br/>
-                                                Chien Yih
+                                                Tan Chien <br/>
+                                                Chyi
                                             </Name>
                                             <Line/>
                                             <Position>
@@ -40,19 +40,16 @@ function TanChienWen() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Jeremiah is responsible for Temokin’s business development, opening new markets <br/>
-                                                while creating venues for expansion in existing ventures.<br/><br/>
-                                                He graduated with a Bachelor of Science in Economics (Hons.) degree from the <br/>
-                                                SOAS University of London, England, and previously worked with YTL <br/>
-                                                Communications as an Operations and Marketing Manager, generating widespread <br/>
-                                                visibility for YES 4G, its anchor brand, while concurrently acting as the Executive <br/>
-                                                Director of Autodome, the F&B arm of YTL Land, revitalising older assets into <br/>
-                                                profitable world-class restaurants and bars. Soon after, he was promoted to Vice <br/>
-                                                President of YTL Hotels, overseeing the Malaysian portfolio while assisting in the <br/>
-                                                acquisition of new assets overseas.<br/><br/>
-                                                He is also passionately involved in the development of lifestyle brands and has co-<br/>
-                                                founded several health and fitness companies, including Fort Gyms and PWRHOUSE.
-
+                                                Chien Chyi founded the development arm of TEMOKIN, and he’s largely responsible <br/>
+                                                for implementing development strategies to drive growth in our property <br/>
+                                                development division by selectively choosing projects and areas that are profitable <br/>
+                                                and fit TEMOKIN’s portfolio.<br/><br/>
+                                                On a day-to-day basis, he’s in charge of ensuring that operations across all TEMOKIN <br/>
+                                                divisions are running smoothly and efficiently. <br/><br/>
+                                                He graduated with a Bachelor in Civil Engineering (Hons.) degree from University <br/>
+                                                College London, England, and previously interned with BNP Paribas and YTL Power<br/>
+                                                where he was exposed to financial modelling, merger & acquisitions, and operations <br/>
+                                                management.
                                             </Description>
                                         </Col>
                                     </Row>
@@ -113,4 +110,4 @@ const Description = styled.p`
     letter-spacing: 1px;
 `;
 
-export default TanChienWen;
+export default TanChienChyi;
