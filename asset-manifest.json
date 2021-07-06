@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.f6d7c642.chunk.css",
-    "main.js": "/static/js/main.fa08f635.chunk.js",
-    "main.js.map": "/static/js/main.fa08f635.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.77285db9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.77285db9.js.map",
+    "main.js": "/static/js/main.a507b1d9.chunk.js",
+    "main.js.map": "/static/js/main.a507b1d9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ec2d1f9c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ec2d1f9c.js.map",
     "static/css/2.f547cd71.chunk.css": "/static/css/2.f547cd71.chunk.css",
-    "static/js/2.fe31ed4a.chunk.js": "/static/js/2.fe31ed4a.chunk.js",
-    "static/js/2.fe31ed4a.chunk.js.map": "/static/js/2.fe31ed4a.chunk.js.map",
-    "static/js/3.74b892d1.chunk.js": "/static/js/3.74b892d1.chunk.js",
-    "static/js/3.74b892d1.chunk.js.map": "/static/js/3.74b892d1.chunk.js.map",
+    "static/js/2.5f809775.chunk.js": "/static/js/2.5f809775.chunk.js",
+    "static/js/2.5f809775.chunk.js.map": "/static/js/2.5f809775.chunk.js.map",
+    "static/js/3.c07eebfa.chunk.js": "/static/js/3.c07eebfa.chunk.js",
+    "static/js/3.c07eebfa.chunk.js.map": "/static/js/3.c07eebfa.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f547cd71.chunk.css.map": "/static/css/2.f547cd71.chunk.css.map",
     "static/css/main.f6d7c642.chunk.css.map": "/static/css/main.f6d7c642.chunk.css.map",
-    "static/js/2.fe31ed4a.chunk.js.LICENSE.txt": "/static/js/2.fe31ed4a.chunk.js.LICENSE.txt",
+    "static/js/2.5f809775.chunk.js.LICENSE.txt": "/static/js/2.5f809775.chunk.js.LICENSE.txt",
     "static/media/aboutus.scss": "/static/media/About_BG-Shapes-02.2272feba.png",
     "static/media/About_IMG-Accoutability.png": "/static/media/About_IMG-Accoutability.340b77b5.png",
     "static/media/About_IMG-Diligence.png": "/static/media/About_IMG-Diligence.a93a52c0.png",
@@ -36,7 +36,7 @@
     "static/media/CivilEng_IMG-PipeJacking.png": "/static/media/CivilEng_IMG-PipeJacking.be3e4c2a.png",
     "static/media/CivilEng_IMG-Seremban.png": "/static/media/CivilEng_IMG-Seremban.a11c9cd8.png",
     "static/media/CivilEng_IMG-Sungai.png": "/static/media/CivilEng_IMG-Sungai.b6707802.png",
-    "static/media/CivilEng_IMG-TNB.png": "/static/media/CivilEng_IMG-TNB.2d54fc29.png",
+    "static/media/CivilEng_IMG-TNB.png": "/static/media/CivilEng_IMG-TNB.d150c93b.png",
     "static/media/CivilEng_Icon-01.png": "/static/media/CivilEng_Icon-01.2a7dfb29.png",
     "static/media/CivilEng_Icon-02.png": "/static/media/CivilEng_Icon-02.fd5f6174.png",
     "static/media/CivilEng_Icon-03.png": "/static/media/CivilEng_Icon-03.9e28ce93.png",
@@ -46,6 +46,7 @@
     "static/media/CivilEng_Shapes-01.e02b7986.png": "/static/media/CivilEng_Shapes-01.e02b7986.png",
     "static/media/CivilEng_Shapes-02.4012661b.png": "/static/media/CivilEng_Shapes-02.4012661b.png",
     "static/media/CivilEng_Shapes-03.de633689.png": "/static/media/CivilEng_Shapes-03.de633689.png",
+    "static/media/CivilEng_Shapes-04.9c6eec72.png": "/static/media/CivilEng_Shapes-04.9c6eec72.png",
     "static/media/contactus.scss": "/static/media/Contact_Shapes-01.34ec7a3c.png",
     "static/media/Contact_Icon-01.png": "/static/media/Contact_Icon-01.5d9f2483.png",
     "static/media/Contact_Icon-02.png": "/static/media/Contact_Icon-02.1907127f.png",
@@ -111,10 +112,10 @@
     "static/media/PropertyDev_IMG-Tropicana.png": "/static/media/PropertyDev_IMG-Tropicana.6cc27be5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.77285db9.js",
+    "static/js/runtime-main.ec2d1f9c.js",
     "static/css/2.f547cd71.chunk.css",
-    "static/js/2.fe31ed4a.chunk.js",
+    "static/js/2.5f809775.chunk.js",
     "static/css/main.f6d7c642.chunk.css",
-    "static/js/main.fa08f635.chunk.js"
+    "static/js/main.a507b1d9.chunk.js"
   ]
 }
