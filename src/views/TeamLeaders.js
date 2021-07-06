@@ -53,7 +53,7 @@ function TeamLeaders() {
             img:require('../assets/images/teamleaders/Leaders_IMG-Leader-07A.png').default,
             img2:require('../assets/images/teamleaders/Leaders_IMG-Leader-07B.png').default,
             alt:"team leader 7",
-            pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
+            pathLeader: "/team-leaders/chan-yoon-sang",
         },
         {
             id:7,

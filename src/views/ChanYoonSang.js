@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/leader.scss';
 
-function TanChienChyi() {
+function ChanYoonSang() {
     return (
         <div className="--leader">
             <div className="--bg-1">
@@ -14,42 +14,41 @@ function TanChienChyi() {
                             <div className="--leader-details">
                                 <ul>
                                     <li>
-                                        <NavLink className="control-prev" to="/team-leaders/jeremiah-tan-chien-yih"/>
+                                        <NavLink className="control-prev" to="/team-leaders/tan-chien-chyi"/>
                                     </li>
                                     <li>
-                                        <NavLink className="control-next" to="/team-leaders/chan-yoon-sang"/>
+                                        <NavLink className="control-next" to="/team-leaders/jeremiah-tan-chien-yih"/>
                                     </li>
                                 </ul>
                                 <Image
                                     className="d-block"
-                                    src={require("../assets/images/leaders/Leaders_IMG-TanChien-02.png").default}
+                                    src={require("../assets/images/leaders/Leaders_IMG-ChanYoon.png").default}
                                     alt="First slide"
                                 />
                                 <div className="--about-content">
                                     <Row>
                                         <Col md={5}>
                                             <Name>
-                                                Tan Chien <br/>
-                                                Chyi
+                                                Chan Yoon <br/>
+                                                Sang
                                             </Name>
                                             <Line/>
                                             <Position>
-                                                EXECUTIVE <br/>
+                                                CONTACTS <br/>
                                                 DIRECTOR
                                             </Position>
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Chien Chyi founded the development arm of TEMOKIN, and he’s largely responsible <br/>
-                                                for implementing development strategies to drive growth in our property <br/>
-                                                development division by selectively choosing projects and areas that are profitable <br/>
-                                                and fit TEMOKIN’s portfolio.<br/><br/>
-                                                On a day-to-day basis, he’s in charge of ensuring that operations across all TEMOKIN <br/>
-                                                divisions are running smoothly and efficiently. <br/><br/>
-                                                He graduated with a Bachelor in Civil Engineering (Hons.) degree from University <br/>
-                                                College London, England, and previously interned with BNP Paribas and YTL Power<br/>
-                                                where he was exposed to financial modelling, merger & acquisitions, and operations <br/>
-                                                management.
+                                                Yoon Sang is responsible for securing and implementing project contracts for <br/>
+                                                Temokin. He led in the massive RM2.5 billion Seremban Middle Ring Road project, <br/>
+                                                successfully executing its seven contract packages from conceptual design and pricing <br/>
+                                                negotiation up to implementation and completion.<br/><br/>
+                                                He graduated with an Architecture Certificate and a Diploma in Building Technology <br/>
+                                                from Tunku Abdul Rahman University College, Malaysia, and started his career as a <br/>
+                                                project co-ordinator and quantity surveyor in Sima Construction. He later joined <br/>
+                                                Comtrac Sdn. Bhd., a subsidiary of DRB-HICOM, where he sharpened his skills in <br/>
+                                                contract implementation through exposure to various fast-track turnkey projects.
                                             </Description>
                                         </Col>
                                     </Row>
@@ -110,4 +109,4 @@ const Description = styled.p`
     letter-spacing: 1px;
 `;
 
-export default TanChienChyi;
+export default ChanYoonSang;
