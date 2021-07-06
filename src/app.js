@@ -17,6 +17,7 @@ import YmRajaDatoAzwaneBinRajaAriff from './views/YmRajaDatoAzwaneBinRajaAriff';
 import YBhgDatoIrRobertTanKimKuan from './views/YBhgDatoIrRobertTanKimKuan';
 import YMRajaSulongHizaharBRajaBazian from './views/YMRajaSulongHizaharBRajaBazian';
 import TanChienWen from './views/TanChienWen';
+import JeremiahTanChienYih from './views/JeremiahTanChienYih';
 
 export default function App() {
   var AOS = require('aos');
@@ -49,6 +50,7 @@ export default function App() {
                       <Route exact path="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan" component={YBhgDatoIrRobertTanKimKuan} />
                       <Route exact path="/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian" component={YMRajaSulongHizaharBRajaBazian} />
                       <Route exact path="/team-leaders/tan-chien-wen" component={TanChienWen} />
+                      <Route exact path="/team-leaders/jeremiah-tan-chien-yih" component={JeremiahTanChienYih} />
                     </Switch>
                   </CSSTransition>
                 </TransitionGroup>

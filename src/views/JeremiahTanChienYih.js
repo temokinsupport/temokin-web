@@ -14,23 +14,23 @@ function TanChienWen() {
                             <div className="--leader-details">
                                 <ul>
                                     <li>
-                                        <NavLink className="control-prev" to="/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian"/>
+                                        <NavLink className="control-prev" to="/team-leaders/tan-chien-wen"/>
                                     </li>
                                     <li>
-                                        <NavLink className="control-next" to="/team-leaders/jeremiah-tan-chien-yih"/>
+                                        <NavLink className="control-next" to="/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian"/>
                                     </li>
                                 </ul>
                                 <Image
                                     className="d-block"
-                                    src={require("../assets/images/leaders/Leaders_IMG-TanChien.png").default}
+                                    src={require("../assets/images/leaders/Leaders_IMG-Jeremiah.png").default}
                                     alt="First slide"
                                 />
                                 <div className="--about-content">
                                     <Row>
                                         <Col md={5}>
                                             <Name>
-                                                Tan Chien <br/>
-                                                Wen
+                                                Jeremiah Tan <br/>
+                                                Chien Yih
                                             </Name>
                                             <Line/>
                                             <Position>
@@ -40,14 +40,19 @@ function TanChienWen() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Since joining Temokin, Chien Wen has introduced several corporate initiatives to <br/>
-                                                streamline our operations for improved efficiency and effectiveness, and has taken <br/>
-                                                the lead in several large-scale projects.<br/><br/>
-                                                He graduated with a Bachelor in Civil Engineering (Hons.) degree from the University <br/>
-                                                of Manchester, England, and previously worked in Wessex Water, an award-winning <br/>
-                                                utilities company in the United Kingdom, where he was involved in supporting capital <br/>
-                                                programmes Wessex Water, which is United Kingdom’s preeminent awardwinning <br/>
-                                                utilities company that serves over 1.3 million people every day.
+                                                Jeremiah is responsible for Temokin’s business development, opening new markets <br/>
+                                                while creating venues for expansion in existing ventures.<br/><br/>
+                                                He graduated with a Bachelor of Science in Economics (Hons.) degree from the <br/>
+                                                SOAS University of London, England, and previously worked with YTL <br/>
+                                                Communications as an Operations and Marketing Manager, generating widespread <br/>
+                                                visibility for YES 4G, its anchor brand, while concurrently acting as the Executive <br/>
+                                                Director of Autodome, the F&B arm of YTL Land, revitalising older assets into <br/>
+                                                profitable world-class restaurants and bars. Soon after, he was promoted to Vice <br/>
+                                                President of YTL Hotels, overseeing the Malaysian portfolio while assisting in the <br/>
+                                                acquisition of new assets overseas.<br/><br/>
+                                                He is also passionately involved in the development of lifestyle brands and has co-<br/>
+                                                founded several health and fitness companies, including Fort Gyms and PWRHOUSE.
+
                                             </Description>
                                         </Col>
                                     </Row>
