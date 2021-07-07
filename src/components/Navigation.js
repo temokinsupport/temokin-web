@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav, Button } from 'react-bootstrap';
 import '../assets/styles/navigation.scss';
@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navigation() {
 
+    // ABOUT TEMOKIN DROPDOWN LINKS
     const aboutLinkdirects = [
         {   
             id:0,
@@ -29,8 +30,21 @@ function Navigation() {
         },
     ];
 
+    // DROPDOWN HOVER
     const [hovered, setHovered] = useState(false);
     const toggleHover = () => setHovered(!hovered);
+
+
+    // MOBILE VIEW 992 MIN WIDTH
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 992);
+
+    useEffect(() => {
+        window.addEventListener("resize", () => {
+            const ismobile = window.innerWidth < 992;
+            if (ismobile !== isMobile) setIsMobile(ismobile);
+        }, false);
+    }, [isMobile]);
+    
 
     return (
         <Navbar 
@@ -40,8 +54,10 @@ function Navigation() {
             <NavLink exact to="/" className="--logo">
                 <img src={require('../assets/Logo.png').default} alt='logo'/>
             </NavLink>
+
+            {/* MOBILE VIEW LINKS */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Collapse id="basic-navbar-nav" className={`${isMobile ? "" : "hide"}`}>
                 <Nav>
                     <li>
                         <NavLink exact to="/about-temokin">About Us</NavLink>
@@ -66,6 +82,8 @@ function Navigation() {
                     </li>
                 </Nav>
             </Navbar.Collapse>
+
+            {/* WEB VIEW LINKS */}
             <Nav className="ml-auto --web">
                 <li>
                     <NavLink exact to="/">Home</NavLink>
