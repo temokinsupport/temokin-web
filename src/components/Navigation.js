@@ -60,7 +60,7 @@ function Navigation() {
             <Navbar.Collapse id="basic-navbar-nav" className={`${isMobile ? "" : "hide"}`}>
                 <Nav>
                     <li>
-                        <a onClick={() => {window.location.href="/about-temokin"}}>About Us</a>
+                        <a target="_blank" onClick={() => {window.location.href="/about-temokin"}}>About Us</a>
                     </li>
                     <li>
                         <NavLink exact to="/team-leaders">Team Leaders</NavLink>
