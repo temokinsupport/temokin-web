@@ -177,6 +177,7 @@
             width: 100% !important;
             li {
                 margin-right: 0 !important;
+                width: 100%;
                 a {
                     font-size: 14px;
                     color: #ffffff;
@@ -200,6 +201,7 @@
             background-color: #283a97;
             &.collapse {
                 &.show {
+                    
                 }
             }
         }

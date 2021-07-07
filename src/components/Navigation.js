@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Navbar, Nav, Button } from 'react-bootstrap';
+import { Navbar, Nav, Button, Collapse } from 'react-bootstrap';
 import '../assets/styles/navigation.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -30,6 +30,45 @@ function Navigation() {
         },
     ];
 
+    // MOBILE LINKS
+    const mobileLinks = [
+        {
+            id:0,
+            pathName:"About Us",
+            path:"/about-temokin",
+        },
+        {   
+            id:1,
+            pathName:"Team Leaders",
+            path:"/team-leaders"
+        },
+        {   
+            id:2,
+            pathName:"Awards & Achievements",
+            path:"/awards-and-achievements"
+        },
+        {   
+            id:3,
+            pathName:"Licenses & Registrations",
+            path:"/licenses-and-registrations"
+        },
+        {   
+            id:4,
+            pathName:"Civil Engineering",
+            path:"/civil-engineering"
+        },
+        {   
+            id:5,
+            pathName:"Property Development",
+            path:"/property-development"
+        },
+        {   
+            id:6,
+            pathName:"Contact Us",
+            path:"/contact-us"
+        },
+    ]
+
     // DROPDOWN HOVER
     const [hovered, setHovered] = useState(false);
     const toggleHover = () => setHovered(!hovered);
@@ -44,7 +83,9 @@ function Navigation() {
             if (ismobile !== isMobile) setIsMobile(ismobile);
         }, false);
     }, [isMobile]);
-    
+
+    // COLLAPSE
+    const [open, setOpen] = useState(false);
 
     return (
         <Navbar 
@@ -56,32 +97,28 @@ function Navigation() {
             </NavLink>
 
             {/* MOBILE VIEW LINKS */}
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav" className={`${isMobile ? "" : "hide"}`}>
+            <Navbar
+                onClick={() => setOpen(!open)}
+                aria-controls="basic-navbar-nav"
+                aria-expanded={open}
+                className={`navbar-toggler ${isMobile ? "" : "hide"}`}
+            />
+
+            <Collapse 
+                in={open}
+                className={`navbar-nav navbar-collapse ${isMobile ? "" : "hide"}`}>
                 <Nav>
-                    <li>
-                        <a target="_blank" onClick={() => {window.location.href="/about-temokin"}}>About Us</a>
-                    </li>
-                    <li>
-                        <NavLink exact to="/team-leaders">Team Leaders</NavLink>
-                    </li>
-                    <li>
-                        <NavLink exact to="/awards-and-achievements">Awards & Achievements</NavLink>
-                    </li>
-                    <li>
-                        <NavLink exact to="/licenses-and-registrations">Licenses & Registrations</NavLink>
-                    </li>
-                    <li>
-                        <NavLink exact to="/civil-engineering">Civil Engineering</NavLink>
-                    </li>
-                    <li>
-                        <NavLink exact to="/property-development">Property Development</NavLink>
-                    </li>
-                    <li>
-                        <NavLink exact to="/contact-us">Contact Us</NavLink>
-                    </li>
+                    {mobileLinks.map((mobileLink) => (
+                        <li Key={mobileLink.id}>
+                            <NavLink exact to={mobileLink.path}
+                                onClick={() => setOpen(!open)}
+                                aria-controls="basic-navbar-nav"
+                                aria-expanded={open}
+                            >{mobileLink.pathName}</NavLink>
+                        </li>
+                    ) )}
                 </Nav>
-            </Navbar.Collapse>
+            </Collapse>
 
             {/* WEB VIEW LINKS */}
             <Nav className="ml-auto --web">
