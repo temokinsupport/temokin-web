@@ -1,8 +1,14 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive'
 import { Container, Row, Col, Carousel, Button, Image } from 'react-bootstrap';
 import '../assets/styles/home.scss';
 
 function Home() {
+
+  // const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 992px)' })
+  const isTablet = useMediaQuery({ query: '(min-width: 992px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 992px)' })
+
   return (
     <div className="--home">
       <div className="--header">  
@@ -28,38 +34,74 @@ function Home() {
           </Row>
           <Row>
             <Col>
-              <Carousel fade className="--carousel">
-                <Carousel.Item>
-                  <img
-                    className="d-block w-50"
-                    src={require('../assets/images/home/Home_IMG-01.png').default}
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
-                    <h3>CIVIL ENGINEERING</h3>
-                    <p>From its humble beginnings as a high-quality pipe jacking specialist, Temokin led the <br/>
-                    way with Malaysia's first microtunnelling project and has since expanded into the <br/>
-                    building of electricity substations, major underground sewage lines, complex <br/>
-                    bridges and major highways.</p>
-                    <Button variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</Button>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-50"
-                    src={require('../assets/images/home/Home_IMG-02.png').default}
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
-                  <h3>PROPERTY DEVELOPMENT</h3>
-                    <p> Temokin has a collective property development experience  of over 50 years, <br/> 
-                    having design and built complex skycrapers, hospitals and vast modern retail <br/>
-                    spaces on behalf of our clients. Our current portfolio includes the building of high- <br/>
-                    quality duplex homes and the new Istana Negara (Malaysia's national place).</p>
-                    <Button variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</Button>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
+              { isTablet &&
+                <Carousel fade className="--carousel">
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-50"
+                      src={require('../assets/images/home/Home_IMG-01.png').default}
+                      alt="First slide"
+                    />
+                    <Carousel.Caption>
+                      <h3>CIVIL ENGINEERING</h3>
+                      <p>From its humble beginnings as a high-quality pipe jacking specialist, Temokin led the <br/>
+                      way with Malaysia's first microtunnelling project and has since expanded into the <br/>
+                      building of electricity substations, major underground sewage lines, complex <br/>
+                      bridges and major highways.</p>
+                      <Button variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</Button>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-50"
+                      src={require('../assets/images/home/Home_IMG-02.png').default}
+                      alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h3>PROPERTY DEVELOPMENT</h3>
+                      <p> Temokin has a collective property development experience  of over 50 years, <br/> 
+                      having design and built complex skycrapers, hospitals and vast modern retail <br/>
+                      spaces on behalf of our clients. Our current portfolio includes the building of high- <br/>
+                      quality duplex homes and the new Istana Negara (Malaysia's national place).</p>
+                      <Button variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</Button>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                </Carousel>
+              } 
+              { isMobile &&
+                <Carousel fade className="--carousel-mb">
+                  <Carousel.Item>
+                    <img
+                      className="d-block"
+                      src={require('../assets/images/home/Home_IMG-01.png').default}
+                      alt="First slide"
+                    />
+                    <Carousel.Caption>
+                      <h3>CIVIL ENGINEERING</h3>
+                      <p>From its humble beginnings as a high-quality pipe jacking specialist, Temokin led the <br/>
+                      way with Malaysia's first microtunnelling project and has since expanded into the <br/>
+                      building of electricity substations, major underground sewage lines, complex <br/>
+                      bridges and major highways.</p>
+                      <Button variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</Button>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-50"
+                      src={require('../assets/images/home/Home_IMG-02.png').default}
+                      alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h3>PROPERTY DEVELOPMENT</h3>
+                      <p> Temokin has a collective property development experience  of over 50 years, <br/> 
+                      having design and built complex skycrapers, hospitals and vast modern retail <br/>
+                      spaces on behalf of our clients. Our current portfolio includes the building of high- <br/>
+                      quality duplex homes and the new Istana Negara (Malaysia's national place).</p>
+                      <Button variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</Button>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                </Carousel>
+              }
             </Col>
           </Row>
         </Container>
