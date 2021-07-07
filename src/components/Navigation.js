@@ -42,24 +42,18 @@ function Navigation() {
             </NavLink>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ml-auto">
+                <Nav>
                     <li>
-                        <NavLink exact to="/">Home</NavLink>
+                        <NavLink exact to="/about-temokin">About Us</NavLink>
                     </li>
-                    <li 
-                        onMouseEnter={toggleHover}
-                        onMouseLeave={toggleHover}
-                    >
-                        <Button>About Temokin</Button>
-                        <ul
-                            className={hovered ? '--dropdown --active' : '--dropdown'}
-                        >
-                            {aboutLinkdirects.map((linkdir) => (
-                                <li key={linkdir.id}>
-                                    <NavLink exact to={linkdir.linkpath} >{linkdir.linkname}</NavLink>
-                                </li>
-                            ))}
-                        </ul>
+                    <li>
+                        <NavLink exact to="/team-leaders">Team Leaders</NavLink>
+                    </li>
+                    <li>
+                        <NavLink exact to="/awards-and-achievements">Awards & Achievements</NavLink>
+                    </li>
+                    <li>
+                        <NavLink exact to="/licenses-and-registrations">Licenses & Registrations</NavLink>
                     </li>
                     <li>
                         <NavLink exact to="/civil-engineering">Civil Engineering</NavLink>
@@ -72,6 +66,35 @@ function Navigation() {
                     </li>
                 </Nav>
             </Navbar.Collapse>
+            <Nav className="ml-auto --web">
+                <li>
+                    <NavLink exact to="/">Home</NavLink>
+                </li>
+                <li 
+                    onMouseEnter={toggleHover}
+                    onMouseLeave={toggleHover}
+                >
+                    <Button>About Temokin</Button>
+                    <ul
+                        className={hovered ? '--dropdown --active' : '--dropdown'}
+                    >
+                        {aboutLinkdirects.map((linkdir) => (
+                            <li key={linkdir.id}>
+                                <NavLink exact to={linkdir.linkpath} >{linkdir.linkname}</NavLink>
+                            </li>
+                        ))}
+                    </ul>
+                </li>
+                <li>
+                    <NavLink exact to="/civil-engineering">Civil Engineering</NavLink>
+                </li>
+                <li>
+                    <NavLink exact to="/property-development">Property Development</NavLink>
+                </li>
+                <li>
+                    <NavLink exact to="/contact-us">Contact Us</NavLink>
+                </li>
+            </Nav>
         </Navbar>
     );
 }

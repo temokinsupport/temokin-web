@@ -138,4 +138,77 @@
             }
         }
     }
+    .collapse:not(.show) {
+        display: none !important;
+    }
+    .navbar-toggler{
+        border: 0 !important;
+        background: url("../images/mobile/Temokin_MobileVer_Icon-01.png");
+        background-size: 30px auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50px;
+        outline: 0 !important;
+        box-shadow: none !important;
+        margin:  2.6vw 5.4vw 2vw 0 !important;
+        span {
+            display: none;
+        }
+    }
+    @media (max-width:1250px) {
+        .navbar-nav {
+            li {
+                margin-right: 1.5vw;
+                transition: margin-right 0.5s;
+            }
+        }
+    }
+    @media (max-width: 1000px) {
+        position: absolute !important;
+        width: 100%;
+        padding: 0 !important;
+        z-index: 10 !important;
+        .navbar-nav {
+            padding: 5vw 5.4vw 15vw 5.4vw;
+            width: 100% !important;
+            li {
+                margin-right: 0 !important;
+                a {
+                    font-size: 14px;
+                    color: #ffffff;
+                    font-family: "gill sans light", sans-serif;
+                    font-weight: 400;
+                    text-align: left;
+                    width: 100%;
+                    padding: 20px 0;
+                    border-bottom: 1px solid #ffffff;
+                    &:hover {
+                        color: #ffffff !important;
+                    }
+                }
+            }
+            &.--web {
+                display: none;
+            }
+        }
+        .navbar-collapse {
+            background-color: #283a97;
+            &.collapse {
+                &.show {
+                }
+            }
+        }
+        .collapse:not(.show) {
+            display: flex !important;
+        }
+        a {
+            &.--logo {
+                margin: 2.6vw 0 0 5.4vw !important;
+                img {
+                    width: 150px;
+                }
+            }
+        }
+    }
 }
