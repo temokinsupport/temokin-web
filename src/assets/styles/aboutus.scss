@@ -582,4 +582,424 @@
         }
 
     }
+    @media (max-width:992px) {
+        margin: 0;
+        .--header-container {
+            height: 85vw;
+            background-size: 120vw auto, auto 140vw;
+            padding: 15vw 0;
+            .--carousel-container {
+                position: relative;
+                max-width: 85vw;
+                margin: 0 auto;
+            }
+            .--btn-carousel-container {
+                position: absolute;
+                width: 100%;
+                top: 0;
+                z-index: 10;
+                height: 100%;
+            }
+            button {
+                &.carousel-control-prev {
+                    background: url("../images/mobile/home/Obj_Arrow-02.png") center;
+                    transition: background 0.3s;
+                    background-attachment: local;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 6vw;
+                    display: block;
+                    padding: 0;
+                    cursor: pointer;
+                    height: 100% !important;
+                    opacity: 1;
+                    outline: 0 !important;
+                    box-shadow: none !important;
+                    border: 0 !important;
+                    span {
+                        display: none !important;
+                    }
+                }
+                &.carousel-control-next {
+                    background: url("../images/mobile/home/Obj_Arrow-01.png") center;
+                    transition: background 0.3s;
+                    background-attachment: local;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    width: 6vw;
+                    display: block;
+                    padding: 0;
+                    cursor: pointer;
+                    height: 100% !important;
+                    opacity: 1;
+                    outline: 0 !important;
+                    box-shadow: none !important;
+                    border: 0 !important;
+                    span {
+                        display: none !important;
+                    }
+                }
+            }
+            .--carousel-mb {
+                .carousel-inner {
+                    .carousel-caption {
+                        position: relative;
+                        right: unset;
+                        left: unset;
+                        h3 {
+                            font-family: "gill sans",sans-serif !important;
+                            letter-spacing: 0.5vw;
+                            font-weight: 600 !important;
+                            text-transform: uppercase;
+                            line-height: 1.2;
+                            font-size: 	1.500em !important;
+                            color: #283a97;
+                            margin: 50px 0 0 0;
+                            text-align: left;
+                            min-width: 300px;
+                            max-width: 100%;
+                        }
+                        p {
+                            font-family: "gill sans medium",sans-serif;
+                            font-weight: 400 !important;
+                            margin-bottom: 0;
+                            font-size: 1.000em !important;
+                            color: #676ab1;
+                            text-transform: uppercase;
+                            line-height: 1.8;
+                            min-width: 250px;
+                            margin: 5vw auto 0 auto;
+                            text-align: left;
+                            max-width: 60vw;
+                            br {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+                a.carousel-control-next,
+                a.carousel-control-prev {
+                    display: none;
+                    span {
+                        display: none !important;
+                    }
+                }
+                .--btn-check-our-work {
+                    font-family: "gill sans medium",sans-serif !important;
+                    letter-spacing: 0.3vw;
+                    font-size:0.875em;
+                    color: #283a97;
+                    font-weight: 600;
+                    padding: 13px 20px;
+                    border-radius: 0;
+                    outline: 0 !important;
+                    box-shadow: none !important;
+                    margin-top: 5vw;
+                }
+            }
+        }
+        .--container-2 {
+            padding: 100px 0 !important;
+            background-repeat: no-repeat, no-repeat;
+            background-size: 116vw 100%, 100vw 100%;
+            height: fit-content !important;
+            h2 {
+                &.--title {
+                    font-size: 1.500em;
+                }
+            }
+            p {
+                &.--sub-title {
+                    font-size: 	0.875em;
+                    line-height: 1.2;
+                }
+            }
+            h1 {
+                &.--title {
+                    margin: 50px 0 0 0;
+                    font-size: 1.500em;
+                }
+            }
+        }
+        .--container-3 {
+            background: url("../images/mobile/aboutus/AboutUs_BG-01.png") top center;
+            margin-top: -1vw;
+            padding: 100px 0;
+            height: fit-content !important;    
+            background-size: 118vw 100%;
+            background-repeat: no-repeat;
+            img {
+                &.--img {
+                    left: 8vw;
+                }
+            }
+            h2 {
+                &.--title {
+                    margin: 0;
+                    font-size: 	1.500em;
+                    line-height: initial;
+                }
+            }
+            p {
+                &.--sub-title {
+                    margin-top: 50px;
+                    font-size: 	0.875em;
+                }
+            }
+        }
+        .--container-5 {
+            height: fit-content;
+            background: url("../images/mobile/aboutus/AboutUs_BG-02.png") top center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: background 0.3s;
+            background-attachment: scroll;
+            padding: 13vw 0 10vw 0;
+            margin-top: -1vw;
+            height: 95vw;
+            .--title {
+                margin: 0;
+                font-size: 	1.500em;
+                line-height: initial;
+                font-family: "gill sans medium",sans-serif !important;
+                text-transform: uppercase;
+                color: #ffffff;
+                text-align: center;
+            }
+            .splide {
+                height: 50vh;
+                margin: 10vw auto 0 auto;
+                .splide__track {
+                    top: 0;
+                    .splide__list {
+                        .splide__slide {
+                            height: 50vw !important;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                        }
+                    }
+                }
+            }
+            .splide__pagination {
+                bottom: 0vw;
+            }
+            .--right-container {
+                top: 0;
+                position: relative;
+                left: 0;
+                width: 44%;
+                height: 40vw;
+                padding-top: 17vw;
+                h5 {
+                    &.--title {
+                        font-size: 	1.125em;
+                        margin-bottom: 5px;
+                    }
+                }
+                hr {
+                    width: 35vh;
+                }
+                p {
+                    &.--desc {
+                        font-size: 	0.875em;
+                        line-height: 1.4;
+                        margin: 5.5vw auto 0 auto;
+                    }
+                }
+            }
+        }
+        .--container-7 {
+            height: fit-content;
+            background: url("../images/mobile/aboutus/AboutUs_BG-03.png") top center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition: background 0.3s;
+            background-attachment: scroll;
+            padding: 26vw 0 10vw 0;
+            margin-top: -1vw;
+            height: fit-content;
+            min-height: 90vw;
+            .--title {
+                margin: 0;
+                font-size: 	1.500em;
+                line-height: initial;
+                font-family: "gill sans medium",sans-serif !important;
+                text-transform: uppercase;
+                color: #ffffff;
+                text-align: center;
+            }
+            .splide {
+                height: 50vh;
+                margin: 10vw auto 0 auto;
+                .splide__track {
+                    top: 0;
+                    .splide__list {
+                        .splide__slide {
+                            height: 50vw !important;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                        }
+                    }
+                }
+            }
+            .splide__pagination {
+                bottom: 0vw;
+            }
+            .--right-container {
+                top: 0;
+                position: relative;
+                left: 0;
+                width: 44%;
+                height: 40vw;
+                padding-top: 17vw;
+                h5 {
+                    &.--title {
+                        font-size: 	1.125em;
+                        margin-bottom: 5px;
+                    }
+                }
+                hr {
+                    width: 35vh;
+                }
+                p {
+                    &.--desc {
+                        font-size: 	0.875em;
+                        line-height: 1.4;
+                        margin: 5.5vw auto 0 auto;
+                    }
+                }
+            }
+        }
+        .--container-8 {
+            height: fit-content;
+            background: url("../images/mobile/aboutus/AboutUs_BG-04.png") top center;
+            background-repeat: no-repeat;
+            background-size: 100vw 100%;
+            transition: background 0.3s;
+            background-attachment: scroll;
+            padding: 100px 0;
+            margin-top: -1vw;
+            height: fit-content;
+            .--title {
+                font-size: 1.500em;
+            }
+            .--desc {
+                font-size: 0.875em;
+                line-height: 2.5 !important;
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+    @media (max-width:800px) {
+        .--container-5 {
+            height: 110vw;
+        }
+        .--container-7 {
+            height: 110vw;
+        }
+    }
+    @media (max-width: 769px) {
+        .--header-container {
+            height: 100vw !important;
+            button {
+                &.carousel-control-next {
+                    width: 9vw !important;
+                }
+                &.carousel-control-prev {
+                    width: 9vw !important;
+                }
+            }
+        }
+        .--container-5 {
+            height: 115vw !important;
+            .splide {
+                margin: 4vw auto 0 auto;
+            }
+        }
+        .--container-7 {
+            height: 115vw !important;
+            .splide {
+                margin: 4vw auto 0 auto;
+            }
+        }
+    }
+    @media (max-width: 669px) {
+        .--header-container {
+            height: 120vw !important;
+            background-size: 120vw auto, auto 165vw;
+            padding: 15vw 0;
+            .--carousel-mb {
+                .carousel-inner {
+                    .carousel-caption {
+                        p {
+                            font-size: 	0.875em !important;
+                        }
+                    }
+                }
+            }
+        }
+        .--container-5 {
+            height: 110vw !important;
+            .splide {
+                margin:  0 auto;
+                height: 35vh;
+                .splide__track {
+                    img {
+                        width: 50vw;
+                    }
+                }
+            }
+            .--right-container {
+                p {
+                    &.--desc {
+                        margin: 8.5vw auto 0 auto;
+                    }
+                }
+            }
+        }
+        .--container-7 {
+            height: 110vw !important;
+            .splide {
+                margin:  0 auto;
+                height: 35vh;
+                .splide__track {
+                    img {
+                        width: 50vw;
+                    }
+                }
+            }
+            .--right-container {
+                p {
+                    &.--desc {
+                        margin: 8.5vw auto 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 520px) {
+        .--header-container {
+            background: url("../images/aboutus/About_BG-Shapes-01.png") bottom -8vw right -20vw ,
+            url("../images/aboutus/About_BG-01.png") top -35vw left -21vw;
+            height: 160vw !important;
+            background-size: 120vw auto, auto 200vw;
+            padding: 15vw 0;
+            background-repeat: no-repeat, no-repeat;
+            transition: background 0.3s;
+            background-attachment: scroll;
+        }
+
+        .--container-5 {
+            min-height: 140vw !important;
+            height: fit-content;
+        }
+        .--container-7 {
+            min-height: 140vw !important;
+            height: fit-content;
+        }
+    }
 }

@@ -163,4 +163,61 @@
             padding: 0 !important;
         }
     }
+    @media (max-width: 992px) {
+        background: url("../images/teamleaders/Leaders_BG-01.png") top center;
+        transition: background 0.3s;
+        background-repeat: no-repeat;
+        margin-top: 0;
+        background-size: auto 100% !important;
+        .--bg-1 {
+            padding: 100px 0;
+            background: url("../images/teamleaders/Leaders_BG-02.png") top 65vw center, 
+            url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
+            min-height: 58vw;
+            background-repeat:  no-repeat, no-repeat;
+            background-size:  100vw 65%, 125vw auto;
+            transition: background 0.3s;
+            background-attachment: scroll;
+            .--title {
+                line-height: 1.6;
+                font-size: 	1.500em;
+            }
+            .--desc {
+                font-size: 0.875em;
+                line-height: 1.6;
+                max-width: 90%;
+                margin: 0 auto;
+                br {
+                    display: none;
+                }
+            }
+            .--max {
+                padding: 100px 0 0 0;
+            }
+            .col-md-4 {
+                width: 50%;
+                max-width: 50%;
+                &:last-child {
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+            .card {
+                height: 40vw !important;
+                width: 40vw;
+                margin-bottom: 0 auto 50px auto !important;
+            }
+        }
+    }
+    @media (max-width: 669px) {
+        .--bg-1 {
+            background: url("../images/teamleaders/Leaders_BG-02.png") top 100vw center, 
+            url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
+            min-height: 58vw;
+            background-repeat:  no-repeat, no-repeat;
+            background-size:  100vw 65%, 125vw auto;
+            transition: background 0.3s;
+            background-attachment: scroll;
+        }
+    }
 }
