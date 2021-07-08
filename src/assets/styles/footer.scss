@@ -5,7 +5,7 @@
 |  Created by      : May Altamerano
 |  Date Created    : June 25 2021
 |  Last Update by  : May Altamerano
-|  Last update     : June 25 2021
+|  Last update     : July 08 2021
 *
 */
 
@@ -29,6 +29,7 @@
                     object-position: 0 0;
                     image-rendering: -webkit-optimize-contrast;
                     margin-top: 0.3vw;
+                    margin-right: 30px;
                 }
             }
         }
@@ -74,6 +75,52 @@
             color: #4d569c;
             margin-right: 1vw;
             font-size: 0.8vw;
+        }
+    }
+    @media (max-width: 992px) {
+        padding: 45px 0 80px 0;
+        .--left-container {;
+            align-items: flex-start;
+            flex-direction: column;
+            a {
+                &.--logo {
+                    img {
+                        height: auto;
+                        width: 250px;
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+            .--address {
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                width: 100%;
+                margin-bottom: 25px;
+                span {
+                    p {
+                        font-size: 1.000em;
+                        &:nth-child(1) {
+                            margin-bottom: 10px;
+                        }
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .--right-container {
+            align-items: flex-start;
+            p {
+                font-size: 1.000em;
+            }
+            sub {
+                font-size: 0.750em;
+            }
+        }
+        .col,
+        .col-md-8 {
+            flex: 0 0 100%;
+            width: 100%;
         }
     }
 }
