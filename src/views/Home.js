@@ -1,12 +1,12 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive'
+import { useMediaQuery } from 'react-responsive';
 import { Container, Row, Col, Carousel, Button, Image } from 'react-bootstrap';
 import '../assets/styles/home.scss';
 
 function Home() {
 
-  const isTablet = useMediaQuery({ query: '(min-width: 992px)' })
-  const isMobile = useMediaQuery({ query: '(max-width: 992px)' })
+  const isTablet = useMediaQuery({ query: '(min-width: 992px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 992px)' });
 
   return (
     <div className="--home">
