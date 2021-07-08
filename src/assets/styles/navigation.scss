@@ -155,6 +155,7 @@
         outline: 0 !important;
         box-shadow: none !important;
         margin:  2.6vw 5.4vw 2vw 0 !important;
+        cursor: pointer;
         span {
             display: none;
         }
@@ -171,7 +172,7 @@
         position: absolute !important;
         width: 100%;
         padding: 0 !important;
-        z-index: 10 !important;
+        z-index: 20 !important;
         .navbar-nav {
             padding: 5vw 5.4vw 15vw 5.4vw;
             width: 100% !important;
