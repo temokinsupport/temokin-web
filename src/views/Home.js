@@ -1,12 +1,30 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { Container, Row, Col, Carousel, Button, Image } from 'react-bootstrap';
 import '../assets/styles/home.scss';
 
 function Home() {
 
+  // DESKTOP, TABLET & MOBILE
   const isTablet = useMediaQuery({ query: '(min-width: 992px)' });
-  const isMobile = useMediaQuery({ query: '(max-width: 992px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 992px)' });  
+
+  // MOBILE CAROUSEL
+  const ref = useRef(null);
+  const onPrevClick = () => {
+    ref.current.prev();
+    setRightActive(!isRightActive);
+    setLeftActive(!isLeftActive);
+  };
+  const onNextClick = () => {
+    ref.current.next();
+    setRightActive(!isRightActive);
+    setLeftActive(!isLeftActive);
+  };
+
+  // TOGGLE CLASS
+  const [isRightActive, setRightActive] = useState(false);
+  const [isLeftActive, setLeftActive] = useState(false);
 
   return (
     <div className="--home">
@@ -68,7 +86,22 @@ function Home() {
                 </Carousel>
               } 
               { isMobile &&
-                <Carousel fade className="--carousel-mb">
+                <div className="--carousel-container">
+
+                <div className="--btn-carousel-container">
+                  <Button 
+                    variant="light" 
+                    onClick={onPrevClick}
+                    className={isRightActive ? 'carousel-control-prev': "carousel-control-prev hide"} 
+                  />
+                  <Button 
+                    variant="light" 
+                    onClick={onNextClick}
+                    className={isLeftActive ? 'carousel-control-next hide': "carousel-control-next"} 
+                  />
+                </div>
+                    
+                <Carousel fade className="--carousel-mb" ref={ref} loop={false}>
                   <Carousel.Item>
                     <img
                       className="d-block"
@@ -100,6 +133,7 @@ function Home() {
                     </Carousel.Caption>
                   </Carousel.Item>
                 </Carousel>
+                </div>
               }
             </Col>
           </Row>
@@ -154,7 +188,7 @@ function Home() {
         </Row>
         <Row>
           <Col>
-            <Button variant="light" className="--btn-im-interested">IM INTERESTED</Button>
+            <a href="https://www.mahligai.my/" target="_blank" rel="noreferrer" className="--btn-im-interested">IM INTERESTED</a>
           </Col>
         </Row>
       </Container>
