@@ -5,7 +5,6 @@ import '../assets/styles/home.scss';
 
 function Home() {
 
-  // const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 992px)' })
   const isTablet = useMediaQuery({ query: '(min-width: 992px)' })
   const isMobile = useMediaQuery({ query: '(max-width: 992px)' })
 
