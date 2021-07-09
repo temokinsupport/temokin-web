@@ -208,6 +208,42 @@
                 margin-bottom: 0 auto 50px auto !important;
             }
         }
+        .--bg-2 {
+            .--title {
+                font-size: 1.500em;
+                margin: 10.5vw auto 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            img {
+                width: 50vw;
+                height: auto;
+                object-fit: contain;
+                object-position: 0 0;
+                margin: 10vw auto;
+                display: block;
+            }
+            .--sub-title {
+                font-size:	1.375em;
+                margin: 0 auto 3vw auto;
+                text-align: center;
+            }
+            .--desc {
+                font-size: 0.875em;
+                margin: 0 auto;
+                text-align: center;
+                br {
+                    display: none;
+                }
+            }
+            .--btn-send-resume {
+                height: 60px;
+                width: 220px;
+                margin: 5vw auto 0 auto;
+                display: block;
+            }
+        }
     }
     @media (max-width: 669px) {
         .--bg-1 {

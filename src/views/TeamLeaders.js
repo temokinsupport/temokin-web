@@ -1,9 +1,14 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import { Container, Row, Col, Card, Image, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import '../assets/styles/teamleaders.scss';
 
 function TeamLeaders() {
+
+    // DESKTOP, TABLET & MOBILE
+    const isTablet = useMediaQuery({ query: '(min-width: 992px)' });
+    const isMobile = useMediaQuery({ query: '(max-width: 992px)' });  
 
     const teamLeaders = [
         {
@@ -103,13 +108,40 @@ function TeamLeaders() {
             </Container>
         </div>
         <div className="--bg-2">
-            <Container className="--max">
-                <Row>
+            { isTablet &&
+                <Container className="--max">
+                    <Row>
+                        <Col>
+                            <Image src={require('../assets/images/teamleaders/Leaders_IMG-01.png').default} />
+                        </Col>
+                        <Col>
+                            <h1 className="--title">Join Our Team</h1>
+                            <h6 className="--sub-title">Like What <br/>
+                            You See? Join Us!</h6>
+                            <p className="--desc">From our humble start, we have grown tremendously and <br/>
+                            now we are looking to go next level. We have a no- <br/>
+                            discrimination policy and believe in attitude, not so much <br/>
+                            aptitude. Of course, hard work is rewarded, excellence is <br/>
+                            our lifestyle. If you're energetic, eager to learn and a team <br/>
+                            player, send us your resume and you could be on your way to <br/>
+                            a career with Temokin Holdings.
+                            </p>
+                            <Button className="--btn-send-resume"/>
+                        </Col>
+                    </Row>
+                </Container>
+            }
+            {   isMobile &&
+                <Container className="--max">
+                    <Row>
+                        <Col>
+                            <h1 className="--title">Join Our Team</h1>
+                        </Col>
+                    </Row>
                     <Col>
                         <Image src={require('../assets/images/teamleaders/Leaders_IMG-01.png').default} />
                     </Col>
                     <Col>
-                        <h1 className="--title">Join Our Team</h1>
                         <h6 className="--sub-title">Like What <br/>
                         You See? Join Us!</h6>
                         <p className="--desc">From our humble start, we have grown tremendously and <br/>
@@ -122,8 +154,9 @@ function TeamLeaders() {
                         </p>
                         <Button className="--btn-send-resume"/>
                     </Col>
-                </Row>
-            </Container>
+                </Container>
+            }
+        
         </div>
     </div>
   );
