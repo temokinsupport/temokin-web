@@ -285,4 +285,163 @@
             transition: min-height 0.5s;
         }
     }
+    @media (max-width:992px) {
+        background: url("../images/mobile/licenses/Licenses_BG-02.png") top 82vw center,
+        url("../images/mobile/licenses/Licenses_BG-01.png") top -30vw center;
+        background-size: 100vw auto, 125vw auto;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        &::before {
+            display: none;
+        }
+        .--bg-1 {
+            margin-top: 0;
+            min-height: 80vw;
+            transition: min-height 0.5s;
+            padding: 100px 0;
+            .--title {
+                font-size: 	1.500em;
+                line-height: 1.6;
+            }
+            .--desc {
+                font-size: 0.875em;
+                line-height: 1.6;
+                max-width: 90%;
+                margin: 0 auto;
+                 br {
+                     display: none;
+                 }
+            }
+        }
+        .--bg-2 {
+            padding: 100px 0;
+            min-height: 123vw;
+            .carousel {
+                .carousel-inner {
+                    height: 80vw;
+                }
+                img {
+                    width: 50vw;
+                }
+                .--caption {
+                    font-size: 	1.000em;
+                    line-height: 1.6;
+                }
+                .carousel-control-next,
+                .carousel-control-prev {
+                    width: 7vw;
+                    &:hover {
+                        width: 7vw;
+                    }
+                }
+                .carousel-control-prev {
+                    left: 0vw;
+                }
+                .carousel-control-next {
+                    right: 0vw;
+                }
+            }
+        }
+        .--bg-3 {
+            width: 100%;
+            position: relative;
+            padding: 50px 0 100px 0;
+            &::before {
+                content: "";
+                position: absolute;
+                top: -35vw;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                background: url("../images/mobile/licenses/Licenses_BG-03.png") bottom center;
+                background-size: 110vw auto;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+                transition: background 0.3s;
+                z-index: -1;
+            }
+            .col-md-7,
+            .col {
+                flex: 0 0 100%;
+                width: 100%;
+            }
+            h1 {
+                &.--title {
+                    font-size: 1.500em;
+                }
+            }
+            .carousel {
+                .carousel-control-next,
+                .carousel-control-prev {
+                    width: 7vw;
+                    &:hover {
+                        width: 7vw;
+                    }
+                }
+                .carousel-inner,
+                .carousel-item {
+                    height: 85vw;
+                }
+                img {
+                    width: 50vw;
+                }
+                .--caption {
+                    font-size: 0.875em;
+                    line-height: 1.6;
+                }
+            }
+            .--text-container {
+                .--desc {
+                    font-size: 0.875em;
+                    line-height: 1.6;
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width:600px) {
+        background: url("../images/mobile/licenses/Licenses_BG-02.png") top 110vw center,
+        url("../images/mobile/licenses/Licenses_BG-01.png") top -30vw center;
+        background-size: 115vw auto, 160vw auto;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        .--bg-1 {
+            min-height: 110vw;
+        }
+        .--bg-2 {
+            min-height: 137vw;
+            .carousel {
+                .carousel-control-next {
+                    width: 9vw;
+                    right: 6vw;
+                }
+                .carousel-control-prev {
+                    width: 9vw;
+                    left: 6vw;
+                }
+                .carousel-inner {
+                    height: 90vw;
+                }
+            }
+        }
+    }
+    @media (max-width:450px) {
+        background: url("../images/mobile/licenses/Licenses_BG-02.png") top 150vw center,
+        url("../images/mobile/licenses/Licenses_BG-01.png") top -50vw center;
+        background-size: 115vw auto,  225vw auto;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        .--bg-1 {
+            min-height: 145vw;
+            padding: 160px 0 100px 0;
+        }
+        .--bg-2 {
+            min-height: 141vw;
+        }
+    }
 }

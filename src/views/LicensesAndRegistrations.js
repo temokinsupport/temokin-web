@@ -18,6 +18,7 @@ function LicensesAndRegistrations() {
                 </Row>
             </Container>
         </div>
+        
         <div className="--bg-2">
             <Container>
                 <Row>
@@ -69,6 +70,7 @@ function LicensesAndRegistrations() {
                 </Row>
             </Container>
         </div>
+        
         <div className="--bg-3">
             <Container className="--max">
                 <Row>
