@@ -40,17 +40,17 @@ function TanChienWen() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Jeremiah is responsible for Temokin’s business development, opening new markets <br/>
+                                                Jeremiah is responsible for Temokin’s business development, opening new markets 
                                                 while creating venues for expansion in existing ventures.<br/><br/>
-                                                He graduated with a Bachelor of Science in Economics (Hons.) degree from the <br/>
-                                                SOAS University of London, England, and previously worked with YTL <br/>
-                                                Communications as an Operations and Marketing Manager, generating widespread <br/>
-                                                visibility for YES 4G, its anchor brand, while concurrently acting as the Executive <br/>
-                                                Director of Autodome, the F&B arm of YTL Land, revitalising older assets into <br/>
-                                                profitable world-class restaurants and bars. Soon after, he was promoted to Vice <br/>
-                                                President of YTL Hotels, overseeing the Malaysian portfolio while assisting in the <br/>
+                                                He graduated with a Bachelor of Science in Economics (Hons.) degree from the 
+                                                SOAS University of London, England, and previously worked with YTL 
+                                                Communications as an Operations and Marketing Manager, generating widespread 
+                                                visibility for YES 4G, its anchor brand, while concurrently acting as the Executive 
+                                                Director of Autodome, the F&B arm of YTL Land, revitalising older assets into 
+                                                profitable world-class restaurants and bars. Soon after, he was promoted to Vice 
+                                                President of YTL Hotels, overseeing the Malaysian portfolio while assisting in the 
                                                 acquisition of new assets overseas.<br/><br/>
-                                                He is also passionately involved in the development of lifestyle brands and has co-<br/>
+                                                He is also passionately involved in the development of lifestyle brands and has co-
                                                 founded several health and fitness companies, including Fort Gyms and PWRHOUSE.
 
                                             </Description>

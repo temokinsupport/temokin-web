@@ -40,16 +40,16 @@ function PathooramanBinAbu() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Pathooraman bin Abu is overall-in-charge of operations. He has been integral in the <br/>
-                                                formation of our property development arm and facilitated the smooth transition of <br/>
-                                                the business into our international operations. With more than 20 years of <br/>
-                                                experience, he specialises in project management, construction, investment, market <br/>
+                                                Pathooraman bin Abu is overall-in-charge of operations. He has been integral in the
+                                                formation of our property development arm and facilitated the smooth transition of
+                                                the business into our international operations. With more than 20 years of 
+                                                experience, he specialises in project management, construction, investment, market 
                                                 research, feasibility study, mergers and acquisitions. <br/><br/>
-                                                He graduated with a Bachelor of Science in Building Science degree from the <br/>
-                                                University of East Carolina, USA, and a Master in City & Regional Planning degree <br/>
-                                                from Clemson University, USA. Upon graduation, he worked as a lecturer at <br/>
-                                                University Technology MARA and then held managerial positions in the Lion Group, <br/>
-                                                DTZ Nawawi Tie Leung, Bolton Bhd (now Symphony Life), DRB-Hicom and <br/>
+                                                He graduated with a Bachelor of Science in Building Science degree from the 
+                                                University of East Carolina, USA, and a Master in City & Regional Planning degree 
+                                                from Clemson University, USA. Upon graduation, he worked as a lecturer at 
+                                                University Technology MARA and then held managerial positions in the Lion Group, 
+                                                DTZ Nawawi Tie Leung, Bolton Bhd (now Symphony Life), DRB-Hicom and 
                                                 Perbadanan Kemajuan Negeri Selangor (PKNS).
 
                                             </Description>

@@ -40,14 +40,14 @@ function CrystalWongWaiChing() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Crystal is a chartered accountant (UK) and is responsible for Temokin’s overall <br/>
-                                                financial operations. She also oversees the financial modelling for all projects and <br/>
-                                                since joining us she has led in the formation of the finance department in our <br/>
+                                                Crystal is a chartered accountant (UK) and is responsible for Temokin’s overall 
+                                                financial operations. She also oversees the financial modelling for all projects and 
+                                                since joining us she has led in the formation of the finance department in our 
                                                 property development arm.<br/><br/>
-                                                After graduating with a Bachelor of Science in Accounting (Hons.) degree from <br/>
-                                                Oxford Brookes University, England, she worked in the finance department of YTL <br/>
-                                                Cement’s ready-mix division where she was involved in the roll-out of the company’s <br/>
-                                                ERP system in preparation for the implementation Goods & Services Tax in Malaysia <br/>
+                                                After graduating with a Bachelor of Science in Accounting (Hons.) degree from 
+                                                Oxford Brookes University, England, she worked in the finance department of YTL 
+                                                Cement’s ready-mix division where she was involved in the roll-out of the company’s 
+                                                ERP system in preparation for the implementation Goods & Services Tax in Malaysia
                                                 in 2015.
                                             </Description>
                                         </Col>

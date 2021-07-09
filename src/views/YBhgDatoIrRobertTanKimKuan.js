@@ -41,26 +41,26 @@ function YBhgDatoIrRobertTanKimKuan() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                            Dato’ Robert is responsible for the overall strategic direction of Temokin and leads <br/>
+                                            Dato’ Robert is responsible for the overall strategic direction of Temokin and leads 
                                             our business development, technical and investment arms.<br/><br/>
-                                            A chartered engineer (UK) by training, he graduated with a Master in Civil <br/>
-                                            Engineering (Hons.) degree from University Malaya, Malaysia, and has worked 40 years <br/>
-                                            in the construction industry. He is well respected among his peers for his technical <br/>
-                                            capabilities which have helped in the construction of key infrastructural and <br/>
+                                            A chartered engineer (UK) by training, he graduated with a Master in Civil
+                                            Engineering (Hons.) degree from University Malaya, Malaysia, and has worked 40 years
+                                            in the construction industry. He is well respected among his peers for his technical 
+                                            capabilities which have helped in the construction of key infrastructural and 
                                             development projects in Malaysia.<br/><br/>
-                                            He holds positions in the Klang Chinese Chamber of Commerce, Master Builders <br/>
-                                            Association Malaysia, Construction Industry Development Board, Board of Engineers <br/>
-                                            Malaysia and Institute of Civil Engineers (Malaysia and UK). He is also passionately <br/>
-                                            involved in charities and NGOs, including Dignity for Children and the Little Sisters of <br/>
+                                            He holds positions in the Klang Chinese Chamber of Commerce, Master Builders 
+                                            Association Malaysia, Construction Industry Development Board, Board of Engineers 
+                                            Malaysia and Institute of Civil Engineers (Malaysia and UK). He is also passionately 
+                                            involved in charities and NGOs, including Dignity for Children and the Little Sisters of 
                                             the Poor Home for the Aged.
 
                                             </Description>
                                             <Line/>
                                             <Qoute>
-                                            “We want to be remembered not just <br/>
-                                            for great work, but as good people <br/>
-                                            who did great work. Integrity, <br/>
-                                            fairness and compassion must be the <br/>
+                                            “We want to be remembered not just
+                                            for great work, but as good people 
+                                            who did great work. Integrity, 
+                                            fairness and compassion must be the 
                                             key in all we do.”
                                             </Qoute>
                                         </Col>

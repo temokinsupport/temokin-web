@@ -40,14 +40,14 @@ function ChanYoonSang() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Yoon Sang is responsible for securing and implementing project contracts for <br/>
-                                                Temokin. He led in the massive RM2.5 billion Seremban Middle Ring Road project, <br/>
-                                                successfully executing its seven contract packages from conceptual design and pricing <br/>
+                                                Yoon Sang is responsible for securing and implementing project contracts for
+                                                Temokin. He led in the massive RM2.5 billion Seremban Middle Ring Road project, 
+                                                successfully executing its seven contract packages from conceptual design and pricing 
                                                 negotiation up to implementation and completion.<br/><br/>
-                                                He graduated with an Architecture Certificate and a Diploma in Building Technology <br/>
-                                                from Tunku Abdul Rahman University College, Malaysia, and started his career as a <br/>
-                                                project co-ordinator and quantity surveyor in Sima Construction. He later joined <br/>
-                                                Comtrac Sdn. Bhd., a subsidiary of DRB-HICOM, where he sharpened his skills in <br/>
+                                                He graduated with an Architecture Certificate and a Diploma in Building Technology 
+                                                from Tunku Abdul Rahman University College, Malaysia, and started his career as a 
+                                                project co-ordinator and quantity surveyor in Sima Construction. He later joined 
+                                                Comtrac Sdn. Bhd., a subsidiary of DRB-HICOM, where he sharpened his skills in 
                                                 contract implementation through exposure to various fast-track turnkey projects.
                                             </Description>
                                         </Col>

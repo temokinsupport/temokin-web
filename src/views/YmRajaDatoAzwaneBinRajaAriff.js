@@ -41,22 +41,22 @@ function YmRajaDatoAzwaneBinRajaAriff() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Raja Dato’ Azwane is responsible for the implementation of key growth strategies to <br/>
-                                                increase the capacity of the company while maintaining a prudent cost structure. <br/>
+                                                Raja Dato’ Azwane is responsible for the implementation of key growth strategies to
+                                                increase the capacity of the company while maintaining a prudent cost structure.
                                                 He also leads our investor relations efforts.  <br/> <br/>
-                                                After obtaining his Bachelor of Science in Accounting & Finance (Hons.) degree from <br/>
-                                                the University of Hull, England, he worked for more than 10 years in audit  <br/>
-                                                supervisory & business management positions before starting his own businesses in  <br/>
-                                                construction, farm management, food & beverage and property development. With his  <br/>
+                                                After obtaining his Bachelor of Science in Accounting & Finance (Hons.) degree from
+                                                the University of Hull, England, he worked for more than 10 years in audit
+                                                supervisory & business management positions before starting his own businesses in 
+                                                construction, farm management, food & beverage and property development. With his 
                                                 deep experience and entrepreneurial skill, he strengthens our portfolio of businesses. <br/> <br/>
                                                 He was also the treasurer of the Dewan Perniagaan Melayu Muda.
                                             </Description>
                                             <Line/>
                                             <Qoute>
-                                                “Great things usually cannot be done <br/>
-                                                by one person, so we work in teams. <br/>
-                                                Working well in a team is a skill— it <br/>
-                                                can be learned, and it can be <br/>
+                                                “Great things usually cannot be done
+                                                by one person, so we work in teams.
+                                                Working well in a team is a skill— it
+                                                can be learned, and it can be
                                                 taught.”
                                             </Qoute>
                                         </Col>
@@ -128,5 +128,6 @@ const Qoute = styled.p`
     text-align: left;
     letter-spacing: 0.27vw;
 `;
+
 
 export default YmRajaDatoAzwaneBinRajaAriff;

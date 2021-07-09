@@ -40,13 +40,13 @@ function TanChienWen() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Since joining Temokin, Chien Wen has introduced several corporate initiatives to <br/>
-                                                streamline our operations for improved efficiency and effectiveness, and has taken <br/>
+                                                Since joining Temokin, Chien Wen has introduced several corporate initiatives to 
+                                                streamline our operations for improved efficiency and effectiveness, and has taken
                                                 the lead in several large-scale projects.<br/><br/>
-                                                He graduated with a Bachelor in Civil Engineering (Hons.) degree from the University <br/>
-                                                of Manchester, England, and previously worked in Wessex Water, an award-winning <br/>
-                                                utilities company in the United Kingdom, where he was involved in supporting capital <br/>
-                                                programmes Wessex Water, which is United Kingdom’s preeminent awardwinning <br/>
+                                                He graduated with a Bachelor in Civil Engineering (Hons.) degree from the University 
+                                                of Manchester, England, and previously worked in Wessex Water, an award-winning
+                                                utilities company in the United Kingdom, where he was involved in supporting capital 
+                                                programmes Wessex Water, which is United Kingdom’s preeminent awardwinning 
                                                 utilities company that serves over 1.3 million people every day.
                                             </Description>
                                         </Col>

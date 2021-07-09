@@ -114,4 +114,84 @@
             }
         }
     }
+    @media (max-width: 992px) {
+        background-size: auto 100%;
+        padding: 100px 0;
+        &::before {
+            background: url("../images/leaders/Leaders_Shapes-01.png") top -9.7vw left -5vw;
+            transition: background 0.3s;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-size: 108vw 115vw;
+            height: 165vw;
+        }
+        .--bg-1 {
+            .--max {
+                max-width: 90%;
+            }
+            .--leader-details {
+                img {
+                    width: 60vw !important;
+                    height: 40vw;
+                    object-fit: cover;
+                }
+                ul {
+                    li {
+                        .control-next,
+                        .control-prev {
+                            height: 8vw;
+                            width: 8vw;
+                        }
+                    }
+                }
+            }
+            .--about-content {
+                max-width: 70vw;
+                .col-md-5,
+                .col-md-7 {
+                    flex: 0 0 100%;
+                    width: 100%;
+                }
+                .col-md-5 {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    h3 {
+                        margin-bottom: 5vw;
+                        font-size: 1.000em;
+                        line-height: 1.6;
+                    }
+                    hr {
+                        height: 70% !important;
+                        width: 2px !important;
+                        margin: 0 4vw;
+                    }
+                    h6 {
+                        font-size: 	0.875em;
+                        line-height: 1.2;
+                    }
+                }
+                .col-md-7 {
+                    p {
+                        font-size: 1.125em;
+                        line-height: 1.6;
+                        &:nth-child(1) {
+                            font-size: 	0.875em;
+                        }
+                    }
+                    hr {
+                        width: 30%;
+                        margin: 30px 0;
+                    }
+                }
+                .--btn-get-to-know {
+                    height: 55px !important;
+                    width: 280px !important;
+                    min-width: 200px;
+                    image-rendering: -webkit-optimize-contrast;
+                    margin: 50px auto 0 auto !important;
+                }
+            }
+        }
+    }
 }

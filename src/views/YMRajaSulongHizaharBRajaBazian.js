@@ -40,18 +40,18 @@ function YMRajaSulongHizaharBRajaBazian() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Raja Sulong Hizahar brings with him 15 years’ experience in the construction <br/>
+                                                Raja Sulong Hizahar brings with him 15 years’ experience in the construction
                                                 industry, having been involved with numerous large-scale projects across Malaysia. <br/><br/>
-                                                He is an integral part of the core Temokin team and plays a key role in the <br/>
+                                                He is an integral part of the core Temokin team and plays a key role in the
                                                 administration, business development and human resources functions of the company. <br/><br/>
-                                                He also coordinates Temokin’s overseas projects to ensure alignment with our <br/>
+                                                He also coordinates Temokin’s overseas projects to ensure alignment with our
                                                 corporate goals and values.
                                             </Description>
                                             <Line/>
                                             <Qoute>
-                                                “If we trust each other completely, <br/>
-                                                like family, then many things can be <br/>
-                                                done quickly and easily. To earn <br/>
+                                                “If we trust each other completely,
+                                                like family, then many things can be
+                                                done quickly and easily. To earn
                                                 trust, show trust.”
                                             </Qoute>
                                         </Col>

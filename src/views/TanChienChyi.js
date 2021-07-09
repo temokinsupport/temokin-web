@@ -40,15 +40,15 @@ function TanChienChyi() {
                                         </Col>
                                         <Col md={7}>
                                             <Description>
-                                                Chien Chyi founded the development arm of TEMOKIN, and he’s largely responsible <br/>
-                                                for implementing development strategies to drive growth in our property <br/>
-                                                development division by selectively choosing projects and areas that are profitable <br/>
+                                                Chien Chyi founded the development arm of TEMOKIN, and he’s largely responsible
+                                                for implementing development strategies to drive growth in our property 
+                                                development division by selectively choosing projects and areas that are profitable 
                                                 and fit TEMOKIN’s portfolio.<br/><br/>
-                                                On a day-to-day basis, he’s in charge of ensuring that operations across all TEMOKIN <br/>
+                                                On a day-to-day basis, he’s in charge of ensuring that operations across all TEMOKIN
                                                 divisions are running smoothly and efficiently. <br/><br/>
-                                                He graduated with a Bachelor in Civil Engineering (Hons.) degree from University <br/>
-                                                College London, England, and previously interned with BNP Paribas and YTL Power<br/>
-                                                where he was exposed to financial modelling, merger & acquisitions, and operations <br/>
+                                                He graduated with a Bachelor in Civil Engineering (Hons.) degree from University 
+                                                College London, England, and previously interned with BNP Paribas and YTL Power
+                                                where he was exposed to financial modelling, merger & acquisitions, and operations
                                                 management.
                                             </Description>
                                         </Col>
