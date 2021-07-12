@@ -20,6 +20,7 @@ function CivilEngineering() {
           </Row>
         </Container>
       </div>
+      
       <div className="--bg-2">
         <Container>
           <Row>
@@ -34,6 +35,7 @@ function CivilEngineering() {
           </Row>
         </Container>
       </div>
+      
       <div className="--bg-3">
         <Container className="--max">
           <Row>
@@ -183,6 +185,7 @@ function CivilEngineering() {
               </Card>
             </Col>
           </Row>
+        
         </Container>
       </div>
       <div className="--bg-4">
