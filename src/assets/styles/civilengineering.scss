@@ -382,4 +382,13 @@
             padding: 27vw 0 10vw 0;
         }
     }
+    @media (max-width:420px) {
+        background: url("../images/mobile/licenses/Licenses_BG-03.png") top -15vw center,
+        url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 165vw center;;
+        background-size: 110vw auto, 220vw auto !important;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll, scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+    }
 }
