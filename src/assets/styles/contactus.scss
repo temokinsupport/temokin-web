@@ -40,8 +40,8 @@
         img {
             margin: 0 auto 3vw auto;
             display: block;
-            height: 135px;
-            width: 135px;
+            height: 8vw;
+            width: 8vw;
             object-fit: contain;
             image-rendering: pixelated;
         }
@@ -160,6 +160,189 @@
             iframe {
                 margin-left: -2.5vw;
                 width: 37.5vw;
+            }
+        }
+    }
+    @media (max-width:1024px) {
+        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
+        url("../images/contactus/Contact_BG-02.png") top 66vw center,
+        url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 145vw auto, 240vw auto, 155vw auto;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+        .--bg-1 {
+            padding: 200px 0 0 0;
+            .--max {
+                max-width: 90%;
+            }
+            h1.--title {
+                font-size: 	1.500em;
+            }
+            img {
+                height: 10vw;
+                width: 10vw;
+            }
+            h3 {
+                &.--title {
+                    font-size: 	0.875em;
+                }
+            }
+            p {
+                &.--desc {
+                    font-size: 	0.875em;
+                    line-height: 1.4;
+                }
+            }
+            .row {
+                &:nth-child(2) {
+                    .col-md-4 {
+                        width: 50%;
+                        max-width: 50%;
+                        &:last-child {
+                            width: 100%;
+                        max-width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .--bg-2 {
+            padding: 30.5vw 0 0 0;
+            .col-md-6 {
+                width: 100%;
+                max-width: 100%;
+            }
+            h3 {
+                &.--title {
+                    font-size: 1.500em;
+                    margin: 0 0 6.5vw 0;
+                }
+            }
+            form {
+                label {
+                    font-size: 	0.875em;
+                }
+                input {
+                    height: 60px;
+                }
+                textarea {
+                    height: 60px;
+                }
+                .--btn-send {
+                    width: 215px;
+                    height: 45px;
+                    margin: 5vw auto 0 23.7vw;
+                }
+            }
+            .--map-container {
+                width: 70vw;
+                height: 40vw;
+                padding-top: 2vw;
+                position: relative;
+                display: block;
+                margin: 100px auto;
+                iframe {
+                    margin-left: 0;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    @media (max-width:920px) {
+        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
+        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
+        url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 145vw auto, 240vw auto, 165vw auto;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+    }
+    @media (max-width:740px) {
+        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
+        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
+        url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 145vw auto, 275vw auto, 180vw auto;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+    }
+    @media (max-width:600px) {
+        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
+        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
+        url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 145vw auto, 300vw auto, 200vw auto;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+    }
+    @media (max-width:566px) {
+        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
+        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
+        url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 145vw auto, 340vw auto, 220vw auto;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+        .--bg-2 {
+            padding: 45.5vw 0 0 0;
+            form {
+                margin-left: 0;
+                width: 90%;
+                margin: 0 auto;
+                label {
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+    @media (max-width:500px) {
+        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
+        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
+        url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 145vw auto, 395vw auto, 235vw auto;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+        .--bg-2 {
+            padding: 45.5vw 0 0 0;
+            form {
+                margin-left: 0;
+                width: 90%;
+                margin: 0 auto;
+                label {
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+    @media (max-width:400px) {
+        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
+        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
+        url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 145vw auto, 500vw auto, 280vw auto;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+        .--bg-2 {
+            padding: 45.5vw 0 0 0;
+            form {
+                margin-left: 0;
+                width: 90%;
+                margin: 0 auto;
+                label {
+                    text-align: left !important;
+                }
+                .--btn-send {
+                    margin: 5vw auto 0 auto;
+                }
             }
         }
     }
