@@ -1,0 +1,25 @@
+.loader-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 1;
+    transition: opacity 0.3s linear 2s;
+    color:#dbd8d6;
+}
+h1 {
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1.5vw;
+}
+.absolute {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: opacity 0.3s linear 2s;
+    z-index: 5000;
+}

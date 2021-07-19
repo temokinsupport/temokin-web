@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route, } from 'react-router-dom';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
+// import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import ScrollToTop from './components/ScrollToTop';
 import './assets/styles/app.scss';
-import Navigation from './components/Navigation';
+// import Navigation from './components/Navigation';
 import Footer from './components/Footer';
-import Home from './views/Home';
+import Home from './components/containers/Home';
 import AboutTemokin from './views/AboutTemokin';
 import TeamLeaders from './views/TeamLeaders';
 import AwardsAndAchievements from './views/AwardsAndAchievements';
@@ -44,13 +44,13 @@ export default function App() {
           return (
             <div> 
               <ScrollToTop/>
-              <Navigation/>
-               <TransitionGroup>
+              {/* <Navigation/>  */}
+               {/* <TransitionGroup>
                   <CSSTransition
                     timeout={600}
                     classNames='fade'
                     key={location.key}
-                  >
+                  > */}
                     <Switch location={location}>
                       <Route exact path="/" component={Home} />
                       <Route exact path="/about-temokin" component={AboutTemokin} />
@@ -80,8 +80,8 @@ export default function App() {
                       <Route exact path="/property-development/national-camp-and-services-northern-regions" component={NationalCamp} />
                       <Route exact path="/property-development/tropicana-miyu-petaling-jaya" component={Tropicana} />
                     </Switch>
-                  </CSSTransition>
-                </TransitionGroup>
+                  {/* </CSSTransition>
+                </TransitionGroup> */}
               <Footer/>
             </div>
           );
