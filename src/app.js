@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route, } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import './assets/styles/app.scss';
 // import Navigation from './components/Navigation';
-import Footer from './components/Footer';
+// import Footer from './components/FooterMenu';
 import Home from './components/containers/Home';
 import AboutTemokin from './views/AboutTemokin';
 import TeamLeaders from './views/TeamLeaders';
@@ -82,7 +82,7 @@ export default function App() {
                     </Switch>
                   {/* </CSSTransition>
                 </TransitionGroup> */}
-              <Footer/>
+              {/* <Footer/> */}
             </div>
           );
         }}

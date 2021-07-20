@@ -8,6 +8,7 @@ import Header from '../Home/Header';
 import Featured from '../Home/Featured';
 import Projects from '../Home/Projects';
 import Launches from '../Home/Launches';
+import FooterMenu from '../FooterMenu';
 
 const Home = () => {
     const [preloader, setPreloader] = useState(true);
@@ -51,6 +52,7 @@ const Home = () => {
                 <Featured/>
                 <Projects/>
                 <Launches/>
+                <FooterMenu/>
             </div>
             }
         </>
