@@ -48,7 +48,7 @@ export default function NavMenu() {
     const [open, setOpen] = useState(false);
 
     return (
-        <section data-scroll-section>
+        <section data-scroll-section className="-nav">
         <Navbar 
             expand="lg"
             className="--navigation"

@@ -8,6 +8,10 @@
 |  Last update     : June 25 2021
 *
 */
+section.-nav {
+    z-index: 1050 !important;
+    position: relative !important;
+}
 .--navigation {
     padding: 3.6vw 5.4vw 2vw 5.4vw !important;
     transition: padding 0.5s;
@@ -16,7 +20,6 @@
     left: 0;
     right: 0;
     width: 100%;
-    z-index: 5;
     a {
         &.--logo {
             img {

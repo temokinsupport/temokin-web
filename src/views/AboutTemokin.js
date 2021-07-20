@@ -1,6 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { Container, Row, Col, Image, Carousel, Button } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '../assets/styles/aboutus.scss';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
@@ -34,139 +34,102 @@ function AboutTemokin() {
     }
   ];
 
-  // MOBILE CAROUSEL
-  const ref = useRef(null);
-  const onPrevClick = () => {
-    ref.current.prev();
-    setRightActive(!isRightActive);
-    setLeftActive(!isLeftActive);
-  };
-  const onNextClick = () => {
-    ref.current.next();
-    setRightActive(!isRightActive);
-    setLeftActive(!isLeftActive);
-  };
+  // // MOBILE CAROUSEL
+  // const ref = useRef(null);
+  // const onPrevClick = () => {
+  //   ref.current.prev();
+  //   setRightActive(!isRightActive);
+  //   setLeftActive(!isLeftActive);
+  // };
+  // const onNextClick = () => {
+  //   ref.current.next();
+  //   setRightActive(!isRightActive);
+  //   setLeftActive(!isLeftActive);
+  // };
 
-  // TOGGLE CLASS
-  const [isRightActive, setRightActive] = useState(false);
-  const [isLeftActive, setLeftActive] = useState(false);
+  // // TOGGLE CLASS
+  // const [isRightActive, setRightActive] = useState(false);
+  // const [isLeftActive, setLeftActive] = useState(false);
   
   return (
     <div className="--about">
       <div className="--header-container">
-        { isTablet &&
-          <Splide
-            options={ {
-              type         : 'fade',
-              autoplay     : true,
-              pauseOnHover : false,
-              resetProgress: false,
-              height   : '100vh',
-              direction: 'ttb',
-            } }
-          >
-            <SplideSlide>
-              <div className="--about-content">
-                <Container className="--max">
-                  <Row>
-                    <Col md={2}>
-                      <h1 className="--title">Our Story</h1>
-                    </Col>
-                    <Col md={5} className="--pl3v">
-                      <p className="--desc">They say every great story has a humble <br/>
-                      beginning, and ours is no exception. <br/>
-                      established in 1989, we started our journey as <br/>
-                      a specialist contractor for highquality <br/>
-                      pipe jacking and earthworks, making our <br/>
-                      first prominent mark in 1991 by delivering <br/>
-                      malaysia's first ever micro-tunneling <br/>
-                      project.</p>
-                    </Col>
-                  </Row>
-                </Container>
-              </div>
-            </SplideSlide>
-            <SplideSlide>
-              <div className="--about-content">
-                <Container className="--max">
-                  <Row>
-                    <Col md={2}>
-                      <h1 className="--title">Our Story</h1>
-                    </Col>
-                    <Col md={5} className="--pl3v">
-                      <p className="--desc">We then quickly spread our wings and grew to become <br/>
-                      the preeminent turkey civil engineering and property <br/>
-                      conglomerate that the nation and the world have come <br/>
-                      to know and  trust today. <br/><br/>
-                      At our heart, we are a construction company with <br/>
-                      an integrated engineering division, which allows us to <br/>
-                      undertake any design-and-build projects with.
-                      </p> 
-                      <div className="--build-project-list">
-                        {buildProjectLists.map((projectLists) => (
-                          <figure key={projectLists.id}>
-                            <Image src={projectLists.img}/>
-                            <figcaption>
-                              <span>{projectLists.caption}</span> 
-                            </figcaption>
-                          </figure>
-                        )) }
-                      </div>
-                    </Col>
-                  </Row>
-                </Container>
-              </div>
-            </SplideSlide>
-          </Splide>
-        }
-        { isMobile &&
-          <div className="--carousel-container">
-            <div className="--btn-carousel-container">
-              <Button 
-                variant="light" 
-                onClick={onPrevClick}
-                className={isRightActive ? 'carousel-control-prev': "carousel-control-prev hide"} 
-              />
-              <Button 
-                variant="light" 
-                onClick={onNextClick}
-                className={isLeftActive ? 'carousel-control-next hide': "carousel-control-next"} 
-              />
-            </div>
+            <div className="slideshow">
                 
-            <Carousel fade className="--carousel-mb" ref={ref} loop={false}>
-              <Carousel.Item>
-                <Carousel.Caption>
-                  <h3>Our <br/> Story</h3>
-                  <p>They say every great story has a humble <br/>
-                      beginning, and ours is no exception. <br/>
-                      established in 1989, we started our journey as <br/>
-                      a specialist contractor for highquality <br/>
-                      pipe jacking and earthworks, making our <br/>
-                      first prominent mark in 1991 by delivering <br/>
-                      malaysia's first ever micro-tunneling <br/>
-                      project.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-              <Carousel.Item>
-                <Carousel.Caption>
-                <h3>Our <br/> Story</h3>
-                  <p>We then quickly spread our wings and grew to become <br/>
-                      the preeminent turkey civil engineering and property <br/>
-                      conglomerate that the nation and the world have come <br/>
-                      to know and  trust today. <br/><br/>
-                      At our heart, we are a construction company with <br/>
-                      an integrated engineering division, which allows us to <br/>
-                      undertake any design-and-build projects with.
-                  </p>
-                </Carousel.Caption>
-              </Carousel.Item>
-            </Carousel>
-          </div>
-        }
-        
-      </div>
+                
+                <input id="button-1" type="radio" name="radio-set" className="selector-1" checked="checked" />
+                <label for="button-1" className="button-label-1"></label>
+                
+                <input id="button-2" type="radio" name="radio-set" className="selector-2" />
+                <label for="button-2" className="button-label-2"></label>
+            
+                
+                    {/* <label for="button-1" className="arrow a1"></label>
+                    <label for="button-2" className="arrow a2"></label> */}
+                
+                <div className="content">
+                    <div className="parallax-bg"></div>
+                    <ul className="slider">
+                        <li>
+                            <div className="slider-content">
+                                <div className="--about-content">
+                                    <Container className="--max">
+                                        <Row>
+                                            <Col md={2}>
+                                            <h1 className="--title">Our Story</h1>
+                                            </Col>
+                                            <Col md={5} className="--pl3v">
+                                            <p className="--desc">They say every great story has a humble <br/>
+                                            beginning, and ours is no exception. <br/>
+                                            established in 1989, we started our journey as <br/>
+                                            a specialist contractor for highquality <br/>
+                                            pipe jacking and earthworks, making our <br/>
+                                            first prominent mark in 1991 by delivering <br/>
+                                            malaysia's first ever micro-tunneling <br/>
+                                            project.</p>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="slider-content">
+                                <div className="--about-content">
+                                    <Container className="--max">
+                                        <Row>
+                                            <Col md={2}>
+                                            <h1 className="--title">Our Story</h1>
+                                            </Col>
+                                            <Col md={5} className="--pl3v">
+                                            <p className="--desc">We then quickly spread our wings and grew to become <br/>
+                                            the preeminent turkey civil engineering and property <br/>
+                                            conglomerate that the nation and the world have come <br/>
+                                            to know and  trust today. <br/><br/>
+                                            At our heart, we are a construction company with <br/>
+                                            an integrated engineering division, which allows us to <br/>
+                                            undertake any design-and-build projects with.
+                                            </p> 
+                                            <div className="--build-project-list">
+                                                {buildProjectLists.map((projectLists) => (
+                                                <figure key={projectLists.id}>
+                                                    <Image src={projectLists.img}/>
+                                                    <figcaption>
+                                                    <span>{projectLists.caption}</span> 
+                                                    </figcaption>
+                                                </figure>
+                                                )) }
+                                            </div>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
       <div className="--container-2">
         <Container>
           <Row>

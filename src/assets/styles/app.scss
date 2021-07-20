@@ -50,3 +50,10 @@ body {
 .hide {
     display: none !important;
 }
+
+.c-scrollbar {
+    display: none !important;
+    &:last-child {
+        display: unset !important;
+    }
+}

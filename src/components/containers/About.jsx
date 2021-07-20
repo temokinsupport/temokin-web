@@ -1,15 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react';
 import useLocoScroll from '../hooks/useLocoScroll';
-import '../../assets/styles/home.scss';
+import '../../assets/styles/aboutus.scss';
 
 import NavMenu from '../NavMenu';
-import Header from '../Home/Header';
-import Featured from '../Home/Featured';
-import Projects from '../Home/Projects';
-import Launches from '../Home/Launches';
+import Carousel from '../About/Carousel';
+import Vision from '../About/Vision';
+import Mission from '../About/Mission';
 import FooterMenu from '../FooterMenu';
 
-const Home = () => {
+const About = () => {
+
     const [preloader, setPreloader] = useState(true);
 
     useLocoScroll(!preloader);
@@ -34,26 +34,25 @@ const Home = () => {
             clear();
         }
     }, [timer]);
-
     return (
+        
         <>
-            { preloader? 
+         { preloader? 
             <div className="loader-wrapper absolute">
             </div> :
-            <div className="--home
+            <div className="--about
                 main-container"
                 id="main-container"
                 data-scroll-container
-            >   
+            >
                 <NavMenu/>
-                <Header/>
-                <Featured/>
-                <Projects/>
-                <Launches/>
+                <Carousel/>
+                <Vision/>
+                <Mission/>
                 <FooterMenu/>
             </div>
-            }
+         }
         </>
     );
 };
-export default Home;
+export default About;
