@@ -23,6 +23,14 @@ export default function Header() {
             stagger:0.1,
             ease:"power1",
         })
+
+        gsap.to(splitParent.lines, {
+            duration:1,
+            y:0,
+            opacity:1,
+            stagger:0.1,
+            ease:"power1",
+        });
     }, [])
 
     return (
