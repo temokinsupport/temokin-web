@@ -69,6 +69,9 @@
             }
             img {
                 border-radius: 0 !important;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
             }
             &:hover {
                 .card-img-overlay {
@@ -93,7 +96,7 @@
                 img {
                     height: 100%;
                     width: 100%;
-                    object-fit: contain;
+                    object-fit: cover;
                     object-position: 0 0;
                 }
             }
