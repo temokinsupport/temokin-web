@@ -1,6 +1,6 @@
 .--civil-engineering {
     background: url("../images/civilengineering/CivilEng_Shapes-01.png") top 10vw left -8vw,
-    url("../images/civilengineering/CivilEng_Shapes-02.png") top 101vw left -6.5vw,
+    url("../images/civilengineering/CivilEng_Shapes-02.png") top 77vw left -2.5vw,
     url("../images/civilengineering/CivilEng_Shapes-03.png") top 297vw left -2vw,
     url("../images/civilengineering/CivilEng_Shapes-04.png") bottom 60vw right -32vw,
     url("../images/civilengineering/CivilEng_Shapes-05.png") bottom -2vw left,
@@ -161,6 +161,16 @@
         width: 100%;
         .--max {
             max-width: 70%;
+        }
+        .--white {
+            .card {
+                .card-body {
+                    .card-title,
+                    .card-text {
+                        color: #ffffff !important;
+                    }
+                }
+            }
         }
         .card {
             max-width: 85%;

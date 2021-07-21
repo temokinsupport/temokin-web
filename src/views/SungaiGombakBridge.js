@@ -20,7 +20,7 @@ function SungaiGombakBridge() {
                                 />
                                 <div className="--about-content">
                                     <Row>
-                                        <Col md={5}>
+                                        <Col md={6}>
                                             <Name>
                                                 SUNGAI GOMBAK BRIDGE
                                             </Name>
@@ -32,7 +32,7 @@ function SungaiGombakBridge() {
                                                 centre.
                                             </Description>
                                         </Col>
-                                        <Col md={7}>
+                                        <Col md={6}>
                                             <TextContainer>
                                                 <Label>
                                                     Client
@@ -118,7 +118,7 @@ const Description = styled.p`
     letter-spacing: 0.15vw;
 `;
 const TextContainer = styled.div`
-    margin-left: 10vw;
+    margin-left: 2vw;
 `;
 
 const Label = styled.h3`

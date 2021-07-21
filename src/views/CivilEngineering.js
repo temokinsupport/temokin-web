@@ -190,7 +190,7 @@ function CivilEngineering() {
       </div>
       <div className="--bg-4">
         <Container className="--max">
-          <Row>
+          <Row className="--white">
             <Col md={6}>
               <Card>
                 <Card.Img variant="top" src={require('../assets/images/civilengineering/CivilEng_Icon-01.png').default} />
@@ -240,7 +240,7 @@ function CivilEngineering() {
               </Card>
             </Col>
           </Row>
-          <Row>
+          <Row className="--white">
             <Col md={6}>
               <Card>
                 <Card.Img variant="top" src={require('../assets/images/civilengineering/CivilEng_Icon-01.png').default} />
@@ -288,7 +288,7 @@ function CivilEngineering() {
               </Card>
             </Col>
           </Row>
-          <Row>
+          <Row className="--white">
             <Col md={6}>
               <Card>
                 <Card.Img variant="top" src={require('../assets/images/civilengineering/CivilEng_Icon-01.png').default} />
