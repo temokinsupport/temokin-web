@@ -162,6 +162,16 @@
         .--max {
             max-width: 70%;
         }
+        .--white {
+            .card {
+                .card-body {
+                    .card-title,
+                    .card-text {
+                        color: #ffffff !important;
+                    }
+                }
+            }
+        }
         .card {
             max-width: 85%;
             border-radius: 0 !important;
