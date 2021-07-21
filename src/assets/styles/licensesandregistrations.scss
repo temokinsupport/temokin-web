@@ -227,15 +227,15 @@
                 width: 4vw;
                 image-rendering: -webkit-optimize-contrast;
                 right: 0;
-                &:hover {
-                    background: url("../images/licensesandregistrations/Licenses_Button-02.png") center;
-                    background-size: contain;
-                    background-repeat: no-repeat;
-                    background: background 0.3s;
-                    width: 4vw;
-                    image-rendering: -webkit-optimize-contrast;
-                    right: 0;
-                }
+                // &:hover {
+                //     background: url("../images/licensesandregistrations/Licenses_Button-02.png") center;
+                //     background-size: contain;
+                //     background-repeat: no-repeat;
+                //     background: background 0.3s;
+                //     width: 4vw;
+                //     image-rendering: -webkit-optimize-contrast;
+                //     right: 0;
+                // }
             }
             .carousel-control-prev {
                 background: url("../images/licensesandregistrations/Licenses_Button-03.png") center;
@@ -245,15 +245,15 @@
                 width: 4vw;
                 image-rendering: -webkit-optimize-contrast;
                 left: 0;
-                &:hover {
-                    background: url("../images/licensesandregistrations/Licenses_Button-01.png") center;
-                    background-size: contain;
-                    background-repeat: no-repeat;
-                    background: background 0.3s;
-                    width: 4vw;
-                    image-rendering: -webkit-optimize-contrast;
-                    left: 0;
-                }
+                // &:hover {
+                //     background: url("../images/licensesandregistrations/Licenses_Button-01.png") center;
+                //     background-size: contain;
+                //     background-repeat: no-repeat;
+                //     background: background 0.3s;
+                //     width: 4vw;
+                //     image-rendering: -webkit-optimize-contrast;
+                //     left: 0;
+                // }
             }
         }
     }
