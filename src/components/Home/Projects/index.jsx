@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Projects() {
     return (
-        <section className="--bg-3" data-scroll-section>
+        <section className="--bg-3" data-scroll-section >
             <Container className="--container-3 --max">
                 <Row>
                     <Col>
@@ -28,7 +29,11 @@ export default function Projects() {
                     </Col>
                 </Row>
             </Container>
-            <div className="projects-bg"/>
+            {/* <div className="projects-bg"/> */}
+            <div className="hero-container">
+                <LazyLoadImage src={require("../../../assets/images/home/Home_BG-03.png").default} className="projects-bg"
+                 data-scroll data-scroll-speed="-2" data-scroll-direction="top"/>
+            </div>
         </section>
     )
 }

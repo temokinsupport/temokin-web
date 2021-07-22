@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import SplitText from '../../utils/split.min.js';
 import { Container, Row, Col} from 'react-bootstrap';
 import Navigation from '../../Navigation';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Header() {
 
@@ -34,6 +35,7 @@ export default function Header() {
         })
     }, [])
 
+
     return (
         <section className="--header" data-scroll-section>  
             <Navigation/>
@@ -48,7 +50,12 @@ export default function Header() {
                     </Col>
                 </Row>
             </Container>
-            <div className="header-bg"/>
+            <div className="hero-container">
+                <LazyLoadImage src={require("../../../assets/images/home/Home_BG-01.png").default} className="header-bg"
+                    data-scroll data-scroll-speed="-2"
+                />
+            </div>
+            
       </section>
     )
 }

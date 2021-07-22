@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { Container, Row, Col, Carousel, Button } from 'react-bootstrap';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Featured() {
 
@@ -128,9 +129,14 @@ export default function Featured() {
               </Col>
             </Row>
           </Container>
-          <div className="featured-bg"/>
-          <div className="overlay-blue" data-scroll  data-scroll-speed="-1"/>
-          <div className="overlay-white" data-scroll  data-scroll-speed="-1"/>
+          {/* <div className="featured-bg"/> */}
+          <div className="hero-container">
+            <LazyLoadImage src={require("../../../assets/images/home/About_BG-07.png").default} className="featured-bg"
+               data-scroll
+            />
+          </div>
+          <div className="overlay-blue" data-scroll  data-scroll-speed="3" data-scroll-direction="horizontal" data-scroll-delay="0.2"/>
+          <div className="overlay-white" data-scroll  data-scroll-speed="5" data-scroll-direction="horizontal" data-scroll-delay="0.5"/>
         </section>
     )
 }
