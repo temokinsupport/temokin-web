@@ -11,10 +11,14 @@ export default function Winner() {
                             <Carousel.Item>
                                 <Row>
                                     <Col md={7}>
-                                        <Image src={require('../../../assets/images/awardsandachievements/Awards_IMG-Winner-01.png').default} className="--awards"/>
+                                        <Image 
+                                            data-scroll
+                                        src={require('../../../assets/images/awardsandachievements/Awards_IMG-Winner-01.png').default} className="--awards"/>
                                     </Col>
                                     <Col>
-                                        <Carousel.Caption className="--text-container">
+                                        <Carousel.Caption 
+                                            data-scroll
+                                        className="--text-container">
                                             <h6 className="--title">Winner</h6>
                                             <p className="--desc">Excellent contractor award 2015 for <br/>
                                             infrustructure project costing more <br/>
@@ -29,10 +33,14 @@ export default function Winner() {
                             <Carousel.Item>
                                 <Row>
                                     <Col md={7}>
-                                        <Image src={require('../../../assets/images/awardsandachievements/Awards_IMG-Winner-02.png').default} className="--awards"/>
+                                        <Image 
+                                            data-scroll
+                                        src={require('../../../assets/images/awardsandachievements/Awards_IMG-Winner-02.png').default} className="--awards"/>
                                     </Col>
                                     <Col>
-                                        <Carousel.Caption className="--text-container">
+                                        <Carousel.Caption 
+                                            data-scroll
+                                        className="--text-container">
                                             <h6 className="--title">First <br/>
                                             Runner Up</h6>
                                             <p className="--desc">Excellent contractor award 2015 <br/>
