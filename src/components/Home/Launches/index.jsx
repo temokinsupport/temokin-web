@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import Footer from '../../Footer';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Launches() {
     return (
@@ -34,7 +35,10 @@ export default function Launches() {
                     </Col>
                 </Row>
             </Container>
-            <div className="launches-bg"/>
+            {/* <div className="launches-bg"/> */}
+                <div className="hero-container">
+                <LazyLoadImage src={require("../../../assets/images/home/Home_BG-04.png").default} className="launches-bg"/>
+                </div>
             <Footer/>
         </section>
     )

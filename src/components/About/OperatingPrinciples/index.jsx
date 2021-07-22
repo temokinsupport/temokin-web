@@ -11,7 +11,7 @@ export default function OperatingPrinciples() {
       
             <Container className="--max">
                 <Row>
-                    <Col>
+                    <Col data-scroll>
                         <Splide
                             options={ {
                             type         : 'fade',
@@ -20,6 +20,7 @@ export default function OperatingPrinciples() {
                             resetProgress: false,
                             height   : '80vh',
                             } }
+                            
                         >
                             <SplideSlide >
                                 <Image src={require('../../../assets/images/aboutus/About_IMG-People.png').default}/>
