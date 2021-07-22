@@ -44,7 +44,10 @@ export default function AboutTemokin() {
                 
                 <div className="content">
                     <div className="parallax-bg"></div>
-                    <ul className="slider">
+                    <ul className="slider" 
+                        data-scroll
+                        data-scroll-speed="-1"
+                    >
                         <li>
                             <div className="slider-content">
                                 <div className="--about-content">
@@ -52,16 +55,10 @@ export default function AboutTemokin() {
                                         <Row>
                                             <Col md={2}>
                                             <h1 className="--title" 
-                                                data-scroll 
-                                                data-scroll-direction="horizontal" 
-                                                data-scroll-speed="-3"
                                             >Our Story</h1>
                                             </Col>
                                             <Col md={5} className="--pl3v" >
                                             <p className="--desc"
-                                                data-scroll 
-                                                data-scroll-direction="horizontal" 
-                                                data-scroll-speed="-3"
                                             >They say every great story has a humble <br/>
                                             beginning, and ours is no exception. <br/>
                                             established in 1989, we started our journey as <br/>
@@ -83,16 +80,10 @@ export default function AboutTemokin() {
                                         <Row>
                                             <Col md={2}>
                                             <h1 className="--title" 
-                                                data-scroll 
-                                                data-scroll-direction="horizontal" 
-                                                data-scroll-speed="-3"
                                             >Our Story</h1>
                                             </Col>
                                             <Col md={5} className="--pl3v">
                                             <p className="--desc" 
-                                                data-scroll 
-                                                data-scroll-direction="horizontal" 
-                                                data-scroll-speed="-3"
                                             >We then quickly spread our wings and grew to become <br/>
                                             the preeminent turkey civil engineering and property <br/>
                                             conglomerate that the nation and the world have come <br/>

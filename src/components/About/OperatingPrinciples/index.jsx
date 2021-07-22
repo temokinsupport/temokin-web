@@ -61,7 +61,6 @@ export default function OperatingPrinciples() {
                     </Col>
                 </Row>
             </Container>
-            <div className="operationg-principles-bg"/>
       </div>
     )
 }

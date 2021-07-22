@@ -37,10 +37,11 @@ const Home = () => {
 
   return (
       <>
-       { preloader? 
-        <div className="loader-wrapper absolute">
-            {/* <h1>Flirty Flowrs</h1> */}
-        </div> :
+       { 
+      //  preloader? 
+      //   <div className="loader-wrapper absolute">
+      //       {/* <h1>Flirty Flowrs</h1> */}
+      //   </div> :
       <div className="--home main-container"
         id="main-container"
         data-scroll-container

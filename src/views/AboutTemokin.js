@@ -8,6 +8,10 @@ import Vision from '../components/About/Vision';
 import Mission from '../components/About/Mission';
 import Section4 from '../components/About/Section4';
 import OperatingPrinciples from '../components/About/OperatingPrinciples';
+import OurValues from '../components/About/OurValues';
+import Section6 from '../components/About/Section6';
+import WeDig from '../components/About/WeDig';
+import FooterMenu from '../components/FooterMenu';
 
 
 const AboutTemokin = () => {
@@ -61,10 +65,11 @@ const AboutTemokin = () => {
   
   return (
     <>
-    { preloader? 
-      <div className="loader-wrapper absolute">
-          {/* <h1>Flirty Flowrs</h1> */}
-      </div> :
+    { 
+    // preloader? 
+    //   <div className="loader-wrapper absolute">
+    //       {/* <h1>Flirty Flowrs</h1> */}
+    //   </div> :
     <div className="--about main-container"
       id="main-container"
       data-scroll-container>
@@ -77,6 +82,15 @@ const AboutTemokin = () => {
       { isTablet &&
         <OperatingPrinciples/>
       }
+      { isTablet &&
+        <Section6/>
+      }
+      { isTablet &&
+        <OurValues/>
+      }
+      <WeDig/>
+      <FooterMenu/>
+
       {/* 
       
       { isMobile &&
@@ -143,77 +157,6 @@ const AboutTemokin = () => {
         </div>
       }
 
-      { isTablet &&
-        <div className="--container-6"></div>
-      }
-
-      {
-        isTablet &&
-        <div className="--container-7">
-        <div className="--bg-1"/>
-        <Container className="--max">
-          <Row>
-            <Col>
-            <Splide
-              options={ {
-                type         : 'fade',
-                autoplay     : true,
-                pauseOnHover : false,
-                resetProgress: false,
-                height   : '80vh',
-              } }
-            >
-              <SplideSlide >
-                <Image src={require('../assets/images/aboutus/About_IMG-People.png').default}/>
-                <div className="--right-container">
-                  <h5 className="--title">Wisdom</h5>
-                  <hr/>
-                  <p className="--desc">We are relentless in our <br/>
-                  pursuit for wisdom</p>
-                </div>
-              </SplideSlide>
-              <SplideSlide >
-                <Image src={require('../assets/images/aboutus/About_IMG-Equality.png').default}/>
-                <div className="--right-container">
-                  <h5 className="--title">Equality</h5>
-                  <hr/>
-                  <p className="--desc">We ensure <br/>
-                  peace of mind</p>
-                </div>
-              </SplideSlide>
-              <SplideSlide >
-                <Image src={require('../assets/images/aboutus/About_IMG-Integrity.png').default}/>
-                <div className="--right-container">
-                  <h5 className="--title">Integrity</h5>
-                  <hr/>
-                  <p className="--desc">We deliver <br/>
-                  on schedule</p>
-                </div>
-              </SplideSlide>
-              <SplideSlide >
-                <Image src={require('../assets/images/aboutus/About_IMG-Diligence.png').default}/>
-                <div className="--right-container">
-                  <h5 className="--title">Diligence</h5>
-                  <hr/>
-                  <p className="--desc">We exceed <br/>
-                  Expectations</p>
-                </div>
-              </SplideSlide>
-              <SplideSlide >
-                <Image src={require('../assets/images/aboutus/About_IMG-Guidance.png').default}/>
-                <div className="--right-container">
-                  <h5 className="--title">Guidance</h5>
-                  <hr/>
-                  <p className="--desc">We exceed <br/>
-                  Expectations</p>
-                </div>
-              </SplideSlide>
-            </Splide>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      }
 
       { isMobile &&
         <div className="--container-7">
@@ -287,22 +230,7 @@ const AboutTemokin = () => {
           </Container>
         </div>
       }
-      <div className="--container-8">
-        <Container>
-          <Row>
-            <Col>
-              <h1 className="--title">We Dig</h1>
-              <p className="--desc">More than just our values, we dig is a tribute <br/>
-              to our early pipe-jacking and earthworks days,<br/>
-              and it serves as a constant reminder of how <br/>
-              even the toughest journeys can lead to the <br/>
-              most rewarding of destinations. and trust us, <br/>
-              digging is as tough as it gets.
-              </p>
-            </Col>
-          </Row>
-        </Container>
-       </div> */}
+       */}
     </div>
     }
     </>
