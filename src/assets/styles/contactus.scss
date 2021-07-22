@@ -9,19 +9,19 @@
 *
 */
 .--contact-us {
-    background: url("../images/contactus/Contact_Shapes-01.png") top 1vw left -30vw,
-    url("../images/contactus/Contact_BG-02.png") top 44vw center,
-    url("../images/contactus/Contact_BG-01.png") top -8vw center;
-    background-size: 145vw auto, 105vw auto, 100vw auto;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-attachment: scroll;
-    transition: background 0.3s;
-    image-rendering: -webkit-optimize-contrast;
+    // background: url("../images/contactus/Contact_Shapes-01.png") top 1vw left -30vw,
+    // url("../images/contactus/Contact_BG-02.png") top 44vw center,
+    // url("../images/contactus/Contact_BG-01.png") top -8vw center;
+    // background-size: 145vw auto, 105vw auto, 100vw auto;
+    // background-repeat: no-repeat, no-repeat, no-repeat;
+    // background-attachment: scroll;
+    // transition: background 0.3s;
+    // image-rendering: -webkit-optimize-contrast;
     position: relative;
     .--bg-1 {
         padding: 10vw 0 0 0;
         min-height: 50vw;
-        margin-top: -9.1vw;
+        // margin-top: -9.1vw;
         width: 100%;
         .--max {
             max-width: 86%;
@@ -69,10 +69,11 @@
     }
     .--bg-2 {
         padding: 27.5vw 0 0 0;
-        min-height: 69vw;
+        min-height: 80vw;
         width: 100%;
         .--max {
             max-width: 100%;
+            min-height: 42vw;
         }
         h3.--title {
             font-family: "gill sans",sans-serif !important;
@@ -163,6 +164,36 @@
             }
         }
     }
+
+    .header-bg {
+        background: url("../images/contactus/Contact_BG-01.png") top -8vw center;
+        background-size: 105vw auto !important;
+        background-repeat:no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+        position: absolute;
+        height: 80vw;
+        width: 100%;
+        top: 0;
+        z-index: -3;
+    }
+
+    .form-bg {
+        background: url("../images/contactus/Contact_BG-02.png") top 0vw center;
+        background-size: 105vw auto !important;
+        background-repeat:no-repeat;
+        background-attachment: scroll;
+        transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
+        position: absolute;
+        height: 74vw;
+        width: 100%;
+        top: -4vw;
+        z-index: -3;
+    }
+
+
     @media (max-width:1024px) {
         background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
         url("../images/contactus/Contact_BG-02.png") top 66vw center,
