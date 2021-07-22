@@ -9,22 +9,22 @@
 *
 */
 .--licenses-and-registrations {
-    background: url("../images/licensesandregistrations/Licenses_Shapes-01.png") top -12.5vw left -7vw,
-    url("../images/licensesandregistrations/Licenses_Shapes-02.png") top 111vw right -52vw,
-    url("../images/licensesandregistrations/Licenses_BG-02.png") top 52vw center,
-    url("../images/licensesandregistrations/Licenses_BG-01.png") top -40.2vw right -27.5vw,
-    url("../images/licensesandregistrations/Licenses_BG-03.png") bottom center;
-    background-size: 107vw 80vw, 175vw auto, 100vw auto, 140vw auto, 100vw auto;
-    background-repeat: no-repeat, no-repeat,no-repeat, no-repeat, no-repeat;
-    background-attachment: scroll, scroll, scroll, scroll, fixed;
-    transition: background 0.3s;
+    // background: url("../images/licensesandregistrations/Licenses_Shapes-01.png") top -12.5vw left -7vw,
+    // url("../images/licensesandregistrations/Licenses_Shapes-02.png") top 111vw right -52vw,
+    // url("../images/licensesandregistrations/Licenses_BG-02.png") top 52vw center,
+    // url("../images/licensesandregistrations/Licenses_BG-01.png") top -40.2vw right -27.5vw,
+    // url("../images/licensesandregistrations/Licenses_BG-03.png") bottom center;
+    // background-size: 107vw 80vw, 175vw auto, 100vw auto, 140vw auto, 100vw auto;
+    // background-repeat: no-repeat, no-repeat,no-repeat, no-repeat, no-repeat;
+    // background-attachment: scroll, scroll, scroll, scroll, fixed;
+    // transition: background 0.3s;
     &::before {
         content: "";
         position: absolute;
         top: 35.5vw;
         left: -17.5vw;
-        background: url("../images/licensesandregistrations/Licenses_Shapes-03.png")  top 0 left 4.5vw;
-        background-size: contain;
+        background: url("../images/licensesandregistrations/Licenses_Shapes-03.png")  -40.2vw right -27.5vw;
+        background-size: 140vw auto;
         background-repeat: no-repeat;
         background: background 0.3s;
         background-attachment: scroll;
@@ -35,7 +35,7 @@
     .--bg-1 {
         padding: 10vw 0 5vw 0;
         min-height: 101vh;
-        margin-top: -9.1vw;
+        // margin-top: -9.1vw;
         width: 100%;
         .--title {
             font-family: "gill sans",sans-serif !important;
@@ -63,6 +63,8 @@
         padding: 13vw 0 5vw 0;
         min-height: 91vw;
         width: 100%;
+        position: relative;
+        z-index: 3;
         .carousel {
             img {
                 height: 100%;
@@ -257,6 +259,42 @@
             }
         }
     }
+
+    .header-bg {
+        background: url("../images/licensesandregistrations/Licenses_BG-01.png") top -40.2vw right -27.5vw;
+        background-repeat: no-repeat;
+        background-size:  140vw auto !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -5;
+        height: 80vw;
+        top: 0;
+    }
+    .licenses-bg {
+        background: url("../images/licensesandregistrations/Licenses_BG-02.png") top 0 center;
+        background-repeat: no-repeat;
+        background-size: 105vw auto !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -5;
+        height: 95vw;
+        top: 0;
+    }
+    .qualityassurance-bg {
+        background:url("../images/licensesandregistrations/Licenses_BG-03.png") bottom center;
+        background-repeat: no-repeat;
+        background-size:  100vw auto !important;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -5;
+        height: 105vw;
+        top: -31vw;
+    }
+
+
     @media (max-width:1750px) {
         .--bg-2 {
             padding: 5vw 0 5vw 0;
