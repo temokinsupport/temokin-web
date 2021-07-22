@@ -16,7 +16,8 @@
     left: 0;
     right: 0;
     width: 100%;
-    z-index: 5;
+    z-index: 5000 !important;
+    position: absolute !important;
     a {
         &.--logo {
             img {

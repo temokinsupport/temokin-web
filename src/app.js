@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Switch, Route, } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import './assets/styles/app.scss';
-import Navigation from './components/Navigation';
-import Footer from './components/Footer';
+// import Navigation from './components/Navigation';
+// import Footer from './components/Footer';
 import Home from './views/Home';
 import AboutTemokin from './views/AboutTemokin';
 import TeamLeaders from './views/TeamLeaders';
@@ -43,7 +43,7 @@ export default function App() {
           return (
             <div> 
               <ScrollToTop/>
-              <Navigation/> 
+              {/* <Navigation/>  */}
                 <Switch location={location}>
                   <Route exact path="/" component={Home} />
                   <Route exact path="/about-temokin" component={AboutTemokin} />
@@ -73,7 +73,7 @@ export default function App() {
                   <Route exact path="/property-development/national-camp-and-services-northern-regions" component={NationalCamp} />
                   <Route exact path="/property-development/tropicana-miyu-petaling-jaya" component={Tropicana} />
                 </Switch>
-              <Footer/>
+              {/* <Footer/> */}
             </div>
           );
         }}

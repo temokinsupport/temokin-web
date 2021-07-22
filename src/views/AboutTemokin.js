@@ -4,6 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '../assets/styles/aboutus.scss';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+import Navigation from '../components/Navigation';
 
 
 function AboutTemokin() {
@@ -53,6 +54,7 @@ function AboutTemokin() {
   
   return (
     <div className="--about">
+      <Navigation/>
       <div className="--header-container">
             <div className="slideshow">
                 
