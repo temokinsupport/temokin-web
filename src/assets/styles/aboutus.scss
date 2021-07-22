@@ -15,6 +15,7 @@
     // transition: background 0.3s;
     // background-attachment: local, scroll;
     width: 100%;
+    position: relative;
     .--header-container {
         // margin-top: -9.1vw;
         // background: url("../images/aboutus/About_BG-Shapes-01.png") bottom -8vw right -20vw , url("../images/aboutus/About_BG-01.png") top -35vw left 0vw;
@@ -24,7 +25,7 @@
         // background-attachment: scroll;
         // background-position: ;
         // .splide {
-        min-height: 55vw;
+        min-height: 100vh;
             .--title {
                 font-family: "gill sans",sans-serif !important;
                 letter-spacing: 0.5vw;
@@ -121,12 +122,12 @@
         // }
     }
     .--container-2 {
-        background: url("../images/aboutus/About_BG-Shapes-02.png") top 3vw center, url("../images/aboutus/About_BG-02.png") top -0.5vw center;
+        // background:;
         height: 68vw;
-        background-repeat: no-repeat, no-repeat;
-        background-size: 116vw auto, 100vw auto;
-        transition: background 0.3s;
-        background-attachment: scroll;
+        // background-repeat: no-repeat, no-repeat;
+        // background-size: 116vw auto ;
+        // transition: background 0.3s;
+        // background-attachment: scroll;
         padding: 10vw 0;
         h1 {
             &.--title {
@@ -169,12 +170,12 @@
         }
     }
     .--container-3 {
-        background: url("../images/aboutus/About_BG-03.png") top center;
-        height: 69.5vw;
-        background-repeat: no-repeat;
-        background-size: 118vw 70vw;
-        transition: background 0.3s;
-        background-attachment: scroll;
+        // background: url("../images/aboutus/About_BG-03.png") top center;
+        height: 64vw;
+        // background-repeat: no-repeat;
+        // background-size: 118vw 70vw;
+        // transition: background 0.3s;
+        // background-attachment: scroll;
         padding: 10vw 0;
         position: relative;
         img {
@@ -217,13 +218,13 @@
         }
     }
     .--container-4 {
-        background: url("../images/aboutus/About_BG-04.png") bottom center;
-        image-rendering: -webkit-optimize-contrast;
-        height: 60vw;
-        background-repeat: no-repeat;
-        background-size: 101vw auto;
-        transition: background 0.3s;
-        background-attachment: scroll;
+        // background: url("../images/aboutus/About_BG-04.png") bottom center;
+        // image-rendering: -webkit-optimize-contrast;
+        height: 50vw;
+        // background-repeat: no-repeat;
+        // background-size: 101vw auto;
+        // transition: background 0.3s;
+        // background-attachment: scroll;
         padding: 10vw 0;
         position: relative;
     }
@@ -235,7 +236,7 @@
             max-width: 75%;
         }
         .--bg-1 {
-            background: url("../images/aboutus/About_BG-07.png") top left;
+            background: url("../images/aboutus/About_BG-07.png") top left -3vw;
             image-rendering: -webkit-optimize-contrast;
             background-repeat: no-repeat;
             background-size: 76vw 55vw;
@@ -244,7 +245,7 @@
             height: 100vw;
             width: 100%;
             position: absolute;
-            top: -29vw;
+            top: -17vw;
             &::before {
                 content: "";
                 background-color: #283997;
@@ -256,7 +257,7 @@
             }
         }
         .--bg-2 {
-            background: url("../images/aboutus/About_BG-07.png") top left;
+            background: url("../images/aboutus/About_BG-07.png") top left -4vw;
             image-rendering: -webkit-optimize-contrast;
             background-repeat: no-repeat;
             background-size: 105vw 55vw;
@@ -278,7 +279,7 @@
             margin: 0 auto;
             .splide__track {
                 position: relative;
-                top: -26.5vw;
+                top: -13.5vw;
                 width: 100%;
                 img {
                     // width: 66%;
@@ -306,7 +307,7 @@
         }
         .splide__pagination {
             position: absolute!important;
-            bottom: 20vw;
+            bottom: 10vw;
             left: unset;
             transform: unset;
             li {
@@ -557,17 +558,73 @@
     }
 
 
+    .vision-bg {
+        background: url("../images/aboutus/About_BG-02.png") top -3vw center;
+        background-repeat: no-repeat;
+        background-size:  100vw auto;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -5;
+        height: 66vw;
+        top: 0;
+    }
+    .overlay-shape {
+        background:  url("../images/aboutus/About_BG-Shapes-02.png") top -2vw center;
+        background-repeat: no-repeat;
+        background-size: 116vw auto ;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        height: 66vw;
+        top: 0;
+    }
+    .mission-bg {
+        background: url("../images/aboutus/About_BG-03.png") top  center;
+        background-repeat: no-repeat;
+        background-size:  118vw 70vw;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -5;
+        height: 68vw;
+        top: -4vw;
+    }
+    .section4-bg {
+        background: url("../images/aboutus/About_BG-04.png") top center;
+        image-rendering: -webkit-optimize-contrast;
+        background-repeat: no-repeat;
+        background-size:  101vw auto;
+        transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: -5;
+        height: 50vw;
+        top: 0vw;
+    }
+    .operationg-principles-bg {
+        // background: url("../images/aboutus/About_BG-04.png")  top center;
+        // image-rendering: -webkit-optimize-contrast;
+        // background-repeat: no-repeat;
+        // background-size:  101vw auto;
+        // transition: background 0.3s;
+        // width: 100%;
+        // position: absolute;
+        // z-index: -5;
+        // height: 50vw;
+        // top: 0vw;
+    }
+
+
     .slideshow {
-        border: 0;
         border: 0;
         box-shadow:none;
         margin: 0;
-        max-width: 1000px;
         min-width: 100%;
         position: relative;
         width: 100%;
         height: 55vw;
-        margin-top: -9vw;
         // z-index: -5 !important;
     }
     .content {
@@ -773,9 +830,6 @@
             padding: 20px;
         }
     }
-
-
-
 
 
     @media (max-width:1500px) {
