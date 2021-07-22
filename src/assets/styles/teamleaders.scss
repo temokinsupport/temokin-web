@@ -107,10 +107,11 @@
         background-size: 100vw auto;
         transition: background 0.3s;
         background-attachment: scroll;
-        padding: 12vw 0 15vw 0;
+        padding: 12vw 0 0 0;
         min-height: 50vw;
         .--max {
             max-width: 75%;
+            min-height: 55vw;
         }
         img {
             width: 100%;

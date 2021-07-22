@@ -18,6 +18,7 @@
     width: 100%;
     z-index: 5000 !important;
     position: absolute !important;
+    align-items: flex-start !important;
     a {
         &.--logo {
             img {

@@ -1,14 +1,51 @@
-import React from 'react';
+import React, { useRef, useState, useEffect } from 'react';
+import useLocoScroll from '../components/hooks/useLocoScroll';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/leader.scss';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
-function ChanYoonSang() {
+const ChanYoonSang = () => {
+
+    const [preloader, setPreloader] = useState(true);
+  
+    useLocoScroll(!preloader);
+  
+    const [timer, setTimer] = useState(1);
+  
+    const id = useRef(null);
+  
+    const clear = () => {
+        window.clearInterval(id.current);
+        setPreloader(false);
+    };
+  
+    useEffect(() => {
+        id.current = window.setInterval(()=>{
+            setTimer((timer) => timer - 1 );
+        }, 1000);
+    }, []);
+  
+  
+    useEffect(() => {
+        if (timer === 0) {
+            clear();
+        }
+    }, [timer]);
+
+
     return (
-        <div className="--leader">
-            <div className="--bg-1">
-                <Container className="--max">
+        <> {
+            <div className="--leader
+                main-container"
+                id="main-container"
+                data-scroll-container
+            >
+                <div className="--bg-1" data-scroll-section>
+                    <Navigation/>
+                    <Container className="--max">
                     <Row>
                         <Col>
                             <div className="--leader-details">
@@ -62,8 +99,12 @@ function ChanYoonSang() {
                         </Col>
                     </Row>
                 </Container>
+                    <div className="leader-bg" />
+                    <Footer/>
+                </div>
+                
             </div>
-        </div>
+        } </>
     );
 }
 
