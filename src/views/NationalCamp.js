@@ -1,14 +1,51 @@
-import React from 'react';
+import React, { useRef, useState, useEffect } from 'react';
+import useLocoScroll from '../components/hooks/useLocoScroll';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/propertyprojects.scss';
 import overlayImage from '../assets/images/propertyprojects/PropertyDev_Shapes-04.png';
+import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
-function NationalCamp() {
+const NationalCamp = () => {
+
+    const [preloader, setPreloader] = useState(true);
+  
+    useLocoScroll(!preloader);
+  
+    const [timer, setTimer] = useState(1);
+  
+    const id = useRef(null);
+  
+    const clear = () => {
+        window.clearInterval(id.current);
+        setPreloader(false);
+    };
+  
+    useEffect(() => {
+        id.current = window.setInterval(()=>{
+            setTimer((timer) => timer - 1 );
+        }, 1000);
+    }, []);
+  
+  
+    useEffect(() => {
+        if (timer === 0) {
+            clear();
+        }
+    }, [timer]);
+
+
     return (
-        <Projects className="--projects">
+        <> {
+            <Projects className="--projects
+            main-container"
+            id="main-container"
+            data-scroll-container
+        >
             <div className="--bg-1">
+                <Navigation/>
                 <Container className="--max">
                     <Row>
                         <Col>
@@ -67,8 +104,10 @@ function NationalCamp() {
                         </Col>
                     </Row>
                 </Container>
+                <Footer/>
             </div>
         </Projects>
+        } </>
     );
 }
 
