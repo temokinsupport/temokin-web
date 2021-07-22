@@ -3,21 +3,21 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Vision() {
     return (
-        <div className="--bg-2" data-scroll-section>
-            <div className="--container-2">
-                <Container>
-                    <Row>
-                        <Col>
-                            <h2 className="--title" data-scroll>OUR VISION</h2>
-                            <p className="--sub-title" data-scroll>We aim to be the one <br/>
-                            company that</p>
-                            <h1 className="--title" data-scroll>WINS <br/>
-                            YOUR TRUST <br/>
-                            EVERY TIME</h1>
-                        </Col>
-                    </Row>
-                </Container>
-            </div>
-        </div>
-    );
-};
+        <section className="--container-2" data-scroll-section>
+            <Container>
+                <Row>
+                    <Col>
+                        <h2 className="--title" data-scroll data-scroll-speed="2">OUR VISION</h2>
+                        <p className="--sub-title" data-scroll data-scroll-speed="2">We aim to be the one <br/>
+                        company that</p>
+                        <h1 className="--title"  data-scroll data-scroll-speed="2">WINS <br/>
+                        YOUR TRUST <br/>
+                        EVERY TIME</h1>
+                    </Col>
+                </Row>
+            </Container>
+            <div className="vision-bg" data-scroll/>
+            <div className="overlay-shape" data-scroll data-scroll-speed="1"/>
+      </section>
+    )
+}

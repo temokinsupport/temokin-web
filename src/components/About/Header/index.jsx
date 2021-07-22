@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import './carousel.scss';
+import Navigation from '../../Navigation';
 
-export default function Carousel() {
+export default function AboutTemokin() {
 
     const buildProjectLists = [
         {
@@ -26,10 +26,10 @@ export default function Carousel() {
           caption:"A Timely Close Out"
         }
       ];
-
     return (
-        <div className="--header-container"  data-scroll-section>
-            <div className="slideshow" data-scroll>
+        <section className="--header-container" data-scroll-section>
+            <Navigation/>
+            <div className="slideshow">
                 
                 
                 <input id="button-1" type="radio" name="radio-set" className="selector-1" checked="checked" />
@@ -44,17 +44,22 @@ export default function Carousel() {
                 
                 <div className="content">
                     <div className="parallax-bg"></div>
-                    <ul className="slider">
+                    <ul className="slider" 
+                        data-scroll
+                        data-scroll-speed="-1"
+                    >
                         <li>
                             <div className="slider-content">
                                 <div className="--about-content">
                                     <Container className="--max">
                                         <Row>
                                             <Col md={2}>
-                                            <h1 className="--title">Our Story</h1>
+                                            <h1 className="--title" 
+                                            >Our Story</h1>
                                             </Col>
-                                            <Col md={5} className="--pl3v">
-                                            <p className="--desc">They say every great story has a humble <br/>
+                                            <Col md={5} className="--pl3v" >
+                                            <p className="--desc"
+                                            >They say every great story has a humble <br/>
                                             beginning, and ours is no exception. <br/>
                                             established in 1989, we started our journey as <br/>
                                             a specialist contractor for highquality <br/>
@@ -74,10 +79,12 @@ export default function Carousel() {
                                     <Container className="--max">
                                         <Row>
                                             <Col md={2}>
-                                            <h1 className="--title">Our Story</h1>
+                                            <h1 className="--title" 
+                                            >Our Story</h1>
                                             </Col>
                                             <Col md={5} className="--pl3v">
-                                            <p className="--desc">We then quickly spread our wings and grew to become <br/>
+                                            <p className="--desc" 
+                                            >We then quickly spread our wings and grew to become <br/>
                                             the preeminent turkey civil engineering and property <br/>
                                             conglomerate that the nation and the world have come <br/>
                                             to know and  trust today. <br/><br/>
@@ -104,6 +111,6 @@ export default function Carousel() {
                     </ul>
                 </div>
             </div>
-        </div>
-    );
-};
+        </section>
+    )
+}

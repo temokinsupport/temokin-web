@@ -10,32 +10,11 @@
 */
 .--leader {
     min-height: 100vh;
-    margin-top: -9.1vw;
     width: 100%;
-    background: url("../images/leaders/Leaders_BG-01.png") top center;
-    transition: background 0.3s;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100vw auto;
     position: relative;
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        background: url("../images/leaders/Leaders_Shapes-01.png") top -9.7vw left;
-        transition: background 0.3s;
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-        background-size: 102vw auto;
-        height: 100vw;
-        width: 100%;
-        z-index: 2;
-    }
     .--bg-1 {
         min-height: 50vw;
-        padding: 24vw 0 10vw 0;
+        padding: 24vw 0 0 0;
         .--max {
             max-width: 80%;
         }
@@ -114,6 +93,34 @@
             }
         }
     }
+    .leader-bg {
+        background: url("../images/leaders/Leaders_BG-01.png") top center;
+        transition: background 0.3s;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: auto 133vw;
+        position: absolute;
+        top: 0;
+        min-height: 128vw;
+        width: 100%;
+        z-index: -5;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: url("../images/leaders/Leaders_Shapes-01.png") top -9.7vw left;
+            transition: background 0.3s;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-size: 102vw auto;
+            height: 100vw;
+            width: 100%;
+            z-index: 2;
+        }
+    }
+
     @media (max-width: 992px) {
         background-size: auto 100%;
         padding: 100px 0;

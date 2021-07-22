@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import Footer from '../../Footer';
 
 export default function Launches() {
     return (
-        <section data-scroll-section className="--bg-4">
-            <div className="launches-bg" data-scroll/>
-            <Container className="--container-4 --max" >
-                <Row> 
+        <section className="--bg-4" data-scroll-section>
+            <Container className="--container-4 --max">
+                <Row>
                     <Col>
-                        <h1 data-scroll className="--title">LATEST LAUNCHES</h1>
+                        <h1 className="--title" data-scroll>LATEST LAUNCHES</h1>
                     </Col>
                 </Row>
                 <Row>
@@ -16,11 +16,11 @@ export default function Launches() {
                         <Image data-scroll className="--img" src={require('../../../assets/images/home/Home_IMG-03.png').default}/>
                     </Col>
                     <Col>
-                        <div className="--launches-details">
-                            <Image data-scroll className="--img-logo" src={require('../../../assets/images/home/Home_Logo-Mahligai.png').default}/>
-                            <p data-scroll className="--txt">2 & 3-Storey Terrace Homes</p>
-                            <p data-scroll className="--txt">| 20' x 70' | FREEHOLD</p>
-                            <p data-scroll className="--desc">
+                        <div data-scroll className="--launches-details">
+                            <Image className="--img-logo" src={require('../../../assets/images/home/Home_Logo-Mahligai.png').default}/>
+                            <p className="--txt">2 & 3-Storey Terrace Homes</p>
+                            <p className="--txt">| 20' x 70' | FREEHOLD</p>
+                            <p className="--desc">
                                 Mahligai offers spacious yet affordable terrace homes with perimeter <br/>
                                 fencing and 24-hour security, nestled in the growing township of <br/>
                                 Nusa Damai with all the features to call it your ideal home.
@@ -34,6 +34,8 @@ export default function Launches() {
                     </Col>
                 </Row>
             </Container>
+            <div className="launches-bg"/>
+            <Footer/>
         </section>
-    );
-};
+    )
+}

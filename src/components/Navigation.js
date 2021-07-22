@@ -48,109 +48,112 @@ function Navigation() {
     const [open, setOpen] = useState(false);
 
     return (
-        <Navbar 
-            expand="lg"
-            className="--navigation"
-        >   
-            <NavLink exact to="/" className="--logo">
-                <img src={require('../assets/Logo.png').default} alt='logo'/>
-            </NavLink>
+            <Navbar 
+                expand="lg"
+                className="--navigation"
+            >   
+                <NavLink data-scroll exact to="/" className="--logo">
+                    <img src={require('../assets/Logo.png').default} alt='logo'/>
+                </NavLink>
 
-            {/* MOBILE VIEW LINKS */}
-            <Navbar
-                onClick={() => setOpen(!open)}
-                aria-controls="basic-navbar-nav"
-                aria-expanded={open}
-                className={`navbar-toggler ${isMobile ? "" : "hide"}`}
-            />
+                {/* MOBILE VIEW LINKS */}
+                <Navbar
+                    onClick={() => setOpen(!open)}
+                    aria-controls="basic-navbar-nav"
+                    aria-expanded={open}
+                    className={`navbar-toggler ${isMobile ? "" : "hide"}`}
+                    data-scroll
+                />
 
-            <Collapse 
-                in={open}
-                className={`navbar-nav navbar-collapse ${isMobile ? "" : "hide"}`}>
-                <Nav>
-                    <li>
-                        <NavLink exact to="/about-temokin"
+                <Collapse 
+                    in={open}
+                    data-scroll
+                    className={`navbar-nav navbar-collapse ${isMobile ? "" : "hide"}`}>
+                    <Nav data-scroll>
+                        <li>
+                            <NavLink exact to="/about-temokin"
+                                onClick={() => setOpen(!open)}
+                                aria-controls="basic-navbar-nav"
+                                aria-expanded={open}
+                            >About Us</NavLink>
+                        </li>
+                        <li>
+                            <NavLink exact to="/team-leaders"
                             onClick={() => setOpen(!open)}
                             aria-controls="basic-navbar-nav"
                             aria-expanded={open}
-                        >About Us</NavLink>
+                            >Team Leaders</NavLink>
+                        </li>
+                        <li>
+                            <NavLink exact to="/awards-and-achievements"
+                            onClick={() => setOpen(!open)}
+                            aria-controls="basic-navbar-nav"
+                            aria-expanded={open}
+                            >Awards & Achievements</NavLink>
+                        </li>
+                        <li>
+                            <NavLink exact to="/licenses-and-registrations"
+                            onClick={() => setOpen(!open)}
+                            aria-controls="basic-navbar-nav"
+                            aria-expanded={open}
+                            >Licenses & Registrations</NavLink>
+                        </li>
+                        <li>
+                            <NavLink exact to="/civil-engineering"
+                            onClick={() => setOpen(!open)}
+                            aria-controls="basic-navbar-nav"
+                            aria-expanded={open}
+                            >Civil Engineering</NavLink>
+                        </li>
+                        <li>
+                            <NavLink exact to="/property-development"
+                            onClick={() => setOpen(!open)}
+                            aria-controls="basic-navbar-nav"
+                            aria-expanded={open}
+                            >Property Development</NavLink>
+                        </li>
+                        <li>
+                            <NavLink exact to="/contact-us"
+                            onClick={() => setOpen(!open)}
+                            aria-controls="basic-navbar-nav"
+                            aria-expanded={open}
+                            >Contact Us</NavLink>
+                        </li>
+                    </Nav>
+                </Collapse>
+
+                {/* WEB VIEW LINKS */}
+                <Nav className="ml-auto --web">
+                    <li>
+                        <NavLink exact to="/">Home</NavLink>
+                    </li>
+                    <li 
+                        onMouseEnter={toggleHover}
+                        onMouseLeave={toggleHover}
+                    >
+                        <Button>About Temokin</Button>
+                        <ul
+                            className={hovered ? '--dropdown --active' : '--dropdown'}
+                        >
+                            {aboutLinkdirects.map((linkdir) => (
+                                <li key={linkdir.id}>
+                                    <NavLink exact to={linkdir.linkpath} >{linkdir.linkname}</NavLink>
+                                </li>
+                            ))}
+                        </ul>
                     </li>
                     <li>
-                        <NavLink exact to="/team-leaders"
-                         onClick={() => setOpen(!open)}
-                         aria-controls="basic-navbar-nav"
-                         aria-expanded={open}
-                        >Team Leaders</NavLink>
+                        <NavLink exact to="/civil-engineering">Civil Engineering</NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/awards-and-achievements"
-                         onClick={() => setOpen(!open)}
-                         aria-controls="basic-navbar-nav"
-                         aria-expanded={open}
-                        >Awards & Achievements</NavLink>
+                        <NavLink exact to="/property-development">Property Development</NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/licenses-and-registrations"
-                         onClick={() => setOpen(!open)}
-                         aria-controls="basic-navbar-nav"
-                         aria-expanded={open}
-                        >Licenses & Registrations</NavLink>
-                    </li>
-                    <li>
-                        <NavLink exact to="/civil-engineering"
-                         onClick={() => setOpen(!open)}
-                         aria-controls="basic-navbar-nav"
-                         aria-expanded={open}
-                        >Civil Engineering</NavLink>
-                    </li>
-                    <li>
-                        <NavLink exact to="/property-development"
-                         onClick={() => setOpen(!open)}
-                         aria-controls="basic-navbar-nav"
-                         aria-expanded={open}
-                        >Property Development</NavLink>
-                    </li>
-                    <li>
-                        <NavLink exact to="/contact-us"
-                         onClick={() => setOpen(!open)}
-                         aria-controls="basic-navbar-nav"
-                         aria-expanded={open}
-                        >Contact Us</NavLink>
+                        <NavLink exact to="/contact-us">Contact Us</NavLink>
                     </li>
                 </Nav>
-            </Collapse>
+            </Navbar>
 
-            {/* WEB VIEW LINKS */}
-            <Nav className="ml-auto --web">
-                <li>
-                    <NavLink exact to="/">Home</NavLink>
-                </li>
-                <li 
-                    onMouseEnter={toggleHover}
-                    onMouseLeave={toggleHover}
-                >
-                    <Button>About Temokin</Button>
-                    <ul
-                        className={hovered ? '--dropdown --active' : '--dropdown'}
-                    >
-                        {aboutLinkdirects.map((linkdir) => (
-                            <li key={linkdir.id}>
-                                <NavLink exact to={linkdir.linkpath} >{linkdir.linkname}</NavLink>
-                            </li>
-                        ))}
-                    </ul>
-                </li>
-                <li>
-                    <NavLink exact to="/civil-engineering">Civil Engineering</NavLink>
-                </li>
-                <li>
-                    <NavLink exact to="/property-development">Property Development</NavLink>
-                </li>
-                <li>
-                    <NavLink exact to="/contact-us">Contact Us</NavLink>
-                </li>
-            </Nav>
-        </Navbar>
     );
 }
   
