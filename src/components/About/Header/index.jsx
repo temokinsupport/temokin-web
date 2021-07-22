@@ -30,8 +30,7 @@ export default function AboutTemokin() {
         <section className="--header-container" data-scroll-section>
             <Navigation/>
             <div className="slideshow">
-                
-                
+        
                 <input id="button-1" type="radio" name="radio-set" className="selector-1" checked="checked" />
                 <label for="button-1" className="button-label-1"></label>
                 
@@ -111,6 +110,7 @@ export default function AboutTemokin() {
                     </ul>
                 </div>
             </div>
+            <div className="overlay-shape1"/>
         </section>
     )
 }

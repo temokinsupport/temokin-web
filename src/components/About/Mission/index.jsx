@@ -9,7 +9,6 @@ export default function Mission() {
                     <Col>
                         <Image 
                             data-scroll 
-                            data-scroll-direction="horizontal" 
                             data-scroll-speed="-3" src={require('../../../assets/images/aboutus/About_Logo-02.png').default} className="--img"/>
                         <h2 
                             data-scroll 

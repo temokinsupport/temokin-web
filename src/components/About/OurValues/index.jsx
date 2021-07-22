@@ -8,7 +8,7 @@ export default function OurValues() {
             <div className="--bg-1"/>
             <Container className="--max">
                 <Row>
-                    <Col>
+                    <Col data-scroll>
                         <Splide
                         options={ {
                             type         : 'fade',
