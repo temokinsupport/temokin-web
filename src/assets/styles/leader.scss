@@ -123,7 +123,7 @@
 
     @media (max-width: 992px) {
         background-size: auto 100%;
-        padding: 100px 0;
+        padding: 100px 0 0 0;
         &::before {
             background: url("../images/leaders/Leaders_Shapes-01.png") top -9.7vw left -5vw;
             transition: background 0.3s;
@@ -131,6 +131,10 @@
             background-repeat: no-repeat;
             background-size: 108vw 115vw;
             height: 165vw;
+        }
+        .leader-bg {
+            min-height: 100%;
+            background-size: cover;
         }
         .--bg-1 {
             .--max {
@@ -196,7 +200,7 @@
                     width: 280px !important;
                     min-width: 200px;
                     image-rendering: -webkit-optimize-contrast;
-                    margin: 50px auto 0 auto !important;
+                    margin: 50px auto 10vw auto !important;
                 }
             }
         }
