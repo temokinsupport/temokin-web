@@ -248,9 +248,10 @@
             }
         }
         .--bg-2 {
+            padding: 0;
             .--title {
                 font-size: 1.500em;
-                margin: 10.5vw auto 0 auto;
+                margin: 0 auto 3vw auto;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -260,8 +261,8 @@
                 height: auto;
                 object-fit: contain;
                 object-position: 0 0;
-                margin: 10vw auto;
                 display: block;
+                margin: 0 auto 10vw auto;
             }
             .--sub-title {
                 font-size:	1.375em;
@@ -279,7 +280,7 @@
             .--btn-send-resume {
                 height: 60px;
                 width: 220px;
-                margin: 5vw auto 0 auto;
+                margin: 5vw auto 10vw auto;
                 display: block;
             }
         }

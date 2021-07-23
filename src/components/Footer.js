@@ -12,7 +12,7 @@ function Footer() {
                     <Col md={8}>
                        <div className="--left-container">
                             <NavLink exact to="/" className="--logo">
-                                <img data-scroll src={require('../assets/Logo.png').default} alt='logo'/>
+                                <img  src={require('../assets/Logo.png').default} alt='logo'/>
                             </NavLink>
                             <div className="--address">
                                 <span>

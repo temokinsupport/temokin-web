@@ -149,12 +149,12 @@ const TeamLeaders = () => {
             </Container>
         </div>
         <div className="--bg-2" data-scroll-section>
-            { isTablet &&
+            {/* { isTablet && */}
                 <Join/>
-            }
-            <Footer/>
-            {   isMobile &&
-                <Container className="--max">
+            {/* } */}
+            
+            {/* {   isMobile &&
+                <Container className="--max" data-scroll-section>
                     <Row>
                         <Col>
                             <h1 className="--title">Join Our Team</h1>
@@ -177,8 +177,8 @@ const TeamLeaders = () => {
                         <Button className="--btn-send-resume"/>
                     </Col>
                 </Container>
-            }
-        
+            } */}
+        <Footer/>
         </div>
     </div>
         }
