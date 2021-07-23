@@ -38,19 +38,23 @@ const Home = () => {
   return (
       <>
        { 
-      //  preloader? 
-      //   <div className="loader-wrapper absolute">
-      //       {/* <h1>Flirty Flowrs</h1> */}
-      //   </div> :
-      <div className="--home main-container"
-        id="main-container"
-        data-scroll-container
-      >
-        <Header/>
-        <Featured/>
-        <Projects/>
-        <Launches/>
-      </div>
+       preloader? 
+        <div className="--home main-container blurr"
+          id="main-container"
+          data-scroll-container
+        >
+          <Header/>
+        </div> 
+        :
+        <div className="--home main-container"
+          id="main-container"
+          data-scroll-container
+        >
+          <Header/>
+          <Featured/>
+          <Projects/>
+          <Launches/>
+        </div>
       }
     </>
   );
