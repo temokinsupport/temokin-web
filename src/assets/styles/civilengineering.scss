@@ -44,6 +44,7 @@
         padding: 10vw 0 5vw 0;
         min-height: 51vw;
         width: 100%;
+        position: relative;
         .--title {
             font-family: "gill sans",sans-serif !important;
             letter-spacing: 0.4vw;
@@ -80,6 +81,7 @@
         padding: 15vw 0 5vw 0;
         min-height: 51vw;
         width: 100%;
+        position: relative;
         .--max {
             max-width: 75%;
         }
@@ -162,6 +164,7 @@
         padding: 8vw 0 0 0;
         min-height: 51vw;
         width: 100%;
+        position: relative;
         .--max {
             max-width: 70%;
         }
@@ -289,7 +292,7 @@
         transition: background 0.3s;
         width: 100%;
         position: absolute;
-        z-index: 1;
+        z-index: 0;
         height: 116vw;
         top: 0;
     }
@@ -339,7 +342,41 @@
         bottom: 6vw;
     }
 
-
+    @media (max-width:1777px) {
+        .project1-bg {
+            z-index: -4;
+            height: 116vw;
+            bottom: -38.7vw;
+        }
+        .project1-bg {
+            z-index: -4;
+            height: 116vw;
+            bottom: -38.7vw;
+        }
+    }
+    @media (max-width:1600px) {
+        .project1-bg {
+            bottom: -34.7vw;
+        }
+    }
+    @media (max-width:1440px) {
+        .project1-bg {
+            bottom: -46.7vw;
+            height: 135vw;
+        }
+    }
+    @media (max-width:1140px) {
+        .project1-bg {
+            bottom: -51.7vw;
+            height: 146vw;
+        }
+    }
+    @media (max-width:1024px) {
+        .projects-bg {
+            background-size: 158vw auto !important;
+            height: 202vw;
+        }
+    }
     @media (max-width: 992px) {
         background: url("../images/mobile/licenses/Licenses_BG-03.png") top 51vw center,
         url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 135vw center;;
@@ -348,6 +385,14 @@
         background-attachment: scroll, scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
+        .header-bg,
+        .desc-bg,
+        .project1-bg,
+        .projects-bg,
+        .projectsicon-bg,
+        .projectsicon1-bg {
+            display: none;
+        }
         .--bg-1 {
             margin-top: 0;
             padding: 160px 0 100px 0;

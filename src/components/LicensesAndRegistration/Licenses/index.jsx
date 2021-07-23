@@ -55,6 +55,7 @@ export default function Licenses() {
                     </Col>
                 </Row>
             </Container>
+            <div className="license-shape"/>
             <div className="licenses-bg"/>
         </div>
     )

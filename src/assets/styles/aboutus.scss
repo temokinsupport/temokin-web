@@ -9,23 +9,9 @@
 *
 */
 .--about {
-    // min-height: 100vh;
-    // background-repeat: no-repeat;
-    // background-size: 100vw auto;
-    // transition: background 0.3s;
-    // background-attachment: local, scroll;
     width: 100%;
     position: relative;
     .--header-container {
-        // margin-top: -9.1vw;
-        // background: url("../images/aboutus/About_BG-Shapes-01.png") bottom -8vw right -20vw , url("../images/aboutus/About_BG-01.png") top -35vw left 0vw;
-        // background-repeat: no-repeat, no-repeat;
-        // background-size: 120vw auto, auto 101vw;
-        // transition: background 0.3s;
-        // background-attachment: scroll;
-        // background-position: ;
-        // .splide {
-        // min-height: 100vh;
             .--title {
                 font-family: "gill sans",sans-serif !important;
                 letter-spacing: 0.5vw;
@@ -84,7 +70,6 @@
             .--max {
                 max-width: 75%;
             }
-
             .--about-content {
                 height: 50vw;
                 display: flex;
@@ -119,15 +104,10 @@
                     }
                 }
             }
-        // }
     }
     .--container-2 {
-        // background:;
+        position: relative;
         height: 68vw;
-        // background-repeat: no-repeat, no-repeat;
-        // background-size: 116vw auto ;
-        // transition: background 0.3s;
-        // background-attachment: scroll;
         padding: 10vw 0;
         h1 {
             &.--title {
@@ -564,7 +544,6 @@
             }
         }
     }
-
     .overlay-shape1 {
         background:  url("../images/aboutus/About_BG-Shapes-01.png") bottom 11vw left;
         background-repeat: no-repeat;
@@ -658,8 +637,6 @@
         height: 59vw;
         top: 0vw;
     }
-
-
     .slideshow {
         border: 0;
         box-shadow:none;
@@ -668,7 +645,6 @@
         position: relative;
         width: 100%;
         height: 55vw;
-        // z-index: -5 !important;
     }
     .content {
         // background: url(https://vulchivijay.files.wordpress.com/2015/01//grid.png) repeat scroll 0 0;
@@ -681,8 +657,6 @@
     .parallax-bg {
         background: url('../../assets/images/aboutus/About_BG-01.png') repeat scroll 0 0;
         background-size: 139vw 100vw;
-        // opacity: .1;
-        // filter: alpha(opacity=10);
         left: 0;
         height: 100%;
         overflow: hidden;
@@ -690,7 +664,6 @@
         top: 0;
         width: 100%;
         background-repeat: no-repeat;
-        // z-index: -5 !important;
     }
     .slideshow input {
         bottom: 13vw;
@@ -752,7 +725,6 @@
         z-index: 1000;
     }
     .arrow:hover{
-        //background: transparent url(https://vulchivijay.files.wordpress.com/2015/01/arrows-hover.png) no-repeat;
         opacity: 1;
     }
     .arrow:active{
@@ -868,12 +840,14 @@
         padding:0;
     }
     /* media query*/
-    @media (max-width: 680px) {
-        .slider > li > .slider-content {
-            padding: 20px;
-        }
+    // @media (max-width: 680px) {
+    //     .slider > li > .slider-content {
+    //         padding: 20px;
+    //     }
+    // }
+    .--mob {
+        display: none;
     }
-
 
     @media (max-width:1500px) {
         .--container-5 {
@@ -903,10 +877,37 @@
     }
     @media (max-width:992px) {
         margin: 0;
+        .--mob {
+            display: block;
+        }
         .--header-container {
             height: 85vw;
             background-size: 120vw auto, auto 140vw;
-            padding: 15vw 0;
+            padding: 0;
+            .--title {
+                font-size: 1.500em;
+            }
+            .--desc {
+                font-size: 0.875em;
+                br {
+                    display: none;
+                }
+            }
+            .--about-content {
+                .col-md-5 {
+                    width: 60.666667%;
+                }
+            }
+            .--build-project-list {
+                figure {
+                    figcaption {
+                        span {
+                            font-size: 0.750em;
+                            width: 95%;
+                        }
+                    }
+                }
+            }
             .--carousel-container {
                 position: relative;
                 max-width: 85vw;
@@ -1017,14 +1018,43 @@
                 }
             }
         }
+        .parallax-bg {
+            background-size: auto 124vw;
+        }
+        .slideshow {
+            height: 100%;
+            input {
+                left: 32vw;
+                bottom: 24vw;
+                + label {
+                    left: 32vw !important;
+                    bottom: 24vw !important;
+                }
+            }
+            
+        }
+        .overlay-shape1 {
+            height: 96vw;
+        }
+        .vision-bg {
+            background-size: 100vw 700px;
+            height: 700px;
+        }   
+        .overlay-shape {
+            background-size: 100vw 700px;
+            height: 700px;
+        }
         .--container-2 {
             padding: 100px 0 !important;
-            background-repeat: no-repeat, no-repeat;
-            background-size: 116vw 100%, 100vw 100%;
-            height: fit-content !important;
+            height: 700px !important;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             h2 {
                 &.--title {
                     font-size: 1.500em;
+                    margin-top: 0;
                 }
             }
             p {
@@ -1040,16 +1070,24 @@
                 }
             }
         }
+        .mission-bg {
+            height: 700px;
+            background-size: 150vw 700px;
+            top: 0 !important;
+        }
         .--container-3 {
-            background: url("../images/mobile/aboutus/AboutUs_BG-01.png") top center;
-            margin-top: -1vw;
+            margin-top: -5vw;
             padding: 100px 0;
-            height: fit-content !important;    
-            background-size: 118vw 100%;
-            background-repeat: no-repeat;
+            height: 700px;    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // background-size: 118vw 100%;
+            // background-repeat: no-repeat;
             img {
                 &.--img {
                     left: 8vw;
+                    top: 49vw;
                 }
             }
             h2 {
@@ -1070,12 +1108,23 @@
             height: fit-content;
             background: url("../images/mobile/aboutus/AboutUs_BG-02.png") top center;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 100vw 140vw;
             transition: background 0.3s;
             background-attachment: scroll;
             padding: 13vw 0 10vw 0;
             margin-top: -1vw;
-            height: 95vw;
+            height: 120vw;
+            .--max {
+                max-width: 90%;
+            }
+            .--bg-1,
+            .--bg-2 {
+                display: none;
+            }
+            h1 {
+                padding-bottom: 10vw;
+                font-size:0.875em !important;
+            }
             .--title {
                 margin: 0;
                 font-size: 	1.500em;
@@ -1084,24 +1133,30 @@
                 text-transform: uppercase;
                 color: #ffffff;
                 text-align: center;
+                
             }
             .splide {
-                height: 50vh;
-                margin: 10vw auto 0 auto;
+                height: fit-content;
+                margin: 0;
+                width: 100%;
                 .splide__track {
                     top: 0;
                     .splide__list {
                         .splide__slide {
                             height: 50vw !important;
                             display: flex;
-                            justify-content: flex-start;
+                            justify-content: space-between;
                             align-items: flex-start;
+                            width: 100% !important;
                         }
+                    }
+                    img {
+                        width: 50% !important;
                     }
                 }
             }
             .splide__pagination {
-                bottom: 0vw;
+                bottom: -5vw;
             }
             .--right-container {
                 top: 0;
@@ -1132,13 +1187,27 @@
             height: fit-content;
             background: url("../images/mobile/aboutus/AboutUs_BG-03.png") top center;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 100vw 120vw;
             transition: background 0.3s;
             background-attachment: scroll;
-            padding: 26vw 0 10vw 0;
-            margin-top: -1vw;
-            height: fit-content;
-            min-height: 90vw;
+            padding: 25vw 0 10vw 0;
+            margin-top: -25vw;
+            height: 120vw;
+            .--max {
+                max-width: 90%;
+            }
+            h1 {
+                &.--title {
+                    margin-bottom: 18vw;
+                    font-size:0.875em;
+                }
+            }
+            .--mob {
+                display: block;
+            }
+            .--bg-1 {
+                display: none;
+            }
             .--title {
                 margin: 0;
                 font-size: 	1.500em;
@@ -1149,17 +1218,22 @@
                 text-align: center;
             }
             .splide {
-                height: 50vh;
-                margin: 10vw auto 0 auto;
+                height: fit-content;
+                margin: 0;
                 .splide__track {
                     top: 0;
                     .splide__list {
                         .splide__slide {
                             height: 50vw !important;
                             display: flex;
-                            justify-content: flex-start;
+                            justify-content: space-between;
                             align-items: flex-start;
+                            width: 100% !important;
                         }
+                    }
+                    
+                    img {
+                        width: 50% !important;
                     }
                 }
             }
@@ -1191,16 +1265,18 @@
                 }
             }
         }
+        .wedig-bg {
+            height: 85vw;
+        }
         .--container-8 {
-            height: fit-content;
-            background: url("../images/mobile/aboutus/AboutUs_BG-04.png") top center;
-            background-repeat: no-repeat;
-            background-size: 100vw 100%;
-            transition: background 0.3s;
-            background-attachment: scroll;
+            height: 600px;
+            // background: url("../images/mobile/aboutus/AboutUs_BG-04.png") top center;
+            // background-repeat: no-repeat;
+            // background-size: 100vw 100%;
+            // transition: background 0.3s;
+            // background-attachment: scroll;
             padding: 100px 0;
             margin-top: -1vw;
-            height: fit-content;
             .--title {
                 font-size: 1.500em;
             }
@@ -1211,17 +1287,46 @@
                     display: none;
                 }
             }
+            .wedig-bg {
+                height: 600px;
+            }
+        }
+    }
+    @media (max-width:880px) {
+        .slideshow {
+            input {
+                bottom: 15vw;
+                + label {
+                    bottom: 15vw !important;
+                }
+            }
         }
     }
     @media (max-width:800px) {
-        .--container-5 {
-            height: 110vw;
-        }
-        .--container-7 {
-            height: 110vw;
-        }
+        // .--container-7 {
+        //     height: 110vw;
+        // }
     }
     @media (max-width: 769px) {
+        .slideshow {
+            input {
+                bottom: 15vw;
+                left: 22vw;
+                + label {
+                    left: 22vw !important;
+                    bottom: 15vw !important;
+                }
+            }
+        }
+        .overlay-shape1 {
+            background:  url("../images/aboutus/About_BG-Shapes-01.png") bottom -5vw left;
+            background-size: 103vw auto;
+            background-repeat: no-repeat;
+            height: 100vw;
+        }
+        .parallax-bg {
+            background-position: 0 -22vw !important;
+        }
         .--header-container {
             height: 100vw !important;
             button {
@@ -1233,92 +1338,166 @@
                 }
             }
         }
-        .--container-5 {
-            height: 115vw !important;
-            .splide {
-                margin: 4vw auto 0 auto;
-            }
-        }
-        .--container-7 {
-            height: 115vw !important;
-            .splide {
-                margin: 4vw auto 0 auto;
-            }
-        }
+        // .--container-7 {
+        //     height: 115vw !important;
+        //     .splide {
+        //         margin: 4vw auto 0 auto;
+        //     }
+        // }
     }
-    @media (max-width: 669px) {
+    @media (max-width: 700px) {
         .--header-container {
             height: 120vw !important;
-            background-size: 120vw auto, auto 165vw;
-            padding: 15vw 0;
-            .--carousel-mb {
-                .carousel-inner {
-                    .carousel-caption {
-                        p {
-                            font-size: 	0.875em !important;
+        }
+        .parallax-bg {
+            background-size: auto 145vw;
+        }
+        .overlay-shape1 {
+            height: 120vw;
+        }
+        .slideshow input {
+                left: 22vw !important;
+                bottom: 25vw !important;
+            + label {
+                left: 22vw !important;
+                bottom: 25vw !important;
+            }
+        }
+        .--header-container {
+            .--build-project-list {
+                figure {
+                    figcaption {
+                        span {
+                            width: 80%;
                         }
                     }
                 }
             }
-        }
-        .--container-5 {
-            height: 110vw !important;
-            .splide {
-                margin:  0 auto;
-                height: 35vh;
-                .splide__track {
-                    img {
-                        width: 50vw;
-                    }
-                }
-            }
-            .--right-container {
-                p {
-                    &.--desc {
-                        margin: 8.5vw auto 0 auto;
-                    }
-                }
-            }
-        }
-        .--container-7 {
-            height: 110vw !important;
-            .splide {
-                margin:  0 auto;
-                height: 35vh;
-                .splide__track {
-                    img {
-                        width: 50vw;
-                    }
-                }
-            }
-            .--right-container {
-                p {
-                    &.--desc {
-                        margin: 8.5vw auto 0 auto;
-                    }
+            .--about-content {
+                padding-top: 25vw;
+                .col-md-5 {
+                    width: 100%;
                 }
             }
         }
     }
-    @media (max-width: 520px) {
-        .--header-container {
-            background: url("../images/aboutus/About_BG-Shapes-01.png") bottom -8vw right -20vw ,
-            url("../images/aboutus/About_BG-01.png") top -35vw left -21vw;
-            height: 160vw !important;
-            background-size: 120vw auto, auto 200vw;
-            padding: 15vw 0;
-            background-repeat: no-repeat, no-repeat;
-            transition: background 0.3s;
-            background-attachment: scroll;
+    // @media (max-width: 669px) {
+    //     .--header-container {
+    //         background-size: 120vw auto, auto 165vw;
+    //         padding: 0;
+    //         .--carousel-mb {
+    //             .carousel-inner {
+    //                 .carousel-caption {
+    //                     p {
+    //                         font-size: 	0.875em !important;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     .--container-5 {
+    //         height: 110vw !important;
+    //         .splide {
+    //             margin:  0 auto;
+    //             height: 35vh;
+    //             .splide__track {
+    //                 img {
+    //                     width: 50vw;
+    //                 }
+    //             }
+    //         }
+    //         .--right-container {
+    //             p {
+    //                 &.--desc {
+    //                     margin: 8.5vw auto 0 auto;
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     .--container-7 {
+    //         height: 110vw !important;
+    //         .splide {
+    //             margin:  0 auto;
+    //             height: 35vh;
+    //             .splide__track {
+    //                 img {
+    //                     width: 50vw;
+    //                 }
+    //             }
+    //         }
+    //         .--right-container {
+    //             p {
+    //                 &.--desc {
+    //                     margin: 8.5vw auto 0 auto;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+    @media not all and (min-resolution:.001dpcm) {
+        @media (max-width: 590px) {
+            .slider {
+                height: 100% !important;
+            }
         }
-
+    }
+    @media (max-width: 590px) {
+        .--header-container {
+            height: 700px !important;
+        }
+        .slideshow {
+            input {
+                left: 30vw !important;
+                + label {
+                    left: 30vw !important;
+                }
+            }
+        }
+        .overlay-shape {
+            background-size: 100vw 500px;
+            height: 500px;
+        }
+        .vision-bg {
+            background-size: 100vw 500px;
+            height: 500px;
+        }   
+        .--container-2 {
+            padding: 100px 0 !important;
+            height: 500px !important;
+        }
+        .--container-3 {
+            height: 500px !important;
+            img {
+                &.--img {
+                    top: 27vw;
+                }
+            }
+        }
+        .mission-bg {
+            height: 500px;
+            background-size: 150vw 500px;
+        }
+        .selector-1, 
+        .button-label-1 {
+            margin-left: -55px;
+        }
+        .slider {
+            height: 200% !important;
+        }
+        .overlay-shape1 {
+            height: 700px;
+        }
+        .parallax-bg {
+            background-size: auto 120vh;
+            background-position: -70vw -50vw !important;
+        }
         .--container-5 {
-            min-height: 140vw !important;
-            height: fit-content;
+            height: 650px;
+            background-size: 100vw 650px;
         }
         .--container-7 {
-            min-height: 140vw !important;
-            height: fit-content;
+            height: 650px;
+            background-size: 100vw 650px;
         }
     }
 }

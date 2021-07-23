@@ -1,10 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react';
 import useLocoScroll from '../components/hooks/useLocoScroll';
-import { useMediaQuery } from 'react-responsive';
+// import { useMediaQuery } from 'react-responsive';
 import { NavLink } from 'react-router-dom';
-import { Container, Row, Col, Image, Button, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../assets/styles/teamleaders.scss';
-// import Leaders from '../components/TeamLeaders/Leaders';
 import Join from '../components/TeamLeaders/Join';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
@@ -38,8 +37,8 @@ const TeamLeaders = () => {
     }, [timer]);
 
     // DESKTOP, TABLET & MOBILE
-    const isTablet = useMediaQuery({ query: '(min-width: 992px)' });
-    const isMobile = useMediaQuery({ query: '(max-width: 992px)' });
+    // const isTablet = useMediaQuery({ query: '(min-width: 992px)' });
+    // const isMobile = useMediaQuery({ query: '(max-width: 992px)' });
     
     const teamLeaders = [
         {
@@ -149,36 +148,8 @@ const TeamLeaders = () => {
             </Container>
         </div>
         <div className="--bg-2" data-scroll-section>
-            { isTablet &&
-                <Join/>
-            }
-            <Footer/>
-            {   isMobile &&
-                <Container className="--max">
-                    <Row>
-                        <Col>
-                            <h1 className="--title">Join Our Team</h1>
-                        </Col>
-                    </Row>
-                    <Col>
-                        <Image src={require('../assets/images/teamleaders/Leaders_IMG-01.png').default} />
-                    </Col>
-                    <Col>
-                        <h6 className="--sub-title">Like What <br/>
-                        You See? Join Us!</h6>
-                        <p className="--desc">From our humble start, we have grown tremendously and <br/>
-                        now we are looking to go next level. We have a no- <br/>
-                        discrimination policy and believe in attitude, not so much <br/>
-                        aptitude. Of course, hard work is rewarded, excellence is <br/>
-                        our lifestyle. If you're energetic, eager to learn and a team <br/>
-                        player, send us your resume and you could be on your way to <br/>
-                        a career with Temokin Holdings.
-                        </p>
-                        <Button className="--btn-send-resume"/>
-                    </Col>
-                </Container>
-            }
-        
+            <Join/>
+        <Footer/>
         </div>
     </div>
         }

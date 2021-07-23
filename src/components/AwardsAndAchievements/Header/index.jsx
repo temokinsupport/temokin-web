@@ -18,6 +18,7 @@ export default function Header() {
                     </Col>
                 </Row>
             </Container>
+            <div className="header-shape"/>
             <div className="header-bg"/>
         </div>
     )

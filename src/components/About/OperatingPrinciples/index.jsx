@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 export default function OperatingPrinciples() {
     return (
@@ -8,7 +9,14 @@ export default function OperatingPrinciples() {
         
             <div className="--bg-1"/>
             <div className="--bg-2"/>
-      
+            <Container className="--mob">
+                <Row>
+                    <Col data-scroll>
+                        <h1 className="--title"> Our Operating <br/>
+                        Principles</h1>
+                    </Col>
+                </Row>
+            </Container>
             <Container className="--max">
                 <Row>
                     <Col data-scroll>

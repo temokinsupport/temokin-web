@@ -253,6 +253,10 @@
 
     @media (max-width:992px) {
         background-size: cover;
+        .header-bg {
+            background-size: cover !important;
+            height: 175vw;
+        }
         &::before {
             z-index: -1;
         }

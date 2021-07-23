@@ -2,7 +2,8 @@ import React, { useRef, useState, useEffect } from 'react';
 import useLocoScroll from '../components/hooks/useLocoScroll';
 import { useMediaQuery } from 'react-responsive';
 import '../assets/styles/aboutus.scss';
-import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+
+
 import Header from '../components/About/Header';
 import Vision from '../components/About/Vision';
 import Mission from '../components/About/Mission';
@@ -79,83 +80,20 @@ const AboutTemokin = () => {
       { isTablet &&
         <Section4/>
       }
-      { isTablet &&
-        <OperatingPrinciples/>
-      }
+      <OperatingPrinciples/>
+  
       { isTablet &&
         <Section6/>
       }
-      { isTablet &&
+      {/* { isTablet && */}
         <OurValues/>
-      }
+      {/* } */}
       <WeDig/>
       <FooterMenu/>
 
       {/* 
       
-      { isMobile &&
-        <div className="--container-5">
-          <Container>
-            <Row>
-              <Col>
-                <h2 className="--title">Our Operating <br/>
-                Principles</h2>
-              </Col>
-            </Row>
-          </Container>
-          <Container>
-            <Row>
-              <Col>
-                <Splide
-                  options={ {
-                    type         : 'fade',
-                    autoplay     : true,
-                    pauseOnHover : false,
-                    resetProgress: false,
-                  } }
-                >
-                  <SplideSlide >
-                    <Image src={require('../assets/images/aboutus/About_IMG-People.png').default}/>
-                    <div className="--right-container">
-                      <h5 className="--title">People</h5>
-                      <hr/>
-                      <p className="--desc">We are <br/>
-                      client-oriented</p>
-                    </div>
-                  </SplideSlide>
-                  <SplideSlide >
-                    <Image src={require('../assets/images/aboutus/About_IMG-Accoutability.png').default}/>
-                    <div className="--right-container">
-                      <h5 className="--title">Accountability</h5>
-                      <hr/>
-                      <p className="--desc">We ensure <br/>
-                      peace of mind</p>
-                    </div>
-                  </SplideSlide>
-                  <SplideSlide >
-                    <Image src={require('../assets/images/aboutus/About_IMG-Timing.png').default}/>
-                    <div className="--right-container">
-                      <h5 className="--title">Timing</h5>
-                      <hr/>
-                      <p className="--desc">We deliver <br/>
-                      on schedule</p>
-                    </div>
-                  </SplideSlide>
-                  <SplideSlide >
-                    <Image src={require('../assets/images/aboutus/About_IMG-Quality.png').default}/>
-                    <div className="--right-container">
-                      <h5 className="--title">Quality</h5>
-                      <hr/>
-                      <p className="--desc">We exceed <br/>
-                      Expectations</p>
-                    </div>
-                  </SplideSlide>
-                </Splide>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      }
+      
 
 
       { isMobile &&

@@ -17,12 +17,6 @@
 
 .--home {
     min-height: 100vh;
-    // background:url("../images/home/Home_BG-04.png") top 168vw center;
-    // background-repeat: no-repeat;
-    // background-size:100vw 67vw;
-    // transition: background 0.3s;
-    // background-attachment: local;
-    // margin-top: -9vw;
     width: 100%;
     position: relative;
     .--header {
@@ -405,10 +399,6 @@
         }
     }
     .header-bg {
-    //     background: url("../images/home/Home_BG-01.png")  top -2vw center;
-    //     background-repeat: no-repeat;
-    //     background-size:  100% auto;
-    //     transition: background 0.3s;
         width: 100%;
         position: relative;
         z-index: -5;
@@ -454,10 +444,6 @@
         }
     }
     .featured-bg {
-        // background: url("../images/home/About_BG-07.png") top 0 center;
-        // background-repeat: no-repeat;
-        // background-size: 104vw 66vw;
-        // transition: background 0.3s;
         width: 120vw;
         position: relative;
         z-index: -5;
@@ -466,10 +452,6 @@
         left: -9vw;
     }
     .projects-bg {
-        // background:url("../images/home/Home_BG-03.png")  top 0 center;
-        // background-repeat: no-repeat;
-        // background-size: 100vw 55vw;
-        // transition: background 0.3s;
         width:100vw;
         position: relative;
         z-index: -5;
@@ -477,56 +459,37 @@
         height: 60vw;
     }
     .launches-bg {
-        // background:url("../images/home/Home_BG-04.png") top 0 center;
-        // background-repeat: no-repeat;
-        // background-size: 105vw auto;
-        // transition: background 0.3s;
         width: 105vw;
         position: relative;
         z-index: -9;
         min-height: 69vw;
         top: -2vw;
     }
-
+    @media (max-width:1200px) {
+        overflow: hidden;
+        .header-bg {
+            top: -5vw;
+            transition: top 0.5s;
+        }
+        .--bg-4 {
+            .hero-container {
+                display: none;
+            }
+        }
+        .--bg-3 {
+            .hero-container {
+                display: none;
+            }
+        }
+    }
     @media (max-width:992px) {
-        background:url("../images/mobile/home/Home_BG-02.png") top 37vw center,
-        url("../images/mobile/home/Home_BG-03.png")  top 155vw center,
-        url("../images/mobile/home/Home_BG-01.png")  top -2vw center;
-        background-repeat: no-repeat;
-        background-size: 170vw 100vw, 100vw auto, 100vw 70vw;
-        transition: background 0.5s;
-        background-attachment: local;
         margin-top: 0;
         transition: margin-top 0.5s;
         image-rendering: pixelated;
-        // &::before {
-        //     content: "";
-        //     height: 15vw;
-        //     width: 50vw;
-        //     background-color: #101869;
-        //     opacity: 0.6;
-        //     position: absolute;
-        //     top: 42.5vw;
-        //     left: -22vw;
-        //     transition: height 0.3s;
-        //     transition: width 0.3s;
-        //     transition: transform 0.3s;
-        //     transform: skew(327deg, 13deg);
-        // }
-        // &::after {
-        //     content: "";
-        //     height: 9.8vw;
-        //     width: 57.5vw;
-        //     background-color: transparent;
-        //     border: 1px solid #ffffff;
-        //     position: absolute;
-        //     top: 50vw;
-        //     left: 20vw;
-        //     transition: height 0.3s;
-        //     transition: width 0.3s;
-        //     transition: transform 0.3s;
-        //     transform: skew(327deg, 13deg);
-        // }
+        .header-bg {
+            height: 90vw;
+            transition: height 0.5s;
+        }
         .--header {
             min-height: 50vh;
             padding: 20vw 0 10vw 0;
@@ -539,7 +502,7 @@
         .--bg-2 {
             min-height: 90vw;
             &::after {
-                height: 50vw !important;
+                height: 65vw !important;
             }
             .--title {
                 font-size: 1.500em;
@@ -737,46 +700,20 @@
         }
     }
     @media (max-width:769px) {
-        background:url("../images/mobile/home/Home_BG-02.png") top 65vw center,
-        url("../images/mobile/home/Home_BG-01.png")  top -2vw center;
-        background-repeat: no-repeat;
-        background-size: 170vw 100vw,100vw 100vw;
-        transition: background 0.5s;
-        background-attachment: local;
         margin-top: 0;
         transition: margin-top 0.5s;
         image-rendering: pixelated;
-        &::before {
-            content: "";
-            height: 15vw;
-            width: 50vw;
-            background-color: #101869;
-            opacity: 0.6;
-            position: absolute;
-            top: 69vw;
-            left: -22vw;
-            transition: height 0.3s;
-            transition: width 0.3s;
-            transition: transform 0.3s;
-            transform: skew(327deg, 13deg);
-        }
-        &::after {
-            content: "";
-            height: 12vw;
-            width: 57.5vw;
-            background-color: transparent;
-            border: 1px solid #ffffff;
-            position: absolute;
-            top: 76vw;
-            left: 20vw;
-            transition: height 0.3s;
-            transition: width 0.3s;
-            transition: transform 0.3s;
-            transform: skew(327deg, 13deg);
+        .header-bg {
+            height: 120vw;
+            transition: height 0.5s;
         }
         .--header {
             min-height: 60vh;
             padding: 35vw 0 10vw 0;
+            .hero-container {
+                height: 100vw;
+                transition: height 0.5s;
+            }
             .--title {
                 font-size: 1.500em !important;
                 line-height: 1.6;
@@ -843,7 +780,23 @@
         .--header {
             min-height: 65vh;
         }
+        .overlay-blue {
+            top: -36vw;
+            transition: top 0.5s;
+        }
+        .overlay-white {
+            height: 24vw;
+            top: -25.5vw;
+            &::before {
+                left: 20vw;
+                height: 11.8vw;
+            }
+        }
         .--bg-2 {
+            .hero-container {
+                top: -28vw;
+                transition: top 0.5s;
+            }
             &::after {
                 height: unset !important;
                 top:0;
@@ -869,7 +822,6 @@
             }
         }
     }
-
     @media (max-width: 500px) {
         .--header {
             min-height: 55vh !important;
