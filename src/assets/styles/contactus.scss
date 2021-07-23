@@ -71,6 +71,7 @@
         padding: 27.5vw 0 0 0;
         min-height: 80vw;
         width: 100%;
+        position: relative;
         .--max {
             max-width: 100%;
             min-height: 42vw;
@@ -196,13 +197,27 @@
 
     @media (max-width:1024px) {
         background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-02.png") top 66vw center,
         url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 240vw auto, 155vw auto;
-        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-size: 145vw auto, 155vw auto;
+        background-repeat: no-repeat,  no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
+        .header-bg {
+            display: none;
+        }
+        .form-bg {
+            background-size: 193vw 194vw !important;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            transition: background 0.3s;
+            image-rendering: -webkit-optimize-contrast;
+            position: absolute;
+            height: 170vw;
+            width: 100%;
+            top: -20vw;
+            z-index: 0;
+        }
         .--bg-1 {
             padding: 200px 0 0 0;
             .--max {
@@ -241,6 +256,10 @@
         }
         .--bg-2 {
             padding: 30.5vw 0 0 0;
+            .--max {
+                z-index: 2;
+                position: relative;
+            }
             .col-md-6 {
                 width: 100%;
                 max-width: 100%;
@@ -283,9 +302,8 @@
     }
     @media (max-width:920px) {
         background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
         url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 240vw auto, 165vw auto;
+        background-size: 145vw auto,  165vw auto;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
@@ -293,9 +311,8 @@
     }
     @media (max-width:740px) {
         background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
         url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 275vw auto, 180vw auto;
+        background-size: 145vw auto, 180vw auto;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
@@ -303,9 +320,8 @@
     }
     @media (max-width:600px) {
         background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
         url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 300vw auto, 200vw auto;
+        background-size: 145vw auto,  200vw auto;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
@@ -313,13 +329,19 @@
     }
     @media (max-width:566px) {
         background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
         url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 340vw auto, 220vw auto;
+        background-size: 145vw auto, 220vw auto;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
+        .form-bg {
+            background-size: 350vw 370vw !important;
+            height: 320vw !important;
+            z-index: 0;
+            bottom: 0;
+            top: -44vw;
+        }
         .--bg-2 {
             padding: 45.5vw 0 0 0;
             form {
@@ -334,9 +356,8 @@
     }
     @media (max-width:500px) {
         background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
         url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 395vw auto, 235vw auto;
+        background-size: 145vw auto, 235vw auto;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
@@ -355,9 +376,8 @@
     }
     @media (max-width:420px) {
         background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
         url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 427vw auto, 280vw auto;
+        background-size: 145vw auto,  280vw auto;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
@@ -379,9 +399,8 @@
     }
     @media (max-width:400px) {
         background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-02.png") bottom 0 center,
         url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 500vw auto, 280vw auto;
+        background-size: 145vw auto, 280vw auto;
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;

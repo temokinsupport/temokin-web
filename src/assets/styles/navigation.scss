@@ -201,6 +201,7 @@
         }
         .navbar-collapse {
             background-color: #283a97;
+            z-index: 10 !important;
             &.collapse {
                 &.show {
                     
