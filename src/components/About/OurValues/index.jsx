@@ -6,6 +6,13 @@ export default function OurValues() {
     return (
         <div className="--container-7" data-scroll-section>
             <div className="--bg-1"/>
+            <Container>
+                <Row>
+                    <Col data-scroll>
+                        <h1 className="--title --mob">Our Values</h1>
+                    </Col>
+                </Row>
+            </Container>
             <Container className="--max">
                 <Row>
                     <Col data-scroll>
