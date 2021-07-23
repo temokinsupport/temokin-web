@@ -134,7 +134,7 @@
         .--max {
             max-width: 73%;
         }
-        .--title {
+        h1.--title {
             font-family: "gill sans",sans-serif !important;
             letter-spacing: 0.5vw;
             font-weight: 600 !important;
@@ -224,6 +224,17 @@
         height: 116vw;
         top: 0;
     }
+    .header-shape {
+        background: url("../images/awardsandachievements/Awards_Shapes-01.png")   top 11vw right -30vw;
+        background-repeat: no-repeat;
+        background-size: 153vw auto !important;
+        // transition: background 0.3s;
+        width: 100%;
+        position: absolute;
+        z-index: 6;
+        height: 43vw;
+        top: 0;
+    }
     .winner-bg {
         background: url("../images/awardsandachievements/Awards_BG-02.png")   top 0vw left -2vw;
         background-repeat: no-repeat;
@@ -248,19 +259,19 @@
     }
 
     @media (max-width: 992px) {
-        background: url("../images/awardsandachievements/Awards_Shapes-01.png") top 11vw left -24vw,
-        url("../images/awardsandachievements/Awards_Shapes-02.png") top 110vw left -25vw, 
-        url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 43vw center,
-        // url("../images/awardsandachievements/Awards_BG-01.png") bottom 0 center,
-        url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
-        background-size: 156vw auto, 62vw 33vw, 100vw 135vw ,auto 75vw;
-        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-        background-attachment: scroll;
-        transition: background 0.3s;
+        .winner-bg {
+            background-repeat: no-repeat;
+            background-size: 181vw 161vw;
+            transition: background 0.3s;
+            width: 100%;
+            position: absolute;
+            height: 138vw;
+            top: 0vw;
+        }
         .--bg-1 {
             padding: 100px 0;
             margin: 0 auto;
-            max-width: 90%;
+            max-width: 100%;
             min-height: 50vw;
             .--title {
                 font-size: 	1.500em;
@@ -328,7 +339,7 @@
             }
         }
         .--bg-3 {
-            padding: 200px 0 100px 0;
+            padding: 37vw 0 100px 0;
             height: auto;
             min-height: 50vw;
             position: relative;
@@ -408,6 +419,12 @@
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
+        .winner-bg,
+        .header-bg,
+        .header-shape,
+        .testimonial-bg {
+            display: none;
+        }
         .--bg-2 {
             min-height: 145vw;
         }
@@ -454,7 +471,7 @@
         url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 90vw right -2vw,
         url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
         url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
-        background-size: 156vw auto, 62vw 33vw, 140vw 190vw, 100vw auto,auto 135vw;
+        background-size: 156vw auto, 62vw 33vw, 140vw 165vw, 100vw auto,auto 135vw;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
