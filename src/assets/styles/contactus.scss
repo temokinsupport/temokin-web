@@ -9,41 +9,32 @@
 *
 */
 .--contact-us {
-    // background: url("../images/contactus/Contact_Shapes-01.png") top 1vw left -30vw,
-    // url("../images/contactus/Contact_BG-02.png") top 44vw center,
-    // url("../images/contactus/Contact_BG-01.png") top -8vw center;
-    // background-size: 145vw auto, 105vw auto, 100vw auto;
-    // background-repeat: no-repeat, no-repeat, no-repeat;
-    // background-attachment: scroll;
-    // transition: background 0.3s;
-    // image-rendering: -webkit-optimize-contrast;
     position: relative;
     .--bg-1 {
         padding: 10vw 0 0 0;
         min-height: 50vw;
-        // margin-top: -9.1vw;
         width: 100%;
         .--max {
             max-width: 86%;
+            img {
+                margin: 0 auto 3vw auto;
+                display: block;
+                height: 8vw;
+                width: 8vw;
+                object-fit: contain;
+                image-rendering: pixelated;
+            }
         }
         h1.--title {
             font-family: "gill sans",sans-serif !important;
             letter-spacing: 0.4vw;
             font-weight: 600 !important;
             text-transform: uppercase;
-            line-height: 3.1vw;
+            line-height: 1;
             font-size: 2vw;
             color: #283a97;
             margin: 4vw 0 10.5vw 0;
             text-align: center;
-        }
-        img {
-            margin: 0 auto 3vw auto;
-            display: block;
-            height: 8vw;
-            width: 8vw;
-            object-fit: contain;
-            image-rendering: pixelated;
         }
         h3.--title {
             font-family: "gill sans",sans-serif !important;
@@ -54,7 +45,7 @@
             font-size: 1.19vw;
             color: #283a97;
             margin: 0 0 0.5vw 0;
-            text-align: center;    
+            text-align: center; 
         }
         p.--desc {
             font-family: "gill sans medium",sans-serif;
@@ -65,6 +56,39 @@
             line-height: 1.4vw;
             text-align: center;
             letter-spacing: 0.17vw;
+        }
+        .header-shapes {
+            position: absolute;
+            height: 100vw;
+            width: 100%;
+            top: 10vw;
+            overflow: hidden;
+            &::before {
+                content: "";
+                height: 7.8vw;
+                width: 57.5vw;
+                background-color: transparent;
+                border: 1px solid #283a97;
+                position: absolute;
+                top: -2vw;
+                left: -42vw;
+                transition: height 0.3s;
+                transition: width 0.3s;
+                transform: skew(321deg, 16.5deg);
+            }
+            &::after {
+                content: "";
+                height: 11.8vw;
+                width: 57.5vw;
+                background-color: transparent;
+                border: 1px solid #283a97;
+                position: absolute;
+                top: 40vw;
+                right: -44vw;
+                transition: height 0.3s;
+                transition: width 0.3s;
+                transform: skew(321deg, 16.5deg);
+            }
         }
     }
     .--bg-2 {
@@ -85,7 +109,13 @@
             font-size: 1.05vw;
             color: #ffffff;
             margin: 0 0 3.5vw 0;
-            text-align: center;    
+            text-align: center;   
+            transform: scale(0) !important;
+            transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+            &.is-reveal {
+                transform: scale(1) !important;
+                transition-delay: 0.3s;
+            }    
         }
         form {
             margin-left: 5vw;
@@ -94,6 +124,12 @@
                 justify-content: flex-start;
                 align-items: center;
                 margin-bottom: 20px;
+                transform: scale(0) !important;
+                transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+                &.is-reveal {
+                    transform: scale(1) !important;
+                    transition-delay: 0.3s;
+                }    
             }
             label {
                 font-family: "gill sans",sans-serif !important;
@@ -149,6 +185,12 @@
                 margin: 5vw auto 0 11.7vw;
                 outline: 0 !important;
                 box-shadow: none !important;
+                transform: scale(0) !important;
+                transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+                &.is-reveal {
+                    transform: scale(1) !important;
+                    transition-delay: 0.3s;
+                }    
                 &:focus {
                     outline: 0 !important;
                 }
@@ -159,9 +201,48 @@
             height: 30vw;
             padding-top: 2vw;
             position: relative;
+            transform: scale(0) !important;
+            transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+            &.is-reveal {
+                transform: scale(1) !important;
+                transition-delay: 0.3s;
+            }    
             iframe {
                 margin-left: -2.5vw;
                 width: 37.5vw;
+            }
+        }
+        .header-shapes {
+            position: absolute;
+            height: 100vw;
+            width: 100%;
+            top: 3vw;
+            
+            overflow: hidden;
+            &::before {
+                content: "";
+                height: 12.8vw;
+                width: 57.5vw;
+                background-color: transparent;
+                border: 1px solid #ffffff;
+                position: absolute;
+                top: -2vw;
+                left: -38vw;
+                transition: height 0.3s;
+                transition: width 0.3s;
+                transform: skew(321deg, 16.5deg);
+            }
+            &::after {
+                content: "";
+                height: 11.8vw;
+                width: 67.5vw;
+                background-color: #9c9eca8f;
+                position: absolute;
+                top: 12vw;
+                right: -27vw;
+                transition: height 0.3s;
+                transition: width 0.3s;
+                transform: skew(318deg, 15deg);
             }
         }
     }
@@ -181,25 +262,30 @@
     }
 
     .form-bg {
-        background: url("../images/contactus/Contact_BG-02.png") top 0vw center;
-        background-size: 105vw auto !important;
-        background-repeat:no-repeat;
-        background-attachment: scroll;
-        transition: background 0.3s;
-        image-rendering: -webkit-optimize-contrast;
         position: absolute;
-        height: 74vw;
+        top: -5vw;
+        left: 0;
+        height: 100%;
         width: 100%;
-        top: -4vw;
-        z-index: -3;
+        overflow: hidden;
+        z-index: -1;
+        &::before {
+            content: "";
+            border-top: 27vw solid transparent;
+            border-left: 100vw solid #283a97;
+            height: 100% !important;
+            z-index: -1;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
     }
 
 
     @media (max-width:1024px) {
-        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 155vw auto;
-        background-repeat: no-repeat,  no-repeat;
+        background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 155vw auto;
+        background-repeat: no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
@@ -215,7 +301,7 @@
             position: absolute;
             height: 170vw;
             width: 100%;
-            top: -20vw;
+            // top: -20vw;
             z-index: 0;
         }
         .--bg-1 {
@@ -301,37 +387,44 @@
         }
     }
     @media (max-width:920px) {
-        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto,  165vw auto;
-        background-repeat: no-repeat, no-repeat, no-repeat;
+        background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size:165vw auto;
+        background-repeat: no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
     }
     @media (max-width:740px) {
-        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 180vw auto;
-        background-repeat: no-repeat, no-repeat, no-repeat;
+        background:url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 180vw auto;
+        background-repeat: no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
+        .form-bg {
+            height: 195vw;
+        }
     }
     @media (max-width:600px) {
-        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto,  200vw auto;
-        background-repeat: no-repeat, no-repeat, no-repeat;
+        background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 200vw auto;
+        background-repeat:  no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
+        .--bg-1 {
+            padding: 150px 0 100px 0;
+            .header-shapes {
+                &::before { 
+                    top: 13vw;
+                }
+            }
+        }
     }
     @media (max-width:566px) {
-        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 220vw auto;
-        background-repeat: no-repeat, no-repeat, no-repeat;
+        background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 220vw auto;
+        background-repeat: no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
@@ -340,7 +433,7 @@
             height: 320vw !important;
             z-index: 0;
             bottom: 0;
-            top: -44vw;
+            // top: -44vw;
         }
         .--bg-2 {
             padding: 45.5vw 0 0 0;
@@ -355,10 +448,9 @@
         }
     }
     @media (max-width:500px) {
-        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 235vw auto;
-        background-repeat: no-repeat, no-repeat, no-repeat;
+        background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size:235vw auto;
+        background-repeat:  no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
@@ -375,10 +467,9 @@
         }
     }
     @media (max-width:420px) {
-        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto,  280vw auto;
-        background-repeat: no-repeat, no-repeat, no-repeat;
+        background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size:  280vw auto;
+        background-repeat: no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
@@ -398,10 +489,9 @@
         }
     }
     @media (max-width:400px) {
-        background: url("../images/contactus/Contact_Shapes-01.png") top 30vw  left -30vw,
-        url("../images/contactus/Contact_BG-01.png") top -8vw right;
-        background-size: 145vw auto, 280vw auto;
-        background-repeat: no-repeat, no-repeat, no-repeat;
+        background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
+        background-size: 280vw auto;
+        background-repeat: no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;

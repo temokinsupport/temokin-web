@@ -296,4 +296,12 @@
             background-attachment: scroll;
         }
     }
+    @media (max-width:400px) {
+        .--bg-1 {
+            background: url("../images/teamleaders/Leaders_BG-02.png") top 145vw center, 
+            url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
+            background-repeat:  no-repeat, no-repeat;
+            background-size:  100vw 50%, 125vw auto;
+        }
+    }
 }
