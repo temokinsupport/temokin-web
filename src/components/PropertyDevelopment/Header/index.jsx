@@ -9,8 +9,8 @@ export default function Header() {
             <Container>
                 <Row>
                     <Col>
-                        <h1 className="--title" data-scroll data-scroll-speed="2">Property Development</h1>
-                        <p className="--desc" data-scroll data-scroll-speed="2">With over 50 years of combined experience in development, we have designed <br/>
+                        <h1 data-aos="zoom-in" className="--title" data-scroll data-scroll-speed="2">Property Development</h1>
+                        <p data-aos="zoom-in" className="--desc" data-scroll data-scroll-speed="2">With over 50 years of combined experience in development, we have designed <br/>
                         and built a multitude of complex skycrapers, hospitals, modern retail spaces <br/>
                         nad highquality homes, with our crowning glory being the construction of <br/>
                         Istana Negara, the National Palace of Malaysia.</p>
