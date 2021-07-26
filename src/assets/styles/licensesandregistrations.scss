@@ -531,6 +531,11 @@
                 .carousel-inner {
                     height: auto;
                 }
+                .--caption {
+                    br {
+                        display: none;
+                    }
+                }
             }
         }
         .--bg-3 {

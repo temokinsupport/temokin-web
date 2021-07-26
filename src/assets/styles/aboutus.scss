@@ -1380,60 +1380,26 @@
                 }
             }
         }
+        .--container-5 {
+            .--right-container {
+                padding-top: 10vw;
+                h5 {
+                    &.--title {
+                        word-break: break-word !important;
+                        line-height: initial;
+                    }
+                }
+            }
+            .splide__pagination {
+                bottom: -20vw;
+            }
+        }
+        .--container-7 {
+            .splide__pagination {
+                bottom: -20vw;
+            }
+        }
     }
-    // @media (max-width: 669px) {
-    //     .--header-container {
-    //         background-size: 120vw auto, auto 165vw;
-    //         padding: 0;
-    //         .--carousel-mb {
-    //             .carousel-inner {
-    //                 .carousel-caption {
-    //                     p {
-    //                         font-size: 	0.875em !important;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    //     .--container-5 {
-    //         height: 110vw !important;
-    //         .splide {
-    //             margin:  0 auto;
-    //             height: 35vh;
-    //             .splide__track {
-    //                 img {
-    //                     width: 50vw;
-    //                 }
-    //             }
-    //         }
-    //         .--right-container {
-    //             p {
-    //                 &.--desc {
-    //                     margin: 8.5vw auto 0 auto;
-    //                 }
-    //             }
-    //         }
-    //     }
-    //     .--container-7 {
-    //         height: 110vw !important;
-    //         .splide {
-    //             margin:  0 auto;
-    //             height: 35vh;
-    //             .splide__track {
-    //                 img {
-    //                     width: 50vw;
-    //                 }
-    //             }
-    //         }
-    //         .--right-container {
-    //             p {
-    //                 &.--desc {
-    //                     margin: 8.5vw auto 0 auto;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
     @media not all and (min-resolution:.001dpcm) {
         @media (max-width: 590px) {
             .slider {
