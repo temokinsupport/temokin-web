@@ -9,18 +9,18 @@ export default function EmailUs() {
             <Container className="--max">
             <Row>
                 <Col md={6}>
-                <h3 className="--title">Let's Get This Conversation Started!</h3>
+                <h3 className="--title" data-scroll>Let's Get This Conversation Started!</h3>
                 <Form>
-                    <Form.Group as={Row} controlId="formPlaintextName">
-                    <Form.Label column sm="3">
-                        Name
-                    </Form.Label>
-                    <Col sm="6">
-                        <Form.Control plaintext defaultValue="" />
-                    </Col>
+                    <Form.Group as={Row} controlId="formPlaintextName" data-scroll>
+                        <Form.Label column sm="3">
+                            Name
+                        </Form.Label>
+                        <Col sm="6">
+                            <Form.Control plaintext defaultValue="" />
+                        </Col>
                     </Form.Group>
 
-                    <Form.Group as={Row} controlId="formPlaintextContact">
+                    <Form.Group as={Row} controlId="formPlaintextContact"  data-scroll>
                     <Form.Label column sm="3">
                         Contact Number
                     </Form.Label>
@@ -29,7 +29,7 @@ export default function EmailUs() {
                     </Col>
                     </Form.Group>
 
-                    <Form.Group as={Row} controlId="formPlaintextEmail">
+                    <Form.Group as={Row} controlId="formPlaintextEmail" data-scroll>
                     <Form.Label column sm="3">
                         Email Address
                     </Form.Label>
@@ -38,7 +38,7 @@ export default function EmailUs() {
                     </Col>
                     </Form.Group>
 
-                    <Form.Group as={Row} controlId="formPlaintextMessage">
+                    <Form.Group as={Row} controlId="formPlaintextMessage" data-scroll>
                     <Form.Label column sm="3">
                         Message
                     </Form.Label>
@@ -47,11 +47,11 @@ export default function EmailUs() {
                     </Col>
                     </Form.Group>
 
-                    <Button className="--btn-send"/>
+                    <Button className="--btn-send"  data-scroll/>
                 </Form>
                 </Col>
                 <Col md={6}>
-                <div className="--map-container">
+                <div className="--map-container" data-scroll>
                     <Iframe 
                     width="100%" 
                     height="100%" 
@@ -61,7 +61,8 @@ export default function EmailUs() {
                 </Col>
             </Row>
         </Container>
-        <div className="form-bg"/>
+        <div className="form-bg" data-scroll data-scroll-speed="2"/>
+        <div className="header-shapes" data-scroll data-scroll-speed="1"/>
         <Footer/>
       </div>
     )
