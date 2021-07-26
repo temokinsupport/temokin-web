@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
+import { NavLink } from 'react-router-dom';
 import { Container, Row, Col, Carousel, Button } from 'react-bootstrap';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -55,7 +56,7 @@ export default function Featured() {
                         way with Malaysia's first microtunnelling project and has since expanded into the <br/>
                         building of electricity substations, major underground sewage lines, complex <br/>
                         bridges and major highways.</p>
-                        <Button variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</Button>
+                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -71,7 +72,7 @@ export default function Featured() {
                         having design and built complex skycrapers, hospitals and vast modern retail <br/>
                         spaces on behalf of our clients. Our current portfolio includes the building of high- <br/>
                         quality duplex homes and the new Istana Negara (Malaysia's national place).</p>
-                        <Button variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</Button>
+                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
                       </Carousel.Caption>
                     </Carousel.Item>
                   </Carousel>
@@ -105,7 +106,7 @@ export default function Featured() {
                         way with Malaysia's first microtunnelling project and has since expanded into the <br/>
                         building of electricity substations, major underground sewage lines, complex <br/>
                         bridges and major highways.</p>
-                        <Button variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</Button>
+                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -120,7 +121,7 @@ export default function Featured() {
                         having design and built complex skycrapers, hospitals and vast modern retail <br/>
                         spaces on behalf of our clients. Our current portfolio includes the building of high- <br/>
                         quality duplex homes and the new Istana Negara (Malaysia's national place).</p>
-                        <Button variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</Button>
+                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
                       </Carousel.Caption>
                     </Carousel.Item>
                   </Carousel>
