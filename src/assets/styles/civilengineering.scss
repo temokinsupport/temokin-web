@@ -407,6 +407,9 @@
                 &.--desc {
                     font-size: 1.000em;
                     line-height: 1.6;
+                    br {
+                        display: none;
+                    }
                 }
             }
         }
@@ -422,6 +425,9 @@
                 &.--desc {
                     font-size: 1.000em;
                     line-height: 1.6;
+                    br {
+                        display: none;
+                    }
                 }
             }
         }
@@ -532,6 +538,11 @@
         .--bg-3 {
             padding: 27vw 0 10vw 0;
         }
+        .header-shapes {
+            background: url("../images/civilengineering/CivilEng_Shapes-01.png") top 40vw left -8vw;
+            background-repeat: no-repeat;
+        }
+        
     }
     @media (max-width:420px) {
         background: url("../images/mobile/licenses/Licenses_BG-03.png") top -15vw center,
