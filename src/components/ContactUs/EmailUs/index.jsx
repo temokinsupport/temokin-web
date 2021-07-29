@@ -24,7 +24,7 @@ export default class EmailUs extends React.Component {
                               (data[objKey] = this.state[objKey], data), 
                            {});
 
-        if(data.name == '' || data.email == '' || data.contact_number == ''){
+        if(data.name === '' || data.email === '' || data.contact_number === ''){
             return;
         }
 

@@ -99,6 +99,8 @@
         .--max {
             max-width: 100%;
             min-height: 42vw;
+            z-index: 2;
+            position: relative;
         }
         h3.--title {
             font-family: "gill sans",sans-serif !important;
