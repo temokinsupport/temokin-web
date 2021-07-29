@@ -24,6 +24,7 @@ export default class EmailUs extends React.Component {
                            // eslint-disable-next-line
                               (data[objKey] = this.state[objKey], data), 
                            {});
+
         // eslint-disable-next-line
         if(data.name == '' || data.email == '' || data.contact_number == ''){
             return;
