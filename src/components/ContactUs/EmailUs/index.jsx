@@ -3,6 +3,7 @@ import Iframe from 'react-iframe';
 import { Container, Row, Col, Form, Button} from 'react-bootstrap';
 import Footer from '../../Footer';
 import axios from "axios";
+import ContactModal from "../ContactModal";
 
 export default class EmailUs extends React.Component {
     constructor() {
@@ -108,6 +109,7 @@ export default class EmailUs extends React.Component {
                     </div>
                     </Col>
                 </Row>
+                <ContactModal/>
             </Container>
             <div className="form-bg" data-scroll data-scroll-speed="2"/>
             <div className="header-shapes" data-scroll data-scroll-speed="1"/>
