@@ -1,9 +1,10 @@
-import React from "react";
+import React, {} from "react";
 import Iframe from 'react-iframe';
-import { Container, Row, Col, Form, Button} from 'react-bootstrap';
+import { Container, Row, Col, Form, Button, Modal} from 'react-bootstrap';
 import Footer from '../../Footer';
 import axios from "axios";
-import ContactModal from "../ContactModal";
+import bgModalImg from '../../../assets/images/contactus/Tem_Prompt-Modal-BG.png';
+import btnModalImg from '../../../assets/images/contactus/Tem_Prompt-Modal_Button.png';
 
 export default class EmailUs extends React.Component {
     constructor() {
@@ -13,32 +14,52 @@ export default class EmailUs extends React.Component {
             contact_number: '',
             email: '',
             message: '',
-            btnLoading: false
+            btnLoading: false,
+            show: false,
+            errs: [],
         }
+        this.hideModal= this.hideModal.bind(this);
         this.btnClick = this.btnClick.bind(this);
     }
     btnClick(e) {
         e.preventDefault();
+        const err = [];
         const data = Object.keys(this.state)
-                           .filter(key => key !== 'btnLoading')
+                           .filter(key => key !== 'btnLoading' && key !== 'errs' && key !== 'show')
                            .reduce((data, objKey) =>
                            // eslint-disable-next-line
                               (data[objKey] = this.state[objKey], data), 
                            {});
 
         // eslint-disable-next-line
-        if(data.name == '' || data.email == '' || data.contact_number == ''){
+        if(data.name == ''){
+            err.push('Please enter your name');
+        }
+
+        // eslint-disable-next-line
+        if(data.email == ''){
+            err.push('Please enter your email');
+        }
+
+        // eslint-disable-next-line
+        if(data.contact_number == ''){
+            err.push('Please enter your contact number');
+        }
+
+        if(err.length > 0){
+            this.setState({show: true});
+            this.setState({errs : err});
             return;
         }
 
         this.setState({btnLoading : true});
-
+        
         axios({
             method: 'post',
             headers: {
                 'Content-Type' : 'application/json',
             },
-            url: 'https://hirayamnl.rarg.xyz/api/temokin/send-email',
+            url: 'https://dev.hirayamnl.com/api/temokin/send-email',
             data: data
         }).then(response => {
             this.setState({ 
@@ -50,9 +71,49 @@ export default class EmailUs extends React.Component {
             });
         }).catch(err => {
             this.setState({btnLoading : false});
+            this.setState({show: true});
+            this.setState({errs: ['Something went wrong']});
         });
     }
+    hideModal() {
+        this.setState({show: false});
+        this.setState({errs: []});
+    }
     render() {
+        const style = {
+            outer: {
+                background: `url(${bgModalImg})`,
+                height: '50vh',
+                width: '50vw',
+                backgroundSize: '100% 100%',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                imageRendering: '-webkit-optimize-contrast'
+            },
+            btn: {
+                background: `url(${btnModalImg})`,
+                height: '50px',
+                width: '50px',
+                backgroundSize: '100% 100%',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center',
+                imageRendering: '-webkit-optimize-contrast',
+                outline: '0',
+                border: '0',
+                boxShadow: 'none'
+                
+            },
+            container: {
+                display: 'flex',
+                flexDirection: 'column',
+                color: 'blue',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '300px',
+                fontWeight: 'bold'
+            }
+        }
+
         return (
             <div className="--bg-2" data-scroll-section>
                 <Container className="--max">
@@ -109,7 +170,16 @@ export default class EmailUs extends React.Component {
                     </div>
                     </Col>
                 </Row>
-                <ContactModal/>
+                <Modal show={this.state.show}>
+                <Modal.Body style={style.outer}>
+                    <Button onClick={this.hideModal} style={style.btn}/>
+                    <div style={style.container}>
+                            {this.state.errs.map((item, key) => (
+                                <span key={key}>{item}</span>
+                            ))}
+                    </div>
+                </Modal.Body>
+            </Modal>
             </Container>
             <div className="form-bg" data-scroll data-scroll-speed="2"/>
             <div className="header-shapes" data-scroll data-scroll-speed="1"/>
