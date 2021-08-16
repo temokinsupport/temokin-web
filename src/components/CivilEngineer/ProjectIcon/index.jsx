@@ -43,20 +43,19 @@ export default function ProjectIcon() {
                     <Card.Img variant="top" src={require('../../../assets/images/civilengineering/CivilEng_Icon-02.png').default} />
                     <Card.Body>
                       <Card.Title>
-                        KTM Line Railway N. Sembilan @ Size Id <br/>
-                        1.5M & Id= 1.8M
+                        PIPE JACKING ACROSS KTM LINE RAILWAY N. SEMBILAN @ SIZE ID 1.5M & ID= 1.8M
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
-                        <span>Active Review Sdn Bhd</span>
+                        <span>Hong Leong Property</span>
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Value</span>
-                        <span>RM10 Million</span>
+                        <span>RM8.6 million</span>
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>May 1994 to Oct 1994</span>
+                        <span>Apr 1994 to Aug 1994</span>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -71,8 +70,7 @@ export default function ProjectIcon() {
                     <Card.Img variant="top" src={require('../../../assets/images/civilengineering/CivilEng_Icon-01.png').default} />
                     <Card.Body>
                       <Card.Title>
-                        KTM Line Railway Alor Star, <br/>
-                        @ Size Id= 1.8M
+                        PIPE JACKING ACROSS KTM LINE RAILWAY ALOR STAR, @ SIZE ID= 1.8M
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
@@ -84,7 +82,7 @@ export default function ProjectIcon() {
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>May 1994 to May 1994</span>
+                        <span>March 1994 to May 1994</span>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -97,8 +95,7 @@ export default function ProjectIcon() {
                     <Card.Img variant="top" src={require('../../../assets/images/civilengineering/CivilEng_Icon-02.png').default} />
                     <Card.Body>
                       <Card.Title>
-                        Associated Works Ktmb, Nilai , <br/>
-                        Neg. Sembilan @ 1.9M
+                        PIPE JACKING ASSOCIATED WORKS KTMB, NILAI , NEG. SEMBILAN @ 1.9M
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
@@ -125,8 +122,7 @@ export default function ProjectIcon() {
                     <Card.Img variant="top" src={require('../../../assets/images/civilengineering/CivilEng_Icon-01.png').default} />
                     <Card.Body>
                       <Card.Title>
-                        Senay Highway Twin @ Size 1.8M <br/>
-                        DIA.
+                        PIPE JACKING ACROSS SENAI HIGHWAY TWIN @ SIZE 1.8M DIA.
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
@@ -138,7 +134,7 @@ export default function ProjectIcon() {
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>Maarch 1993 to DEc 1993</span>
+                        <span>March 1993 to Dec 1993</span>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -151,8 +147,7 @@ export default function ProjectIcon() {
                     <Card.Img variant="top" src={require('../../../assets/images/civilengineering/CivilEng_Icon-02.png').default} />
                     <Card.Body>
                       <Card.Title>
-                        Line Railway Gasing Indah Petaling <br/>
-                        Jaya
+                        PIPE JACKING ACROSS LINE RAILWAY GASING INDAH PETALING JAYA
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
@@ -164,7 +159,7 @@ export default function ProjectIcon() {
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>Oct 1992 to Jan 1995</span>
+                        <span>Oct 1992 to Jan 1993</span>
                       </Card.Text>
                     </Card.Body>
                   </Card>

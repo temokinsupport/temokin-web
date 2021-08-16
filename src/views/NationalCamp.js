@@ -77,7 +77,7 @@ const NationalCamp = () => {
                                                     Client
                                                 </Label>
                                                 <Text>
-                                                    Ministry of Defense, Malaysia
+                                                    Ministry of Defence, Malaysia
                                                 </Text>
                                                 <Label>
                                                     Value

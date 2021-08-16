@@ -68,8 +68,8 @@ const Earthworks = () => {
                                             <Description>
                                                 The earthworks to construct this major <br/>
                                                 power station in Bandar Baru Arang <br/>
-                                                required intensive work and expertise to<br/>
-                                                 manoeuvre around its rocky terrain.
+                                                required intensive work and expertise <br/>
+                                                to manoeuvre around its rocky terrain.
                                             </Description>
                                         </Col>
                                         <Col md={5}>

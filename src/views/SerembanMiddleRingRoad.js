@@ -90,12 +90,12 @@ const SerembanMiddleRingRoad = () => {
                                                     Period
                                                 </Label>
                                                 <Text>
-                                                    Phase 1 from May 2004 to Nov 2006 <br/>
-                                                    Phase 2A from Sep 2009 to Feb 2011<br/>
-                                                    Phase 3A from Jun 2010 to Dec 2011<br/>
-                                                    Phase 2B from Jan 2012 to Jul 2014<br/>
-                                                    Phase 3A from Apr 2012 to Apr 2014<br/>
-                                                    Phase 3B from May 2015 to Nov 2017<br/>
+                                                    <p>Phase 1 from May 2004 to Nov 2006 </p>
+                                                    <p>Phase 2A from Sep 2009 to Feb 2011</p>
+                                                    <p>Phase 3A from Jun 2010 to Dec 2011</p>
+                                                    <p>Phase 2B from Jan 2012 to Jul 2014</p>
+                                                    <p>Phase 3A from Apr 2012 to Apr 2014</p>
+                                                    <p>Phase 3B from May 2015 to Nov 2017</p>
                                                 </Text>
                                             </TextContainer>
                                         </Col>

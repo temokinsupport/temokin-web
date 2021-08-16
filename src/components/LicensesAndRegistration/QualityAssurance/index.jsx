@@ -68,13 +68,13 @@ export default function QualityAssurance() {
                         <div className="--text-container" data-scroll data-scroll-speed="2">
                             <hr/>
                             <p className="--desc"> We maintain a quality management <br/>
-                            systme which fulfils the <br/>
+                            system which fulfills the <br/>
                             requirements of iso <br/>
                             9001 : 2008, specifically for <br/>
-                            roadworks and infrustructure <br/>
-                            construction, certified by sirim <br/>
-                            qas international certification <br/>
-                            network, iqnet. </p>
+                            construction services of <br/>
+                            roadworks and infrastructures. <br/>
+                            It is certified by sirim <br/>
+                            qas International Sdn Bhd and also the International Certification Network, iqnet. </p>
                         </div>
                     </Col>
                 </Row>
