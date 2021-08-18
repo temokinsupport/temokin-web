@@ -70,7 +70,7 @@ export default function Projects() {
                     <Card.Body>
                       <Card.Title>
                         EarthWork Construction, Power <br/>
-                        Station Bandaru Baru Arang
+                        Station Bandar Baru Arang
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
@@ -100,7 +100,7 @@ export default function Projects() {
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
-                        <span>Tenaga Nasional Berhad, Sham Alam (TNB)</span>
+                        <span>Tenaga Nasional Berhad, Shah Alam (TNB)</span>
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Value</span>
@@ -108,7 +108,7 @@ export default function Projects() {
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>June 1992 to Feb 1992</span>
+                        <span>Jul 1991 to Feb 1992</span>
                       </Card.Text>
                       <NavLink className="--btn-view-project" to="/civil-engineering/tnb-substations-33-11kv">View Project</NavLink>
                     </Card.Body>

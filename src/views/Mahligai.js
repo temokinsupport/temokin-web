@@ -59,7 +59,7 @@ const Mahligai = () => {
                                     <Row>
                                         <Col md={6}>
                                             <Name>
-                                                MAHLIGAI AT NUSA DAMAI,TWO <br/>
+                                                MAHLIGAI AT NUSA DAMAI, TWO <br/>
                                                 STOREY AND THREE STOREY HOUSING, <br/>
                                                 JOHOR
                                             </Name>
@@ -88,7 +88,7 @@ const Mahligai = () => {
                                                     Period
                                                 </Label>
                                                 <Text>
-                                                Feb 2017 to ongoing
+                                                Feb 2018 to ongoing
                                                 </Text>
                                             </TextContainer>
                                         </Col>

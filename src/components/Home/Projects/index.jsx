@@ -25,7 +25,7 @@ export default function Projects() {
                     <Col md={4}>
                         <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Home_IMG-Civil-02.png').default} roundedCircle />
                         <h5 className="--project-title" data-scroll>CIVIL ENGINEERING</h5>
-                        <p className="--desc" data-scroll>Pip Jacking Works</p>
+                        <p className="--desc" data-scroll>Pipe Jacking Works</p>
                     </Col>
                 </Row>
             </Container>

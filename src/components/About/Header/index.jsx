@@ -61,7 +61,7 @@ export default function AboutTemokin() {
                                             >They say every great story has a humble <br/>
                                             beginning, and ours is no exception. <br/>
                                             established in 1989, we started our journey as <br/>
-                                            a specialist contractor for highquality <br/>
+                                            a specialist contractor for high-quality <br/>
                                             pipe jacking and earthworks, making our <br/>
                                             first prominent mark in 1991 by delivering <br/>
                                             malaysia's first ever micro-tunneling <br/>

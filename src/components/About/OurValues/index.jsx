@@ -39,8 +39,7 @@ export default function OurValues() {
                             <div className="--right-container">
                             <h5 className="--title">Equality</h5>
                             <hr/>
-                            <p className="--desc">We ensure <br/>
-                            peace of mind</p>
+                            <p className="--desc">We treat everyone equally and fight discrimination</p>
                             </div>
                         </SplideSlide>
                         <SplideSlide >
@@ -48,8 +47,7 @@ export default function OurValues() {
                             <div className="--right-container">
                             <h5 className="--title">Integrity</h5>
                             <hr/>
-                            <p className="--desc">We deliver <br/>
-                            on schedule</p>
+                            <p className="--desc">We do not gain off the misery of others</p>
                             </div>
                         </SplideSlide>
                         <SplideSlide >
@@ -57,8 +55,7 @@ export default function OurValues() {
                             <div className="--right-container">
                             <h5 className="--title">Diligence</h5>
                             <hr/>
-                            <p className="--desc">We exceed <br/>
-                            Expectations</p>
+                            <p className="--desc">We believe hard work achieves success</p>
                             </div>
                         </SplideSlide>
                         <SplideSlide >
@@ -66,8 +63,8 @@ export default function OurValues() {
                             <div className="--right-container">
                             <h5 className="--title">Guidance</h5>
                             <hr/>
-                            <p className="--desc">We exceed <br/>
-                            Expectations</p>
+                            <p className="--desc">We do not frustrate those closest to us
+                            but raise them up</p>
                             </div>
                         </SplideSlide>
                         </Splide>

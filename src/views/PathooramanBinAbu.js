@@ -72,7 +72,7 @@ const PathooramanBinAbu = () => {
                                             <Line/>
                                             <Position>
                                                 GENERAL <br/>
-                                                DIRECTOR
+                                                MANAGER
                                             </Position>
                                         </Col>
                                         <Col md={7}>

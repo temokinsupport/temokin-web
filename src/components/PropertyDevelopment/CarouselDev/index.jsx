@@ -86,7 +86,7 @@ export default function CarouselDev() {
               </p>
               <p className="--bottom-detail">
                 <span className="--title">Period</span>
-                <span>Feb 2017 to ongoing</span>
+                <span>Feb 2018 to ongoing</span>
               </p>
               <NavLink className="--btn-view-project" to="/property-development/mahligai-at-nusa-damai-two-storey-and-three-storey-housing-johor">View Project</NavLink>
             </Carousel.Caption>
@@ -229,7 +229,7 @@ export default function CarouselDev() {
               </p>
               <p className="--bottom-detail">
                 <span className="--title">Period</span>
-                <span>Feb 2017 to ongoing</span>
+                <span>Feb 2018 to ongoing</span>
               </p>
               <NavLink className="--btn-view-project" to="/property-development/mahligai-at-nusa-damai-two-storey-and-three-storey-housing-johor">View Project</NavLink>
             </Carousel.Caption>
