@@ -118,9 +118,9 @@ export default function Featured() {
                       <Carousel.Caption>
                       <h3>PROPERTY DEVELOPMENT</h3>
                         <p> Temokin has a collective property development experience  of over 50 years, <br/> 
-                        having design and built complex skycrapers, hospitals and vast modern retail <br/>
+                        having designed and built complex skycrapers, hospitals and vast modern retail <br/>
                         spaces on behalf of our clients. Our current portfolio includes the building of high- <br/>
-                        quality duplex homes and the new Istana Negara (Malaysia's national place).</p>
+                        quality duplex homes and the new Istana Negara (Malaysia's national palace).</p>
                         <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
                       </Carousel.Caption>
                     </Carousel.Item>
