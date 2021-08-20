@@ -30,8 +30,7 @@ export default function OurValues() {
                             <div className="--right-container">
                             <h5 className="--title">Wisdom</h5>
                             <hr/>
-                            <p className="--desc">We are relentless in our <br/>
-                            pursuit for wisdom</p>
+                            <p className="--desc">We arm ourselves with knowledge to achieve wisdom</p>
                             </div>
                         </SplideSlide>
                         <SplideSlide >
