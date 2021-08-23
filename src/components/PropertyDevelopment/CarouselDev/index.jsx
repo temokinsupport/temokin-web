@@ -118,7 +118,7 @@ export default function CarouselDev() {
               </p>
               <p className="--bottom-detail">
                 <span className="--title">Period</span>
-                <span>September 2020 to on going</span>
+                <span>Sept 2020 to on going</span>
               </p>
               <NavLink className="--btn-view-project" to="/property-development/tropicana-miyu-petaling-jaya">View Project</NavLink>
             </Carousel.Caption>
@@ -150,7 +150,7 @@ export default function CarouselDev() {
               </p>
               <p className="--bottom-detail">
                 <span className="--title">Period</span>
-                <span>September 2004 to December 2004</span>
+                <span>Sept 2004 to Dec 2004</span>
               </p>
               <NavLink className="--btn-view-project" to="/property-development/national-camp-and-services-northern-regions">View Project</NavLink>
             </Carousel.Caption>
@@ -261,7 +261,7 @@ export default function CarouselDev() {
               </p>
               <p className="--bottom-detail">
                 <span className="--title">Period</span>
-                <span>September 2020 to on going</span>
+                <span>Sept 2020 to on going</span>
               </p>
               <NavLink className="--btn-view-project" to="/property-development/tropicana-miyu-petaling-jaya">View Project</NavLink>
             </Carousel.Caption>
@@ -293,7 +293,7 @@ export default function CarouselDev() {
               </p>
               <p className="--bottom-detail">
                 <span className="--title">Period</span>
-                <span>September 2004 to December 2004</span>
+                <span>Sept 2004 to Dec 2004</span>
               </p>
               <NavLink className="--btn-view-project" to="/property-development/national-camp-and-services-northern-regions">View Project</NavLink>
             </Carousel.Caption>

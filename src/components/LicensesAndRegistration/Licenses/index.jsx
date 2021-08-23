@@ -14,7 +14,7 @@ export default function Licenses() {
                                     src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-License-01.png').default}/>
                                 <Carousel.Caption>
                                     <h3 className="--caption"> Contractor Service Center Class A <br/>
-                                    Minister Of Works </h3>
+                                    Ministry Of Works </h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
@@ -40,7 +40,7 @@ export default function Licenses() {
                             <Carousel.Item>
                                 <Image src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-License-05.png').default}/>
                                 <Carousel.Caption>
-                                    <h3 className="--caption"> Contractor <br/>
+                                    <h3 className="--caption"> Registration <br/>
                                     CIDB Malaysia </h3>
                                 </Carousel.Caption>
                             </Carousel.Item>

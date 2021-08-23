@@ -27,7 +27,7 @@ export default function Projects() {
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>May 2014 to Nov 2017</span>
+                        <span>May 2004 to Nov 2017</span>
                       </Card.Text>
                       <NavLink className="--btn-view-project" to="/civil-engineering/seremban-middle-ring-road">View Project</NavLink>
                     </Card.Body>
@@ -82,7 +82,7 @@ export default function Projects() {
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>June 1993 to June 1994</span>
+                        <span>Jun 1993 to Jun 1994</span>
                       </Card.Text>
                       <NavLink className="--btn-view-project" to="/civil-engineering/earthwork-constructio-power-station-bandaru-baru-arang">View Project</NavLink>
                     </Card.Body>
@@ -136,7 +136,7 @@ export default function Projects() {
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>July 1991 to May 1995</span>
+                        <span>Jul 1991 to May 1995</span>
                       </Card.Text>
                       <NavLink className="--btn-view-project" to="/civil-engineering/pipe-jacking-works">View Project</NavLink>
                     </Card.Body>

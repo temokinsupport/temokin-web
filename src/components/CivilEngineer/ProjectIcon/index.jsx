@@ -82,7 +82,7 @@ export default function ProjectIcon() {
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>March 1994 to May 1994</span>
+                        <span>Mar 1994 to May 1994</span>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -134,7 +134,7 @@ export default function ProjectIcon() {
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>March 1993 to Dec 1993</span>
+                        <span>Mar 1993 to Dec 1993</span>
                       </Card.Text>
                     </Card.Body>
                   </Card>
@@ -245,7 +245,7 @@ export default function ProjectIcon() {
                       </Card.Text>
                       <Card.Text>
                         <span className="--title">Period</span>
-                        <span>Aug 1992 to July 1993</span>
+                        <span>Aug 1992 to Jul 1993</span>
                       </Card.Text>
                     </Card.Body>
                   </Card>

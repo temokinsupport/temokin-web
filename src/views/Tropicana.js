@@ -91,7 +91,7 @@ const Tropicana = () => {
                                                     Period
                                                 </Label>
                                                 <Text>
-                                                    September 2020 to ongoing
+                                                    Sept 2020 to ongoing
                                                 </Text>
                                             </TextContainer>
                                         </Col>

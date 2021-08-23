@@ -89,7 +89,7 @@ const NationalCamp = () => {
                                                     Period
                                                 </Label>
                                                 <Text>
-                                                    September 2004 to December 2004
+                                                    Sept 2004 to Dec 2004
                                                 </Text>
                                             </TextContainer>
                                         </Col>
