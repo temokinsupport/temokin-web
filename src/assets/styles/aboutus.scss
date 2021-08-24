@@ -793,6 +793,9 @@
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
+        @media not all and (min-resolution:.001dpcm) {
+            height:100% !important;
+        }
     }
     .slider > li {
         box-sizing: border-box;
@@ -1404,6 +1407,9 @@
         @media (max-width: 590px) {
             .slider {
                 height: 100% !important;
+                @media not all and (min-resolution:.001dpcm) {
+                    height:100%;
+                }
             }
         }
     }
@@ -1448,7 +1454,7 @@
             margin-left: -55px;
         }
         .slider {
-            height: 200% !important;
+            height: 200%;
         }
         .overlay-shape1 {
             height: 700px;

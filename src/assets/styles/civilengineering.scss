@@ -19,7 +19,7 @@
         position: relative;
         z-index: 1;
         .--title {
-            font-family: "gill sans",sans-serif !important;
+            font-family: "gill sans", sans-serif !important;
             letter-spacing: 0.4vw;
             font-weight: 600 !important;
             text-transform: uppercase;
@@ -30,7 +30,7 @@
             text-align: center;
         }
         .--desc {
-            font-family: "gill sans",sans-serif;
+            font-family: "gill sans", sans-serif;
             font-weight: 600 !important;
             margin-bottom: 9.4vw;
             font-size: 1.6vw;
@@ -46,7 +46,7 @@
         width: 100%;
         position: relative;
         .--title {
-            font-family: "gill sans",sans-serif !important;
+            font-family: "gill sans", sans-serif !important;
             letter-spacing: 0.4vw;
             font-weight: 600 !important;
             text-transform: uppercase;
@@ -67,7 +67,7 @@
             height: 2px;
         }
         .--desc {
-            font-family: "gill sans",sans-serif;
+            font-family: "gill sans", sans-serif;
             font-weight: 600 !important;
             margin-bottom: 9.4vw;
             font-size: 1.6vw;
@@ -108,12 +108,12 @@
                 object-position: 0 0;
                 object-fit: contain;
                 image-rendering: pixelated;
-                border-radius:  0 !important;
+                border-radius: 0 !important;
             }
             .card-body {
                 padding: 1.5vw 0;
                 .card-title {
-                    font-family: "gill sans",sans-serif !important;
+                    font-family: "gill sans", sans-serif !important;
                     letter-spacing: 0.24vw;
                     font-weight: 600 !important;
                     text-transform: uppercase;
@@ -129,14 +129,14 @@
                     text-align: left;
                     margin-bottom: 35px;
                     span.--title {
-                        font-family: "gill sans ",sans-serif !important;
+                        font-family: "gill sans ", sans-serif !important;
                         font-weight: 600 !important;
                         line-height: normal;
                         font-size: 0.9vw;
                     }
                     span {
-                        display: block; 
-                        font-family: "gill sans light",sans-serif !important;
+                        display: block;
+                        font-family: "gill sans light", sans-serif !important;
                         font-weight: 300 !important;
                         line-height: normal;
                         font-size: 1vw;
@@ -146,7 +146,7 @@
                     background-color: #ffffff !important;
                     border: 0 !important;
                     border-radius: 0 !important;
-                    font-family: "gill sans",sans-serif !important;
+                    font-family: "gill sans", sans-serif !important;
                     letter-spacing: 0.1vw;
                     color: #283997;
                     text-align: center;
@@ -166,6 +166,31 @@
         min-height: 51vw;
         width: 100%;
         position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 10vw;
+            left: 0vw;
+            right: 0vw;
+            bottom: 0vw;
+            height: 26vw;
+            width: 100%;
+            background: #696aac;
+            z-index: -3;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            top: 150vw;
+            left: 0vw;
+            right: 0vw;
+            bottom: 0vw;
+            height: 26vw;
+            width: 100%;
+            background: rgb(219,219,219);
+            background: linear-gradient(90deg, rgba(219,219,219,1) 0%, rgba(204,204,204,1) 100%);
+            z-index: -5;
+        }
         .--max {
             max-width: 70%;
         }
@@ -208,7 +233,7 @@
             .card-body {
                 padding: 3vw 0;
                 .card-title {
-                    font-family: "gill sans",sans-serif !important;
+                    font-family: "gill sans", sans-serif !important;
                     letter-spacing: 0.2vw;
                     font-weight: 600 !important;
                     text-transform: uppercase;
@@ -225,14 +250,14 @@
                     text-align: left;
                     margin-bottom: 35px;
                     span.--title {
-                        font-family: "gill sans ",sans-serif !important;
+                        font-family: "gill sans ", sans-serif !important;
                         font-weight: 600 !important;
                         line-height: normal;
                         font-size: 0.9vw;
                     }
                     span {
-                        display: block; 
-                        font-family: "gill sans light",sans-serif !important;
+                        display: block;
+                        font-family: "gill sans light", sans-serif !important;
                         font-weight: 300 !important;
                         line-height: normal;
                         font-size: 1vw;
@@ -242,7 +267,7 @@
                     background-color: #ffffff !important;
                     border: 0 !important;
                     border-radius: 0 !important;
-                    font-family: "gill sans",sans-serif !important;
+                    font-family: "gill sans", sans-serif !important;
                     letter-spacing: 0.1vw;
                     color: #283997;
                     text-align: center;
@@ -332,7 +357,7 @@
         top: 25.2vw;
     }
     .projectsicon1-bg {
-        background: url("../images/civilengineering/CivilEng_BG-01-4.png")  bottom 0 right -1vw;
+        background: url("../images/civilengineering/CivilEng_BG-01-4.png") bottom 0 right -1vw;
         background-repeat: no-repeat;
         background-size: 105vw 46vw !important;
         transition: background 0.3s;
@@ -343,7 +368,7 @@
         bottom: 6vw;
     }
 
-    @media (max-width:1777px) {
+    @media (max-width: 1777px) {
         .project1-bg {
             z-index: -4;
             height: 116vw;
@@ -355,24 +380,24 @@
             bottom: -38.7vw;
         }
     }
-    @media (max-width:1600px) {
+    @media (max-width: 1600px) {
         .project1-bg {
             bottom: -34.7vw;
         }
     }
-    @media (max-width:1440px) {
+    @media (max-width: 1440px) {
         .project1-bg {
             bottom: -46.7vw;
             height: 135vw;
         }
     }
-    @media (max-width:1140px) {
+    @media (max-width: 1140px) {
         .project1-bg {
             bottom: -51.7vw;
             height: 146vw;
         }
     }
-    @media (max-width:1024px) {
+    @media (max-width: 1024px) {
         .projects-bg {
             background-size: 158vw auto !important;
             height: 202vw;
@@ -380,7 +405,7 @@
     }
     @media (max-width: 992px) {
         background: url("../images/mobile/licenses/Licenses_BG-03.png") top 51vw center,
-        url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 135vw center;;
+            url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 135vw center;
         background-size: 100vw auto, 115vw auto;
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll, scroll;
@@ -399,13 +424,13 @@
             padding: 160px 0 100px 0;
             h1 {
                 &.--title {
-                    font-size: 1.500em;
+                    font-size: 1.5em;
                     margin-bottom: 25px;
                 }
             }
             p {
                 &.--desc {
-                    font-size: 1.000em;
+                    font-size: 1em;
                     line-height: 1.6;
                     br {
                         display: none;
@@ -417,13 +442,13 @@
             padding: 100px 0;
             h1 {
                 &.--title {
-                    font-size: 1.500em;
+                    font-size: 1.5em;
                     margin-bottom: 25px;
                 }
             }
             p {
                 &.--desc {
-                    font-size: 1.000em;
+                    font-size: 1em;
                     line-height: 1.6;
                     br {
                         display: none;
@@ -441,7 +466,7 @@
                 }
             }
             .card {
-                width: 90%; 
+                width: 90%;
                 margin-bottom: 100px;
                 img {
                     width: auto;
@@ -449,21 +474,21 @@
                 }
                 .card-body {
                     .card-title {
-                        font-size: 1.000em;
+                        font-size: 1em;
                         br {
                             display: none;
                         }
                     }
                     .card-text {
                         span.--title {
-                            font-size:0.875em;
+                            font-size: 0.875em;
                         }
                         span {
-                            font-size:0.875em;
+                            font-size: 0.875em;
                         }
                     }
                     .--btn-view-project {
-                        font-size:0.875em;
+                        font-size: 0.875em;
                     }
                 }
             }
@@ -483,7 +508,7 @@
                 }
                 .card-body {
                     .card-title {
-                        font-size:0.875em;
+                        font-size: 0.875em;
                         br {
                             display: none;
                         }
@@ -493,7 +518,7 @@
                             font-size: 0.875em;
                         }
                         span {
-                            font-size:0.875em;
+                            font-size: 0.875em;
                         }
                     }
                 }
@@ -502,7 +527,7 @@
     }
     @media (max-width: 835px) {
         background: url("../images/mobile/licenses/Licenses_BG-03.png") top -34vw center,
-        url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 154vw center;;
+            url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 154vw center;
         background-size: 100vw auto, 200vw auto;
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll, scroll;
@@ -511,7 +536,7 @@
     }
     @media (max-width: 700px) {
         background: url("../images/mobile/licenses/Licenses_BG-03.png") top -15vw center,
-        url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 145vw center;;
+            url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 145vw center;
         background-size: 100vw auto, 225vw auto !important;
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll, scroll;
@@ -529,7 +554,7 @@
     }
     @media (max-width: 500px) {
         background: url("../images/mobile/licenses/Licenses_BG-03.png") top -15vw center,
-        url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 172vw center;;
+            url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 172vw center;
         background-size: 100vw auto, 250vw auto !important;
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll, scroll;
@@ -542,11 +567,10 @@
             background: url("../images/civilengineering/CivilEng_Shapes-01.png") top 40vw left -8vw;
             background-repeat: no-repeat;
         }
-        
     }
-    @media (max-width:420px) {
+    @media (max-width: 420px) {
         background: url("../images/mobile/licenses/Licenses_BG-03.png") top -15vw center,
-        url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 165vw center;;
+            url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 165vw center;
         background-size: 110vw auto, 220vw auto !important;
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll, scroll;
