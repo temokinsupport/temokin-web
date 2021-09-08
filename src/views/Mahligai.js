@@ -117,18 +117,18 @@ const Projects = styled.div`
         top: 0;
         left: 0;
         right: 0;
-        background: url(${overlayImage}) top 8vw left -34vw;
+        background: url(${overlayImage}) top 8vw left;
         transition: background 0.3s;
         background-attachment: scroll;
         background-repeat: no-repeat;
-        background-size: 160vw auto;
+        background-size: 100vw 100vw;
         height: 100vw;
         width: 100%;
     }
 `;
 
 const Name = styled.h3`
-    letter-spacing: 0.19vw;
+    letter-spacing: 0.15vw;
     text-transform: uppercase;
     line-height: 1.4;
     font-size: 1.1vw;
@@ -149,8 +149,8 @@ const Line = styled.hr`
 
 const Description = styled.p`
     font-weight: 600 !important;
-    line-height: 1.8;
-    font-size: 1.15vw;
+    line-height: 1.3;
+    font-size: 1.12vw;
     font-family: "gill sans light",sans-serif !important;
     color: #283a97;
     margin: 0;
