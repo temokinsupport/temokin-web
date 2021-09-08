@@ -6,7 +6,7 @@ export default function Join() {
         <Container className="--max">
             <Row>
                 <Col>
-                    <Image data-scroll data-scroll-speed="2" src={require('../../../assets/images/teamleaders/Leaders_IMG-01.png').default} />
+                    <Image  src={require('../../../assets/images/teamleaders/Leaders_IMG-01.png').default} />
                 </Col>
                 <Col>
                     <h1 data-scroll data-scroll-speed="1" className="--title">Join Our Team</h1>

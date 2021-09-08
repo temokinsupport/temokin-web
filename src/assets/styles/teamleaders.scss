@@ -124,12 +124,6 @@
             height: auto;
             object-fit: contain;
             object-position: 0 0;
-            transform: scale(0) !important;
-            transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
-            &.is-reveal {
-                transform: scale(1) !important;
-                transition-delay: 0.3s;
-            }
         }
         .--title {
             font-family: "gill sans",sans-serif !important;
