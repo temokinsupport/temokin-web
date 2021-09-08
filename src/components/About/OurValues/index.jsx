@@ -26,7 +26,7 @@ export default function OurValues() {
                         } }
                         >
                         <SplideSlide >
-                            <Image src={require('../../../assets/images/aboutus/About_IMG-People.png').default}/>
+                            <Image src={require('../../../assets/images/aboutus/About_IMG-Wisdom.png').default}/>
                             <div className="--right-container">
                             <h5 className="--title">Wisdom</h5>
                             <hr/>

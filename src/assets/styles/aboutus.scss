@@ -287,6 +287,9 @@
             bottom: 10vw;
             left: unset;
             transform: unset;
+            @media not all and (min-resolution: 0.001dpcm) {
+                bottom: 7vw !important;
+            }  
             li {
                 margin: 0 1.1vw;
             }
