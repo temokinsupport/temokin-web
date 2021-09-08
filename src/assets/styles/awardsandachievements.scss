@@ -18,7 +18,7 @@
         .--title {
             font-family: "gill sans",sans-serif !important;
             letter-spacing: 0.5vw;
-            font-weight: 600 !important;
+            font-weight: 500 !important;
             text-transform: uppercase;
             line-height: 3.1vw;
             font-size: 2.3vw;
@@ -43,6 +43,28 @@
         height: 90vw;
         position: relative;
         z-index: 3 !important;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 16vw;
+            right: -7vw;
+            width: 43vw;
+            height: 11vw;
+            border: 1px solid #ffffff;
+            z-index: 10;
+            transform: rotate3d(1, 4, 1, 39deg);
+        }
+        &::after {
+            position: absolute;
+            content: "";
+            bottom: 11vw;
+            left: -7vw;
+            width: 43vw;
+            height: 13vw;
+            border: 1px solid #ffffff;
+            z-index: 10;
+            transform: rotate3d(6, -7, 5, 39deg);
+        }
         .--max {
             max-width: 75%;
         }
@@ -96,8 +118,8 @@
         .carousel-indicators {
             bottom: -12vw;
             li {
-                height: 30px;
-                width: 30px;
+                height: 24px;
+                width:24px;
                 border-radius: 100px;
                 border: 1px solid #ffffff;
                 background-color: transparent;
@@ -119,6 +141,17 @@
         padding: 8.5vw 0 10vw 0;
         height: 80vw;
         z-index: -1 !important;
+        &::before {
+            position: absolute;
+            content: "";
+            top: -16vw;
+            left: -7vw;
+            width: 31vw;
+            height: 13vw;
+            background-color: rgba(40, 57, 150, 0.66);
+            z-index: 10;
+            transform: rotate3d(6, -7, 5, 39deg);
+        }
         .--max {
             max-width: 73%;
         }
