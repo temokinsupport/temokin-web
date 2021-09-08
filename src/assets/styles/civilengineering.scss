@@ -21,7 +21,7 @@
         .--title {
             font-family: "gill sans", sans-serif !important;
             letter-spacing: 0.4vw;
-            font-weight: 600 !important;
+            font-weight: 500 !important;
             text-transform: uppercase;
             line-height: 3.1vw;
             font-size: 2vw;
@@ -31,7 +31,7 @@
         }
         .--desc {
             font-family: "gill sans", sans-serif;
-            font-weight: 600 !important;
+            font-weight: 500 !important;
             margin-bottom: 9.4vw;
             font-size: 1.6vw;
             color: #676ab0;
@@ -310,6 +310,17 @@
         z-index: -3;
         height: 116vw;
         top: 0;
+        &::before {
+            position: absolute;
+            content: "";
+            bottom: 48vw;
+            right: -23vw;
+            width: 39vw;
+            height: 16vw;
+            border: 1px solid rgba(40, 57, 150, 0.66);
+            z-index: 10;
+            transform: rotate3d(6, -7, 5, 61deg);
+        }
     }
     .header-shapes-2 {
         background: url("../images/civilengineering/CivilEng_Shapes-02.png") top 77vw left -2.5vw;
