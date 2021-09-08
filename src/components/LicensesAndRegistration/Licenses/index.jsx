@@ -7,7 +7,7 @@ export default function Licenses() {
             <Container>
                 <Row>
                     <Col data-scroll
-                        data-scroll-speed="2" >
+                        >
                         <Carousel fade>
                             <Carousel.Item>
                                 <Image 
