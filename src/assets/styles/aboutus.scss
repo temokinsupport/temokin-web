@@ -260,7 +260,10 @@
                     width: 65vw;
                     height: 40vw;
                     object-fit: cover;
-                    object-position: center;          
+                    object-position: center;        
+                    @media not all and (min-resolution: 0.001dpcm) {
+                        width: 50vw;
+                    }  
                 }
                 .splide__list {
                     width: 100%;
@@ -407,6 +410,9 @@
                     height: 40vw;
                     object-fit: cover;
                     object-position: center;     
+                    @media not all and (min-resolution: 0.001dpcm) {
+                        width: 50vw;
+                    }  
                 }
                 .splide__list {
                     width: 100%;
