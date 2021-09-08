@@ -37,29 +37,29 @@ export default function QualityAssurance() {
                             <Carousel.Item>
                                 <Image src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-QA-04.png').default}/>
                                 <Carousel.Caption>
-                                    <h3 className="--caption"> ISO 9001 : 2008<br/>
-                                    Sirim Qas </h3>
+                                    <h3 className="--caption"> WATER SUPPLY PERMIT <br/>
+                                    NATIONAL WATER SERVICES COMMISION</h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <Image src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-QA-05.png').default}/>
                                 <Carousel.Caption>
-                                    <h3 className="--caption"> ISO 9001 : 2008<br/>
-                                    Sirim Qas </h3>
+                                <h3 className="--caption"> SEWERAGE PERMIT <br/>
+                                NATIONAL WATER SEVICES COMMISION</h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <Image src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-QA-06.png').default}/>
                                 <Carousel.Caption>
-                                    <h3 className="--caption"> ISO 9001 : 2008<br/>
-                                    Sirim Qas </h3>
+                                <h3 className="--caption"> SUPPLIER AND SERVICE CONTRACTOR <br/>
+                                    TENAGA NASIONAL BERHAD</h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                             <Carousel.Item>
                                 <Image src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-QA-07.png').default}/>
                                 <Carousel.Caption>
-                                    <h3 className="--caption"> ISO 9001 : 2008<br/>
-                                    Sirim Qas </h3>
+                                <h3 className="--caption"> EQUIPMENT AND SERVICES SUPPLIER <br/>
+                                    PETRONAS</h3>
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
