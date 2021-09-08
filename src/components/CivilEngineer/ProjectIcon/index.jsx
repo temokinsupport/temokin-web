@@ -43,7 +43,7 @@ export default function ProjectIcon() {
                     <Card.Img variant="top" src={require('../../../assets/images/civilengineering/CivilEng_Icon-02.png').default} />
                     <Card.Body>
                       <Card.Title>
-                        PIPE JACKING ACROSS KTM LINE RAILWAY N. SEMBILAN @ SIZE ID 1.5M & ID= 1.8M
+                        KTM LINE RAILWAY N. SEMBILAN @ SIZE ID 1.5M & ID= 1.8M
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
@@ -70,7 +70,7 @@ export default function ProjectIcon() {
                     <Card.Img variant="top" src={require('../../../assets/images/civilengineering/CivilEng_Icon-01.png').default} />
                     <Card.Body>
                       <Card.Title>
-                        PIPE JACKING ACROSS KTM LINE RAILWAY ALOR STAR, @ SIZE ID= 1.8M
+                        KTM LINE RAILWAY ALOR STAR, @ SIZE ID= 1.8M
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
@@ -95,7 +95,7 @@ export default function ProjectIcon() {
                     <Card.Img variant="top" src={require('../../../assets/images/civilengineering/CivilEng_Icon-02.png').default} />
                     <Card.Body>
                       <Card.Title>
-                        PIPE JACKING ASSOCIATED WORKS KTMB, NILAI , NEG. SEMBILAN @ 1.9M
+                        ASSOCIATED WORKS KTMB, NILAI , NEG. SEMBILAN @ 1.9M
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
@@ -122,7 +122,7 @@ export default function ProjectIcon() {
                     <Card.Img variant="top" src={require('../../../assets/images/civilengineering/CivilEng_Icon-01.png').default} />
                     <Card.Body>
                       <Card.Title>
-                        PIPE JACKING ACROSS SENAI HIGHWAY TWIN @ SIZE 1.8M DIA.
+                        SENAI HIGHWAY TWIN @ SIZE 1.8M DIA.
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
@@ -147,7 +147,7 @@ export default function ProjectIcon() {
                     <Card.Img variant="top" src={require('../../../assets/images/civilengineering/CivilEng_Icon-02.png').default} />
                     <Card.Body>
                       <Card.Title>
-                        PIPE JACKING ACROSS LINE RAILWAY GASING INDAH PETALING JAYA
+                        LINE RAILWAY GASING INDAH PETALING JAYA
                       </Card.Title>
                       <Card.Text>
                         <span className="--title">Client</span>
