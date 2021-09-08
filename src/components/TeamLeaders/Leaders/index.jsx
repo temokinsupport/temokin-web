@@ -78,10 +78,8 @@ export default function Leaders() {
                 <Row>
                     <Col>
                         <h1 className="--title"
-                            data-scroll data-scroll-speed="2"
                         >Meet Our Leaders</h1>
                         <p className="--desc"
-                            data-scroll data-scroll-speed="2"
                         >With a combined 55 years of experience in the construction and property industry, <br/>
                         our Board of Directors bring to the table a wide spectrum skill sets and visionary <br/>
                         ideas will keep the TEMOKIN ship steering in the right direction. Here you'll meet a <br/>
