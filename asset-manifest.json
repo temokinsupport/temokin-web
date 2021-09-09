@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e781caa8.chunk.css",
-    "main.js": "/static/js/main.0ff1cccb.chunk.js",
-    "main.js.map": "/static/js/main.0ff1cccb.chunk.js.map",
+    "main.js": "/static/js/main.884cbeb6.chunk.js",
+    "main.js.map": "/static/js/main.884cbeb6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0c54951d.js",
     "runtime-main.js.map": "/static/js/runtime-main.0c54951d.js.map",
     "static/css/2.96792a84.chunk.css": "/static/css/2.96792a84.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.96792a84.chunk.css.map": "/static/css/2.96792a84.chunk.css.map",
     "static/css/main.e781caa8.chunk.css.map": "/static/css/main.e781caa8.chunk.css.map",
     "static/js/2.01143f64.chunk.js.LICENSE.txt": "/static/js/2.01143f64.chunk.js.LICENSE.txt",
-    "static/js/main.0ff1cccb.chunk.js.LICENSE.txt": "/static/js/main.0ff1cccb.chunk.js.LICENSE.txt",
+    "static/js/main.884cbeb6.chunk.js.LICENSE.txt": "/static/js/main.884cbeb6.chunk.js.LICENSE.txt",
     "static/media/aboutus.scss": "/static/media/About_BG-Shapes-02.2272feba.png",
     "static/media/About_IMG-Accoutability.png": "/static/media/About_IMG-Accoutability.340b77b5.png",
     "static/media/About_IMG-Diligence.png": "/static/media/About_IMG-Diligence.a93a52c0.png",
@@ -128,6 +128,6 @@
     "static/css/2.96792a84.chunk.css",
     "static/js/2.01143f64.chunk.js",
     "static/css/main.e781caa8.chunk.css",
-    "static/js/main.0ff1cccb.chunk.js"
+    "static/js/main.884cbeb6.chunk.js"
   ]
 }
