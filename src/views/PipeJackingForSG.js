@@ -45,7 +45,7 @@ const PipeJackingForSG = () => {
             data-scroll-container
         >
             
-            <div className="--bg-1" data-scroll-section>
+            <div className="--bg-1">
                 <Navigation/>
                 <Container className="--max">
                     <Row>
