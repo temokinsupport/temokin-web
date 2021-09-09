@@ -4,7 +4,7 @@ import Footer from '../../Footer';
 
 export default function ProjectIcon() {
     return (
-        <div className="--bg-4" data-scroll-section>
+        <div className="--bg-4" >
             <Container className="--max">
               
               <Row className="--white">
@@ -280,10 +280,10 @@ export default function ProjectIcon() {
                 </Col>
               </Row>
             </Container>
-            <div className="projects-bg-shape2"/>
-            <div className="projects-bg-shape3"/>
-            <div className="projectsicon-bg"/>
-            <div className="projectsicon1-bg"/>
+            {/* <div className="projects-bg-shape2"/>
+            <div className="projects-bg-shape3"/> */}
+            {/* <div className="projectsicon-bg"/>
+            <div className="projectsicon1-bg"/> */}
             <Footer/>
           </div>
     )

@@ -4,7 +4,7 @@ import Navigation from '../../Navigation';
 
 export default function Header() {
     return (
-        <div className="--bg-1" data-scroll-section>
+        <div className="--bg-1">
             <Navigation/>
             <Container>
                 <Row>

@@ -1,15 +1,10 @@
 .--civil-engineering {
-    // background: url("../images/civilengineering/CivilEng_Shapes-01.png") top 10vw left -8vw,
-    // url("../images/civilengineering/CivilEng_Shapes-02.png") top 77vw left -2.5vw,
-    // url("../images/civilengineering/CivilEng_Shapes-03.png") top 297vw left -2vw,
-    // url("../images/civilengineering/CivilEng_Shapes-04.png") bottom 60vw right -32vw,
-    // url("../images/civilengineering/CivilEng_Shapes-05.png") bottom -2vw left,
-    // url("../images/civilengineering/CivilEng_BG-01.png") bottom -2.8vw right -1vw;
-    // background-size: 145vw auto, 35vw auto, 105vw auto, 175vw auto, 53vw auto, 102vw auto;
-    // background-repeat: no-repeat, no-repeat , no-repeat, no-repeat, no-repeat, no-repeat;
-    // background-attachment: scroll;
-    // transition: background 0.3s;
-    // image-rendering: -webkit-optimize-contrast;
+    background: url("../images/civilengineering/CivilEng_BG-01.png") bottom 0vw left -3vw;
+    background-size: 105vw auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    transition: background 0.3s;
+    image-rendering: -webkit-optimize-contrast;
 
     position: relative;
     min-height: 100vh;
@@ -200,31 +195,31 @@
             transform: rotate3d(1, 2, -2, -29deg);
             right: -26vw;
         }
-        &::before {
-            content: "";
-            position: absolute;
-            top: 10vw;
-            left: 0vw;
-            right: 0vw;
-            bottom: 0vw;
-            height: 26vw;
-            width: 100%;
-            background: #696aac;
-            z-index: -3;
-        }
-        &::after {
-            content: "";
-            position: absolute;
-            top: 150vw;
-            left: 0vw;
-            right: 0vw;
-            bottom: 0vw;
-            height: 26vw;
-            width: 100%;
-            background: rgb(219, 219, 219);
-            background: linear-gradient(90deg, rgba(219, 219, 219, 1) 0%, rgba(204, 204, 204, 1) 100%);
-            z-index: -5;
-        }
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     top: 10vw;
+        //     left: 0vw;
+        //     right: 0vw;
+        //     bottom: 0vw;
+        //     height: 26vw;
+        //     width: 100%;
+        //     background: #696aac;
+        //     z-index: -3;
+        // }
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     top: 150vw;
+        //     left: 0vw;
+        //     right: 0vw;
+        //     bottom: 0vw;
+        //     height: 26vw;
+        //     width: 100%;
+        //     background: rgb(219, 219, 219);
+        //     background: linear-gradient(90deg, rgba(219, 219, 219, 1) 0%, rgba(204, 204, 204, 1) 100%);
+        //     z-index: -5;
+        // }
         .--max {
             max-width: 70%;
         }
@@ -344,6 +339,7 @@
         z-index: -3;
         height: 116vw;
         top: 0;
+        // position: relative;
         &::before {
             position: absolute;
             content: "";
@@ -357,7 +353,7 @@
         }
     }
     .header-shapes-2 {
-        background: url("../images/civilengineering/CivilEng_Shapes-02.png") top 77vw left -2.5vw;
+        background: url("../images/civilengineering/CivilEng_Shapes-02.png") top 45vw left -2.5vw;
         background-repeat: no-repeat;
         background-size: 35vw auto !important;
         transition: background 0.3s;
@@ -402,7 +398,7 @@
         top: 25.2vw;
     }
     .projectsicon1-bg {
-        background: url("../images/civilengineering/CivilEng_BG-01-4.png") bottom 0 right -1vw;
+        // background: url("../images/civilengineering/CivilEng_BG-01-4.png") bottom 0 right -1vw;
         background-repeat: no-repeat;
         background-size: 105vw 46vw !important;
         transition: background 0.3s;
@@ -448,11 +444,11 @@
             height: 202vw;
         }
     }
-    @media (max-width: 992px) {
+    @media (max-width: 922px) {
         overflow-x: hidden;
-        background: url("../images/mobile/licenses/Licenses_BG-03.png") top 51vw center,
-            url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 135vw center;
-        background-size: 100vw auto, 115vw auto;
+        background: url("../images/mobile/civilengineering/CivilEng_BG-01.png") bottom 40vh center,
+        url("../images/civilengineering/CivilEng_BG-01-5.png") top 0vw center;
+        background-size: 100vw 680vh, 110vw 185vw !important;
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll, scroll;
         transition: background 0.3s;
@@ -571,22 +567,7 @@
             }
         }
     }
-    @media (max-width: 835px) {
-        background: url("../images/mobile/licenses/Licenses_BG-03.png") top -34vw center,
-            url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 154vw center;
-        background-size: 100vw auto, 200vw auto;
-        background-repeat: no-repeat, no-repeat;
-        background-attachment: scroll, scroll;
-        transition: background 0.3s;
-        image-rendering: -webkit-optimize-contrast;
-    }
     @media (max-width: 700px) {
-        background: url("../images/mobile/licenses/Licenses_BG-03.png") top -15vw center,
-            url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 145vw center;
-        background-size: 100vw auto, 225vw auto !important;
-        background-repeat: no-repeat, no-repeat;
-        background-attachment: scroll, scroll;
-        transition: background 0.3s;
         image-rendering: -webkit-optimize-contrast;
         .--bg-1 {
             padding: 18vw 0 10vw 0;
@@ -598,10 +579,19 @@
             padding: 27vw 0 10vw 0;
         }
     }
+    @media (max-width:650px) {
+        overflow-x: hidden;
+        background: url("../images/mobile/civilengineering/CivilEng_BG-01.png") bottom 40vh center,
+        url("../images/civilengineering/CivilEng_BG-01-5.png") top 0vw center;
+        background-size: 100vw 630vh, 110vw 185vw !important;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll, scroll;
+        transition: background 0.3s;
+    }
     @media (max-width: 500px) {
-        background: url("../images/mobile/licenses/Licenses_BG-03.png") top -15vw center,
-            url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 172vw center;
-        background-size: 100vw auto, 250vw auto !important;
+        background: url("../images/mobile/civilengineering/CivilEng_BG-01.png") bottom 40vh center,
+        url("../images/civilengineering/CivilEng_BG-01-5.png") top 0vw center;
+        background-size: 100vw 570vh, 110vw 185vw !important;
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll, scroll;
         transition: background 0.3s;
@@ -610,17 +600,18 @@
             padding: 27vw 0 10vw 0;
         }
         .header-shapes {
-            background: url("../images/civilengineering/CivilEng_Shapes-01.png") top 40vw left -8vw;
+            // background: url("../images/civilengineering/CivilEng_Shapes-01.png") top 40vw left -8vw;
             background-repeat: no-repeat;
         }
     }
     @media (max-width: 420px) {
-        background: url("../images/mobile/licenses/Licenses_BG-03.png") top -15vw center,
-            url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 165vw center;
-        background-size: 110vw auto, 220vw auto !important;
+        background: url("../images/mobile/civilengineering/CivilEng_BG-01.png") bottom 40vh center,
+        url("../images/civilengineering/CivilEng_BG-01-5.png") top 0vw center;
+        background-size: 100vw 600vh, 110vw 200vh !important;
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll, scroll;
         transition: background 0.3s;
+        image-rendering: -webkit-optimize-contrast;
         image-rendering: -webkit-optimize-contrast;
     }
 }

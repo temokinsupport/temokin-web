@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Projects() {
     return (
-        <div className="--bg-3" data-scroll-section>
+        <div className="--bg-3" >
             <Container className="--max">
               <Row>
                 <Col md={6}>
@@ -173,10 +173,10 @@ export default function Projects() {
                 </Col>
               </Row>
             </Container>
-            <div className="projects-bg-shape"/>
-            <div className="projects-bg-shape1"/>
-            <div className="projects-bg"/>
-            <div className="project1-bg"/>
+            {/* <div className="projects-bg-shape"/>
+            <div className="projects-bg-shape1"/> */}
+            {/* <div className="projects-bg"/>
+            <div className="project1-bg"/> */}
         </div>
     )
 }
