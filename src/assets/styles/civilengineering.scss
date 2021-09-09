@@ -449,6 +449,7 @@
         }
     }
     @media (max-width: 992px) {
+        overflow-x: hidden;
         background: url("../images/mobile/licenses/Licenses_BG-03.png") top 51vw center,
             url("../images/mobile/civilengineering/CivilEng_BG-01.png") top 135vw center;
         background-size: 100vw auto, 115vw auto;
