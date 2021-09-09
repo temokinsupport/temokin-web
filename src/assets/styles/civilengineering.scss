@@ -94,6 +94,17 @@
             transform: rotate3d(1, 2, -2, -24deg);
             left: -24vw;
         }
+        .projects-bg-shape1 {
+            content: "";
+            border: 1px solid #ffffff;
+            width: 44vw;
+            position: absolute;
+            height: 14vw;
+            top: 186vw;
+            z-index: -4;
+            transform: rotate3d(1, 2, -2, -24deg);
+            left: -26vw;
+        }
         .--max {
             max-width: 75%;
         }
@@ -178,6 +189,17 @@
         min-height: 51vw;
         width: 100%;
         position: relative;
+        .projects-bg-shape2 {
+            content: "";
+            border: 1px solid #ffffff;
+            width: 44vw;
+            position: absolute;
+            height: 13vw;
+            top: 2vw;
+            z-index: -4;
+            transform: rotate3d(1, 2, -2, -29deg);
+            right: -26vw;
+        }
         &::before {
             content: "";
             position: absolute;

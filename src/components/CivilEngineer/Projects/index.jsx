@@ -174,6 +174,7 @@ export default function Projects() {
               </Row>
             </Container>
             <div className="projects-bg-shape"/>
+            <div className="projects-bg-shape1"/>
             <div className="projects-bg"/>
             <div className="project1-bg"/>
         </div>
