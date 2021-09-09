@@ -10,7 +10,7 @@
     // background-attachment: scroll;
     // transition: background 0.3s;
     // image-rendering: -webkit-optimize-contrast;
-    
+
     position: relative;
     min-height: 100vh;
     .--bg-1 {
@@ -83,6 +83,17 @@
         min-height: 51vw;
         width: 100%;
         position: relative;
+        .projects-bg-shape {
+            content: "";
+            border: 1px solid #ffffff;
+            width: 41vw;
+            position: absolute;
+            height: 16vw;
+            top: -5vw;
+            z-index: -3;
+            transform: rotate3d(1, 2, -2, -24deg);
+            left: -24vw;
+        }
         .--max {
             max-width: 75%;
         }
@@ -188,8 +199,8 @@
             bottom: 0vw;
             height: 26vw;
             width: 100%;
-            background: rgb(219,219,219);
-            background: linear-gradient(90deg, rgba(219,219,219,1) 0%, rgba(204,204,204,1) 100%);
+            background: rgb(219, 219, 219);
+            background: linear-gradient(90deg, rgba(219, 219, 219, 1) 0%, rgba(204, 204, 204, 1) 100%);
             z-index: -5;
         }
         .--max {
