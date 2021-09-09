@@ -553,6 +553,7 @@
     @media (max-width:400px) {
         background-size: 155vw auto,  225vw auto;
         .--bg-2 {
+            position: relative;
             .carousel {
                 .carousel-inner {
                     height: auto;
@@ -572,7 +573,7 @@
             }
         }
         .license-shape {
-            top: -10vw;
+            top: 0;
         }
     }
 }
