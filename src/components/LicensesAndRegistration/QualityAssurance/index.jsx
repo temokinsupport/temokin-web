@@ -80,7 +80,6 @@ export default function QualityAssurance() {
                 </Row>
             </Container>
             <div className="qualityassurance-bg"/>
-            <div className="qualityassurance-shape"/>
         </div>
     )
 }

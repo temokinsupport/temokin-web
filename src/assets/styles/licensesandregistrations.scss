@@ -311,6 +311,28 @@
         top: -2vw;
         z-index: -2;
     }
+    .section2-shape1 {
+        content: "";
+        border: 1px solid #283a97;
+        width: 39vw;
+        position: absolute;
+        height: 11vw;
+        bottom: 4vw;
+        z-index: -2;
+        transform: rotate3d(1, -3, -2, -34deg);
+        left: -12vw;
+    }
+    .section2-shape2 {
+        content: "";
+        border: 1px solid #ffffff;
+        width: 30vw;
+        position: absolute;
+        height: 16vw;
+        bottom: 4vw;
+        z-index: -2;
+        transform: rotate3d(1, 2, -2, -24deg);
+        right: -12vw;
+    }
 
 
     @media (max-width:1750px) {
