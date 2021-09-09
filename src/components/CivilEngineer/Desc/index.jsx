@@ -3,7 +3,7 @@ import { Container, Row, Col} from 'react-bootstrap';
 
 export default function Desc() {
     return (
-        <div className="--bg-2" data-scroll-section>
+        <div className="--bg-2">
             <Container>
               <Row>
                 <Col>
