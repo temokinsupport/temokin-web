@@ -53,6 +53,9 @@
             border: 1px solid #ffffff;
             z-index: 10;
             transform: rotate3d(1, 4, 1, 39deg);
+            @media (max-width:900px) {
+                display: none !important;
+            }
         }
         &::after {
             position: absolute;
@@ -64,6 +67,9 @@
             border: 1px solid #ffffff;
             z-index: 10;
             transform: rotate3d(6, -7, 5, 39deg);
+            @media (max-width:900px) {
+                display: none !important;
+            }
         }
         .--max {
             max-width: 75%;
