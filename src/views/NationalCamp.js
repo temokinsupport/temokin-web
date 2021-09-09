@@ -118,7 +118,7 @@ const Projects = styled.div`
         top: 0;
         left: 0;
         right: 0;
-        background: url(${overlayImage}) top 8vw left -34vw;
+        background: url(${overlayImage}) top 16vw left -34vw;
         transition: background 0.3s;
         background-attachment: scroll;
         background-repeat: no-repeat;

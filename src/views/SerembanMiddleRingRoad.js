@@ -4,7 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import '../assets/styles/projects.scss';
-import overlayImage from '../assets/images/projects/CivilEng_Shapes-01.png';
+import overlayImage from '../assets/images/propertyprojects/PropertyDev_Shapes-04.png';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
@@ -45,7 +45,7 @@ const SerembanMiddleRingRoad = () => {
             data-scroll-container
         >
             
-            <div className="--bg-1" data-scroll-section>
+            <div className="--bg-1" >
                 <Navigation/>
                 <Container className="--max">
                     <Row>
@@ -125,13 +125,14 @@ const Projects = styled.div`
         top: 0;
         left: 0;
         right: 0;
-        background: url(${overlayImage}) top 10vw left -13vw;
+        background: url(${overlayImage})  top 4vw left -34vw;
         transition: background 0.3s;
         background-attachment: scroll;
         background-repeat: no-repeat;
-        background-size: 160vw auto;
+        background-size: 160vw 100vw;
         height: 100vw;
         width: 100%;
+        }
     }
 `;
 
@@ -188,7 +189,7 @@ const Text = styled.p`
     color: #283a97;
     margin: 0 0 1.5vw 0;
     text-align: left;
-    letter-spacing: 0.18vw;
+    letter-spacing: 0.1vw;
 `;
 
 
