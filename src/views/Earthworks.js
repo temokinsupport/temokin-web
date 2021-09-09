@@ -45,7 +45,7 @@ const Earthworks = () => {
             data-scroll-container
         >
             
-            <div className="--bg-1" data-scroll-section>
+            <div className="--bg-1" >
                 <Navigation/>
                 <Container className="--max">
                     <Row>
@@ -78,7 +78,7 @@ const Earthworks = () => {
                                                     Client
                                                 </Label>
                                                 <Text>
-                                                    Perbadanan Kemajuan Negeri Selangor (PKNS)
+                                                    Perbadanan Kemajuan Negeri <br/> Selangor (PKNS)
                                                 </Text>
                                                 <Label>
                                                     Value
