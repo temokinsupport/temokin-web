@@ -57,6 +57,9 @@ export default function Licenses() {
             </Container>
             <div className="license-shape"/>
             <div className="licenses-bg"/>
+            <div className="qualityassurance-shape"/>
+            <div className="section2-shape1"/>
+            <div className="section2-shape2"/>
         </div>
     )
 }
