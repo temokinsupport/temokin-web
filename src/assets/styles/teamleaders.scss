@@ -214,6 +214,7 @@
             .--title {
                 line-height: 1.6;
                 font-size: 	1.500em;
+                font-weight: 500 !important;
             }
             .--desc {
                 font-size: 0.875em;
@@ -282,10 +283,10 @@
     @media (max-width: 669px) {
         .--bg-1 {
             background: url("../images/teamleaders/Leaders_BG-02.png") top 100vw center, 
-            url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
+            url("../images/teamleaders/Leaders_Shapes-01.png") top 69vw right -17vw;
             min-height: 58vw;
-            background-repeat:  no-repeat, no-repeat;
-            background-size:  100vw 65%, 125vw auto;
+            background-repeat: no-repeat, no-repeat;
+            background-size: 100vw 65%, 125vw 50vw;
             transition: background 0.3s;
             background-attachment: scroll;
         }
