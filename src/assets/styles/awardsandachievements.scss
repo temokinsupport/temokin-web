@@ -336,12 +336,10 @@
                 }
                 p {
                     &.--desc {
-                        font-size: 	0.875em;
+                        font-size: 3vw;
                         line-height: 1.6;
                         text-align: center;
-                        br {
-                            display: none;
-                        }
+                     
                     }
                 }
             }
@@ -358,19 +356,21 @@
             height: auto;
             min-height: 50vw;
             position: relative;
+            z-index: 5 !important;
             &::before {
-                position: absolute;
-                top: -4vw;
-                right: 0;
-                bottom: 0;
-                left: 0;
-                content: "";
-                background: url("../images/mobile/awardsandachievements/Awards_BG-02.png") top center;
-                background-size: 100vw auto;
-                background-repeat: no-repeat;
-                background-attachment: scroll;
-                z-index: -1;
-                width: 100%;
+                display: none;
+                // position: absolute;
+                // top: -4vw;
+                // right: 0;
+                // bottom: 0;
+                // left: 0;
+                // content: "";
+                // background: url("../images/mobile/awardsandachievements/Awards_BG-02.png") top center;
+                // background-size: 100vw auto;
+                // background-repeat: no-repeat;
+                // background-attachment: scroll;
+                // z-index: -1;
+                // width: 100%;
             }
             .col-md-7,
             .col {
@@ -485,7 +485,7 @@
         url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 70vw right -2vw,
         url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
         url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
-        background-size: 190vw 93vw, 140vw 205vw, 100vw auto,auto 150vw;
+        background-size: 190vw 93vw, 140vw 205vw, 100vw 333vw,auto 150vw;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
