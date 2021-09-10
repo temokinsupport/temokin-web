@@ -1245,7 +1245,8 @@
                     }
 
                     img {
-                        width: 50% !important;
+                        width: 60% !important;
+                        height: 50vw;
                     }
                 }
             }
@@ -1261,8 +1262,8 @@
                 padding-top: 10vw;
                 h5 {
                     &.--title {
-                        font-size: 1.125em;
-                        margin-bottom: 5px;
+                        font-size: 3vw;
+                        margin-bottom: 0px;
                     }
                 }
                 hr {
@@ -1270,9 +1271,9 @@
                 }
                 p {
                     &.--desc {
-                        font-size: 0.875em;
+                        font-size: 12px;
                         line-height: 1.4;
-                        margin: 5.5vw auto 0 auto;
+                        margin: 9.5vw auto 0 auto;
                     }
                 }
             }
@@ -1291,6 +1292,7 @@
             margin-top: -1vw;
             .--title {
                 font-size: 1.5em;
+                margin-bottom: 50px;
             }
             .--desc {
                 font-size: 0.875em;
@@ -1404,7 +1406,6 @@
             }
             .splide__pagination {
                 bottom: -20vw !important;
-
             }
             .splide__pagination__page {
                 height: 20px !important;
@@ -1418,6 +1419,14 @@
         .--container-7 {
             .splide__pagination {
                 bottom: -20vw;
+            }
+            .splide__pagination__page {
+                height: 20px !important;
+                width: 20px !important;
+                &.is-active {
+                    height: 25px !important;
+                    width: 25px !important;
+                }
             }
         }
     }
