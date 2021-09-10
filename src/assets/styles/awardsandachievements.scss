@@ -289,15 +289,15 @@
             max-width: 100%;
             min-height: 50vw;
             .--title {
-                font-size: 	1.500em;
+                font-size: 5.2vw;
                 line-height: 1.6;
-                br {
-                    display: none;
-                }
+
             }
             .--desc {
-                font-size: 	1.000em;
+                font-size: 3.1vw;
                 line-height: 1.6;
+                max-width: 85%;
+                margin: 0 auto;
                 br {
                     display: none;
                 }
@@ -484,12 +484,12 @@
         }
     }
     @media (max-width:500px) {
-        background: url("../images/awardsandachievements/Awards_Shapes-01.png") top 24vw left -24vw,
+        background: url("../images/awardsandachievements/Awards_Shapes-01.png") top 24vw left -40vw,
         url("../images/awardsandachievements/Awards_Shapes-02.png") top 110vw left -25vw, 
-        url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 105vw right -2vw,
+        url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 70vw right -2vw,
         url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
         url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
-        background-size: 156vw auto, 62vw 33vw, 140vw 205vw, 100vw auto,auto 150vw;
+        background-size: 190vw 93vw, 62vw 33vw, 140vw 205vw, 100vw auto,auto 150vw;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
