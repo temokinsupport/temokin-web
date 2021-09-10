@@ -426,11 +426,10 @@
     }
     @media (max-width:796px) {
         background: url("../images/awardsandachievements/Awards_Shapes-01.png") top 11vw left -24vw,
-        url("../images/awardsandachievements/Awards_Shapes-02.png") top 110vw left -25vw, 
         url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 53vw right -2vw,
         url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
         url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
-        background-size: 156vw auto, 62vw 33vw, 100vw 170vw, 100vw auto,auto 90vw;
+        background-size: 156vw auto,  100vw 170vw, 100vw auto,auto 90vw;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
@@ -460,36 +459,33 @@
     }
     @media (max-width:600px) {
         background: url("../images/awardsandachievements/Awards_Shapes-01.png") top 11vw left -24vw,
-        url("../images/awardsandachievements/Awards_Shapes-02.png") top 110vw left -25vw, 
         url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 65vw right -2vw,
         url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
         url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
-        background-size: 156vw auto, 62vw 33vw, 100vw 160vw, 100vw auto,auto 105vw;
+        background-size: 156vw auto, 100vw 160vw, 100vw auto,auto 105vw;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
     }
     @media (max-width:569px) {
         background: url("../images/awardsandachievements/Awards_Shapes-01.png") top 24vw left -24vw,
-        url("../images/awardsandachievements/Awards_Shapes-02.png") top 110vw left -25vw, 
         url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 90vw right -2vw,
         url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
         url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
-        background-size: 156vw auto, 62vw 33vw, 140vw 135vw, 100vw auto,auto 135vw;
+        background-size: 156vw auto, 140vw 135vw, 100vw auto,auto 135vw;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
         .--bg-1 {
-            height: 125vw;
+            height: 95vw;
         }
     }
     @media (max-width:500px) {
         background: url("../images/awardsandachievements/Awards_Shapes-01.png") top 24vw left -40vw,
-        url("../images/awardsandachievements/Awards_Shapes-02.png") top 110vw left -25vw, 
         url("../images/mobile/awardsandachievements/Awards_BG-01.png") top 70vw right -2vw,
         url("../images/awardsandachievements/Awards_BG-03.png") bottom 0 center,
         url("../images/awardsandachievements/Awards_BG-01.png") top -7vw right;
-        background-size: 190vw 93vw, 62vw 33vw, 140vw 205vw, 100vw auto,auto 150vw;
+        background-size: 190vw 93vw, 140vw 205vw, 100vw auto,auto 150vw;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
