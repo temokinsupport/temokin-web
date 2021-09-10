@@ -512,12 +512,17 @@
         }
     }
     @media (max-width:600px) {
-        background: url("../images/mobile/licenses/Licenses_BG-02.png") top 110vw center,
-        url("../images/mobile/licenses/Licenses_BG-01.png") top -30vw center;
-        background-size: 115vw auto, 160vw auto;
+        background: url("../images/mobile/licenses/Licenses_BG-01.png") top -30vw center;
+        background-size: 160vw auto;
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
+        .licenses-bg {
+            background: url("../images/licensesandregistrations/Licenses_BG-02.png") top 0 center;
+        background-repeat: no-repeat;
+        background-size: 105vw 160vw !important;
+        transition: background 0.3s;
+        }
         .--bg-1 {
             min-height: 110vw;
         }
@@ -539,9 +544,8 @@
         }
     }
     @media (max-width:450px) {
-        background: url("../images/mobile/licenses/Licenses_BG-02.png") top 150vw center,
-        url("../images/mobile/licenses/Licenses_BG-01.png") top -50vw center;
-        background-size: 115vw auto,  225vw auto;
+        background: url("../images/mobile/licenses/Licenses_BG-01.png") top -50vw center;
+        background-size: 225vw auto;
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll;
         transition: background 0.3s;
