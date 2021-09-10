@@ -1442,8 +1442,24 @@
         }
     }
     @media (max-width: 590px) {
+
         .--header-container {
             height: 700px !important;
+            .--build-project-list {
+                figure {
+                    margin-right: 10px !important;
+                    figcaption {
+                        span {
+                            font-size: 3vw !important;
+                            margin-right: 0 !important;
+                            width: 100% !important;
+                        }
+                    }
+                }
+            }
+            .--max {
+                max-width: 85%;
+            }
         }
         .slideshow {
             input {
@@ -1488,7 +1504,7 @@
             height: 700px;
         }
         .parallax-bg {
-            background-size: auto 120vh;
+            background-size: auto 135vh;
             background-position: -70vw -50vw !important;
         }
         .--container-5 {
