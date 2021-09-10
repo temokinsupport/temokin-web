@@ -9,8 +9,8 @@ export default function Header() {
             <Container>
                 <Row>
                     <Col>
-                        <h1 className="--title" >Licenses <br/> and Registrations</h1>
-                        <p className="--desc">These licenses and certifications specify the <br/>
+                        <h1 data-scroll className="--title" >Licenses <br/> and Registrations</h1>
+                        <p data-scroll className="--desc">These licenses and certifications specify the <br/>
                         range of our capabilities, allowing us to take <br/>
                         on large-scale, complex projects with the <br/>
                         approval of the authorities.</p>
