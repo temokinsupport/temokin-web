@@ -6,7 +6,7 @@ export default function Licenses() {
         <div className="--bg-2" data-scroll-section>
             <Container>
                 <Row>
-                    <Col data-scroll
+                    <Col
                         >
                         <Carousel fade>
                             <Carousel.Item>

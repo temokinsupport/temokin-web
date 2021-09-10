@@ -587,9 +587,7 @@
         background-repeat: no-repeat, no-repeat;
         background-attachment: scroll, scroll;
         transition: background 0.3s;
-        .header-shapes {
-            top:68vw;
-        }
+        top:75vw;
     }
     @media (max-width: 500px) {
         background: url("../images/mobile/civilengineering/CivilEng_BG-01.png") bottom 40vh center,
