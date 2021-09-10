@@ -17,11 +17,11 @@
     background-repeat: no-repeat;
     background-position: 100vw auto;
     .--bg-1 {
-        background: url("../images/teamleaders/Leaders_BG-02.png") top 57vw center, 
-        url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
+        background: url("../images/teamleaders/Leaders_BG-02.png") top 57vw center,
+            url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
         min-height: 58vw;
-        background-repeat:  no-repeat, no-repeat;
-        background-size:  100vw 62vw, 125vw auto;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 100vw 62vw, 125vw auto;
         transition: background 0.3s;
         background-attachment: scroll;
         padding: 10vw 0 5vw 0;
@@ -29,7 +29,7 @@
             max-width: 90%;
         }
         .--title {
-            font-family: "gill sans",sans-serif !important;
+            font-family: "gill sans", sans-serif !important;
             letter-spacing: 0.5vw;
             font-weight: 600 !important;
             text-transform: uppercase;
@@ -40,7 +40,7 @@
             text-align: center;
         }
         .--desc {
-            font-family: "gill sans medium",sans-serif;
+            font-family: "gill sans medium", sans-serif;
             font-weight: 500 !important;
             margin-bottom: 9.4vw;
             font-size: 1vw;
@@ -57,7 +57,7 @@
             cursor: pointer;
             height: 26.6vw;
             overflow: hidden;
-            border:0 !important;
+            border: 0 !important;
             position: relative;
             transform: scale(0) !important;
             transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
@@ -97,7 +97,7 @@
                 height: 100%;
                 width: 100%;
                 opacity: 0;
-                transition: .5s ease;
+                transition: 0.5s ease;
                 img {
                     height: 100%;
                     width: 100%;
@@ -108,7 +108,7 @@
         }
     }
     .--bg-2 {
-        background:url("../images/teamleaders/Leaders_Shapes-02.png") top 0vw center;
+        background: url("../images/teamleaders/Leaders_Shapes-02.png") top 0vw center;
         background-repeat: no-repeat;
         background-size: 100vw auto;
         transition: background 0.3s;
@@ -126,7 +126,7 @@
             object-position: 0 0;
         }
         .--title {
-            font-family: "gill sans",sans-serif !important;
+            font-family: "gill sans", sans-serif !important;
             letter-spacing: 0.3vw;
             font-weight: 600 !important;
             text-transform: uppercase;
@@ -143,7 +143,7 @@
             }
         }
         .--sub-title {
-            font-family: "gill sans light",sans-serif !important;
+            font-family: "gill sans light", sans-serif !important;
             letter-spacing: 0.3vw;
             font-weight: 600 !important;
             text-transform: uppercase;
@@ -160,7 +160,7 @@
             }
         }
         .--desc {
-            font-family: "gill sans",sans-serif;
+            font-family: "gill sans", sans-serif;
             font-weight: 500 !important;
             margin-bottom: 9.4vw;
             font-size: 1vw;
@@ -204,16 +204,16 @@
         background-size: auto 100% !important;
         .--bg-1 {
             padding: 100px 0;
-            background: url("../images/teamleaders/Leaders_BG-02.png") top 65vw center, 
-            url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
+            background: url("../images/teamleaders/Leaders_BG-02.png") top 65vw center,
+                url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
             min-height: 58vw;
-            background-repeat:  no-repeat, no-repeat;
-            background-size:  100vw 65%, 125vw auto;
+            background-repeat: no-repeat, no-repeat;
+            background-size: 100vw 65%, 125vw auto;
             transition: background 0.3s;
             background-attachment: scroll;
             .--title {
                 line-height: 1.6;
-                font-size: 	1.500em;
+                font-size: 1.5em;
                 font-weight: 500 !important;
             }
             .--desc {
@@ -244,12 +244,28 @@
         }
         .--bg-2 {
             padding: 0;
+            &::before {
+                position: absolute;
+                content: "Join Our Team";
+                font-family: "gill sans", sans-serif !important;
+                letter-spacing: 0.3vw;
+                font-weight: 600 !important;
+                text-transform: uppercase;
+                line-height: 4.7vw;
+                font-size: 20px;
+                color: #ffffff;
+                margin: 0 auto;
+                text-align: center;
+                width: 100%;
+                top: 21vw;
+            }
             .--title {
-                font-size: 1.500em;
+                font-size: 1.5em;
                 margin: 0 auto 3vw auto;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                display: none;
             }
             img {
                 width: 50vw;
@@ -257,10 +273,10 @@
                 object-fit: contain;
                 object-position: 0 0;
                 display: block;
-                margin: 0 auto 10vw auto;
+                margin: 200px auto 10vw auto;
             }
             .--sub-title {
-                font-size:	1.375em;
+                font-size: 1.375em;
                 margin: 0 auto 3vw auto;
                 text-align: center;
             }
@@ -275,15 +291,15 @@
             .--btn-send-resume {
                 height: 60px;
                 width: 220px;
-                margin: 5vw auto 10vw auto;
+                margin: 5vw auto 30vw auto;
                 display: block;
             }
         }
     }
     @media (max-width: 669px) {
         .--bg-1 {
-            background: url("../images/teamleaders/Leaders_BG-02.png") top 100vw center, 
-            url("../images/teamleaders/Leaders_Shapes-01.png") top 69vw right -17vw;
+            background: url("../images/teamleaders/Leaders_BG-02.png") top 100vw center,
+                url("../images/teamleaders/Leaders_Shapes-01.png") top 69vw right -17vw;
             min-height: 58vw;
             background-repeat: no-repeat, no-repeat;
             background-size: 100vw 65%, 125vw 50vw;
@@ -291,12 +307,12 @@
             background-attachment: scroll;
         }
     }
-    @media (max-width:400px) {
+    @media (max-width: 400px) {
         .--bg-1 {
-            background: url("../images/teamleaders/Leaders_BG-02.png") top 145vw center, 
-            url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
-            background-repeat:  no-repeat, no-repeat;
-            background-size:  100vw 50%, 125vw auto;
+            background: url("../images/teamleaders/Leaders_BG-02.png") top 145vw center,
+                url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
+            background-repeat: no-repeat, no-repeat;
+            background-size: 100vw 50%, 125vw auto;
         }
     }
 }
