@@ -65,7 +65,7 @@ const Mahligai = () => {
                                             </Name>
                                             <Line/>
                                             <Description>
-                                                Mahligai at Nusa Damai consists of 164 <br/>
+                                                Mahligai at Nusa Damai consists of 163 <br/>
                                                 landed houses in the already-mature <br/>
                                                 neighbourhood of Masai in Johor.
                                             </Description>
