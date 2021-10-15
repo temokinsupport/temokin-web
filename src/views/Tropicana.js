@@ -79,7 +79,7 @@ const Tropicana = () => {
                                                     Client
                                                 </Label>
                                                 <Text>
-                                                    Tropicana Temokin Son Bhd
+                                                    Tropicana Temokin Sdn Bhd
                                                 </Text>
                                                 <Label>
                                                     Value
