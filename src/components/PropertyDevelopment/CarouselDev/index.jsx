@@ -110,7 +110,7 @@ export default function CarouselDev() {
               <div className="--hr"/>
               <p className="--bottom-detail">
                 <span className="--title">Client</span>
-                <span>Tropicana Temokin Son Bhd</span>
+                <span>Tropicana Temokin Sdn Bhd</span>
               </p>
               <p className="--bottom-detail">
                 <span className="--title">Value</span>
@@ -253,7 +253,7 @@ export default function CarouselDev() {
               <div className="--hr"/>
               <p className="--bottom-detail">
                 <span className="--title">Client</span>
-                <span>Tropicana Temokin Son Bhd</span>
+                <span>Tropicana Temokin Sdn Bhd</span>
               </p>
               <p className="--bottom-detail">
                 <span className="--title">Value</span>
