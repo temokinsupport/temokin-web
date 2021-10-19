@@ -72,7 +72,7 @@ export default function CarouselDev() {
             <Carousel.Caption>
               <h3 className="--title">Mahligai At Nusa Damai, Two Storey <br/>
               And Three Storey Housing, Johor</h3>
-              <p className="--desc">Mahligai at Nusa Damai consists of 164 <br/>
+              <p className="--desc">Mahligai at Nusa Damai consists of 163 <br/>
               landed houses in the already-mature <br/>
               neighbourhood of Masai in Johor.</p>
               <div className="--hr"/>
@@ -215,7 +215,7 @@ export default function CarouselDev() {
             <Carousel.Caption>
               <h3 className="--title">Mahligai At Nusa Damai, Two Storey <br/>
               And Three Storey Housing, Johor</h3>
-              <p className="--desc">Mahligai at Nusa Damai consists of 164 <br/>
+              <p className="--desc">Mahligai at Nusa Damai consists of 163 <br/>
               landed houses in the already-mature <br/>
               neighbourhood of Masai in Johor.</p>
               <div className="--hr"/>
