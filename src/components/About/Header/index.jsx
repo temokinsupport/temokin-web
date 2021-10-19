@@ -84,7 +84,7 @@ export default function AboutTemokin() {
                                             <Col md={5} className="--pl3v">
                                             <p className="--desc" 
                                             >We then quickly spread our wings and grew to become <br/>
-                                            the preeminent turkney civil engineering and property <br/>
+                                            the preeminent Turnkey civil engineering and property <br/>
                                             conglomerate that the nation and the world have come <br/>
                                             to know and  trust today. <br/><br/>
                                             At our heart, we are a construction company with <br/>
