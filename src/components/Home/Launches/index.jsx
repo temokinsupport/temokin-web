@@ -19,7 +19,7 @@ export default function Launches() {
                     <Col>
                         <div data-scroll className="--launches-details">
                             <Image className="--img-logo" src={require('../../../assets/images/home/Home_Logo-Mahligai.png').default}/>
-                            <p className="--txt">2 & 3.5 Storey Terrace Homes</p>
+                            <p className="--txt">2 & 2.5 Storey Terrace Homes</p>
                             <p className="--txt">| 20' x 70' | FREEHOLD</p>
                             <p className="--desc">
                                 Mahligai offers spacious yet affordable terrace homes with perimeter <br/>
