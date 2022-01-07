@@ -51,7 +51,7 @@ const YmRajaDatoAzwaneBinRajaAriff = () => {
                                 <div className="--leader-details">
                                     <ul>
                                         <li>
-                                            <NavLink className="control-prev" to="/team-leaders/crystal-wong-wai-ching"/>
+                                            <NavLink className="control-prev" to="/team-leaders/chan-yoon-sang"/>
                                         </li>
                                         <li>
                                             <NavLink className="control-next" to="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan"/>

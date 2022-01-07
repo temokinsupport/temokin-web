@@ -55,20 +55,20 @@ export default function Leaders() {
             alt:"team leader 7",
             pathLeader: "/team-leaders/chan-yoon-sang",
         },
-        {
-            id:7,
-            img:require('../../../assets/images/teamleaders/Leaders_IMG-Leader-08A.png').default,
-            img2:require('../../../assets/images/teamleaders/Leaders_IMG-Leader-08B.png').default,
-            alt:"team leader 8",
-            pathLeader: "/team-leaders/pathooraman-bin-abu",
-        },
-        {
-            id:8,
-            img:require('../../../assets/images/teamleaders/Leaders_IMG-Leader-09A.png').default,
-            img2:require('../../../assets/images/teamleaders/Leaders_IMG-Leader-09B.png').default,
-            alt:"team leader 9",
-            pathLeader: "/team-leaders/crystal-wong-wai-ching",
-        }
+        // {
+        //     id:7,
+        //     img:require('../../../assets/images/teamleaders/Leaders_IMG-Leader-08A.png').default,
+        //     img2:require('../../../assets/images/teamleaders/Leaders_IMG-Leader-08B.png').default,
+        //     alt:"team leader 8",
+        //     pathLeader: "/team-leaders/pathooraman-bin-abu",
+        // },
+        // {
+        //     id:8,
+        //     img:require('../../../assets/images/teamleaders/Leaders_IMG-Leader-09A.png').default,
+        //     img2:require('../../../assets/images/teamleaders/Leaders_IMG-Leader-09B.png').default,
+        //     alt:"team leader 9",
+        //     pathLeader: "/team-leaders/crystal-wong-wai-ching",
+        // }
     ]
 
     return (

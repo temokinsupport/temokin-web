@@ -54,7 +54,7 @@ const ChanYoonSang = () => {
                                         <NavLink className="control-prev" to="/team-leaders/tan-chien-chyi"/>
                                     </li>
                                     <li>
-                                        <NavLink className="control-next" to="/team-leaders/pathooraman-bin-abu"/>
+                                        <NavLink className="control-next" to="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"/>
                                     </li>
                                 </ul>
                                 <Image
