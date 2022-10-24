@@ -1,65 +1,131 @@
-import React from 'react';
-import { Container, Row, Col, Carousel, Image } from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col, Carousel, Image } from "react-bootstrap";
 
 export default function Licenses() {
-    return (
-        <div className="--bg-2" data-scroll-section>
-            <Container>
-                <Row>
-                    <Col
-                        >
-                        <Carousel fade>
-                            <Carousel.Item>
-                                <Image 
-                                    src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-License-01.png').default}/>
-                                <Carousel.Caption>
-                                    <h3 className="--caption"> Contractor Service Center Class A <br/>
-                                    Ministry Of Works </h3>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <Image src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-License-02.png').default}/>
-                                <Carousel.Caption>
-                                    <h3 className="--caption"> Company Registration <br/>
-                                    Ministry of Finance, Malaysia </h3>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <Image src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-License-03.png').default}/>
-                                <Carousel.Caption>
-                                    <h3 className="--caption"> Company Registration, Mais </h3>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <Image src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-License-04.png').default}/>
-                                <Carousel.Caption>
-                                    <h3 className="--caption"> Contractor Registration <br/>
-                                    Ministry of Finance, Malaysia </h3>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <Image src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-License-05.png').default}/>
-                                <Carousel.Caption>
-                                    <h3 className="--caption"> Registration <br/>
-                                    CIDB Malaysia </h3>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <Image src={require('../../../assets/images/licensesandregistrations/Licenses_IMG-License-06.png').default}/>
-                                <Carousel.Caption>
-                                    <h3 className="--caption"> Government Work Aquisition <br/>
-                                    CIDB Malaysia </h3>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                        </Carousel>
-                    </Col>
-                </Row>
-            </Container>
-            <div className="license-shape"/>
-            <div className="licenses-bg"/>
-            <div className="qualityassurance-shape"/>
-            <div className="section2-shape1"/>
-            <div className="section2-shape2"/>
-        </div>
-    )
+  const licenses = [
+    {
+      image: "bpkud.png",
+      descriptions: [
+        {
+          content: "BAHAGIAN PEMBANGUNAN KONTRAKTOR DAN USAHAWAN",
+          type: "name",
+        },
+        {
+          content: "(DAHULU DIKENALI SEBAGAI PUSAT KHIDMAT KONTRAKTOR)",
+          type: "alt",
+        },
+        {
+          content: "BAHAGIAN PEMBANGUNAN KONTRAKTOR DAN USAHAWAN",
+          type: "name",
+        },
+      ],
+    },
+    {
+      image: "bpkud.png",
+      descriptions: [
+        {
+          content: "KEMENTERIAN KEWANGAN MALAYSIA",
+          type: "name",
+        },
+        {
+          content: "SIJIL AKUAN PENDAFTARAN SYARIKAT",
+          type: "alt",
+        },
+      ],
+    },
+    {
+      image: "bakti-suci.png",
+      descriptions: [
+        {
+          content: "PERAKUAN PENDAFTARAN",
+          type: "name",
+        },
+      ],
+    },
+    {
+      image: "bpkud.png",
+      descriptions: [
+        {
+          content: "SIJIL PEROLEHAN KERJA KERAJAAN",
+          type: "name",
+        },
+        {
+          content: "SIJIL AKUAN PENDAFTARAN SYARIKAT",
+          type: "name",
+        },
+      ],
+    },
+    {
+      image: "cidb.png",
+      descriptions: [
+        {
+          content: "PERAKUAN PENDAFTARAN",
+          type: "name",
+        },
+      ],
+    },
+    {
+      image: "cidb.png",
+      descriptions: [
+        {
+          content: "SIJIL PEROLEHAN KERJA KERAJAAN",
+          type: "name",
+        },
+      ],
+    },
+  ];
+
+  return (
+    <div className="--bg-2" data-scroll-section>
+      <Container>
+        <Row className="licenses ">
+          {licenses.map((license) => {
+            return (
+              <Row className="license justify-content-center align-items-center">
+                <Col xs={2}>
+                  <Image
+                    className="license__image"
+                    fluid
+                    src={
+                      require(`../../../assets/images/licensesandregistrations/${license.image}`)
+                        .default
+                    }
+                  />
+                </Col>
+                <Col xs={6}>
+                  <div className="license__content">
+                    {license.descriptions.map((description) => {
+                      if (description.type === "name") {
+                        return (
+                          <h4 className={`license__content--name`}>
+                            {description.content}
+                          </h4>
+                        );
+                      } else {
+                        return (
+                          <h5 className={`license__content--alt`}>
+                            {description.content}
+                          </h5>
+                        );
+                      }
+                    })}
+                  </div>
+                </Col>
+              </Row>
+            );
+          })}
+        </Row>
+      </Container>
+      <div className="licenses-vector licenses-vector__bottom">
+        <Image
+          className=""
+          fluid
+          src={
+            require("../../../assets/images/licensesandregistrations/license-bottom-vector.png")
+              .default
+          }
+        />
+      </div>
+    </div>
+  );
 }
