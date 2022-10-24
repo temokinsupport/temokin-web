@@ -1,62 +1,52 @@
-import React from 'react';
-import { Container, Row, Col, Carousel, Image} from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col, Carousel, Image } from "react-bootstrap";
 
 export default function Winner() {
-    return (
-        <div className="--bg-2" data-scroll-section>
-            <Container className="--max">
-                <Row>
-                    <Col>
-                        <Carousel fade>
-                            <Carousel.Item>
-                                <Row>
-                                    <Col md={7}>
-                                        <Image 
-                                            data-scroll
-                                        src={require('../../../assets/images/awardsandachievements/Awards_IMG-Winner-01.png').default} className="--awards"/>
-                                    </Col>
-                                    <Col>
-                                        <Carousel.Caption 
-                                            data-scroll
-                                        className="--text-container">
-                                            <h6 className="--title">Winner</h6>
-                                            <p className="--desc">Excellent contractor award 2015 for <br/>
-                                            infrustructure project costing more <br/>
-                                            than rm10 million and less than rm50 <br/>
-                                            million <br/><br/>
-                                            Middle ring road seremban, negeri <br/>
-                                            sembilan phase 3a</p>
-                                        </Carousel.Caption>
-                                    </Col>
-                                </Row>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <Row>
-                                    <Col md={7}>
-                                        <Image 
-                                            data-scroll
-                                        src={require('../../../assets/images/awardsandachievements/Awards_IMG-Winner-02.png').default} className="--awards"/>
-                                    </Col>
-                                    <Col>
-                                        <Carousel.Caption 
-                                            data-scroll
-                                        className="--text-container">
-                                            <h6 className="--title">First <br/>
-                                            Runner Up</h6>
-                                            <p className="--desc">Excellent contractor award 2015 <br/>
-                                            for infrustructure project costing more <br/>
-                                            than rm50 million <br/><br/>
-                                            Middle ring road seremban, negeri <br/>
-                                            sembilan phase 2b</p>
-                                        </Carousel.Caption>
-                                    </Col>
-                                </Row>
-                            </Carousel.Item>
-                        </Carousel>
-                    </Col>
-                </Row>
-            </Container>
-            <div className="winner-bg"/>
-        </div>
-    )
+  const rewards = [
+    {
+      name: "Jabatan kerja raya malaysia",
+      place: "winner",
+      description:
+        "Excellent contractor award 2015 for infrastructure project costing more than rm10 million and less than rm50 million ",
+      address: "Middle ring road seremban, negeri sembilan phase 3a",
+    },
+    {
+      name: "Jabatan kerja raya malaysia",
+      place: "first-runner-up",
+      description:
+        "Excellent contractor award 2015 for infrastructure project costing more than rm50 million",
+      address: "Middle ring road seremban, negeri sembilan phase 2b",
+    },
+  ];
+
+  return (
+    <div className="--bg-2" data-scroll-section>
+      <Container className="--max">
+        <Row className="awards">
+          {rewards.map((reward, index) => {
+            return (
+              <Row key={index} className="award">
+                <Col sm={3} className="award__left">
+                  <Image
+                    className="award__image"
+                    fluid
+                    src={
+                      require("../../../assets/images/awards/jkr.png").default
+                    }
+                  />
+                  <p className="award__name">{reward.name}</p>
+                </Col>
+                <Col className="award__right d-flex flex-column gap justify-content-center">
+                  <p className="award__place">{reward.place}</p>
+                  <p className="award__description">{reward.description}</p>
+                  <p className="award__address">{reward.address}</p>
+                </Col>
+              </Row>
+            );
+          })}
+        </Row>
+      </Container>
+      <div className="winner-bg " />
+    </div>
+  );
 }
