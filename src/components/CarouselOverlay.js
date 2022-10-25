@@ -27,28 +27,6 @@ export default function CarouselDev() {
   const [isRightActive, setRightActive] = useState(false);
   const [isLeftActive, setLeftActive] = useState(false);
 
-  const carousel = [
-    {
-      name: "TROPICANA MIYU, PETALING JAYA",
-      description:
-        "Envisioning itself as being a perfect home for individuals and their loved one, Tropicana Miyu which means A Place For Me and You, clearly blends modern conveniences with traditionalism so that the older and younger generation can pursue their lifestyle choices at the very best.",
-      value: "RM261 million",
-      period: "September 2020 to ongoing",
-      awards: [
-        {
-          image: "",
-          description:
-            "Honours The Distinctive Build Award in StarProperty Awards 2021: Real Estate Developer",
-        },
-        {
-          image: "",
-          description:
-            "Honours The Distinctive Build Award in StarProperty Awards 2021: Real Estate Developer",
-        },
-      ],
-    },
-  ];
-
   return (
     <div className="--bg-2" data-scroll-section>
       {isTablet && (
