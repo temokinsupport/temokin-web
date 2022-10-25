@@ -58,10 +58,12 @@
           -o-transition: all 0.3s;
           transition: all 0.3s;
           height: 0;
+          pointer-events: none;
         }
 
         &--active {
           //   max-height: 350px;
+          pointer-events: all;
           opacity: 1;
         }
         li {

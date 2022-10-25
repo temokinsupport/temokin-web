@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
-import { Navbar, Nav, Button, Collapse, Container } from "react-bootstrap";
+import { Navbar, Nav, Button, Collapse } from "react-bootstrap";
 import "../assets/styles/navigation.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -30,12 +30,12 @@ function Navigation() {
     {
       id: 4,
       linkname: "Other Business Vectures",
-      linkpath: "/licenses-and-registrations",
+      linkpath: "/other-business-ventures",
     },
     {
       id: 5,
       linkname: "Land Acquisition",
-      linkpath: "/licenses-and-registrations",
+      linkpath: "/land-acquisition",
     },
   ];
   const contructionLinkdirects = [
