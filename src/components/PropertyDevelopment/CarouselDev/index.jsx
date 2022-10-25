@@ -4,6 +4,7 @@ import { Carousel, Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Footer from "../../Footer";
 import "../../../assets/styles/carousel.scss";
+import { useEffect } from "react";
 
 export default function CarouselDev() {
   // DESKTOP, TABLET & MOBILE
@@ -26,34 +27,173 @@ export default function CarouselDev() {
   // TOGGLE CLASS
   const [isRightActive, setRightActive] = useState(false);
   const [isLeftActive, setLeftActive] = useState(false);
+  const [carouselIndex, setCarouselIndex] = useState(0);
 
   const carousel = [
     {
+      name: "MAHILGAI AT NUSA DAMAI 2 & 2.5 STOREY HOUSING, JOHOR",
+      background: "carousel/mahligai.png",
+      description:
+        "Mahilgai at Nusa Damai consists of 163 landed houses in the already-mature neighborhood of Masai in Johor",
+      value: "RM100 million ",
+      period: "Feb 2017 to ongoing",
+      awards: [
+        {
+          image: "apa.png",
+          description:
+            "Highly Commended for Best High End Landed Development (Southern)",
+        },
+      ],
+      links: {
+        project: "/mahilgai",
+        website: "/mahilgai",
+      },
+    },
+    {
+      name: "DIAMI",
+      background: "carousel/diami.png",
+      description:
+        "The classic interplays with the modern in the verdant hills of Taman Melati. Overlooking the grand expanses of Bukit Tabur and the Kemensah Reserve, Diami 4 and 5 storey superlink terrace homes is an opportunity to indulge beyond the basics and an expression of your passion for tasteful living.",
+      value: "RM48 million",
+      period: "September 2021 to ongoing",
+      links: {
+        project: "/diami",
+        website: "",
+      },
+    },
+    {
       name: "TROPICANA MIYU, PETALING JAYA",
+      background: "carousel/tropicana.png",
       description:
         "Envisioning itself as being a perfect home for individuals and their loved one, Tropicana Miyu which means A Place For Me and You, clearly blends modern conveniences with traditionalism so that the older and younger generation can pursue their lifestyle choices at the very best.",
       value: "RM261 million",
       period: "September 2020 to ongoing",
       awards: [
         {
-          image: "",
+          image: "tdba.png",
           description:
             "Honours The Distinctive Build Award in StarProperty Awards 2021: Real Estate Developer",
         },
         {
-          image: "",
-          description:
-            "Honours The Distinctive Build Award in StarProperty Awards 2021: Real Estate Developer",
+          image: "tdba.png",
+          description: "Winner 2021-2022 in Asia Pacific Property Awards",
         },
       ],
+      links: {
+        project: "/tropicana",
+        website: "",
+      },
     },
   ];
+
+  const controlCarousel = (index) => {
+    setCarouselIndex(index);
+  };
 
   return (
     <div className="--bg-2" data-scroll-section>
       {isTablet && (
-        <Carousel interval={null} fade>
-          <Carousel.Item>
+        <Carousel
+          interval={null}
+          activeIndex={carouselIndex}
+          onSelect={controlCarousel}
+          onSlide={controlCarousel}
+          fade
+        >
+          {carousel.map((item, index) => {
+            return (
+              <Carousel.Item
+                className={`${index === carouselIndex ? "active" : ""}`}
+              >
+                <img
+                  className="d-block w-100"
+                  src={
+                    require(`../../../assets/images/propertydevelopment/${item.background}`)
+                      .default
+                  }
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                  <h3 className="--title">{item.name}</h3>
+                  <p className="--desc">{item.description}</p>
+                  <div className="--hr" />
+                  <div className="--details">
+                    {item.client ? (
+                      <p className="--bottom-detail client">
+                        <span className="--title">Client</span>
+                        <span>{item.client}</span>
+                      </p>
+                    ) : null}
+                    {item.value ? (
+                      <p className="--bottom-detail value">
+                        <span className="--title">Value</span>
+                        <span>{item.value}</span>
+                      </p>
+                    ) : null}
+                    {item.period ? (
+                      <p className="--bottom-detail period">
+                        <span className="--title">Period</span>
+                        <span>{item.period}</span>
+                      </p>
+                    ) : null}
+                    {item.awards ? (
+                      <p className="--bottom-detail awards">
+                        <span className="--title">Awards</span>
+                        {item.awards.map((award) => {
+                          return (
+                            <div className="award">
+                              <span className="award__name">
+                                {award.description}
+                              </span>
+                              <img
+                                className="award__image"
+                                src={
+                                  require(`../../../assets/images/propertydevelopment/awards/${award.image}`)
+                                    .default
+                                }
+                                alt=""
+                              />
+                            </div>
+                          );
+                        })}
+                      </p>
+                    ) : null}
+                  </div>
+                  <div className="carousel-indicators custom">
+                    {carousel.map((item, index) => {
+                      return (
+                        <li
+                          className={`${
+                            index === carouselIndex ? "active" : ""
+                          }`}
+                          onClick={() => controlCarousel(index)}
+                        ></li>
+                      );
+                    })}
+                  </div>
+                  <div className="--buttons">
+                    {item.links.project ? (
+                      <NavLink
+                        className="--btn-view-project"
+                        to="/property-development/istana-negara"
+                      >
+                        View Project
+                      </NavLink>
+                    ) : null}
+                    {item.links.website ? (
+                      <NavLink
+                        className="--btn-view-project"
+                        to="/property-development/istana-negara"
+                      >
+                        View Website
+                      </NavLink>
+                    ) : null}
+                  </div>
+                </Carousel.Caption>
+              </Carousel.Item>
+            );
+          })}
+          {/* <Carousel.Item>
             <img
               className="d-block w-100"
               src={
@@ -219,7 +359,7 @@ export default function CarouselDev() {
                 View Project
               </NavLink>
             </Carousel.Caption>
-          </Carousel.Item>
+          </Carousel.Item> */}
         </Carousel>
       )}
       {isMobile && (
