@@ -1,12 +1,17 @@
 import React, { useRef, useState, useEffect } from "react";
 import useLocoScroll from "../components/hooks/useLocoScroll";
-import { Container, Row, Col, Image } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { Container, Row } from "react-bootstrap";
+
 import "../assets/styles/propertyprojects.scss";
 import overlayImage from "../assets/images/propertyprojects/PropertyDev_Shapes-01.png";
-import Navigation from "../components/Navigation";
+import polygonImage from "../assets/images/propertyprojects/showcase-mahligai.png";
+
+import Hero from "../components/PropertyDevelopmentProject/Hero";
 import Footer from "../components/Footer";
+import Navigation from "../components/Navigation";
+import PreviewCard from "../components/PreviewCard";
+import PreviewCarousel from "../components/PreviewCarousel";
 
 const IstanaNegara = () => {
   const [preloader, setPreloader] = useState(true);
@@ -36,7 +41,14 @@ const IstanaNegara = () => {
 
   return (
     <>
-      {" "}
+      <svg class="svg">
+        <clipPath
+          id="previewCarouselClipPath"
+          clipPathUnits="objectBoundingBox"
+        >
+          <path d="m1,0 v0.689 l-0.435,0.311 H0 V0.166 L0.232,0"></path>
+        </clipPath>
+      </svg>{" "}
       {
         <Projects
           className="--projects
@@ -46,58 +58,33 @@ const IstanaNegara = () => {
         >
           <div className="--bg-1">
             <Navigation />
-            <Container className="--max">
-              <Row>
-                <Col>
-                  <div className="--project-details">
-                    <Image
-                      className="d-block"
-                      src={
-                        require("../assets/images/propertyprojects/PropertyDev_IMG-Istana.png")
-                          .default
-                      }
-                      alt="First slide"
-                    />
-                    <div className="--about-content">
-                      <Row>
-                        <Col md={6}>
-                          <Name>ISTANA NEGARA</Name>
-                          <Line />
-                          <Description>
-                            The new Istana Negara or National Palace <br />
-                            was built to replace the old palace which <br />
-                            has been used since 1957. Upon its <br />
-                            completion, then-Works Minister Shaziman <br />
-                            Abu Mansor remarked that the new Istana <br />
-                            Negara was “Kuala Lumpur’s most amazing <br />
-                            architectural achievement, surpassing even <br />
-                            the Twin Towers”
-                          </Description>
-                        </Col>
-                        <Col md={6}>
-                          <TextContainer>
-                            <Label>Client</Label>
-                            <Text>Public Works Department, Malaysia (JKR)</Text>
-                            <Label>Value</Label>
-                            <Text>RM997 million</Text>
-                            <Label>Period</Label>
-                            <Text>Nov 2007 to Jun 2011</Text>
-                          </TextContainer>
-                        </Col>
-                      </Row>
-                      <Row>
-                        <Col>
-                          <NavLink
-                            to="/team-leaders"
-                            className="--btn-get-to-know"
-                          />
-                        </Col>
-                      </Row>
-                    </div>
-                  </div>
-                </Col>
-              </Row>
-            </Container>
+
+            <section className="hero">
+              <Hero />
+            </section>
+            <section className="middle">
+              <div className="middle__polygon-image">
+                <img src={polygonImage} alt="" />
+              </div>
+              <div className="middle__caption">
+                <p>
+                  A HAVEN OF TRANQUILITY IN A THRIVING TOWNSHIP. WELCOME HOME.
+                </p>
+              </div>
+            </section>
+            <section className="preview">
+              <div className="preview-carousel__container">
+                <PreviewCarousel />
+              </div>
+            </section>
+            <section className="related">
+              <Container>
+                <h2 className="section-label">Related Projects</h2>
+                <Row className="related__cards">
+                  <PreviewCard />
+                </Row>
+              </Container>
+            </section>
             <Footer />
           </div>
         </Projects>
@@ -107,74 +94,20 @@ const IstanaNegara = () => {
 };
 
 const Projects = styled.div`
-  &::before {
+  /* &::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    background: url(${overlayImage}) top 8vw left;
     transition: background 0.3s;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 100vw 100vw;
     height: 100vw;
     width: 100%;
-  }
-`;
-
-const Name = styled.h3`
-  letter-spacing: 0.19vw;
-  text-transform: uppercase;
-  line-height: 1.4;
-  font-size: 1.1vw;
-  font-family: "gill sans medium", sans-serif !important;
-  color: #283a97;
-  margin: 0;
-  text-align: left;
-  font-weight: 800 !important;
-`;
-
-const Line = styled.hr`
-  background-color: #676ab1;
-  height: 2px !important;
-  width: 18vw;
-  opacity: 1;
-  margin: 3vw 0 2.5vw 0;
-`;
-
-const Description = styled.p`
-  font-weight: 600 !important;
-  line-height: 1.3;
-  font-size: 1.12vw;
-  font-family: "gill sans light", sans-serif !important;
-  color: #283a97;
-  margin: 0;
-  text-align: left;
-  letter-spacing: 0.15vw;
-`;
-const TextContainer = styled.div``;
-
-const Label = styled.h3`
-  letter-spacing: 0.19vw;
-  line-height: 1.4;
-  font-size: 1.1vw;
-  font-family: "gill sans medium", sans-serif !important;
-  color: #283a97;
-  margin: 0;
-  text-align: left;
-  font-weight: 800 !important;
-`;
-
-const Text = styled.p`
-  font-weight: 600 !important;
-  line-height: 1.8;
-  font-size: 1.15vw;
-  font-family: "gill sans light", sans-serif !important;
-  color: #283a97;
-  margin: 0 0 1.5vw 0;
-  text-align: left;
-  letter-spacing: 0.18vw;
+    background: url(${overlayImage}) top 8vw left;
+  } */
 `;
 
 export default IstanaNegara;

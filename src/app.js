@@ -10,6 +10,7 @@ import OtherBusinessVentures from "./views/OtherBusinessVentures";
 import LandAcquisition from "./views/LandAcquisition";
 import LicensesAndRegistrations from "./views/LicensesAndRegistrations";
 import PorpertyDevelopment from "./views/PorpertyDevelopment";
+import PropertyDevelopmentProject from "./views/PropertyDevelopmentProject";
 import CivilEngineering from "./views/CivilEngineering";
 import ContactUs from "./views/ContactUs";
 import YmRajaDatoAzwaneBinRajaAriff from "./views/YmRajaDatoAzwaneBinRajaAriff";
@@ -76,6 +77,11 @@ export default function App() {
                   exact
                   path="/property-development"
                   component={PorpertyDevelopment}
+                />
+                <Route
+                  exact
+                  path="/property-development/:name"
+                  component={PropertyDevelopmentProject}
                 />
                 <Route exact path="/contact-us" component={ContactUs} />
                 <Route
@@ -153,7 +159,7 @@ export default function App() {
                   path="/civil-engineering/pipe-jacking-for-sg-buloh-to-johor-bahru-for-water-privatization-1500m-dia-and-1350-dia"
                   component={PipeJackingForSG}
                 />
-                <Route
+                {/* <Route
                   exact
                   path="/property-development/istana-negara"
                   component={IstanaNegara}
@@ -172,7 +178,7 @@ export default function App() {
                   exact
                   path="/property-development/tropicana-miyu-petaling-jaya"
                   component={Tropicana}
-                />
+                /> */}
               </Switch>
             </div>
           );

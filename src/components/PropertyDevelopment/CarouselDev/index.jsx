@@ -3,8 +3,7 @@ import { useMediaQuery } from "react-responsive";
 import { Carousel, Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Footer from "../../Footer";
-import "../../../assets/styles/carousel.scss";
-import { useEffect } from "react";
+import "../../../assets/styles/overlaycarousel.scss";
 
 export default function CarouselDev() {
   // DESKTOP, TABLET & MOBILE
@@ -94,6 +93,7 @@ export default function CarouselDev() {
     <div className="--bg-2" data-scroll-section>
       {isTablet && (
         <Carousel
+          className="overlay-carousel"
           interval={null}
           activeIndex={carouselIndex}
           onSelect={controlCarousel}

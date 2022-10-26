@@ -13,7 +13,7 @@ const OtherBusinessVentures = () => {
           data-scroll-container
         >
           <Navigation />
-          <section className="hero">
+          <section className=" hero">
             <div className="hero__content">
               <h1 className="hero__title">Other Business Affiliates</h1>
               <p className="hero__desc">coming soong</p>

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "mahligai",
+    "title": "MAHLIGAI AT NUSA DAMAI 2 & 2.5 STOREY HOUSING, JOHOR",
+    "background": "carousel/mahligai.png",
+    "description": "Mahilgai at Nusa Damai consists of 163 landed houses in the already-mature neighborhood of Masai in Johor",
+    "client": "RM100 million ",
+    "value": "RM100 million ",
+    "period": "Feb 2017 to ongoing",
+    "caption": "A HAVEN OF TRANQUILITY IN A THRIVING TOWNSHIP. WELCOME HOME.",
+    "awards": [
+      {
+        "image": "apa.png",
+        "description": "Highly Commended for Best High End Landed Development (Southern)"
+      }
+    ],
+    "links": {
+      "project": "/mahilgai",
+      "website": "/mahilgai"
+    },
+    "related": [
+      {
+        "image": "/tropicana-miyu.png",
+        "name": "TROPICANA MIYU, PETALING JAYA",
+        "path": "/tropicana-miyu"
+      },
+      {
+        "image": "/diami.png",
+        "name": "DIAMI",
+        "path": "/diami"
+      }
+    ]
+  },
+  {
+    "name": "diami",
+    "title": "DIAMI",
+    "background": "carousel/diami.png",
+    "description": "The classic interplays with the modern in the verdant hills of Taman Melati. Overlooking the grand expanses of Bukit Tabur and the Kemensah Reserve, Diami 4 and 5 storey superlink terrace homes is an opportunity to indulge beyond the basics and an expression of your passion for tasteful living.",
+    "value": "RM48 million",
+    "period": "September 2021 to ongoing",
+    "caption": "AN INSPIRED DECISION. A STATEMENT OF TASTE.",
+    "links": {
+      "project": "/diami",
+      "website": ""
+    },
+    "related": [
+      {
+        "image": "/tropicana-miyu.png",
+        "path": "/tropicana-miyu"
+      },
+      {
+        "image": "/diami.png",
+        "path": "/diami"
+      }
+    ]
+  },
+  {
+    "name": "tropicana-miyu",
+    "title": "TROPICANA MIYU, PETALING JAYA",
+    "background": "carousel/tropicana.png",
+    "description": "Envisioning itself as being a perfect home for individuals and their loved one, Tropicana Miyu which means A Place For Me and You, clearly blends modern conveniences with traditionalism so that the older and younger generation can pursue their lifestyle choices at the very best.",
+    "value": "RM261 million",
+    "period": "September 2020 to ongoing",
+    "caption": "ENVISIONING ITSELF AS BEING A PERFECT HOME FOR INDIVIDUALS AND THEIR LOVED ONE.",
+    "awards": [
+      {
+        "image": "tdba.png",
+        "description": "Honours The Distinctive Build Award in StarProperty Awards 2021: Real Estate Developer"
+      },
+      {
+        "image": "tdba.png",
+        "description": "Winner 2021-2022 in Asia Pacific Property Awards"
+      }
+    ],
+    "links": {
+      "project": "/tropicana",
+      "website": ""
+    },
+    "related": [
+      {
+        "image": "/tropicana-miyu.png",
+        "path": "/tropicana-miyu"
+      },
+      {
+        "image": "/diami.png",
+        "path": "/diami"
+      }
+    ]
+  }
+]
