@@ -31,6 +31,8 @@ import IstanaNegara from "./views/IstanaNegara";
 import Mahligai from "./views/Mahligai";
 import NationalCamp from "./views/NationalCamp";
 import Tropicana from "./views/Tropicana";
+import TermsOfService from "./views/TermsOfService";
+import PrivacyPolicy from "./views/PrivacyPolicy";
 
 export default function App() {
   var AOS = require("aos");
@@ -173,6 +175,12 @@ export default function App() {
                   path="/property-development/tropicana-miyu-petaling-jaya"
                   component={Tropicana}
                 />
+                <Route
+                  exact
+                  path="/terms-of-service"
+                  component={TermsOfService}
+                />
+                <Route exact path="/privacy-policy" component={PrivacyPolicy} />
               </Switch>
             </div>
           );
