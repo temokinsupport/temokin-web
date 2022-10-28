@@ -35,7 +35,7 @@ const PrivacyPolicy = () => {
       {" "}
       {
         <div
-          className="--contact-us main-container"
+          className="--privacy-policy main-container"
           id="main-container"
           data-scroll-container
         >

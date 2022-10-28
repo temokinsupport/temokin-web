@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/styles/landacquisition.scss";
 import "../assets/styles/form.scss";
-import { SVG1 } from "../assets/svg/LandAcquisition/index";
+import { SVG1 } from "../assets/svg/LandAcquisitionSVG/index";
 import Navigation from "../components/Navigation";
 import FooterMenu from "../components/FooterMenu";
 import Header from "../components/LandAcquisition/Header";

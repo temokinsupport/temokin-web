@@ -35,7 +35,7 @@ const TermsOfService = () => {
       {" "}
       {
         <div
-          className="--contact-us main-container"
+          className="--terms-of-service main-container"
           id="main-container"
           data-scroll-container
         >

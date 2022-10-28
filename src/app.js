@@ -10,6 +10,7 @@ import OtherBusinessVentures from "./views/OtherBusinessVentures";
 import LandAcquisition from "./views/LandAcquisition";
 import LicensesAndRegistrations from "./views/LicensesAndRegistrations";
 import PorpertyDevelopment from "./views/PorpertyDevelopment";
+import PropertyDevelopmentProject from "./views/PropertyDevelopmentProject";
 import CivilEngineering from "./views/CivilEngineering";
 import ContactUs from "./views/ContactUs";
 import YmRajaDatoAzwaneBinRajaAriff from "./views/YmRajaDatoAzwaneBinRajaAriff";
@@ -27,10 +28,10 @@ import Earthworks from "./views/Earthworks";
 import TnbSubstations from "./views/TnbSubstations";
 import PipeJackingWorks from "./views/PipeJackingWorks";
 import PipeJackingForSG from "./views/PipeJackingForSG";
-import IstanaNegara from "./views/IstanaNegara";
-import Mahligai from "./views/Mahligai";
-import NationalCamp from "./views/NationalCamp";
-import Tropicana from "./views/Tropicana";
+// import IstanaNegara from "./views/IstanaNegara";
+// import Mahligai from "./views/Mahligai";
+// import NationalCamp from "./views/NationalCamp";
+// import Tropicana from "./views/Tropicana";
 import TermsOfService from "./views/TermsOfService";
 import PrivacyPolicy from "./views/PrivacyPolicy";
 
@@ -78,6 +79,11 @@ export default function App() {
                   exact
                   path="/property-development"
                   component={PorpertyDevelopment}
+                />
+                <Route
+                  exact
+                  path="/property-development/:name"
+                  component={PropertyDevelopmentProject}
                 />
                 <Route exact path="/contact-us" component={ContactUs} />
                 <Route
@@ -157,6 +163,12 @@ export default function App() {
                 />
                 <Route
                   exact
+                  path="/terms-of-service"
+                  component={TermsOfService}
+                />
+                <Route exact path="/privacy-policy" component={PrivacyPolicy} />
+                {/* <Route
+                  exact
                   path="/property-development/istana-negara"
                   component={IstanaNegara}
                 />
@@ -175,12 +187,8 @@ export default function App() {
                   path="/property-development/tropicana-miyu-petaling-jaya"
                   component={Tropicana}
                 />
-                <Route
-                  exact
-                  path="/terms-of-service"
-                  component={TermsOfService}
-                />
-                <Route exact path="/privacy-policy" component={PrivacyPolicy} />
+                
+                /> */}
               </Switch>
             </div>
           );

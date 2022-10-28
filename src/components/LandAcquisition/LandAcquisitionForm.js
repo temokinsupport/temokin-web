@@ -11,7 +11,7 @@ import {
   SVG8,
   SVG9,
   SVG10,
-} from "../../assets/svg/LandAcquisition/index";
+} from "../../assets/svg/LandAcquisitionSVG/index";
 
 const LandAcquisitionForm = () => {
   const documentUploadRef = useRef();
