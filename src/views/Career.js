@@ -2,7 +2,6 @@ import React, { useRef, useState, useEffect } from "react";
 import useLocoScroll from "../components/hooks/useLocoScroll";
 import "../assets/styles/career.scss";
 import Header from "../components/Career/Header";
-import Form from "../components/Career/Form";
 const Career = () => {
   const [preloader, setPreloader] = useState(true);
 
@@ -39,7 +38,6 @@ const Career = () => {
           data-scroll-container
         >
           <Header />
-          {/* <Form /> */}
         </div>
       }{" "}
     </>

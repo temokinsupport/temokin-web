@@ -98,7 +98,7 @@ export default function Header() {
                     <span className="career-choosefile-text">*PDF FORMAT ONLY, MAXIMUM FILE SIZE IS 10MB</span>
                   </div>
                 </Col>
-                <Col sm={12} className="mt-5 pt-5">
+                <Col sm={12} className="mt-5 p">
                   <div className="text-center">
                   <Button className="career-submit-button">SUBMIT</Button>
                   </div>
