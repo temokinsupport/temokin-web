@@ -258,7 +258,7 @@ function Navigation() {
         </li>
         {/* TODO: create page */}
         <li>
-          <NavLink exact to="/contact-us">
+          <NavLink exact to="/career">
             Career
           </NavLink>
         </li>

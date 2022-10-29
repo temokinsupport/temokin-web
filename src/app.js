@@ -34,6 +34,7 @@ import PipeJackingForSG from "./views/PipeJackingForSG";
 // import Tropicana from "./views/Tropicana";
 import TermsOfService from "./views/TermsOfService";
 import PrivacyPolicy from "./views/PrivacyPolicy";
+import Career from "./views/Career";
 
 export default function App() {
   var AOS = require("aos");
@@ -167,6 +168,7 @@ export default function App() {
                   component={TermsOfService}
                 />
                 <Route exact path="/privacy-policy" component={PrivacyPolicy} />
+                <Route exact path="/career" component={Career} />
                 {/* <Route
                   exact
                   path="/property-development/istana-negara"
