@@ -20,20 +20,34 @@ function Footer() {
               </NavLink>
               <div className="--address container">
                 <div class="w-100 text-end">
-                  <img
-                    alt=""
-                    src="/fb-icon.png"
-                    width="30"
-                    height="30"
-                    className="me-3 d-inline-block align-top"
-                  />{" "}
-                  <img
-                    alt=""
-                    src="/insta-icon.png"
-                    width="30"
-                    height="30"
-                    className="me-5 d-inline-block align-top"
-                  />{" "}
+                  <a
+                    href="https://www.facebook.com/TemokinDev/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-med"
+                  >
+                    <img
+                      alt=""
+                      src="/fb-icon.png"
+                      width="30"
+                      height="30"
+                      className="me-3 d-inline-block align-top"
+                    />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/temokindevelopment/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="social-med"
+                  >
+                    <img
+                      alt=""
+                      src="/insta-icon.png"
+                      width="30"
+                      height="30"
+                      className="me-5 d-inline-block align-top"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -42,19 +56,21 @@ function Footer() {
             <div className="--right-container">
               <p>© Temokin 2018</p>
               <sub>
-                <a
-                  href="/land-acquisition"
-                  class="text-decoration-none colorPrimary"
+                <NavLink
+                  exact
+                  to="/land-acquisition"
+                  className="text-decoration-none colorPrimary"
                 >
                   Land Acquisition
-                </a>
+                </NavLink>
                 &nbsp; | &nbsp;
-                <a
-                  href="/terms-of-service"
-                  class="text-decoration-none colorPrimary"
+                <NavLink
+                  exact
+                  to="/terms-of-service"
+                  className="text-decoration-none colorPrimary"
                 >
                   Terms of Service
-                </a>
+                </NavLink>
                 &nbsp; | &nbsp;
                 <a
                   href="/privacy-policy"

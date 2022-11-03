@@ -20,6 +20,7 @@ import TanChienWen from "./views/TanChienWen";
 import JeremiahTanChienYih from "./views/JeremiahTanChienYih";
 import TanChienChyi from "./views/TanChienChyi";
 import ChanYoonSang from "./views/ChanYoonSang";
+import LeeTeokGuah from "./views/LeeTeokGuah";
 import PathooramanBinAbu from "./views/PathooramanBinAbu";
 import CrystalWongWaiChing from "./views/CrystalWongWaiChing";
 import SerembanMiddleRingRoad from "./views/SerembanMiddleRingRoad";
@@ -121,6 +122,11 @@ export default function App() {
                   exact
                   path="/team-leaders/chan-yoon-sang"
                   component={ChanYoonSang}
+                />
+                <Route
+                  exact
+                  path="/team-leaders/lee-teok-guah"
+                  component={LeeTeokGuah}
                 />
                 <Route
                   exact

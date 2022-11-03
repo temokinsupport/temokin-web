@@ -14,9 +14,11 @@
     background-color: #ffffff;
     z-index: 100;
     position: relative;
+    border-top: 1px solid #4d569c;
     .--max {
         max-width: 91% !important;
         min-height: auto !important;
+        margin-top: 0 !important;
     }
     .--left-container {
         display: flex;

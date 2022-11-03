@@ -7,7 +7,7 @@ import "../assets/styles/leader.scss";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
-const ChanYoonSang = () => {
+const LeeTeokGuah = () => {
   const [preloader, setPreloader] = useState(true);
 
   useLocoScroll(!preloader);
@@ -54,36 +54,49 @@ const ChanYoonSang = () => {
                       <Row>
                         <Col md={5}>
                           <Name>
-                            Chan Yoon <br />
-                            Sang
+                            LEE <br />
+                            TEOK GUAH (EDWARD)
                           </Name>
                           <Line />
                           <Position>
                             <div className="leader-position">
-                              CONTRACTS <br />
-                              DIRECTOR
+                              GENERAL MANAGER <br />
+                              OF THE DEVELOPMENT ARM, <br />
+                              TEMOKIN DEVELOPMENT
                             </div>
                           </Position>
                         </Col>
                         <Col md={7}>
                           <Description>
-                            Yoon Sang is responsible for securing and
-                            implementing project contracts for Temokin. He led
-                            in the massive RM2.5 billion Seremban Middle Ring
-                            Road project, successfully executing its seven
-                            contract packages from conceptual design and pricing
-                            negotiation up to implementation and completion.
+                            Edward possess more than 28 years of experience in
+                            property development and project management. He has
+                            extensive experience in township master planning and
+                            condominium projects as well as strata property
+                            management.
                             <br />
                             <br />
-                            He graduated with an Architecture Certificate and a
-                            Diploma in Building Technology from Tunku Abdul
-                            Rahman University College, Malaysia, and started his
-                            career as a project co-ordinator and quantity
-                            surveyor in Sima Construction. He later joined
-                            Comtrac Sdn. Bhd., a subsidiary of DRB-HICOM, where
-                            he sharpened his skills in contract implementation
-                            through exposure to various fast-track turnkey
-                            projects.
+                            He was the Project General Manager of Scientex Bhd
+                            leading the Central Project Team, in charge of their
+                            Ipoh, Rawang, Kundang and Cheras project.
+                            <br />
+                            <br />
+                            Prior to that, he was the General Manager of TAHPS
+                            Group Bhd (now known as Ayer Holdings Bhd),
+                            developer of a I, 200 acre of Integrated Township
+                            called Bandar Bukit Puchong, responsible for Project
+                            Management, Sales & Marketing, Sales Admin, Township
+                            Maintenance & Customer Care and also overseeing the
+                            Finance & HR Department.
+                            <br />
+                            <br />
+                            Edward started his career in 1992 with MBf Property
+                            Services Sdn Bhd, thereafter he joined YTL Land &
+                            Development Bhd for 13 years, starting as Project
+                            Manager until he reached the position of General
+                            Manager. His projects include the urban renewal
+                            project of Sentul East & West, Lake Edge, Pantai
+                            Hillpark, Lake Fields and Housing project at Ipoh
+                            and Pasir Gudang.
                           </Description>
                         </Col>
                       </Row>
@@ -152,4 +165,4 @@ const Description = styled.p`
   letter-spacing: 1px;
 `;
 
-export default ChanYoonSang;
+export default LeeTeokGuah;

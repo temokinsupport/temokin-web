@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import useLocoScroll from "../components/hooks/useLocoScroll";
 // import { useMediaQuery } from 'react-responsive';
 import { NavLink } from "react-router-dom";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import "../assets/styles/teamleaders.scss";
 import Join from "../components/TeamLeaders/Join";
 import Footer from "../components/Footer";
@@ -41,67 +41,90 @@ const TeamLeaders = () => {
   const teamLeaders = [
     {
       id: 0,
+      name: "DATO' IR. TAN KIM KUAN (ROBERT)",
+      position: "MANAGING DIRECTOR",
+      secondPosition: "BOARD OF DIRECTORS",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-01A.png")
         .default,
       img2: require("../assets/images/teamleaders/Leaders_IMG-Leader-01B.png")
         .default,
       alt: "team leader 1",
-      pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
+      pathLeader: "/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan",
+      // pathLeader: "/team-leaders/ym-raja-dato-azwane-bin-raja-ariff",
     },
     {
       id: 1,
+      name: "TAN CHIEN WEN",
+      position: "EXECUTIVE DIRECTOR",
+      secondPosition: "BOARD OF DIRECTORS",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-02A.png")
         .default,
       img2: require("../assets/images/teamleaders/Leaders_IMG-Leader-02B.png")
         .default,
       alt: "team leader 2",
-      pathLeader: "/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan",
+      pathLeader: "/team-leaders/tan-chien-wen",
+      // pathLeader: "/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan",
     },
     {
       id: 2,
+      name: "TAN CHIEN YIH (JEREMIAH)",
+      position: "EXECUTIVE DIRECTOR",
+      secondPosition: "BOARD OF DIRECTORS",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-03A.png")
         .default,
       img2: require("../assets/images/teamleaders/Leaders_IMG-Leader-03B.png")
         .default,
       alt: "team leader 3",
-      pathLeader: "/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian",
+      // pathLeader: "/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian",
+      pathLeader: "/team-leaders/jeremiah-tan-chien-yih",
     },
     {
       id: 3,
+      name: "TAN CHIEN CHYI",
+      position: "EXECUTIVE DIRECTOR",
+      secondPosition: "BOARD OF DIRECTORS",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-04A.png")
         .default,
       img2: require("../assets/images/teamleaders/Leaders_IMG-Leader-04B.png")
         .default,
       alt: "team leader 4",
-      pathLeader: "/team-leaders/tan-chien-wen",
+      pathLeader: "/team-leaders/tan-chien-chyi",
+      // pathLeader: "/team-leaders/tan-chien-wen",
     },
     {
       id: 4,
+      name: "CHAN YOON SANG",
+      position: "PROJECT DIRECTOR",
+      secondPosition: "NON-EXECUTIVE DIRECTOR",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-05A.png")
         .default,
       img2: require("../assets/images/teamleaders/Leaders_IMG-Leader-05B.png")
         .default,
       alt: "team leader 5",
-      pathLeader: "/team-leaders/jeremiah-tan-chien-yih",
+      pathLeader: "/team-leaders/chan-yoon-sang",
+      // pathLeader: "/team-leaders/jeremiah-tan-chien-yih",
     },
     {
       id: 5,
+      name: "LEE TEOK GUAH (EDWARD)",
+      position: "GENERAL MANAGER OF THE DEVELOPMENT ARM",
+      secondPosition: "TEMOKIN DEVELOPMENT",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-06A.png")
         .default,
       img2: require("../assets/images/teamleaders/Leaders_IMG-Leader-06B.png")
         .default,
       alt: "team leader 6",
-      pathLeader: "/team-leaders/tan-chien-chyi",
+      pathLeader: "/team-leaders/lee-teok-guah",
     },
-    {
-      id: 6,
-      img: require("../assets/images/teamleaders/Leaders_IMG-Leader-07A.png")
-        .default,
-      img2: require("../assets/images/teamleaders/Leaders_IMG-Leader-07B.png")
-        .default,
-      alt: "team leader 7",
-      pathLeader: "/team-leaders/chan-yoon-sang",
-    },
+    // {
+    //   id: 6,
+    //   img: require("../assets/images/teamleaders/Leaders_IMG-Leader-07A.png")
+    //     .default,
+    //   img2: require("../assets/images/teamleaders/Leaders_IMG-Leader-07B.png")
+    //     .default,
+    //   alt: "team leader 7",
+    //   pathLeader: "/team-leaders/chan-yoon-sang",
+    // },
     // {
     //     id:7,
     //     img:require('../assets/images/teamleaders/Leaders_IMG-Leader-08A.png').default,
@@ -129,6 +152,20 @@ const TeamLeaders = () => {
           data-scroll-container
         >
           <div className="--bg-1" data-scroll-section>
+            <div className="--shape-left">
+              <Image
+                src={
+                  require("../assets/images/teamleaders/Group 848.png").default
+                }
+              />
+            </div>
+            <div className="--shape-right-1">
+              <Image
+                src={
+                  require("../assets/images/teamleaders/Group 849.png").default
+                }
+              />
+            </div>
             <Navigation />
             <Container>
               <Row>
@@ -155,14 +192,27 @@ const TeamLeaders = () => {
                 {teamLeaders.map((teamLeader) => (
                   <Col md={4} key={teamLeader.id}>
                     <Card
-                      className="bg-dark text-white"
+                      className="bg-dark text-white teamLeaderBox"
                       data-scroll
                       data-scroll-speed="2"
                     >
-                      <Card.Img src={teamLeader.img} alt={teamLeader.alt} />
+                      <div className="teamLeaderBg">
+                        <span className="secondPosition">
+                          {teamLeader.secondPosition}
+                        </span>
+                        <div className="teamLeaderName">{teamLeader.name}</div>
+                        <hr className="teamHr"></hr>
+                        <div className="teamLeaderPosition">
+                          {teamLeader.position}
+                        </div>
+                        <div className="full-bio">FULL BIOGRAPHY</div>
+                        <div className="bottomAngle"></div>
+                        <div className="bottomAngle2"></div>
+                      </div>
+                      {/* <Card.Img src={teamLeader.img} alt={teamLeader.alt} />
                       <Card.ImgOverlay>
                         <Card.Img src={teamLeader.img2} alt={teamLeader.alt} />
-                      </Card.ImgOverlay>
+                      </Card.ImgOverlay> */}
                       <NavLink to={teamLeader.pathLeader} />
                     </Card>
                   </Col>
@@ -171,6 +221,13 @@ const TeamLeaders = () => {
             </Container>
           </div>
           <div className="--bg-2" data-scroll-section>
+            <div className="--shape-right">
+              <Image
+                src={
+                  require("../assets/images/teamleaders/Group 89.png").default
+                }
+              />
+            </div>
             <Join />
             <Footer />
           </div>
