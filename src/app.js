@@ -36,6 +36,8 @@ import PipeJackingForSG from "./views/PipeJackingForSG";
 import TermsOfService from "./views/TermsOfService";
 import PrivacyPolicy from "./views/PrivacyPolicy";
 import Career from "./views/Career";
+import CivilInfrastructure from "./views/CivilInfrastructure";
+import Building from "./views/Building";
 
 export default function App() {
   var AOS = require("aos");
@@ -175,6 +177,13 @@ export default function App() {
                 />
                 <Route exact path="/privacy-policy" component={PrivacyPolicy} />
                 <Route exact path="/career" component={Career} />
+
+                <Route
+                  exact
+                  path="/civil-infrastructure"
+                  component={CivilInfrastructure}
+                />
+                <Route exact path="/building" component={Building} />
                 {/* <Route
                   exact
                   path="/property-development/istana-negara"

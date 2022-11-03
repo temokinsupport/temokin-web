@@ -42,12 +42,12 @@ function Navigation() {
     {
       id: 0,
       linkname: "Building",
-      linkpath: "/about-temokin",
+      linkpath: "/building",
     },
     {
       id: 1,
       linkname: "Civil Infrastructure",
-      linkpath: "/team-leaders",
+      linkpath: "/civil-infrastructure",
     },
   ];
 
