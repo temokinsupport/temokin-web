@@ -28,6 +28,7 @@
     margin-left: 2vw;
     font-family: "gill sans medium", sans-serif;
     letter-spacing: 0.1vw;
+    white-space: break-spaces;
 }
 .teamHr {
     width: 5vw;
@@ -37,10 +38,11 @@
 }
 .teamLeaderPosition {
     width: 50%;
-    font-size: 13pt;
+    font-size: 12pt;
     margin-left: 2vw;
     font-family: "gill sans medium", sans-serif;
     letter-spacing: 0.1vw;
+    white-space: break-spaces;
 }
 
 @media (min-width: 993px) {
@@ -128,7 +130,7 @@
         padding: 10vw 0 5vw 0;
         .--shape-left {
             transition: background 0.3s;
-            left: -35vw;
+            left: -500px;
             width: 37vw;
             position: absolute;
             top: 3vw;

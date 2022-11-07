@@ -19,6 +19,7 @@
   z-index: 5000 !important;
   position: absolute !important;
   align-items: flex-start !important;
+  // width: 50vw;
   a {
     &.--logo {
       img {
@@ -50,6 +51,7 @@
         &-container {
           position: absolute;
           top: 3vw;
+          width: 12vw;
           opacity: 0;
           background-color: #283a97;
           -webkit-transition: all 0.3s;

@@ -41,8 +41,8 @@ const TeamLeaders = () => {
   const teamLeaders = [
     {
       id: 0,
-      name: "DATO' IR. TAN KIM KUAN (ROBERT)",
-      position: "MANAGING DIRECTOR",
+      name: "DATO' IR. TAN KIM KUAN \n(ROBERT)",
+      position: "MANAGING \nDIRECTOR",
       secondPosition: "BOARD OF DIRECTORS",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-01A.png")
         .default,
@@ -54,8 +54,8 @@ const TeamLeaders = () => {
     },
     {
       id: 1,
-      name: "TAN CHIEN WEN",
-      position: "EXECUTIVE DIRECTOR",
+      name: "TAN \nCHIEN WEN",
+      position: "EXECUTIVE \nDIRECTOR",
       secondPosition: "BOARD OF DIRECTORS",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-02A.png")
         .default,
@@ -67,8 +67,8 @@ const TeamLeaders = () => {
     },
     {
       id: 2,
-      name: "TAN CHIEN YIH (JEREMIAH)",
-      position: "EXECUTIVE DIRECTOR",
+      name: "TAN \nCHIEN YIH (JEREMIAH)",
+      position: "EXECUTIVE \nDIRECTOR",
       secondPosition: "BOARD OF DIRECTORS",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-03A.png")
         .default,
@@ -80,8 +80,8 @@ const TeamLeaders = () => {
     },
     {
       id: 3,
-      name: "TAN CHIEN CHYI",
-      position: "EXECUTIVE DIRECTOR",
+      name: "TAN \nCHIEN CHYI",
+      position: "EXECUTIVE \nDIRECTOR",
       secondPosition: "BOARD OF DIRECTORS",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-04A.png")
         .default,
@@ -93,8 +93,8 @@ const TeamLeaders = () => {
     },
     {
       id: 4,
-      name: "CHAN YOON SANG",
-      position: "PROJECT DIRECTOR",
+      name: "CHAN \nYOON SANG",
+      position: "PROJECT \nDIRECTOR",
       secondPosition: "NON-EXECUTIVE DIRECTOR",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-05A.png")
         .default,
@@ -106,8 +106,8 @@ const TeamLeaders = () => {
     },
     {
       id: 5,
-      name: "LEE TEOK GUAH (EDWARD)",
-      position: "GENERAL MANAGER OF THE DEVELOPMENT ARM",
+      name: "LEE \nTEOK GUAH (EDWARD)",
+      position: "GENERAL MANAGER \nOF THE DEVELOPMENT \nARM",
       secondPosition: "TEMOKIN DEVELOPMENT",
       img: require("../assets/images/teamleaders/Leaders_IMG-Leader-06A.png")
         .default,

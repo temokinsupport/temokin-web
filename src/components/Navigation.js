@@ -29,7 +29,7 @@ function Navigation() {
     },
     {
       id: 4,
-      linkname: "Other Business Vectures",
+      linkname: "Other Business Ventures",
       linkpath: "/other-business-ventures",
     },
     {

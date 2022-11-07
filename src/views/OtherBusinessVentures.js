@@ -16,7 +16,7 @@ const OtherBusinessVentures = () => {
           <section className=" hero">
             <div className="hero__content">
               <h1 className="hero__title">Other Business Affiliates</h1>
-              <p className="hero__desc">coming soong</p>
+              <p className="hero__desc">coming soon</p>
             </div>
           </section>
           <FooterMenu />

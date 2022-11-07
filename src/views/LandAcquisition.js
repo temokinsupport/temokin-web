@@ -1,35 +1,45 @@
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
+import useLocoScroll from "../components/hooks/useLocoScroll";
 import "../assets/styles/landacquisition.scss";
-import "../assets/styles/form.scss";
-import { SVG1 } from "../assets/svg/LandAcquisitionSVG/index";
-import Navigation from "../components/Navigation";
-import FooterMenu from "../components/FooterMenu";
-import Header from "../components/LandAcquisition/Header";
-import LandAcquisitionForm from "../components/LandAcquisition/LandAcquisitionForm";
-
+import Header from "../components/LandAcquisition/Header/index";
 const LandAcquisition = () => {
+  const [preloader, setPreloader] = useState(true);
+
+  useLocoScroll(!preloader);
+
+  const [timer, setTimer] = useState(1);
+
+  const id = useRef(null);
+
+  const clear = () => {
+    window.clearInterval(id.current);
+    setPreloader(false);
+  };
+
+  useEffect(() => {
+    id.current = window.setInterval(() => {
+      setTimer((timer) => timer - 1);
+    }, 1000);
+  }, []);
+
+  useEffect(() => {
+    if (timer === 0) {
+      clear();
+    }
+  }, [timer]);
+
   return (
     <>
+      {" "}
       {
         <div
-          className="land-acquisition
-              main-container"
+          className="--landacquisition main-container"
           id="main-container"
           data-scroll-container
         >
-          <Navigation />
-          <section className="header">
-            <Header />
-          </section>
-          <section className="form">
-            <LandAcquisitionForm />
-          </section>
-          {/* <div className="svg--1 svg">
-            <SVG1 />
-          </div> */}
-          <FooterMenu />
+          <Header />
         </div>
-      }
+      }{" "}
     </>
   );
 };
