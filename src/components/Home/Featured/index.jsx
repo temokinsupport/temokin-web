@@ -46,7 +46,7 @@ export default function Featured() {
                     <Carousel.Item>
                       <img
                         className="d-block w-50"
-                        src={require('../../../assets/images/home/Home_IMG-01.png').default}
+                        src={require('../../../assets/images/home/Mask Group 65.jpg').default}
                         alt="First slide"
                         data-scroll
                       />
@@ -56,13 +56,14 @@ export default function Featured() {
                         way with Malaysia's first microtunnelling project and has since expanded into the <br/>
                         building of electricity substations, major underground sewage lines, complex <br/>
                         bridges and major highways.</p>
-                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
+                        <NavLink to="/building" variant="light" className="--btn-check-our-work-1">BUILDING</NavLink>
+                        <NavLink to="/civil-infrastructure" variant="light" className="--btn-check-our-work-2">CIVIL & INFRASTRUCTURE</NavLink>
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-50"
-                        src={require('../../../assets/images/home/Home_IMG-02.png').default}
+                        src={require('../../../assets/images/home/Mask Group 65.jpg').default}
                         alt="First slide"
                         data-scroll
                       />
@@ -72,7 +73,7 @@ export default function Featured() {
                         having designed and built complex skycrapers, hospitals and vast modern retail <br/>
                         spaces on behalf of our clients. Our current portfolio includes the building of high- <br/>
                         quality duplex homes and the new Istana Negara (Malaysia's national palace).</p>
-                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
+                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work-2">CHECK OUT OUR WORK</NavLink>
                       </Carousel.Caption>
                     </Carousel.Item>
                   </Carousel>

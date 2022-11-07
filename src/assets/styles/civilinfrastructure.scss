@@ -23,12 +23,7 @@
   width: 60vw;
   margin: 0 auto;
 }
-.carousel-caption {
-  padding-top: 0vw;
-  position: unset;
-  top: 28vw;
-  text-align: left;
-}
+
 .civilinfra {
   padding-top: 5vw !important;
 }
@@ -74,6 +69,12 @@
 .--civil-infrastructure {
   width: 100%;
   position: relative;
+  .carousel-caption {
+      padding-top: 0vw;
+      position: unset;
+      top: 28vw;
+      text-align: left;
+    }
   .--header-container {
     
     .--title {

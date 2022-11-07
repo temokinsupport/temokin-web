@@ -33,14 +33,7 @@
   width: 100vw;
   margin: 0 auto;
 }
-.carousel-caption {
-  padding-top: 0vw;
-  position: absolute;
-  top: 15vw;
-  left: 54vw;
-  color: #283a97;
-  letter-spacing: 0.2vw;
-}
+
 .civilinfra {
   padding-top: 5vw !important;
 }
@@ -86,6 +79,14 @@
 .--civil-infrastructure {
   width: 100%;
   position: relative;
+  .carousel-caption {
+      padding-top: 0vw;
+      position: absolute;
+      top: 15vw;
+      left: 54vw;
+      color: #283a97;
+      letter-spacing: 0.2vw;
+    }
   .--header-container {
     
     .--title {
