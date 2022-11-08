@@ -45,68 +45,65 @@ export default function Header() {
             </h1>
           </Col>
         </Row>
-       <Row className="justify-content-center text-header mb-5">
-          <Col md="7" sm="12" className="pb-5 mb-5">
-            From our humble start, we have grown tremendously and now we are looking to go 
-            next level. We have a no-discrimination policy and believe in attitude, not so much aptitude. Of course, hard work is rewarded, and excellence is our lifestyle. If you're energetic, eager to learn and a team player, send us your resume and you could be on your way to a creer with Temokin.
-          </Col>
-          <Col md="10" sm="12" className="mb-5">
-              <Form>
-                <Form.Group as={Row} controlId="formPlaintextName" data-scroll>
-                    <Form.Label column sm="3">
-                        Name
-                    </Form.Label>
-                    <Col sm="7">
-                        <Form.Control className="career-form" value="" plaintext/>
-                    </Col>
-                </Form.Group>
-
-                <Form.Group as={Row} controlId="formPlaintextContact"  data-scroll>
-                <Form.Label column sm="3">
-                    Contact Number
+        <Row className="justify-content-center text-header mb-5">
+          <Col md="8" sm="12" className="pb-5 mb-5">
+            From our humble start, we have grown tremendously and now we are looking to go <br />
+            next level. We have a no-discrimination policy and believe in attitude, not so much <br />
+             aptitude. Of course, hard work is rewarded, and excellence is our lifestyle. If <br />
+              you're energetic, eager to learn and a team player, send us your resume and you <br /> could be on your way to a creer with Temokin.
+          
+           </Col>
+          <Col md="12" sm="12" className="mb-4">
+            <Row className="row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+              <Col md="3" className="text-end">
+                <Form.Label column className="land-label text-end">
+                    NAME
                 </Form.Label>
-                <Col sm="7">
-                    <Form.Control className="career-form" value="" plaintext />
-                </Col>
-                </Form.Group>
-
-                <Form.Group as={Row} controlId="formPlaintextEmail" data-scroll>
-                <Form.Label column sm="3">
-                    Email Address
+              </Col>
+              <Col md="7">
+                <Form.Control className="land-form" value="" plaintext/>
+              </Col>
+              <Col md="3" className="text-end">
+                <Form.Label column className="land-label text-end">
+                    CONTACT NUMBER
                 </Form.Label>
-                <Col sm="7">
-                    <Form.Control className="career-form" value="" plaintext />
-                </Col>
-                </Form.Group>
-
-                <Form.Group as={Row} controlId="formPlaintextMessage" data-scroll>
-                <Form.Label column sm="3" className="career-label">
-                    Message
+              </Col>
+              <Col md="7">
+                <Form.Control className="land-form" value="" plaintext/>
+              </Col>
+              <Col md="3" className="text-end">
+                <Form.Label column className="land-label text-end">
+                    EMAIL ADDRESS
                 </Form.Label>
-                <Col sm={7}>
-                    <Form.Control className="career-form-textarea" value="" as="textarea" rows={10} cols={10} />
-                </Col>
-                </Form.Group>
+              </Col>
+              <Col md="7">
+                <Form.Control className="land-form" value="" plaintext/>
+              </Col>
 
-                <Form.Group as={Row} controlId="formPlaintextMessage" data-scroll>
-                <Form.Label column sm="3" className="career-label">
-                    Upload RESUME
+              <Col md="3" className="text-end">
+                <Form.Label column className="land-label text-end">
+                    MESSAGE
                 </Form.Label>
-                <Col sm={7}>
-                  <div className="text-start">
-                    <Button className="career-choosefile-button">CHOOSE FILE</Button>
-                    <span className="career-choosefile-text">*PDF FORMAT ONLY, MAXIMUM FILE SIZE IS 10MB</span>
-                  </div>
-                </Col>
-                <Col sm={12} className="mt-5 p">
-                  <div className="text-center">
-                  <Button className="career-submit-button">SUBMIT</Button>
-                  </div>
-                </Col>
-                </Form.Group>
-                
-                
-            </Form>
+              </Col>
+              <Col md="7">
+                <Form.Control className="career-form-textarea" value="" as="textarea" rows={10} cols={10} />
+              </Col>
+
+              <Col md="3" className="text-end">
+                <Form.Label column className="land-label text-end">
+                    UPLOAD RESUME
+                </Form.Label>
+              </Col>
+              <Col md="7">
+                <div className="text-start">
+                  <Button className="career-choosefile-button">CHOOSE FILE</Button>
+                  <span className="career-choosefile-text">*PDF FORMAT ONLY, MAXIMUM FILE SIZE IS 10MB</span>
+                </div>
+              </Col>
+              <Col md={{span: 7, offset: 3}} className="text-start mt-5 pt-5">
+                   <Button className="land-submit">SUBMIT</Button>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>

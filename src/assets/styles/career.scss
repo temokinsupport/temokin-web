@@ -8,62 +8,90 @@
 |  Last update     : Oct 28, 2022
 *
 */
-.modal-dialog {
-  max-width: 50vw;
-  margin: 5vw auto 2vw auto;
-}
-.career-form {
-  border: 1px solid #283a97;
-}
-.career-form-textarea {
-  border: 1px solid #283a97;
-  height: 10vw;
-}
-.career-label {
-  margin-bottom: auto;
-}
-.career-choosefile-button {
-  border-radius: 0;
-  background-color: white;
-  border: 1px solid #283a97;
-  color: #283a97;
-  width: 250px;
-  font-family: "gill sans", sans-serif !important;
-  letter-spacing: 0.2vw;
-}
-.career-choosefile-button:hover {
-  border-radius: 0;
-  background-color: white;
-  border: 1px solid #283a97;
-  color: #283a97;
-}
-.career-submit-button {
-  border-radius: 0;
-  background-color: white;
-  border: 1px solid #283a97;
-  color: #283a97;
-  width: 250px;
-  height: 50px;
-  font-family: "gill sans", sans-serif !important;
-  letter-spacing: 0.2vw;
-}
 
-.career-submit-button:hover {
-  border-radius: 0;
-  background-color: white;
-  border: 1px solid #283a97;
-  color: #283a97;
-}
-.career-choosefile-text {
-  font-size: 7pt;
-  letter-spacing: normal;
-  margin-left: 10px;
-}
 .--career {
   position: relative;
+
+  .career-choosefile-button {
+    border-radius: 0;
+    background-color: white;
+    border: 1px solid #283a97;
+    color: #283a97;
+    width: 250px;
+    font-family: "gill sans", sans-serif !important;
+    letter-spacing: 0.2vw;
+  }
+  .career-choosefile-text {
+    font-size: 7pt;
+    letter-spacing: normal;
+    margin-left: 10px;
+  }
+
+  .career-choosefile-button:hover {
+    border-radius: 0;
+    background-color: white;
+    border: 1px solid #283a97;
+    color: #283a97;
+  }
+  .career-form-textarea {
+    border: 1px solid #283a97;
+    height: 10vw;
+    border-radius: 0;
+  }
+  .land-label {
+    font-size: 15px;
+    margin-top: 1vh;
+  }
+
+  .land-form {
+    border: 1px solid #283a97;
+    height: 3.5vw;
+  }
+
+  .land-supporting {
+    font-size: 10pt;
+  }
+
+  .land-remarks {
+    height: 30vh;
+  }
+
+  .land-radio {
+    display: table;
+  }
+
+  .land-check {
+    font-size: 8pt;
+  }
+
+  .land-submit {
+    width: 15vw;
+    height: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border: 1px solid #283a97;
+    border-radius: 0;
+    background-color: white;
+    color: #283a97;
+  }
+
+  .land-upload {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #283a97;
+    border-radius: 0;
+    background-color: white;
+    color: #283a97;
+  }
+
+  .land-formgroup {
+    margin-top: 3vh;
+  }
+
   .--footer {
     border-top: 1px solid #283a97;
   }
+
   .text-header {
     font-size: 12pt;
     font-family: "gill sans normal", sans-serif !important;
@@ -71,11 +99,16 @@
     color: #283a97;
     text-align: center;
   }
+
   .--bg-1 {
+    background: url("../images/career/Group 851.png") top center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding: 10vw 0 0 0;
     min-height: 50vw;
     width: 100%;
     background-color: white;
+
     .--max {
       max-width: 86%;
       // img {
@@ -87,6 +120,7 @@
       //   image-rendering: pixelated;
       // }
     }
+
     h1.--title {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.4vw;
@@ -97,10 +131,12 @@
       color: #283a97;
       margin: 4vw 0 4vw 0;
       text-align: center;
+
       .lineParent {
         overflow: visible;
       }
     }
+
     h3.--title {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.2vw;
@@ -112,6 +148,7 @@
       margin: 0 0 0.5vw 0;
       text-align: center;
     }
+
     p.--desc {
       font-family: "gill sans medium", sans-serif;
       font-weight: 500 !important;
@@ -122,12 +159,14 @@
       text-align: center;
       letter-spacing: 0.17vw;
     }
+
     .header-shapes {
       position: absolute;
       height: 100vw;
       width: 100%;
       top: 10vw;
       overflow: hidden;
+
       &::before {
         content: "";
         height: 7.8vw;
@@ -141,6 +180,7 @@
         transition: width 0.3s;
         transform: skew(321deg, 16.5deg);
       }
+
       &::after {
         content: "";
         height: 11.8vw;
@@ -156,17 +196,20 @@
       }
     }
   }
+
   .--bg-2 {
     padding: 1 0 0 0;
     min-height: 80vw;
     width: 100%;
     position: relative;
+
     .--max {
       max-width: 100%;
       min-height: 42vw;
       z-index: 2;
       position: relative;
     }
+
     h3.--title {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.2vw;
@@ -179,13 +222,16 @@
       text-align: center;
       transform: scale(0) !important;
       transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+
       &.is-reveal {
         transform: scale(1) !important;
         transition-delay: 0.3s;
       }
     }
+
     form {
       margin-left: 5vw;
+
       .form-group {
         display: flex;
         justify-content: flex-start;
@@ -193,11 +239,13 @@
         margin-bottom: 20px;
         transform: scale(0) !important;
         transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+
         &.is-reveal {
           transform: scale(1) !important;
           transition-delay: 0.3s;
         }
       }
+
       label {
         font-family: "gill sans", sans-serif !important;
         letter-spacing: 0.1vw;
@@ -209,6 +257,7 @@
         margin: 0 0.5vw 0.5vw 0;
         text-align: right;
       }
+
       input {
         color: #ffffff;
         border: 1px solid #ffffff !important;
@@ -222,6 +271,7 @@
         font-family: "gill sans medium", sans-serif !important;
         letter-spacing: 0.1vw;
       }
+
       textarea {
         color: #ffffff;
         border: 1px solid #ffffff !important;
@@ -236,6 +286,7 @@
         font-family: "gill sans medium", sans-serif !important;
         letter-spacing: 0.1vw;
       }
+
       .--btn-send {
         // background: url("../images/contactus/Contact_Button-01.png") top center;
         background-repeat: no-repeat;
@@ -254,15 +305,18 @@
         box-shadow: none !important;
         transform: scale(0) !important;
         transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+
         &.is-reveal {
           transform: scale(1) !important;
           transition-delay: 0.3s;
         }
+
         &:focus {
           outline: 0 !important;
         }
       }
     }
+
     .--map-container {
       width: 35vw;
       height: 30vw;
@@ -270,15 +324,18 @@
       position: relative;
       transform: scale(0) !important;
       transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+
       &.is-reveal {
         transform: scale(1) !important;
         transition-delay: 0.3s;
       }
+
       iframe {
         margin-left: -2.5vw;
         width: 37.5vw;
       }
     }
+
     .header-shapes {
       position: absolute;
       height: 100vw;
@@ -286,6 +343,7 @@
       top: 3vw;
 
       overflow: hidden;
+
       &::before {
         content: "";
         height: 10.8vw;
@@ -299,6 +357,7 @@
         transition: width 0.3s;
         transform: skew(321deg, 16.5deg);
       }
+
       &::after {
         content: "";
         height: 11.8vw;
@@ -336,6 +395,7 @@
     width: 100%;
     overflow: hidden;
     z-index: -1;
+
     &::before {
       content: "";
       border-top: 27vw solid transparent;
@@ -355,9 +415,11 @@
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
     .header-bg {
       display: none;
     }
+
     .form-bg {
       background-size: 193vw 194vw !important;
       background-repeat: no-repeat;
@@ -370,34 +432,42 @@
       // top: -20vw;
       z-index: 0;
     }
+
     .--bg-1 {
       padding: 200px 0 0 0;
+
       .--max {
         max-width: 90%;
       }
+
       h1.--title {
         font-size: 1.5em;
       }
+
       img {
         height: 10vw;
         width: 10vw;
       }
+
       h3 {
         &.--title {
           font-size: 0.875em;
         }
       }
+
       p {
         &.--desc {
           font-size: 0.875em;
           line-height: 1.4;
         }
       }
+
       .row {
         &:nth-child(2) {
           .col-md-4 {
             width: 50%;
             max-width: 50%;
+
             &:last-child {
               width: 100%;
               max-width: 100%;
@@ -406,38 +476,47 @@
         }
       }
     }
+
     .--bg-2 {
       padding: 30.5vw 0 0 0;
+
       .--max {
         z-index: 2;
         position: relative;
       }
+
       .col-md-6 {
         width: 100%;
         max-width: 100%;
       }
+
       h3 {
         &.--title {
           font-size: 1.5em;
           margin: 0 0 6.5vw 0;
         }
       }
+
       form {
         label {
           font-size: 0.875em;
         }
+
         input {
           height: 60px;
         }
+
         textarea {
           height: 60px;
         }
+
         .--btn-send {
           width: 215px;
           height: 45px;
           margin: 5vw auto 0 23.7vw;
         }
       }
+
       .--map-container {
         width: 100%;
         height: 50vw;
@@ -445,6 +524,7 @@
         position: relative;
         display: block;
         margin: 100px auto;
+
         iframe {
           margin-left: 0;
           width: 100%;
@@ -452,6 +532,7 @@
       }
     }
   }
+
   @media (max-width: 920px) {
     background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 165vw auto;
@@ -460,6 +541,7 @@
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
   }
+
   @media (max-width: 740px) {
     background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 180vw auto;
@@ -467,10 +549,12 @@
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
     .form-bg {
       height: 195vw;
     }
   }
+
   @media (max-width: 600px) {
     background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 200vw auto;
@@ -478,8 +562,10 @@
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
     .--bg-1 {
       padding: 150px 0 100px 0;
+
       .header-shapes {
         &::before {
           top: 13vw;
@@ -487,6 +573,7 @@
       }
     }
   }
+
   @media (max-width: 566px) {
     background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 220vw auto;
@@ -494,6 +581,7 @@
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
     .form-bg {
       background-size: 350vw 370vw !important;
       height: 320vw !important;
@@ -501,18 +589,22 @@
       bottom: 0;
       // top: -44vw;
     }
+
     .--bg-2 {
       padding: 45.5vw 0 0 0;
+
       form {
         margin-left: 0;
         width: 90%;
         margin: 0 auto;
+
         label {
           text-align: left !important;
         }
       }
     }
   }
+
   @media (max-width: 500px) {
     background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 235vw auto;
@@ -520,18 +612,22 @@
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
     .--bg-2 {
       padding: 45.5vw 0 0 0;
+
       form {
         margin-left: 0;
         width: 90%;
         margin: 0 auto;
+
         label {
           text-align: left !important;
         }
       }
     }
   }
+
   @media (max-width: 420px) {
     background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 280vw auto;
@@ -539,21 +635,26 @@
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
     .--bg-2 {
       padding: 45.5vw 0 0 0;
+
       form {
         margin-left: 0;
         width: 90%;
         margin: 0 auto;
+
         label {
           text-align: left !important;
         }
+
         .--btn-send {
           margin: 5vw auto 0 auto;
         }
       }
     }
   }
+
   @media (max-width: 400px) {
     background: url("../images/contactus/Contact_BG-01.png") top -8vw right;
     background-size: 280vw auto;
@@ -561,15 +662,19 @@
     background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
+
     .--bg-2 {
       padding: 45.5vw 0 0 0;
+
       form {
         margin-left: 0;
         width: 90%;
         margin: 0 auto;
+
         label {
           text-align: left !important;
         }
+
         .--btn-send {
           margin: 5vw auto 0 auto;
         }
