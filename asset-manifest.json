@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.f4738409.chunk.css",
-    "main.js": "/static/js/main.284b01f2.chunk.js",
-    "main.js.map": "/static/js/main.284b01f2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4268eb09.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4268eb09.js.map",
+    "main.js": "/static/js/main.3a336221.chunk.js",
+    "main.js.map": "/static/js/main.3a336221.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e2f33c80.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e2f33c80.js.map",
     "static/css/2.ffd0fd5c.chunk.css": "/static/css/2.ffd0fd5c.chunk.css",
-    "static/js/2.6f2dfcb7.chunk.js": "/static/js/2.6f2dfcb7.chunk.js",
-    "static/js/2.6f2dfcb7.chunk.js.map": "/static/js/2.6f2dfcb7.chunk.js.map",
-    "static/js/3.db2d86aa.chunk.js": "/static/js/3.db2d86aa.chunk.js",
-    "static/js/3.db2d86aa.chunk.js.map": "/static/js/3.db2d86aa.chunk.js.map",
+    "static/js/2.e20e0bdd.chunk.js": "/static/js/2.e20e0bdd.chunk.js",
+    "static/js/2.e20e0bdd.chunk.js.map": "/static/js/2.e20e0bdd.chunk.js.map",
+    "static/js/3.c0c3e81f.chunk.js": "/static/js/3.c0c3e81f.chunk.js",
+    "static/js/3.c0c3e81f.chunk.js.map": "/static/js/3.c0c3e81f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ffd0fd5c.chunk.css.map": "/static/css/2.ffd0fd5c.chunk.css.map",
     "static/css/main.f4738409.chunk.css.map": "/static/css/main.f4738409.chunk.css.map",
-    "static/js/2.6f2dfcb7.chunk.js.LICENSE.txt": "/static/js/2.6f2dfcb7.chunk.js.LICENSE.txt",
-    "static/js/main.284b01f2.chunk.js.LICENSE.txt": "/static/js/main.284b01f2.chunk.js.LICENSE.txt",
+    "static/js/2.e20e0bdd.chunk.js.LICENSE.txt": "/static/js/2.e20e0bdd.chunk.js.LICENSE.txt",
+    "static/js/main.3a336221.chunk.js.LICENSE.txt": "/static/js/main.3a336221.chunk.js.LICENSE.txt",
     "static/media/1.png": "/static/media/1.6933fb4b.png",
     "static/media/buildingcss.scss": "/static/media/Group 805.4ad7a688.jpg",
     "static/media/About_IMG-Accoutability.png": "/static/media/About_IMG-Accoutability.340b77b5.png",
@@ -59,7 +59,6 @@
     "static/media/Group 878.jpg": "/static/media/Group 878.8ad817cf.jpg",
     "static/media/Group 879.jpg": "/static/media/Group 879.360590b7.jpg",
     "static/media/Group 89.png": "/static/media/Group 89.0598fdcd.png",
-    "static/media/Home_BG-01.png": "/static/media/Home_BG-01.5fb81f53.png",
     "static/media/home.scss": "/static/media/Home_BG-03.cb9b388a.png",
     "static/media/Home_BG-04.png": "/static/media/Home_BG-04.bb450534.png",
     "static/media/Home_IMG-01.png": "/static/media/Home_IMG-01.365efe5c.png",
@@ -166,10 +165,10 @@
     "static/media/tropicana.png": "/static/media/tropicana.7f35b22b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4268eb09.js",
+    "static/js/runtime-main.e2f33c80.js",
     "static/css/2.ffd0fd5c.chunk.css",
-    "static/js/2.6f2dfcb7.chunk.js",
+    "static/js/2.e20e0bdd.chunk.js",
     "static/css/main.f4738409.chunk.css",
-    "static/js/main.284b01f2.chunk.js"
+    "static/js/main.3a336221.chunk.js"
   ]
 }
