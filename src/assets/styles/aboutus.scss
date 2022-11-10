@@ -23,7 +23,12 @@
     text-decoration: none;
     font-family: "gill sans", sans-serif !important;
   }
-  .--header-container {
+    .--grow-with-us:hover {
+      background: #283A97;
+      color: white;
+      border: 1px solid white
+    }
+    .--header-container {
     .--title {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.5vw;
@@ -546,6 +551,7 @@
       &.is-reveal {
         transform: scale(1) !important;
         transition-delay: 0.3s;
+        z-index: 9;
       }
     }
   }
@@ -561,7 +567,7 @@
     top: 0;
   }
   .vision-bg {
-    background: url("../images/aboutus/About_BG-02.png") top -3vw center;
+    background: url("../images/aboutus/Group 107.png") top -3vw center;
     background-repeat: no-repeat;
     background-size: 100vw auto;
     transition: background 0.3s;
@@ -581,6 +587,7 @@
     z-index: -1;
     height: 66vw;
     top: 0;
+    opacity: .9;
   }
   .mission-bg {
     background: url("../images/aboutus/About_BG-03.png") top center;
@@ -594,7 +601,7 @@
     top: -4vw;
   }
   .section4-bg {
-    background: url("../images/aboutus/About_BG-04.png") top center;
+    background: url("../images/aboutus/Group 555.png") top center;
     image-rendering: -webkit-optimize-contrast;
     background-repeat: no-repeat;
     background-size: 101vw auto;
@@ -606,7 +613,7 @@
     top: 0vw;
   }
   .ourvalues-bg {
-    background: url("../images/aboutus/About_BG-04.png") top center;
+    background: url("../images/aboutus/Group 555.png") top center;
     image-rendering: -webkit-optimize-contrast;
     background-repeat: no-repeat;
     background-size: 101vw auto;
@@ -836,6 +843,7 @@
     -moz-transition: top ease-in 0.8s;
     transition: top ease-in 0.8s;
     width: 100%;
+    z-index: 9;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;

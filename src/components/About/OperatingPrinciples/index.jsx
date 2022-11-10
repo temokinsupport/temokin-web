@@ -31,7 +31,7 @@ export default function OperatingPrinciples() {
                             
                         >
                             <SplideSlide >
-                                <Image src={require('../../../assets/images/aboutus/About_IMG-People.png').default}/>
+                                <Image src={require('../../../assets/images/aboutus/Mask Group 67.png').default}/>
                                 <div className="--right-container">
                                     <h5 className="--title">People</h5>
                                     <hr/>
@@ -49,7 +49,7 @@ export default function OperatingPrinciples() {
                                 </div>
                             </SplideSlide>
                             <SplideSlide >
-                                <Image src={require('../../../assets/images/aboutus/About_IMG-Timing.png').default}/>
+                                <Image src={require('../../../assets/images/aboutus/Mask Group 69.jpg').default}/>
                                 <div className="--right-container">
                                     <h5 className="--title">Timing</h5>
                                     <hr/>

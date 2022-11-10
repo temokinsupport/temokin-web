@@ -67,9 +67,23 @@ export default function AboutTemokin() {
                         <h1 className="--title">Our Story</h1>
                       </Col>
                       <Col md={5} className="--pl3v">
+
+<br />
+
                         <p className="--desc">
-                          THEY SAY EVERY GREAT STORY HAS A HUMBLE BEGINNING AND OURS IS NO EXCEPTION. ESTABLISHED IN 1989, WE SECURED OUR FIRST CONTRACT IN INFRASTRUCTURE AND BUILDINGS WORKS IN EARLY 1990. THEN IN 1993, WE GREW IN OUR JOURNEY, DELIVERING HIGH QUALITY PIPE JACKING AND EARTH WORKS WITH PROMINENT CLIENTS BY DELIVERING AHEAD OF TIME AND WITH QUALITY AS OUR FIRST PRIORITY. IN 1997, WE DELIVERED MALAYSIA’S FIRST EVER MICRO-TUNNELLING PROJECT THAT MANAGED TO GAIN RECOGNITION THROUGHOUT THE INDUSTRY. FROM THERE WE PACED FURTHER BY DELIVERING MIDDLE RING ROAD SEREMBAN PROJECT FROM 2002 TO 2017.
+                          THEY SAY EVERY GREAT STORY HAS A HUMBLE BEGINNING AND <br />
+                          OURS IS NO EXCEPTION. ESTABLISHED IN 1989, WE SECURED OUR <br />
+                          FIRST CONTRACT IN INFRASTRUCTURE AND BUILDINGS WORKS <br />
+                          IN EARLY 1990. THEN IN 1993, WE GREW IN OUR JOURNEY, <br />
+                          DELIVERING HIGH QUALITY PIPE JACKING AND EARTH WORKS <br />
+                          WITH PROMINENT CLIENTS BY DELIVERING AHEAD OF TIME AND <br />
+                          WITH QUALITY AS OUR FIRST PRIORITY. IN 1997, WE DELIVERED <br />
+                          MALAYSIA’S FIRST EVER MICRO-TUNNELLING PROJECT THAT <br />
+                          MANAGED TO GAIN RECOGNITION THROUGHOUT THE INDUSTRY. <br />
+                          FROM THERE WE PACED FURTHER BY DELIVERING MIDDLE RING <br />
+                          ROAD SEREMBAN PROJECT FROM 2002 TO 2017.
                         </p>
+                        <br />
                         <br />
                         <NavLink to="/contact-us" variant="light" className="--grow-with-us">GROW WITH US</NavLink>
                       </Col>
@@ -96,9 +110,9 @@ export default function AboutTemokin() {
                           <br />
                           to know and trust today. <br />
                           <br />
-                          At heart, we are a construction company with{" "}
+                          At heart, we are a construction company with an{" "}
                           <br />
-                          an integrated engineering division, which allows us to{" "}
+                          integrated engineering division, which allows us to{" "}
                           <br />
                           undertake any design-and-build projects with.
                         </p>

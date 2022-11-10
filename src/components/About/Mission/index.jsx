@@ -8,15 +8,15 @@ export default function Mission() {
                 <Row>
                     <Col>
                         <Image
-                            data-scroll-speed="-1"
+                            // data-scroll-speed="-1"
                             data-scroll src={require('../../../assets/images/aboutus/About_Logo-02.png').default} className="--img" />
                         <h2
                             data-scroll
-                            data-scroll-speed="-1"
+                            // data-scroll-speed="-1"
                             className="--title">OUR MISSION</h2>
                         <p
                             data-scroll
-                            data-scroll-speed="-1"
+                            // data-scroll-speed="-1"
                             className="--sub-title">
                             To deliver outstanding work <br />
                             consistently, punctually and with <br />

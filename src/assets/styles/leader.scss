@@ -12,6 +12,7 @@
     min-height: 100vh;
     width: 100%;
     position: relative;
+   
     .bottom-bg {
         position: absolute;
        
@@ -94,21 +95,27 @@
             margin: 6.5vw auto 5vw auto;
             display: block;
             .--btn-get-to-know {
-                background: url("../images/leaders/Leaders_Button-03.png") top center;
-                transition: background 0.3s;
-                background-attachment: scroll;
-                background-repeat: no-repeat;
-                background-size: contain;
-                height: 6vw;
                 width: 26.7vw;
                 min-width: 200px;
                 display: block;
-                border: 0 !important;
+                text-decoration: none;
+                font-family: 'Gill Sans', 'SemiBold';
+                color: #283A97;
+                font-size: 18pt !important;
                 box-shadow: none !important;
                 outline: 0 !important;
                 margin: 4.5vw auto 0 auto;
                 position: relative;
+                border: 1px solid #283A97;
+                text-align: center;
+                padding-top: 3vh;
+                padding-bottom: 3vh;
                 z-index: 5;
+            }
+            .--btn-get-to-know:hover {
+                border: 1px solid white;
+                color: white;
+                background: #283A97;
             }
         }
     }

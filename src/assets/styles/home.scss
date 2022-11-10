@@ -15,10 +15,15 @@
     transform: translate(0, 500px);
 }
 
+.--font-normal {
+    font-family: 'Gill Sans';
+
+}
 .--home {
     min-height: 100vh;
     width: 100%;
     position: relative;
+    
     .--header {
         position: relative;
         width: 100%;
@@ -116,7 +121,7 @@
                     align-items: center;
                     img {
                         padding-left: 3.5vw;
-                        height: 27vw;
+                        height: 33vw;
                         object-fit: cover;
                         object-position: 0 0;
                         width: 50% !important;
@@ -130,12 +135,13 @@
                     .carousel-caption {
                         position: relative;
                         right: unset;
-                        left: unset;
+                        left: 10%;
                         bottom: unset;
                         color: white !important;
+                        margin-right: 10%;
                         padding: 0 2.3vw 0 0;
                         text-align: left;
-                        width: 42% !important;
+                        width: 28% !important;
                         transform: scale(0) !important;
                         transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
                         &.is-reveal {
@@ -160,13 +166,14 @@
                         .--btn-check-our-work-1 {
                             font-family: "gill sans medium", sans-serif !important;
                             letter-spacing: 0.3vw;
-                            font-size: 1vw;
+                            font-size: 0.9vw;
                             color: #283a97;
                             font-weight: 600;
                             padding: 1.3vw 1.5vw;
                             border-radius: 0;
                             position: absolute;
-                            top: 12vw;
+                            text-align: center;
+                            top: 14vw;
                             left: 0;
                             outline: 0 !important;
                             box-shadow: none !important;
@@ -176,25 +183,36 @@
                         .--btn-check-our-work-2 {
                             font-family: "gill sans medium", sans-serif !important;
                             letter-spacing: 0.3vw;
-                            font-size: 1vw;
+                            font-size: 0.9vw;
                             color: #283a97;
                             font-weight: 600;
                             padding: 1.3vw 1.5vw;
                             border-radius: 0;
                             position: absolute;
-                            top: 17vw;
+                            text-align: center;
+                            top: 19vw;
                             left: 0;
                             outline: 0 !important;
                             box-shadow: none !important;
                             background-color: #ffffff !important;
                             text-decoration: none !important;
                         }
+                        .--btn-check-our-work-1:hover {
+                            background-color: #283a97 !important;
+                            border: 1px solid white;
+                            color: white;
+                        }
+                        .--btn-check-our-work-2:hover {
+                            background-color: #283a97 !important;
+                            border: 1px solid white;
+                            color: white;
+                        }
                     }
                 }
                 .carousel-indicators {
                     width: 37.5% !important;
                     height: 30px;
-                    margin-left: 0;
+                    margin-left: -8vw;
                     margin-right: 0;
                     bottom: -1vw;
                     display: flex;

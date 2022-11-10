@@ -50,7 +50,7 @@ export default function OurValues() {
                                 </div>
                             </SplideSlide>
                             <SplideSlide >
-                                <Image src={require('../../../assets/images/aboutus/About_IMG-Integrity.png').default} />
+                                <Image src={require('../../../assets/images/aboutus/Mask Group 70.png').default} />
                                 <div className="--right-container">
                                     <h5 className="--title">Integrity</h5>
                                     <hr />

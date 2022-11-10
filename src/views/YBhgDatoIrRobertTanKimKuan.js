@@ -54,9 +54,8 @@ const YBhgDatoIrRobertTanKimKuan = () => {
                       <Row>
                         <Col md={5}>
                           <Name>
-                            Y. BHG. Dato’ <br />
-                            Ir. Robert Tan <br />
-                            Kim Kuan
+                            DATA' IR. TAN KIM KUAN <br />
+                            (ROBERT)
                           </Name>
                           <Line />
                           <Position>
@@ -106,7 +105,9 @@ const YBhgDatoIrRobertTanKimKuan = () => {
                           <NavLink
                             to="/team-leaders"
                             className="--btn-get-to-know"
-                          />
+                          >
+                            GET TO KNOW THE TEAM
+                          </NavLink>
                         </Col>
                       </Row>
                     </div>
@@ -125,11 +126,11 @@ const YBhgDatoIrRobertTanKimKuan = () => {
 };
 
 const Name = styled.h3`
-  letter-spacing: 0.4vw;
+  letter-spacing: 0.2vw;
   font-weight: 600 !important;
   text-transform: uppercase;
   line-height: 2.8vw;
-  font-size: 2vw;
+  font-size: 1.7vw;
   font-family: "gill sans", sans-serif !important;
   color: #283a97;
   margin: 0;
