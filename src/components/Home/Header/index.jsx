@@ -44,14 +44,14 @@ export default function Header() {
           </Col>
         </Row>
       </Container>
-      <div className="hero-container">
+      {/* <div className="hero-container">
         <LazyLoadImage
           src={require("../../../assets/images/home/Home_BG-01.png").default}
           className="header-bg"
           data-scroll
           data-scroll-speed="-2"
         />
-      </div>
+      </div> */}
     </section>
   );
 }
