@@ -120,10 +120,25 @@ function Navigation() {
           <li>
             <NavLink
               exact
+              to="/"
+              onClick={() => setOpen(!open)}
+              aria-controls="basic-navbar-nav"
+              aria-expanded={open}
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <p className="static_nav">ABOUT TEMOKIN</p>
+          </li>
+          <li>
+            <NavLink
+              exact
               to="/about-temokin"
               onClick={() => setOpen(!open)}
               aria-controls="basic-navbar-nav"
               aria-expanded={open}
+              className="dynamic_nav"
             >
               About Us
             </NavLink>
@@ -135,6 +150,7 @@ function Navigation() {
               onClick={() => setOpen(!open)}
               aria-controls="basic-navbar-nav"
               aria-expanded={open}
+              className="dynamic_nav"
             >
               Team Leaders
             </NavLink>
@@ -146,6 +162,7 @@ function Navigation() {
               onClick={() => setOpen(!open)}
               aria-controls="basic-navbar-nav"
               aria-expanded={open}
+              className="dynamic_nav"
             >
               Awards & Achievements
             </NavLink>
@@ -157,8 +174,48 @@ function Navigation() {
               onClick={() => setOpen(!open)}
               aria-controls="basic-navbar-nav"
               aria-expanded={open}
+              className="dynamic_nav"
             >
               Licenses & Registrations
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              exact
+              to="/other-business-ventures"
+              onClick={() => setOpen(!open)}
+              aria-controls="basic-navbar-nav"
+              aria-expanded={open}
+              className="dynamic_nav"
+            >
+              Other Business Ventures
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              exact
+              to="/land-acquisition"
+              onClick={() => setOpen(!open)}
+              aria-controls="basic-navbar-nav"
+              aria-expanded={open}
+              className="dynamic_nav"
+            >
+              Land Acquisition
+            </NavLink>
+          </li>
+          <li>
+            <p className="static_nav">CONSTRUCTION</p>
+          </li>
+          <li>
+            <NavLink
+              exact
+              to="/building"
+              onClick={() => setOpen(!open)}
+              aria-controls="basic-navbar-nav"
+              aria-expanded={open}
+              className="dynamic_nav"
+            >
+              Building
             </NavLink>
           </li>
           <li>
@@ -168,6 +225,7 @@ function Navigation() {
               onClick={() => setOpen(!open)}
               aria-controls="basic-navbar-nav"
               aria-expanded={open}
+              className="dynamic_nav"
             >
               Civil Engineering
             </NavLink>

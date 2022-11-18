@@ -62,7 +62,7 @@ const Building = () => {
         //       {/* <h1>Flirty Flowrs</h1> */}
         //   </div> :
         <div
-          className="--civil-infrastructure main-container"
+          className="--building main-container"
           id="main-container"
           data-scroll-container
         >
