@@ -255,10 +255,12 @@
   }
 
   .header-bg {
-    background: url("../images/contactus/Contact_BG-01.png") top -8vw center;
-    background-size: 105vw auto !important;
+    background: url("../images/contactus/Contact_BG-01.png");
+    // background-size: 105vw auto !important;
+    background-size: 110%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    // background-attachment: scroll;
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
     position: absolute;

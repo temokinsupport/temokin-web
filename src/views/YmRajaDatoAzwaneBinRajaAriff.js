@@ -117,7 +117,9 @@ const YmRajaDatoAzwaneBinRajaAriff = () => {
                           <NavLink
                             to="/team-leaders"
                             className="--btn-get-to-know"
-                          />
+                          >
+                            GET TO KNOW THE TEAM
+                          </NavLink>
                         </Col>
                       </Row>
                     </div>

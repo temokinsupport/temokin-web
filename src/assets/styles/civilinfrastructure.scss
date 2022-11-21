@@ -9,49 +9,49 @@
 *
 */
 
-.--header-civil {
-  position: relative;
-  width: 100%;
-  margin-top: 14vw;
+.--civil-infrastructure {
+  .--header-civil {
+    position: relative;
+    width: 100%;
+    margin-top: 14vw;
+  }
+  .hr-carousel {
+    width: 7vw;
+    opacity: 1;
+  }
+  .carousel {
+    width: 60vw;
+    margin: 0 auto;
+  }
 
-}
-.hr-carousel {
-  width: 7vw;
-  opacity: 1;
-}
-.carousel {
-  width: 60vw;
-  margin: 0 auto;
-}
+  .civilinfra {
+    padding-top: 5vw !important;
+  }
+  .--right-1 {
+    position: absolute;
+    top: 110vw;
+  }
+  .--right-2 {
+    position: absolute;
+    top: 47vw;
+  }
 
-.civilinfra {
-  padding-top: 5vw !important;
-}
-.--right-1 {
-  position: absolute;
-  top: 110vw;
-}
- .--right-2 {
-   position: absolute;
-   top: 47vw;
- }
+  .--right-3 {
+    position: absolute;
+    top: 7vw;
+  }
 
- .--right-3 {
-   position: absolute;
-   top: 7vw;
- }
+  .--right-4 {
+    position: absolute;
+    right: 0;
+    top: 138vw;
+  }
 
- .--right-4 {
-   position: absolute;
-   right: 0;
-   top: 138vw;
- }
-
- .--right-5 {
-   position: absolute;
-   right: 0;
-   top: 85vw;
- }
+  .--right-5 {
+    position: absolute;
+    right: 0;
+    top: 85vw;
+  }
 
   .--right-6 {
     position: absolute;
@@ -59,24 +59,48 @@
     top: -13.7vw;
   }
 
- .--bg-mid {
-   position: absolute;
-   left: 0;
-   z-index: -1;
-   width: 100vw;
-   top: 0;
- }
-.--civil-infrastructure {
+  .--bg-mid {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    top: -17%;
+  }
   width: 100%;
   position: relative;
   .carousel-caption {
-      padding-top: 0vw;
-      position: unset;
-      top: 28vw;
-      text-align: left;
+    padding-top: 0vw;
+    position: unset;
+    top: 28vw;
+    text-align: left;
+    font-family: "gill sans", sans-serif !important;
+
+    hr {
+      margin: 2rem 0;
     }
+
+    h5 {
+      letter-spacing: 0.3em;
+    }
+    .header {
+      font-family: "gill sans medium", sans-serif !important;
+      letter-spacing: 0.2em;
+      margin: 0;
+
+      & > * {
+        padding: 0 !important;
+      }
+    }
+    .content {
+      letter-spacing: 0.2em;
+      margin: 0;
+
+      & > * {
+        padding: 0 !important;
+      }
+    }
+  }
   .--header-container {
-    
     .--title {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.5vw;
@@ -175,27 +199,47 @@
     position: relative;
     padding-top: 50vw;
     height: 100%;
-   
+
+    hr {
+      margin: 2rem 0;
+    }
+
+    .name {
+      font-family: "gill sans", sans-serif !important;
+      letter-spacing: 0.2em;
+      line-height: 1.7em;
+    }
+
+    .header {
+      font-family: "gill sans", sans-serif !important;
+      letter-spacing: 0.15em;
+      margin-top: 2.5em;
+      font-size: 0.9rem;
+    }
+
+    .content {
+      margin-top: 0.5em;
+      font-family: "gill sans light", sans-serif !important;
+      letter-spacing: 0.15em;
+      line-height: 1.2em;
+    }
   }
   .--container-2 {
     position: relative;
     padding: 0vw 0;
-    .carousel-control-prev, .carousel-control-next {
-      display: none;
-    }
-  
-    
+
     .--centerimg {
       width: 50vw;
     }
+
     .col {
-        text-align: center;
-        hr {
-            width: 20vw;
-            opacity: 1;
-            color: #283a97;
-            margin: 0 auto;
-          }
+      text-align: center;
+      hr {
+        width: 20vw;
+        opacity: 1;
+        color: #283a97;
+        margin: 0 auto;
+      }
     }
     h1 {
       &.--title {
@@ -239,6 +283,7 @@
   .--container-3 {
     // background: url("../images/aboutus/About_BG-03.png") top center;
     height: 64vw;
+    margin-top: 17vw;
     // background-repeat: no-repeat;
     // background-size: 118vw 70vw;
     // transition: background 0.3s;
@@ -281,6 +326,29 @@
         color: #ffffff;
         margin: 5vw 0 0 0;
         text-align: center;
+      }
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none;
+    }
+    .carousel-indicators {
+      bottom: unset;
+      top: 49vw;
+      gap: 3rem;
+
+      & > * {
+        cursor: pointer;
+
+        aspect-ratio: 1/1;
+        width: 15px;
+
+        border: white 2px solid;
+        border-radius: 100%;
+
+        &.active {
+          background-color: white;
+        }
       }
     }
   }
@@ -741,8 +809,8 @@
     // z-index: -5 !important;
   }
   .parallax-bg {
-    background: url("../../assets/images/civilinfrastructure/Group 805.jpg") repeat scroll
-      0 0;
+    background: url("../../assets/images/civilinfrastructure/Group 805.jpg")
+      repeat scroll 0 0;
     background-size: 100vw 100%;
     left: 0;
     height: 100%;

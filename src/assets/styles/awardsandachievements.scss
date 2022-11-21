@@ -69,13 +69,17 @@ body {
     &::after {
       position: absolute;
       content: "";
-      bottom: 11vw;
-      left: -7vw;
-      width: 43vw;
-      height: 13vw;
-      border: 1px solid #ffffff;
-      z-index: 10;
-      transform: rotate3d(6, -7, 5, 39deg);
+      bottom: -15vw;
+      left: 0;
+      width: 34vw;
+      height: 30vw;
+      background: url("../images/awards/awards-bg-1.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      // z-index: 10;
+      // transform: rotate3d(6, -7, 5, 39deg);
+      // border: 1px solid #ffffff;
+
       @media (max-width: 900px) {
         display: none !important;
       }
@@ -156,7 +160,7 @@ body {
     padding: 8.5vw 0 10vw 0;
     height: 80vw;
     z-index: -1 !important;
-    &::before {
+    /* &::before {
       position: absolute;
       content: "";
       top: -16vw;
@@ -166,7 +170,7 @@ body {
       background-color: rgba(40, 57, 150, 0.66);
       z-index: 10;
       transform: rotate3d(6, -7, 5, 39deg);
-    }
+    } */
     .--max {
       max-width: 73%;
     }

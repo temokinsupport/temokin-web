@@ -54,8 +54,9 @@ const TanChienWen = () => {
                       <Row>
                         <Col md={5}>
                           <Name>
-                            Tan Chien <br />
-                            Wen
+                            Tan
+                            <br />
+                            Chien Wen
                           </Name>
                           <Line />
                           <Position>
@@ -90,7 +91,9 @@ const TanChienWen = () => {
                           <NavLink
                             to="/team-leaders"
                             className="--btn-get-to-know"
-                          />
+                          >
+                            GET TO KNOW THE TEAM
+                          </NavLink>
                         </Col>
                       </Row>
                     </div>

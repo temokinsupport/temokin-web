@@ -105,7 +105,9 @@ const LeeTeokGuah = () => {
                           <NavLink
                             to="/team-leaders"
                             className="--btn-get-to-know"
-                          />
+                          >
+                            GET TO KNOW THE TEAM
+                          </NavLink>
                         </Col>
                       </Row>
                     </div>
@@ -127,8 +129,8 @@ const Name = styled.h3`
   letter-spacing: 0.4vw;
   font-weight: 600 !important;
   text-transform: uppercase;
-  line-height: 2.8vw;
-  font-size: 2vw;
+  line-height: 1.6em;
+  font-size: 1.5vw;
   font-family: "gill sans", sans-serif !important;
   color: #283a97;
   margin: 0;

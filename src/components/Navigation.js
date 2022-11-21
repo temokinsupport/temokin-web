@@ -99,7 +99,10 @@ function Navigation() {
   return (
     <Navbar expand="lg" className="--navigation">
       <NavLink data-scroll exact to="/" className="--logo">
-        <img src={require("../assets/Logo.png").default} alt="logo" />
+        <img
+          src={require("../assets/images/home/Group 833.png").default}
+          alt="logo"
+        />
       </NavLink>
 
       {/* MOBILE VIEW LINKS */}

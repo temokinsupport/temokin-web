@@ -54,8 +54,8 @@ const TanChienWen = () => {
                       <Row>
                         <Col md={5}>
                           <Name>
-                            Jeremiah Tan <br />
-                            Chien Yih
+                            Tan <br />
+                            Chien Yih (Jeremiah)
                           </Name>
                           <Line />
                           <Position>
@@ -98,7 +98,9 @@ const TanChienWen = () => {
                           <NavLink
                             to="/team-leaders"
                             className="--btn-get-to-know"
-                          />
+                          >
+                            GET TO KNOW THE TEAM
+                          </NavLink>
                         </Col>
                       </Row>
                     </div>
@@ -120,8 +122,8 @@ const Name = styled.h3`
   letter-spacing: 0.4vw;
   font-weight: 600 !important;
   text-transform: uppercase;
-  line-height: 2.8vw;
-  font-size: 2vw;
+  line-height: 1.5em;
+  font-size: 1.4vw;
   font-family: "gill sans", sans-serif !important;
   color: #283a97;
   margin: 0;

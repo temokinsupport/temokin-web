@@ -9,7 +9,7 @@ function Footer() {
     <footer className="--footer">
       <Container fluid className="--max">
         <Row>
-          <Col md={8}>
+          <Col>
             <div className="--left-container">
               <NavLink exact to="/" className="--logo">
                 <img
@@ -18,41 +18,47 @@ function Footer() {
                   alt="logo"
                 />
               </NavLink>
-              <div className="--address container">
-                <div class="w-100 text-end">
-                  <a
-                    href="https://www.facebook.com/TemokinDev/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="social-med"
-                  >
-                    <img
-                      alt=""
-                      src="/fb-icon.png"
-                      width="30"
-                      height="30"
-                      className="me-3 d-inline-block align-top"
-                    />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/temokindevelopment/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="social-med"
-                  >
-                    <img
-                      alt=""
-                      src="/insta-icon.png"
-                      width="30"
-                      height="30"
-                      className="me-5 d-inline-block align-top"
-                    />
-                  </a>
-                </div>
+            </div>
+          </Col>
+          <Col className="">
+            <div className="--address container">
+              <div class="w-100 text-end d-flex justify-content-center">
+                <a
+                  href="https://www.facebook.com/TemokinDev/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="social-med"
+                >
+                  <img
+                    alt=""
+                    src={
+                      require("../assets/images/footer/Button-FB.svg").default
+                    }
+                    width="30"
+                    height="30"
+                    className="me-3 d-inline-block align-top"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/temokindevelopment/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="social-med"
+                >
+                  <img
+                    alt=""
+                    src={
+                      require("../assets/images/footer/Button-IG.svg").default
+                    }
+                    width="30"
+                    height="30"
+                    className="me-5 d-inline-block align-top"
+                  />
+                </a>
               </div>
             </div>
           </Col>
-          <Col md={4}>
+          <Col>
             <div className="--right-container">
               <p>© Temokin 2018</p>
               <sub>
