@@ -15,21 +15,44 @@ export default function FooterMenu() {
                                 <img src={require('../../assets/Logo.png').default} alt='logo'/>
                             </NavLink>
                             <div className="--address">
-                                <span>
-                                    <p>Temokin Holdings Sdn Bhd (182413-M)</p>
-                                    <p>No.2, Jalan 15/48 A,</p>
-                                </span>
-                                <span>
-                                    <p>Sentul Raya Boulevard,</p>
-                                    <p>51000 Kuala Lumpur</p>
-                                </span>
+                                <div class="w-100 text-end">
+                                    <img
+                                        alt=""
+                                        src="/fb-icon.png"
+                                        width="30"
+                                        height="30"
+                                        className="me-3 d-inline-block align-top"
+                                    />{" "}
+                                    <img
+                                        alt=""
+                                        src="/insta-icon.png"
+                                        width="30"
+                                        height="30"
+                                        className="me-5 d-inline-block align-top"
+                                    />{" "}
+                                </div>
                             </div>
                        </div>
                     </Col>
                     <Col md={4}>
                         <div className="--right-container">
-                            <p>© Temokin Holdings 2018</p>
-                            <sub>Terms of Service &nbsp; | &nbsp; Privacy Policy </sub>
+                            <p>© Temokin 2018</p>
+                            <sub>
+                                <a
+                                href="/land-acquisition"
+                                class="text-decoration-none colorPrimary"
+                                >
+                                Land Acquisition
+                                </a>
+                                &nbsp; | &nbsp;
+                                <a
+                                href="/terms-of-service"
+                                class="text-decoration-none colorPrimary"
+                                >
+                                Terms of Service
+                                </a>
+                                &nbsp; | &nbsp; Privacy Policy{" "}
+                            </sub>
                         </div>
                     </Col>
                 </Row>

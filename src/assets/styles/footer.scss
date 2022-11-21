@@ -14,9 +14,11 @@
     background-color: #ffffff;
     z-index: 100;
     position: relative;
+    border-top: 1px solid #4d569c;
     .--max {
         max-width: 91% !important;
         min-height: auto !important;
+        margin-top: 0 !important;
     }
     .--left-container {
         display: flex;
@@ -76,9 +78,13 @@
             font-family: "gill sans medium",sans-serif;
             font-weight: 400 !important;
             margin-bottom: 0;
-            color: #4d569c;
+            color: #4d569c !important;
             margin-right: 1vw;
             font-size: 0.8vw;
+
+            a {
+                color: #4d569c !important;
+            }
         }
     }
     @media (max-width: 992px) {

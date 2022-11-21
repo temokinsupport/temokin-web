@@ -8,23 +8,140 @@
 |  Last update     : July 1 2021
 *
 */
+.teamLeaderBg {
+    background: #9092c6;
+    height: 100%;
+}
+
+.secondPosition {
+    position: absolute;
+    right: 0;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    font-size: 8pt;
+    font-family: "gill sans", sans-serif;
+    letter-spacing: 0.1vw;
+}
+.teamLeaderName {
+    margin-top: 5vw;
+    font-size: 13pt;
+    margin-left: 2vw;
+    font-family: "gill sans medium", sans-serif;
+    letter-spacing: 0.1vw;
+    white-space: break-spaces;
+}
+.teamHr {
+    width: 5vw;
+    height: 3px;
+    margin-left: 2vw;
+    opacity: 1;
+}
+.teamLeaderPosition {
+    width: 50%;
+    font-size: 12pt;
+    margin-left: 2vw;
+    font-family: "gill sans medium", sans-serif;
+    letter-spacing: 0.1vw;
+    white-space: break-spaces;
+}
+
+@media (min-width: 993px) {
+    .bottomAngle {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 10vw solid #525daa;
+        border-left: 22vw solid transparent;
+    }
+    .full-bio {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        margin-bottom: 3vw;
+        margin-right: 2vw;
+        font-size: 10pt;
+        font-family: "gill sans medium", sans-serif;
+        letter-spacing: 0.2vw;
+
+    }
+    .teamLeaderBox:hover {
+        .teamLeaderBg {
+            background: #676ab1;
+            .bottomAngle {
+                border-bottom: 10vw solid #414da2;
+                border-left: 22vw solid transparent;
+            }
+            .bottomAngle2 {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 0;
+                height: 0;
+                border-bottom: 5vw solid #33429b;
+                border-left: 11vw solid transparent;
+                margin-right: 4vw;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .bottomAngle {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 15vw solid #525daa;
+        border-left: 35vw solid transparent;
+    }
+    .full-bio {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        margin-bottom: 3vw;
+        margin-right: 2vw;
+        font-size: 8pt;
+        font-family: "gill sans medium", sans-serif;
+        letter-spacing: 0.2vw;
+    }
+}
 .--team-leaders {
     min-height: 100vh;
     width: 100%;
-    background: url("../images/teamleaders/Leaders_BG-01.png") top center;
+    // background: url("../images/teamleaders/Leaders_BG-01.png") top center;
+    background-color: white;
     transition: background 0.3s;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 100vw auto;
     .--bg-1 {
-        background: url("../images/teamleaders/Leaders_BG-02.png") top 57vw center,
-            url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right -17vw;
-        min-height: 58vw;
+        // background: url("../images/teamleaders/Leaders_Shapes-01.png") top 13vw right 0;
+        // min-height: 58vw;
         background-repeat: no-repeat, no-repeat;
-        background-size: 100vw 62vw, 125vw auto;
+        background-size: 100vw 30vw, 125vw auto;
         transition: background 0.3s;
         background-attachment: scroll;
         padding: 10vw 0 5vw 0;
+        .--shape-left {
+            transition: background 0.3s;
+            left: -500px;
+            width: 37vw;
+            position: absolute;
+            top: 3vw;
+        }
+        .--shape-right-1 {
+            transition: background 0.3s;
+            right: -10vw;
+            width: 37vw;
+            position: absolute;
+            top: 20vw;
+        }
         .--max {
             max-width: 90%;
         }
@@ -36,13 +153,13 @@
             line-height: 4.7vw;
             font-size: 2.3vw;
             color: #283a97;
-            margin: 10.8vw 0 1.5vw 0;
+            margin: 5vw 0 1.5vw 0;
             text-align: center;
         }
         .--desc {
             font-family: "gill sans medium", sans-serif;
             font-weight: 500 !important;
-            margin-bottom: 9.4vw;
+            margin-bottom: 13vw;
             font-size: 1vw;
             color: #283a97;
             line-height: 1.7;
@@ -55,7 +172,7 @@
             border-radius: 0 !important;
             background-color: transparent !important;
             cursor: pointer;
-            height: 26.6vw;
+            height: 20vw;
             overflow: hidden;
             border: 0 !important;
             position: relative;
@@ -107,17 +224,26 @@
             }
         }
     }
+    
     .--bg-2 {
-        background: url("../images/teamleaders/Leaders_Shapes-02.png") top 0vw center;
+        background: url("../images/teamleaders/Shape.png") top -17vw center;
         background-repeat: no-repeat;
-        background-size: 100vw auto;
+        // background-size: 100vw auto;
         transition: background 0.3s;
         background-attachment: scroll;
         padding: 12vw 0 0 0;
         min-height: 50vw;
+        .--shape-right {
+            transition: background 0.3s;
+            right: 0;
+            width: 37vw;
+            position: absolute;
+            top: -10vw;
+        }
         .--max {
             max-width: 75%;
             min-height: 55vw;
+            margin-top: 14.2vw;
         }
         img {
             width: 100%;
@@ -133,7 +259,7 @@
             line-height: 4.7vw;
             font-size: 1.7vw;
             color: #ffffff;
-            margin: 11.8vw 0 1.5vw 6vw;
+            margin: 15.8vw 0 2.5vw 6vw;
             text-align: left;
             transform: scale(0) !important;
             transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);

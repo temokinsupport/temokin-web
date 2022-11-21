@@ -20,6 +20,7 @@ import TanChienWen from "./views/TanChienWen";
 import JeremiahTanChienYih from "./views/JeremiahTanChienYih";
 import TanChienChyi from "./views/TanChienChyi";
 import ChanYoonSang from "./views/ChanYoonSang";
+import LeeTeokGuah from "./views/LeeTeokGuah";
 import PathooramanBinAbu from "./views/PathooramanBinAbu";
 import CrystalWongWaiChing from "./views/CrystalWongWaiChing";
 import SerembanMiddleRingRoad from "./views/SerembanMiddleRingRoad";
@@ -28,10 +29,15 @@ import Earthworks from "./views/Earthworks";
 import TnbSubstations from "./views/TnbSubstations";
 import PipeJackingWorks from "./views/PipeJackingWorks";
 import PipeJackingForSG from "./views/PipeJackingForSG";
-import IstanaNegara from "./views/IstanaNegara";
-import Mahligai from "./views/Mahligai";
-import NationalCamp from "./views/NationalCamp";
-import Tropicana from "./views/Tropicana";
+// import IstanaNegara from "./views/IstanaNegara";
+// import Mahligai from "./views/Mahligai";
+// import NationalCamp from "./views/NationalCamp";
+// import Tropicana from "./views/Tropicana";
+import TermsOfService from "./views/TermsOfService";
+import PrivacyPolicy from "./views/PrivacyPolicy";
+import Career from "./views/Career";
+import CivilInfrastructure from "./views/CivilInfrastructure";
+import Building from "./views/Building";
 
 export default function App() {
   var AOS = require("aos");
@@ -121,6 +127,11 @@ export default function App() {
                 />
                 <Route
                   exact
+                  path="/team-leaders/lee-teok-guah"
+                  component={LeeTeokGuah}
+                />
+                <Route
+                  exact
                   path="/team-leaders/pathooraman-bin-abu"
                   component={PathooramanBinAbu}
                 />
@@ -159,6 +170,20 @@ export default function App() {
                   path="/civil-engineering/pipe-jacking-for-sg-buloh-to-johor-bahru-for-water-privatization-1500m-dia-and-1350-dia"
                   component={PipeJackingForSG}
                 />
+                <Route
+                  exact
+                  path="/terms-of-service"
+                  component={TermsOfService}
+                />
+                <Route exact path="/privacy-policy" component={PrivacyPolicy} />
+                <Route exact path="/career" component={Career} />
+
+                <Route
+                  exact
+                  path="/civil-infrastructure"
+                  component={CivilInfrastructure}
+                />
+                <Route exact path="/building" component={Building} />
                 {/* <Route
                   exact
                   path="/property-development/istana-negara"
@@ -178,6 +203,8 @@ export default function App() {
                   exact
                   path="/property-development/tropicana-miyu-petaling-jaya"
                   component={Tropicana}
+                />
+                
                 /> */}
               </Switch>
             </div>

@@ -12,15 +12,35 @@
     min-height: 100vh;
     width: 100%;
     position: relative;
+   
+    .bottom-bg {
+        position: absolute;
+       
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 35vw solid #283A97;
+        border-right: 100vw solid transparent;
+    }
+    .leader-position {
+        font-size: 12pt;
+    }
     .--bg-1 {
         min-height: 50vw;
-        padding: 24vw 0 0 0;
+        padding: 15vw 0 0 0;
         .--max {
             max-width: 80%;
         }
         .--leader-details {
             width: 100%;
             position: relative;
+            margin-bottom: 20vw;
+            h1 {
+                font-family: "gill sans", sans-serif !important;
+                color: #283a97;
+                letter-spacing: 0.5vw;
+            }
             img {
                 width: 63vw !important;
                 margin: 0 auto;
@@ -75,26 +95,33 @@
             margin: 6.5vw auto 5vw auto;
             display: block;
             .--btn-get-to-know {
-                background: url("../images/leaders/Leaders_Button-03.png") top center;
-                transition: background 0.3s;
-                background-attachment: scroll;
-                background-repeat: no-repeat;
-                background-size: contain;
-                height: 6vw;
                 width: 26.7vw;
                 min-width: 200px;
                 display: block;
-                border: 0 !important;
+                text-decoration: none;
+                font-family: 'Gill Sans', 'SemiBold';
+                color: #283A97;
+                font-size: 18pt !important;
                 box-shadow: none !important;
                 outline: 0 !important;
                 margin: 4.5vw auto 0 auto;
                 position: relative;
+                border: 1px solid #283A97;
+                text-align: center;
+                padding-top: 3vh;
+                padding-bottom: 3vh;
                 z-index: 5;
+            }
+            .--btn-get-to-know:hover {
+                border: 1px solid white;
+                color: white;
+                background: #283A97;
             }
         }
     }
     .leader-bg {
-        background: url("../images/leaders/Leaders_BG-01.png") top center;
+        // background: url("../images/leaders/Leaders_BG-01.png") top center;
+        background: white;
         transition: background 0.3s;
         background-attachment: fixed;
         background-repeat: no-repeat;

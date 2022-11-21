@@ -49,28 +49,7 @@ const TanChienWen = () => {
               <Row>
                 <Col>
                   <div className="--leader-details">
-                    <ul>
-                      <li>
-                        <NavLink
-                          className="control-prev"
-                          to="/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian"
-                        />
-                      </li>
-                      <li>
-                        <NavLink
-                          className="control-next"
-                          to="/team-leaders/jeremiah-tan-chien-yih"
-                        />
-                      </li>
-                    </ul>
-                    <Image
-                      className="d-block"
-                      src={
-                        require("../assets/images/leaders/Leaders_IMG-TanChien.png")
-                          .default
-                      }
-                      alt="First slide"
-                    />
+                    <h1 className="text-center">MEET OUR LEADERS</h1>
                     <div className="--about-content">
                       <Row>
                         <Col md={5}>
@@ -80,8 +59,10 @@ const TanChienWen = () => {
                           </Name>
                           <Line />
                           <Position>
-                            EXECUTIVE <br />
-                            DIRECTOR
+                            <div className="leader-position">
+                              EXECUTIVE <br />
+                              DIRECTOR
+                            </div>
                           </Position>
                         </Col>
                         <Col md={7}>
@@ -117,6 +98,7 @@ const TanChienWen = () => {
                 </Col>
               </Row>
             </Container>
+            <div className="bottom-bg"></div>
             <div className="leader-bg" />
             <Footer />
           </div>

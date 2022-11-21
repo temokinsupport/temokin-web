@@ -13,25 +13,25 @@ export default function Projects() {
                 </Row>
                 <Row>
                     <Col md={4}>
-                        <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Home_IMG-Civil.png').default} roundedCircle />
-                        <h5 className="--project-title" data-scroll>CIVIL ENGINEERING</h5>
+                        <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Page03-IMG3.png').default} roundedCircle />
+                        <h5 className="--project-title font-weight-bold" data-scroll>CONSTRUCTION - <br/> BUILDING</h5>
+                        <p className="--desc" data-scroll>Tropicana Cenang</p>
+                    </Col>
+                    <Col md={4}>
+                        <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Page03-IMG1.png').default} roundedCircle />
+                        <h5 className="--project-title font-weight-bold" data-scroll>CONSTRUCTION - <br/> CIVIL & INFRASTRUCTURE</h5>
                         <p className="--desc" data-scroll>Seremban Middle Ring Road (MRRS)</p>
                     </Col>
                     <Col md={4}>
-                        <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Home_IMG-Property.png').default} roundedCircle />
-                        <h5 className="--project-title" data-scroll>PROPERTY DEVELOPMENT</h5>
-                        <p className="--desc" data-scroll>Istana Negara</p>
-                    </Col>
-                    <Col md={4}>
-                        <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Home_IMG-Civil-02.png').default} roundedCircle />
-                        <h5 className="--project-title" data-scroll>CIVIL ENGINEERING</h5>
-                        <p className="--desc" data-scroll>Pipe Jacking Works</p>
+                        <Image className="--center" data-scroll data-scroll-speed="2" src={require('../../../assets/images/home/Page03-IMG2.png').default} roundedCircle />
+                        <h5 className="--project-title font-weight-bold" data-scroll>PROPERTY DEVELOPMENT</h5>
+                        <p className="--desc" data-scroll>Mahligai at Nusa Damai</p>
                     </Col>
                 </Row>
             </Container>
             {/* <div className="projects-bg"/> */}
             <div className="hero-container">
-                <LazyLoadImage src={require("../../../assets/images/home/Home_BG-03.png").default} className="projects-bg"
+                <LazyLoadImage src={require("../../../assets/images/home/Page3_BG.jpg").default} className="projects-bg"
                  data-scroll data-scroll-speed="-2" data-scroll-direction="top"/>
             </div>
         </section>

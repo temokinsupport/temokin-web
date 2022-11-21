@@ -1,6 +1,12 @@
 // @import "~bootstrap/scss/bootstrap";
 @import "./fonts.css";
 
+.social-med {
+    img {
+        width: 30px !important;
+    }
+}
+
 html,
 body,
 #root {

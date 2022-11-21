@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Navigation from "../../Navigation";
+import { NavLink } from 'react-router-dom';
 
 export default function AboutTemokin() {
   const buildProjectLists = [
@@ -55,6 +56,7 @@ export default function AboutTemokin() {
 
         <div className="content">
           <div className="parallax-bg"></div>
+          <div className="parallax-bg2"></div>
           <ul className="slider" data-scroll data-scroll-speed="-1">
             <li>
               <div className="slider-content">
@@ -65,16 +67,25 @@ export default function AboutTemokin() {
                         <h1 className="--title">Our Story</h1>
                       </Col>
                       <Col md={5} className="--pl3v">
+
+<br />
+
                         <p className="--desc">
-                          They say every great story has a humble <br />
-                          beginning, and ours is no exception. <br />
-                          established in 1989, we started our journey as <br />
-                          a specialist contractor for high-quality <br />
-                          pipe jacking and earthworks, making our <br />
-                          first prominent mark in 1991 by delivering <br />
-                          malaysia's first ever micro-tunneling <br />
-                          project.
+                          THEY SAY EVERY GREAT STORY HAS A HUMBLE BEGINNING AND <br />
+                          OURS IS NO EXCEPTION. ESTABLISHED IN 1989, WE SECURED OUR <br />
+                          FIRST CONTRACT IN INFRASTRUCTURE AND BUILDINGS WORKS <br />
+                          IN EARLY 1990. THEN IN 1993, WE GREW IN OUR JOURNEY, <br />
+                          DELIVERING HIGH QUALITY PIPE JACKING AND EARTH WORKS <br />
+                          WITH PROMINENT CLIENTS BY DELIVERING AHEAD OF TIME AND <br />
+                          WITH QUALITY AS OUR FIRST PRIORITY. IN 1997, WE DELIVERED <br />
+                          MALAYSIA’S FIRST EVER MICRO-TUNNELLING PROJECT THAT <br />
+                          MANAGED TO GAIN RECOGNITION THROUGHOUT THE INDUSTRY. <br />
+                          FROM THERE WE PACED FURTHER BY DELIVERING MIDDLE RING <br />
+                          ROAD SEREMBAN PROJECT FROM 2002 TO 2017.
                         </p>
+                        <br />
+                        <br />
+                        <NavLink to="/contact-us" variant="light" className="--grow-with-us">GROW WITH US</NavLink>
                       </Col>
                     </Row>
                   </Container>
@@ -91,17 +102,17 @@ export default function AboutTemokin() {
                       </Col>
                       <Col md={5} className="--pl3v">
                         <p className="--desc">
-                          We then quickly spread our wings and grew to become{" "}
+                          FROM A SOLID FOUNDATION, WE EXPANDED TO BECOME THE PRE-{" "}
                           <br />
-                          the preeminent Turnkey civil engineering and property{" "}
+                          EMINENT TURKEY CIVIL ENGINEERING AND PROPERTY{" "}
                           <br />
                           conglomerate that the nation and the world have come{" "}
                           <br />
                           to know and trust today. <br />
                           <br />
-                          At our heart, we are a construction company with{" "}
+                          At heart, we are a construction company with an{" "}
                           <br />
-                          an integrated engineering division, which allows us to{" "}
+                          integrated engineering division, which allows us to{" "}
                           <br />
                           undertake any design-and-build projects with.
                         </p>

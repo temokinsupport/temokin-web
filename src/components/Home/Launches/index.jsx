@@ -14,7 +14,7 @@ export default function Launches() {
                 </Row>
                 <Row>
                     <Col>
-                        <Image data-scroll className="--img" src={require('../../../assets/images/home/Home_IMG-03.png').default}/>
+                        <Image data-scroll className="--img" src={require('../../../assets/images/home/Group 49.jpg').default}/>
                     </Col>
                     <Col>
                         <div data-scroll className="--launches-details">

@@ -19,6 +19,7 @@
   z-index: 5000 !important;
   position: absolute !important;
   align-items: flex-start !important;
+  // width: 50vw;
   a {
     &.--logo {
       img {
@@ -50,6 +51,7 @@
         &-container {
           position: absolute;
           top: 3vw;
+          width: 12vw;
           opacity: 0;
           background-color: #283a97;
           -webkit-transition: all 0.3s;
@@ -210,19 +212,51 @@
       }
     }
     .navbar-collapse {
-      background-color: #283a97;
+      background-color: #ffffff;
+      color: #283a97;
       z-index: 10 !important;
       &.collapse {
         &.show {
         }
       }
+      li {
+        a {
+          color: #283a97 !important;
+        }
+      }
     }
     a {
+      
       &.--logo {
         margin: 2.6vw 0 0 5.4vw !important;
         img {
           width: 200px;
         }
+      }
+    }
+  }
+
+  @media (max-width: 428px) 
+  {
+    .static_nav {
+      text-align: left;
+      width: 100%;
+      font-family: "gill sans", sans-serif;
+    }
+    .dynamic_nav {
+      padding-left: 10vw !important;
+      
+    }
+    .navbar-nav {
+      li {
+        a {
+          &.active {
+            color: #283a97 !important;
+          }
+        }
+      }
+      &.--web {
+        display: none;
       }
     }
   }

@@ -49,40 +49,20 @@ const YBhgDatoIrRobertTanKimKuan = () => {
               <Row>
                 <Col>
                   <div className="--leader-details">
-                    <ul>
-                      <li>
-                        <NavLink
-                          className="control-prev"
-                          to="/team-leaders/ym-raja-dato-azwane-bin-raja-ariff"
-                        />
-                      </li>
-                      <li>
-                        <NavLink
-                          className="control-next"
-                          to="/team-leaders/y-m-raja-sulong-hizahar-b-raja-bazian"
-                        />
-                      </li>
-                    </ul>
-                    <Image
-                      className="d-block"
-                      src={
-                        require("../assets/images/leaders/Leaders_IMG-YBHG.png")
-                          .default
-                      }
-                      alt="First slide"
-                    />
+                    <h1 className="text-center">MEET OUR LEADERS</h1>
                     <div className="--about-content">
                       <Row>
                         <Col md={5}>
                           <Name>
-                            Y. BHG. Dato’ <br />
-                            Ir. Robert Tan <br />
-                            Kim Kuan
+                            DATA' IR. TAN KIM KUAN <br />
+                            (ROBERT)
                           </Name>
                           <Line />
                           <Position>
-                            MANAGING <br />
-                            DIRECTOR
+                            <div className="leader-position">
+                              MANAGING <br />
+                              DIRECTOR
+                            </div>
                           </Position>
                         </Col>
                         <Col md={7}>
@@ -125,7 +105,9 @@ const YBhgDatoIrRobertTanKimKuan = () => {
                           <NavLink
                             to="/team-leaders"
                             className="--btn-get-to-know"
-                          />
+                          >
+                            GET TO KNOW THE TEAM
+                          </NavLink>
                         </Col>
                       </Row>
                     </div>
@@ -133,6 +115,7 @@ const YBhgDatoIrRobertTanKimKuan = () => {
                 </Col>
               </Row>
             </Container>
+            <div className="bottom-bg"></div>
             <div className="leader-bg" />
             <Footer />
           </div>
@@ -143,11 +126,11 @@ const YBhgDatoIrRobertTanKimKuan = () => {
 };
 
 const Name = styled.h3`
-  letter-spacing: 0.4vw;
+  letter-spacing: 0.2vw;
   font-weight: 600 !important;
   text-transform: uppercase;
   line-height: 2.8vw;
-  font-size: 2vw;
+  font-size: 1.7vw;
   font-family: "gill sans", sans-serif !important;
   color: #283a97;
   margin: 0;

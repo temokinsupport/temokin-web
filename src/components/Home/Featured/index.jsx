@@ -46,33 +46,35 @@ export default function Featured() {
                     <Carousel.Item>
                       <img
                         className="d-block w-50"
-                        src={require('../../../assets/images/home/Home_IMG-01.png').default}
+                        src={require('../../../assets/images/home/Mask Group 65.jpg').default}
                         alt="First slide"
                         data-scroll
                       />
                       <Carousel.Caption data-scroll>
-                        <h3>CIVIL ENGINEERING</h3>
-                        <p>From its humble beginnings as a high-quality pipe jacking specialist, Temokin led the <br/>
-                        way with Malaysia's first microtunnelling project and has since expanded into the <br/>
-                        building of electricity substations, major underground sewage lines, complex <br/>
-                        bridges and major highways.</p>
-                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
+                        <h3>CONSTRUCTION</h3>
+                        <p className="--font-normal">From its humble beginnings as a high-quality pipe jacking <br/>
+                        specialist, Temokin led the way with Malaysia's first <br/>
+                        microtunnelling project and has since expanded into the <br/>
+                        building of electricity substations, major underground sewage <br/>
+                        lines, complex bridges and major highways.</p>
+                        <NavLink to="/building" variant="light" className="--btn-check-our-work-1 w-75">BUILDING</NavLink>
+                        <NavLink to="/civil-infrastructure" variant="light" className="--btn-check-our-work-2 w-75">CIVIL & INFRASTRUCTURE</NavLink>
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-50"
-                        src={require('../../../assets/images/home/Home_IMG-02.png').default}
+                        src={require('../../../assets/images/home/Mask Group 65.jpg').default}
                         alt="First slide"
                         data-scroll
                       />
                       <Carousel.Caption data-scroll>
                       <h3>PROPERTY DEVELOPMENT</h3>
-                        <p> Temokin has a collective property development experience  of over 50 years, <br/> 
-                        having designed and built complex skycrapers, hospitals and vast modern retail <br/>
-                        spaces on behalf of our clients. Our current portfolio includes the building of high- <br/>
+                        <p> Temokin has a collective property development experience  of over 50 years, 
+                        having designed and built complex skycrapers, hospitals and vast modern retail
+                        spaces on behalf of our clients. Our current portfolio includes the building of high-
                         quality duplex homes and the new Istana Negara (Malaysia's national palace).</p>
-                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
+                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work-2 w-75">CHECK OUT OUR WORK</NavLink>
                       </Carousel.Caption>
                     </Carousel.Item>
                   </Carousel>
@@ -97,33 +99,32 @@ export default function Featured() {
                     <Carousel.Item>
                       <img
                         className="d-block"
-                        src={require('../../../assets/images/home/Home_IMG-01.png').default}
+                        src={require('../../../assets/images/home/Mask Group 65.jpg').default}
                         alt="First slide"
                       />
                       <Carousel.Caption>
-                        <h3>CIVIL ENGINEERING</h3>
+                        <h3>CONSTRUCTION</h3>
                         <p>From its humble beginnings as a high-quality pipe jacking specialist, Temokin led the <br/>
                         way with Malaysia's first microtunnelling project and has since expanded into the <br/>
                         building of electricity substations, major underground sewage lines, complex <br/>
                         bridges and major highways.</p>
-                        <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
+                        <NavLink to="/building" variant="light" className="--btn-check-our-work-1 w-75">BUILDING</NavLink>
+                        <br />
+                        <NavLink to="/civil-infrastructure" variant="light" className="--btn-check-our-work-2 w-75">CIVIL & INFRASTRUCTURE</NavLink>
                       </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    {/* <Carousel.Item>
                       <img
                         className="d-block w-50"
-                        src={require('../../../assets/images/home/Home_IMG-02.png').default}
+                        src={require('../../../assets/images/home/Mask Group 65.jpg').default}
                         alt="First slide"
                       />
                       <Carousel.Caption>
                       <h3>PROPERTY DEVELOPMENT</h3>
-                        <p> Temokin has a collective property development experience  of over 50 years, <br/> 
-                        having designed and built complex skycrapers, hospitals and vast modern retail <br/>
-                        spaces on behalf of our clients. Our current portfolio includes the building of high- <br/>
-                        quality duplex homes and the new Istana Negara (Malaysia's national palace).</p>
+                        <p> Temokin has a collective property development experience of over 50 years, having designed and built complex skycrapers, hospitals and vast modern retail spaces on behalf of our clients. Our current portfolio includes the building of high-quality duplex homes and the new Istana Negara (Malaysia's national palace).</p>
                         <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
-                      </Carousel.Caption>
-                    </Carousel.Item>
+                      </Carousel.Caption> */}
+                    {/* </Carousel.Item> */}
                   </Carousel>
                   </div>
                 }

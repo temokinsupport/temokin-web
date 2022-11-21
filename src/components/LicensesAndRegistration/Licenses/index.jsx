@@ -84,7 +84,7 @@ export default function Licenses() {
               <Row className="license justify-content-center align-items-center">
                 <Col xs={2}>
                   <Image
-                    className="license__image"
+                    className="license__image me-2"
                     fluid
                     src={
                       require(`../../../assets/images/licensesandregistrations/${license.image}`)
@@ -92,7 +92,7 @@ export default function Licenses() {
                     }
                   />
                 </Col>
-                <Col xs={6}>
+                <Col xs={{span: 6, offset: 1}}>
                   <div className="license__content">
                     {license.descriptions.map((description) => {
                       if (description.type === "name") {

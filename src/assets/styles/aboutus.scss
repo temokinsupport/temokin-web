@@ -11,7 +11,24 @@
 .--about {
   width: 100%;
   position: relative;
-  .--header-container {
+  .--grow-with-us {
+    // margin-top: 2vh;
+    border: 1px solid #283A97;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 10pt;
+    color: #283A97;
+    text-decoration: none;
+    font-family: "gill sans", sans-serif !important;
+  }
+    .--grow-with-us:hover {
+      background: #283A97;
+      color: white;
+      border: 1px solid white
+    }
+    .--header-container {
     .--title {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.5vw;
@@ -534,6 +551,7 @@
       &.is-reveal {
         transform: scale(1) !important;
         transition-delay: 0.3s;
+        z-index: 9;
       }
     }
   }
@@ -549,7 +567,7 @@
     top: 0;
   }
   .vision-bg {
-    background: url("../images/aboutus/About_BG-02.png") top -3vw center;
+    background: url("../images/aboutus/Group 107.png") top -3vw center;
     background-repeat: no-repeat;
     background-size: 100vw auto;
     transition: background 0.3s;
@@ -569,6 +587,7 @@
     z-index: -1;
     height: 66vw;
     top: 0;
+    opacity: .9;
   }
   .mission-bg {
     background: url("../images/aboutus/About_BG-03.png") top center;
@@ -582,7 +601,7 @@
     top: -4vw;
   }
   .section4-bg {
-    background: url("../images/aboutus/About_BG-04.png") top center;
+    background: url("../images/aboutus/Group 555.png") top center;
     image-rendering: -webkit-optimize-contrast;
     background-repeat: no-repeat;
     background-size: 101vw auto;
@@ -594,7 +613,7 @@
     top: 0vw;
   }
   .ourvalues-bg {
-    background: url("../images/aboutus/About_BG-04.png") top center;
+    background: url("../images/aboutus/Group 555.png") top center;
     image-rendering: -webkit-optimize-contrast;
     background-repeat: no-repeat;
     background-size: 101vw auto;
@@ -659,14 +678,26 @@
     // z-index: -5 !important;
   }
   .parallax-bg {
-    background: url("../../assets/images/aboutus/About_BG-01.png") repeat scroll
+    background: url("../../assets/images/aboutus/BG-ABOUT-01.png") repeat scroll
       0 0;
-    background-size: 139vw 100vw;
+    background-size: 110vw 55vw;
     left: 0;
     height: 100%;
     overflow: hidden;
     position: absolute;
-    top: 0;
+    top: 1vh;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .parallax-bg2 {
+    background: url("../../assets/images/aboutus/Group 212.jpg") repeat scroll
+      0 0;
+    background-size: 110vw 59vw;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 172vh;
     width: 100%;
     background-repeat: no-repeat;
   }
@@ -770,6 +801,11 @@
     -moz-transition: background-position linear 0.7s;
     transition: background-position linear 0.7s;
   }
+  .slideshow input:checked ~ .content .parallax-bg2 {
+    -webkit-transition: background-position linear 0.7s;
+    -moz-transition: background-position linear 0.7s;
+    transition: background-position linear 0.7s;
+  }
   input.selector-1:checked ~ .content {
     background-position: 0 0;
   }
@@ -786,10 +822,15 @@
     background-position: -400px 0;
   }
   input.selector-1:checked ~ .content .parallax-bg {
-    background-position: 0 -38vw;
+    background-position: 0 0;
   }
   input.selector-2:checked ~ .content .parallax-bg {
     background-position: 0 -28vw;
+  }
+
+  input.selector-2:checked~.content .parallax-bg2 {
+    background-position: 0 -4vw;
+    top: 0vh
   }
   .slider {
     height: 200%;
@@ -802,6 +843,7 @@
     -moz-transition: top ease-in 0.8s;
     transition: top ease-in 0.8s;
     width: 100%;
+    z-index: 9;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -1036,6 +1078,9 @@
       }
     }
     .parallax-bg {
+      background-size: auto 124vw;
+    }
+    .parallax-bg2 {
       background-size: auto 124vw;
     }
     .slideshow {
@@ -1347,6 +1392,9 @@
     .parallax-bg {
       background-position: 0 -22vw !important;
     }
+    .parallax-bg2 {
+      background-position: 0 -22vw !important;
+    }
     .--header-container {
       height: 100vw !important;
       button {
@@ -1370,6 +1418,9 @@
       height: 120vw !important;
     }
     .parallax-bg {
+      background-size: auto 145vw;
+    }
+    .parallax-bg2 {
       background-size: auto 145vw;
     }
     .overlay-shape1 {
@@ -1508,6 +1559,10 @@
       height: 700px;
     }
     .parallax-bg {
+      background-size: auto 135vh;
+      background-position: -70vw -50vw !important;
+    }
+    .parallax-bg2 {
       background-size: auto 135vh;
       background-position: -70vw -50vw !important;
     }

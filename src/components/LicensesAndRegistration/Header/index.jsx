@@ -13,10 +13,10 @@ export default function Header() {
               Licenses <br /> and Registrations
             </h1>
             <p data-scroll className="--desc">
-              These licenses and certifications specify the <br />
-              range of our capabilities, allowing us to take <br />
-              on large-scale, complex projects with the <br />
-              approval of the authorities.
+              These licenses and certifications specify <br />
+              the range of our capabilities, allowing us <br />
+              to take on large-scale, complex projects <br />
+              with the approval of the authorities.
             </p>
           </Col>
         </Row>

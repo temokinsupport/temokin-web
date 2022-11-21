@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
 import SplitText from "../../utils/split.min.js";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import Navigation from "../../Navigation";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -38,29 +38,20 @@ export default function Header() {
     <section className="--header" data-scroll-section>
       <Navigation />
       <Container>
-        <Row>
-          <Col>
-            <h1
-              className="--title"
-              data-scroll
-              data-scroll-speed="3"
-              id="header-text"
-            >
-              Winning <br />
-              Your Trust <br />
-              Every Time
-            </h1>
+        <Row className="justify-content-center">
+          <Col md={12} className="text-center mt-5 pt-5">
+           <Image className="--home-temokin-img" src={require('../../../assets/images/home/Group 833.png').default} />
           </Col>
         </Row>
       </Container>
-      <div className="hero-container">
+      {/* <div className="hero-container">
         <LazyLoadImage
           src={require("../../../assets/images/home/Home_BG-01.png").default}
           className="header-bg"
           data-scroll
           data-scroll-speed="-2"
         />
-      </div>
+      </div> */}
     </section>
   );
 }
