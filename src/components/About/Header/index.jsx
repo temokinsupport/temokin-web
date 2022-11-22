@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Navigation from "../../Navigation";
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 export default function AboutTemokin() {
   const buildProjectLists = [
@@ -67,25 +67,40 @@ export default function AboutTemokin() {
                         <h1 className="--title">Our Story</h1>
                       </Col>
                       <Col md={5} className="--pl3v">
-
-<br />
+                        <br />
 
                         <p className="--desc">
-                          THEY SAY EVERY GREAT STORY HAS A HUMBLE BEGINNING AND <br />
-                          OURS IS NO EXCEPTION. ESTABLISHED IN 1989, WE SECURED OUR <br />
-                          FIRST CONTRACT IN INFRASTRUCTURE AND BUILDINGS WORKS <br />
-                          IN EARLY 1990. THEN IN 1993, WE GREW IN OUR JOURNEY, <br />
-                          DELIVERING HIGH QUALITY PIPE JACKING AND EARTH WORKS <br />
-                          WITH PROMINENT CLIENTS BY DELIVERING AHEAD OF TIME AND <br />
-                          WITH QUALITY AS OUR FIRST PRIORITY. IN 1997, WE DELIVERED <br />
-                          MALAYSIA’S FIRST EVER MICRO-TUNNELLING PROJECT THAT <br />
-                          MANAGED TO GAIN RECOGNITION THROUGHOUT THE INDUSTRY. <br />
-                          FROM THERE WE PACED FURTHER BY DELIVERING MIDDLE RING <br />
+                          THEY SAY EVERY GREAT STORY HAS A HUMBLE BEGINNING AND{" "}
+                          <br />
+                          OURS IS NO EXCEPTION. ESTABLISHED IN 1989, WE SECURED
+                          OUR <br />
+                          FIRST CONTRACT IN INFRASTRUCTURE AND BUILDINGS WORKS{" "}
+                          <br />
+                          IN EARLY 1990. THEN IN 1993, WE GREW IN OUR JOURNEY,{" "}
+                          <br />
+                          DELIVERING HIGH QUALITY PIPE JACKING AND EARTH WORKS{" "}
+                          <br />
+                          WITH PROMINENT CLIENTS BY DELIVERING AHEAD OF TIME AND{" "}
+                          <br />
+                          WITH QUALITY AS OUR FIRST PRIORITY. IN 1997, WE
+                          DELIVERED <br />
+                          MALAYSIA’S FIRST EVER MICRO-TUNNELLING PROJECT THAT{" "}
+                          <br />
+                          MANAGED TO GAIN RECOGNITION THROUGHOUT THE INDUSTRY.{" "}
+                          <br />
+                          FROM THERE WE PACED FURTHER BY DELIVERING MIDDLE RING{" "}
+                          <br />
                           ROAD SEREMBAN PROJECT FROM 2002 TO 2017.
                         </p>
                         <br />
                         <br />
-                        <NavLink to="/contact-us" variant="light" className="--grow-with-us">GROW WITH US</NavLink>
+                        <NavLink
+                          to="/contact-us"
+                          variant="light"
+                          className="--grow-with-us"
+                        >
+                          GROW WITH US
+                        </NavLink>
                       </Col>
                     </Row>
                   </Container>
@@ -102,16 +117,14 @@ export default function AboutTemokin() {
                       </Col>
                       <Col md={5} className="--pl3v">
                         <p className="--desc">
-                          FROM A SOLID FOUNDATION, WE EXPANDED TO BECOME THE PRE-{" "}
-                          <br />
-                          EMINENT TURKEY CIVIL ENGINEERING AND PROPERTY{" "}
-                          <br />
+                          FROM A SOLID FOUNDATION, WE EXPANDED TO BECOME THE
+                          PRE- <br />
+                          EMINENT TURKEY CIVIL ENGINEERING AND PROPERTY <br />
                           conglomerate that the nation and the world have come{" "}
                           <br />
                           to know and trust today. <br />
                           <br />
-                          At heart, we are a construction company with an{" "}
-                          <br />
+                          At heart, we are a construction company with an <br />
                           integrated engineering division, which allows us to{" "}
                           <br />
                           undertake any design-and-build projects with.

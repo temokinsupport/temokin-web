@@ -78,12 +78,13 @@ function Footer() {
                   Terms of Service
                 </NavLink>
                 &nbsp; | &nbsp;
-                <a
-                  href="/privacy-policy"
-                  class="text-decoration-none colorPrimary"
+                <NavLink
+                  exact
+                  to="/privacy-policy"
+                  className="text-decoration-none colorPrimary"
                 >
                   Privacy Policy
-                </a>
+                </NavLink>
               </sub>
             </div>
           </Col>

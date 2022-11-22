@@ -577,16 +577,32 @@
     height: 66vw;
     top: 0;
   }
-  .overlay-shape {
-    background: url("../images/aboutus/About_BG-Shapes-02.png") top -2vw center;
+  .overlay-shape--1 {
+    background-image: url("../images/aboutus/About_BG-Shapes-02 1.png");
     background-repeat: no-repeat;
-    background-size: 116vw auto;
+    background-size: contain;
     transition: background 0.3s;
-    width: 100%;
     position: absolute;
     z-index: -1;
-    height: 66vw;
+    width: 28%;
+    height: 25%;
     top: 0;
+    left: 0;
+    // opacity: 0.9;
+    mix-blend-mode: multiply;
+  }
+  .overlay-shape--2 {
+    background: url("../images/aboutus/About_BG-Shapes-02 2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    transition: background 0.3s;
+    position: absolute;
+    z-index: -1;
+    width: 28%;
+    height: 25%;
+    bottom: 3%;
+    right: 0;
     // opacity: 0.9;
     mix-blend-mode: multiply;
   }
@@ -953,6 +969,15 @@
   }
   @media (max-width: 992px) {
     margin: 0;
+    .--grow-with-us {
+      padding-left: 5vw;
+      padding-right: 5vw;
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      color: white;
+      background-color: #283997;
+      letter-spacing: 0.2em;
+    }
     .--mob {
       display: block;
     }
@@ -974,7 +999,7 @@
       }
       .--about-content {
         .col-md-5 {
-          width: 60.666667%;
+          // width: 60.666667%;
         }
       }
       .--build-project-list {
@@ -1118,7 +1143,8 @@
       height: 96vw;
     }
     .vision-bg {
-      background-size: 100vw 700px;
+      // background-size: 100vw 700px;
+      background-size: cover !important;
       height: 700px;
     }
     .overlay-shape {
@@ -1417,6 +1443,22 @@
     }
     .--header-container {
       height: 100vw !important;
+
+      .--max {
+        .row {
+          text-align: center;
+        }
+      }
+
+      .--title {
+        text-align: center;
+        word-spacing: unset;
+      }
+
+      .--desc {
+        margin-top: -5%;
+        line-height: 2.5em;
+      }
       button {
         &.carousel-control-next {
           width: 9vw !important;
@@ -1518,8 +1560,19 @@
     }
   }
   @media (max-width: 590px) {
+    .overlay-shape--1 {
+      width: 80%;
+      height: 30%;
+      left: -15%;
+      top: -10%;
+    }
+    .overlay-shape--2 {
+      width: 65%;
+      height: 40%;
+      right: -5%;
+    }
     .--header-container {
-      height: 700px !important;
+      height: 130vh !important;
       .--build-project-list {
         figure {
           margin-right: 10px !important;
@@ -1554,7 +1607,7 @@
     }
     .--container-2 {
       padding: 100px 0 !important;
-      height: 500px !important;
+      height: 130vh !important;
     }
     .--container-3 {
       height: 500px !important;

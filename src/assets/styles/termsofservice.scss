@@ -58,7 +58,8 @@
   .--subContent {
     width: 100%;
     text-align: center;
-    margin-top: 8%;
+    // margin-top: 8%;
+    font-size: 1vw;
   }
 
   .textBody {
@@ -68,7 +69,7 @@
     padding-bottom: 30vw;
     padding-top: 20vw;
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1.1vw;
 
     &-bg {
       position: absolute;
@@ -130,10 +131,11 @@
   .--subContent {
     width: 100%;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
     line-height: 2;
     letter-spacing: 0.2vw;
     color: #283a97;
+    font-family: "gill sans medium", sans-serif !important;
   }
 
   .modal-dialog {
@@ -193,42 +195,6 @@
       text-align: center;
       letter-spacing: 0.17vw;
     }
-
-    // .header-shapes {
-    //   position: absolute;
-    //   height: 100vw;
-    //   width: 100%;
-    //   top: 10vw;
-    //   overflow: hidden;
-
-    //   &::before {
-    //     content: "";
-    //     height: 7.8vw;
-    //     width: 57.5vw;
-    //     background-color: transparent;
-    //     border: 1px solid #283a97;
-    //     position: absolute;
-    //     top: -2vw;
-    //     left: -42vw;
-    //     transition: height 0.3s;
-    //     transition: width 0.3s;
-    //     transform: skew(321deg, 16.5deg);
-    //   }
-
-    //   &::after {
-    //     content: "";
-    //     height: 11.8vw;
-    //     width: 57.5vw;
-    //     background-color: transparent;
-    //     border: 1px solid #283a97;
-    //     position: absolute;
-    //     top: 40vw;
-    //     right: -44vw;
-    //     transition: height 0.3s;
-    //     transition: width 0.3s;
-    //     transform: skew(321deg, 16.5deg);
-    //   }
-    // }
   }
 
   .--bg-2 {
@@ -416,7 +382,7 @@
     transition: background 0.3s;
     image-rendering: -webkit-optimize-contrast;
     position: absolute;
-    height: 80vw;
+    height: 100vw;
     width: 100%;
     top: 0;
     z-index: -3;
