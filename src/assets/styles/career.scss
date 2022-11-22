@@ -20,6 +20,7 @@
     width: 250px;
     font-family: "gill sans", sans-serif !important;
     letter-spacing: 0.2vw;
+    height: 3rem;
   }
   .career-choosefile-text {
     font-size: 7pt;
@@ -40,7 +41,7 @@
   }
   .land-label {
     font-size: 15px;
-    margin-top: 1vh;
+    // margin-top: 1vh;
   }
 
   .land-form {
@@ -94,7 +95,7 @@
 
   .text-header {
     font-size: 12pt;
-    font-family: "gill sans", 'regular' !important;
+    font-family: "gill sans", "regular" !important;
     letter-spacing: 0.2vw;
     color: #283a97;
     text-align: center;

@@ -9,63 +9,137 @@
 *
 */
 
-
-.--subtitle {
-  width: 100%;
-  text-align: center !important;
-  font-family: "gill sans light", sans-serif !important;
-  color: #283a97;
-  letter-spacing: 0.15vw;
-}
-.tac {
-  margin-bottom: 15px !important;
-}
-.--subContent {
-  width: 100%;
-  text-align: center;
-  margin-top: 8%;
-}
-
-
-.textBody {
-  width: 100%;
-  color: white;
-  letter-spacing: 0.2vw;
-  padding-bottom: 20vh;
-}
-
-.textBodyTitle {
-  text-align: left;
-  font-size: 12pt !important;
-  margin-bottom: 10vh;
-}
-
-.bodyContent {
-  line-height: 3;
-  letter-spacing: 0.2vw;
-}
-
-.separator {
-  margin-top: 7vh;
-  margin-bottom: 7vh;
-}
-
-.--subContent {
-  width: 100%;
-  text-align: center;
-  margin-top: 10vh;
-  line-height: 2;
-  letter-spacing: 0.2vw;
-  color: #283a97;
-}
-
-.modal-dialog {
-  max-width: 50vw;
-  margin: 5vw auto 2vw auto;
-}
-
 .--terms-of-service {
   position: relative;
+
+  .svg {
+    position: absolute;
+    z-index: 3;
+
+    &--1 {
+      top: -1%;
+      left: 0;
+
+      width: 40vw;
+    }
+
+    &--2 {
+      top: 0;
+      right: 0;
+
+      width: 20vw;
+    }
+
+    &--3 {
+      top: 35%;
+      right: 0;
+
+      width: 10vw;
+    }
+
+    &--4 {
+      top: 65%;
+      left: 0;
+
+      width: 10vw;
+    }
+  }
+
+  .--subtitle {
+    width: 100%;
+    text-align: center !important;
+    font-family: "gill sans light", sans-serif !important;
+    color: #283a97;
+    letter-spacing: 0.15vw;
+  }
+  .tac {
+    margin-bottom: 15px !important;
+  }
+  .--subContent {
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
+  }
+
+  .textBody {
+    width: 100%;
+    color: white;
+    letter-spacing: 0.2em;
+    padding-bottom: 30vw;
+    padding-top: 20vw;
+    position: relative;
+    font-size: 1.2rem;
+
+    &-bg {
+      position: absolute;
+      width: 100vw;
+      height: 90%;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+
+      background-color: #283a97;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 100%;
+        width: 100vw;
+        height: 40vw;
+
+        background: url("../images/termsofservice/svg-06.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100vw;
+      height: 30vw;
+
+      background: url("../images/termsofservice/svg-03.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left bottom;
+    }
+  }
+
+  .textBodyTitle {
+    text-align: left;
+    // font-size: 12pt !important;
+    margin-bottom: 10vh;
+    font-family: "gill sans medium", sans-serif !important;
+  }
+
+  .bodyContent {
+    line-height: 3;
+    font-family: "gill sans medium", sans-serif !important;
+  }
+
+  .separator {
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+  }
+
+  .--subContent {
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+    line-height: 2;
+    letter-spacing: 0.2vw;
+    color: #283a97;
+  }
+
+  .modal-dialog {
+    max-width: 50vw;
+    margin: 5vw auto 2vw auto;
+  }
 
   .--bg-1 {
     padding: 10vw 0 0 0;
@@ -162,6 +236,7 @@
     min-height: 80vw;
     width: 100%;
     position: relative;
+    margin-top: -10%;
 
     .--max {
       max-width: 100%;
@@ -335,7 +410,7 @@
 
   .header-bg {
     background: url("../images/termsofservice/Image-85.png") top -8vw center;
-    background-size: 105vw auto !important;
+    background-size: 110vw auto !important;
     background-repeat: no-repeat;
     background-attachment: scroll;
     transition: background 0.3s;
@@ -356,7 +431,7 @@
     overflow: hidden;
     z-index: -1;
 
-    &::before {
+    /* &::before {
       content: "";
       border-top: 27vw solid transparent;
       border-left: 100vw solid #283a97;
@@ -365,8 +440,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      
-    }
+    } */
   }
 
   @media (max-width: 1024px) {

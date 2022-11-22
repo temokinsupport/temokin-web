@@ -8,68 +8,158 @@
 |  Last update     : Oct 25 2022
 *
 */
-.gnopopd {
-  line-height: 1.5 !important;
-  margin: 0 !important;
-}
-
-
-.--subtitle {
-  width: 100%;
-  text-align: center !important;
-  font-family: "gill sans light", sans-serif !important;
-  color: #283a97;
-  letter-spacing: 0.15vw;
-}
-.tac {
-  margin-bottom: 15px !important;
-}
-.--subContent {
-  width: 100%;
-  text-align: center;
-  margin-top: 8%;
-}
-
-
-.textBodyPP {
-  width: 100%;
-  color: white;
-  letter-spacing: 0.2vw;
-}
-
-.textBodyTitle {
-  text-align: left;
-  font-size: 16pt !important;
-  margin-bottom: 7vh;
-  margin-top: 7vh;
-  font-family: "gill sans bold", sans-serif !important;
-}
-
-.bodyContent {
-  line-height: 3;
-  letter-spacing: 0.2vw;
-}
-
-.separator {
-  margin-top: 7vh;
-  margin-bottom: 7vh;
-}
-
-.--subContent {
-  width: 100%;
-  text-align: center;
-  margin-top: 10vh;
-  line-height: 2;
-  letter-spacing: 0.2vw;
-  color: #283a97;
-}
-
-.modal-dialog {
-  max-width: 50vw;
-  margin: 5vw auto 2vw auto;
-}
 
 .--privacy-policy {
+  .svg {
+    position: absolute;
+    z-index: 3;
+
+    &--1 {
+      top: -8%;
+      left: 0;
+
+      width: 15vw;
+    }
+
+    &--2 {
+      top: 0%;
+      right: 0;
+
+      width: 18vw;
+    }
+
+    &--3 {
+      top: 2%;
+      left: 0;
+
+      width: 16vw;
+    }
+
+    &--4 {
+      top: 30%;
+      right: 0;
+
+      width: 18vw;
+    }
+
+    &--5 {
+      top: 70%;
+      left: 0;
+
+      width: 14vw;
+    }
+
+    &--6 {
+      bottom: 8%;
+      right: 0;
+
+      width: 18vw;
+    }
+  }
+  .gnopopd {
+    line-height: 1.5 !important;
+    margin: 0 !important;
+  }
+
+  .--subtitle {
+    width: 100%;
+    text-align: center !important;
+    font-family: "gill sans light", sans-serif !important;
+    color: #283a97;
+    letter-spacing: 0.15vw;
+  }
+  .tac {
+    margin-bottom: 15px !important;
+  }
+  .--subContent {
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
+    font-size: 1.2rem;
+    font-family: "gill sans medium", sans-serif !important;
+    color: #676ab1 !important;
+  }
+
+  .textBodyPP {
+    width: 100%;
+    color: white;
+    letter-spacing: 0.2vw;
+    font-family: "gill sans medium", sans-serif !important;
+    padding-top: 6vw;
+    padding-bottom: 25vw;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100vw;
+      height: 30vw;
+
+      background: url("../images/privacypolicy/svg-5.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left bottom;
+    }
+
+    &-bg {
+      position: absolute;
+      width: 100vw;
+      height: 97%;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+
+      background-color: #283a97;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 100%;
+        width: 100vw;
+        height: 40vw;
+
+        background: url("../images/termsofservice/svg-06.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+      }
+    }
+  }
+
+  .textBodyTitle {
+    text-align: left;
+    font-size: 16pt !important;
+    margin-bottom: 7vh;
+    margin-top: 7vh;
+    font-family: "gill sans", sans-serif !important;
+  }
+
+  .bodyContent {
+    line-height: 3;
+    letter-spacing: 0.2vw;
+  }
+
+  .separator {
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+  }
+
+  .--subContent {
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+    line-height: 2;
+    letter-spacing: 0.2vw;
+    color: #283a97;
+  }
+
+  .modal-dialog {
+    max-width: 50vw;
+    margin: 5vw auto 2vw auto;
+  }
+
   position: relative;
 
   .--bg-1 {
@@ -162,7 +252,7 @@
   }
 
   .--bg-2 {
-    padding: 10vw 0 0 0;
+    padding: 20vw 0 0 0;
     min-height: 80vw;
     width: 100%;
     position: relative;
@@ -360,7 +450,7 @@
     overflow: hidden;
     z-index: -1;
 
-    &::before {
+    /*  &::before {
       content: "";
       border-top: 27vw solid transparent;
       border-left: 100vw solid #283a97;
@@ -369,8 +459,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      
-    }
+    } */
   }
 
   @media (max-width: 1024px) {

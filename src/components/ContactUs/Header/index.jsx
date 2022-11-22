@@ -57,7 +57,6 @@ export default function Header() {
               Address
             </h3>
             <p data-aos="zoom-in" data-aos-duration="1000" className="--desc">
-              Temokin Holdings Sdn Bhd (182413-M) <br />
               No.2, Jalan 15/48 A, <br />
               Sentul Raya Boulevard, <br />
               51000 Kuala Lumpur
@@ -76,7 +75,6 @@ export default function Header() {
             </h3>
             <p data-aos="zoom-in" data-aos-duration="1000" className="--desc">
               Tel: +603-40441111 <br />
-              Fax: +603-40418900
             </p>
           </Col>
           <Col md={4}>

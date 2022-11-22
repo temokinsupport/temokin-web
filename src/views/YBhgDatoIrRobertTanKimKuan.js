@@ -54,7 +54,7 @@ const YBhgDatoIrRobertTanKimKuan = () => {
                       <Row>
                         <Col md={5}>
                           <Name>
-                            DATA' IR. TAN KIM KUAN <br />
+                            DATO' IR. TAN KIM KUAN <br />
                             (ROBERT)
                           </Name>
                           <Line />
