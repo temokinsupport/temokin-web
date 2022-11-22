@@ -40,7 +40,10 @@ export default function Header() {
       <Container>
         <Row className="justify-content-center">
           <Col md={12} className="text-center mt-5 pt-5">
-           <Image className="--home-temokin-img" src={require('../../../assets/images/home/Group 833.png').default} />
+            <Image
+              className="--home-temokin-img"
+              src={require("../../../assets/images/home/Group 833.png").default}
+            />
           </Col>
         </Row>
       </Container>
