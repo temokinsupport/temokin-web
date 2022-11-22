@@ -8,6 +8,47 @@
 |  Last update     : June 25 2021
 *
 */
+
+@keyframes load {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    left: 30%;
+    opacity: 0;
+  }
+
+  100% {
+    left: 50%;
+    opacity: 1;
+  }
+}
+
+@keyframes revealbg {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .lineParent {
   overflow: hidden;
 }
@@ -33,6 +74,77 @@
     display: flex;
     align-items: flex-start;
     min-height: 50vw;
+
+    .load {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      min-height: 80vh;
+
+      display: grid;
+      place-content: center;
+
+      animation-fill-mode: both;
+      animation-delay: 1s;
+      animation-duration: 3s;
+      animation-name: load;
+      animation-iteration-count: 1;
+    }
+
+    .hero {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 130vh;
+      z-index: -1;
+
+      display: grid;
+      place-content: center;
+
+      background: white;
+      width: 100vw;
+      position: absolute;
+
+      & > * {
+        grid-row: 1/2;
+        grid-column: 1/2;
+      }
+
+      &-bg {
+        width: 100%;
+        opacity: 1;
+
+        animation-fill-mode: backwards;
+        animation-delay: 4s;
+        animation-duration: 2s;
+        animation-name: slidein;
+        animation-iteration-count: 1;
+      }
+
+      h1 {
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%, -100%);
+
+        font-family: "gill sans", sans-serif !important;
+        text-transform: uppercase;
+        line-height: 1.5em;
+        letter-spacing: 0.2em;
+        font-size: 2vw;
+        color: #283a97;
+        text-align: center;
+
+        animation-fill-mode: backwards;
+        animation-delay: 4s;
+        animation-duration: 2s;
+        animation-name: slidein;
+        animation-iteration-count: 1;
+      }
+    }
+
     .--home-temokin-img {
       width: 25vw;
       margin-top: 18vh;

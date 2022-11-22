@@ -37,16 +37,21 @@ export default function Header() {
   return (
     <section className="--header" data-scroll-section>
       <Navigation />
-      <Container>
-        <Row className="justify-content-center">
-          <Col md={12} className="text-center mt-5 pt-5">
-            <Image
-              className="--home-temokin-img"
-              src={require("../../../assets/images/home/Group 833.png").default}
-            />
-          </Col>
-        </Row>
-      </Container>
+      <div className="load">
+        <Image
+          className="--home-temokin-img"
+          src={require("../../../assets/images/home/Group 833.png").default}
+        />
+      </div>
+      <div className="hero">
+        <h1>
+          Winning <br /> your trust <br /> everytime
+        </h1>
+        <Image
+          className="hero-bg"
+          src={require("../../../assets/images/home/Page1_BG.png").default}
+        />
+      </div>
       {/* <div className="hero-container">
         <LazyLoadImage
           src={require("../../../assets/images/home/Home_BG-01.png").default}
