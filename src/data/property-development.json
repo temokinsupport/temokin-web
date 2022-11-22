@@ -3,6 +3,7 @@
     "name": "mahligai",
     "title": "MAHLIGAI AT NUSA DAMAI 2 & 2.5 STOREY HOUSING, JOHOR",
     "background": "carousel/mahligai.png",
+    "hero": "/propertydevelopment/mahligai.png",
     "description": "Mahilgai at Nusa Damai consists of 163 landed houses in the already-mature neighborhood of Masai in Johor",
     "client": "RM100 million ",
     "value": "RM100 million ",
@@ -20,14 +21,14 @@
     },
     "related": [
       {
-        "image": "/tropicana-miyu.png",
+        "image": "/propertydevelopment/related/tropicana-miyu.png",
         "name": "TROPICANA MIYU, PETALING JAYA",
-        "path": "/tropicana-miyu"
+        "path": "/property-development/tropicana-miyu"
       },
       {
-        "image": "/diami.png",
+        "image": "/propertydevelopment/related/diami.png",
         "name": "DIAMI",
-        "path": "/diami"
+        "path": "/property-development/diami"
       }
     ]
   },
@@ -35,6 +36,7 @@
     "name": "diami",
     "title": "DIAMI",
     "background": "carousel/diami.png",
+    "hero": "/propertydevelopment/related/diami.png",
     "description": "The classic interplays with the modern in the verdant hills of Taman Melati. Overlooking the grand expanses of Bukit Tabur and the Kemensah Reserve, Diami 4 and 5 storey superlink terrace homes is an opportunity to indulge beyond the basics and an expression of your passion for tasteful living.",
     "value": "RM48 million",
     "period": "September 2021 to ongoing",
@@ -45,12 +47,14 @@
     },
     "related": [
       {
-        "image": "/tropicana-miyu.png",
-        "path": "/tropicana-miyu"
+        "image": "/propertydevelopment/related/tropicana-miyu.png",
+        "name": "TROPICANA MIYU, PETALING JAYA",
+        "path": "/property-development/tropicana-miyu"
       },
       {
-        "image": "/diami.png",
-        "path": "/diami"
+        "image": "/propertydevelopment/related/mahligai.png",
+        "name": "MAHLIGAI AT NUSA DAMAI",
+        "path": "/property-development/mahligai"
       }
     ]
   },
@@ -58,6 +62,7 @@
     "name": "tropicana-miyu",
     "title": "TROPICANA MIYU, PETALING JAYA",
     "background": "carousel/tropicana.png",
+    "hero": "/propertydevelopment/related/tropicana-miyu.png",
     "description": "Envisioning itself as being a perfect home for individuals and their loved one, Tropicana Miyu which means A Place For Me and You, clearly blends modern conveniences with traditionalism so that the older and younger generation can pursue their lifestyle choices at the very best.",
     "value": "RM261 million",
     "period": "September 2020 to ongoing",
@@ -78,12 +83,14 @@
     },
     "related": [
       {
-        "image": "/tropicana-miyu.png",
-        "path": "/tropicana-miyu"
+        "image": "/propertydevelopment/related/diami.png",
+        "name": "DIAMI",
+        "path": "/property-development/diami"
       },
       {
-        "image": "/diami.png",
-        "path": "/diami"
+        "image": "/propertydevelopment/related/mahligai.png",
+        "name": "MAHLIGAI AT NUSA DAMAI",
+        "path": "/property-development/mahligai"
       }
     ]
   }

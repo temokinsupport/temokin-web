@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useMediaQuery } from "react-responsive";
 import { Carousel, Button, Image } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
@@ -44,8 +44,8 @@ export default function CarouselDev() {
         },
       ],
       links: {
-        project: "/mahilgai",
-        website: "/mahilgai",
+        project: "/mahligai",
+        website: "/mahligai",
       },
     },
     {
@@ -79,7 +79,7 @@ export default function CarouselDev() {
         },
       ],
       links: {
-        project: "/tropicana",
+        project: "tropicana-miyu",
         website: "",
       },
     },
@@ -88,6 +88,10 @@ export default function CarouselDev() {
   const controlCarousel = (index) => {
     setCarouselIndex(index);
   };
+
+  useEffect(() => {
+    console.log(carouselIndex);
+  }, [carouselIndex]);
 
   return (
     <div className="--bg-2" data-scroll-section>
@@ -108,7 +112,6 @@ export default function CarouselDev() {
       {isTablet && (
         <Carousel
           className="overlay-carousel"
-          interval={null}
           activeIndex={carouselIndex}
           onSelect={controlCarousel}
           onSlide={controlCarousel}
@@ -117,7 +120,9 @@ export default function CarouselDev() {
           {carousel.map((item, index) => {
             return (
               <Carousel.Item
-                className={`${index === carouselIndex ? "active" : ""}`}
+                className={`${index} ${carouselIndex} ${
+                  index === carouselIndex
+                }`}
               >
                 <img
                   className="d-block w-100"
@@ -189,7 +194,7 @@ export default function CarouselDev() {
                     {item.links.project ? (
                       <NavLink
                         className="--btn-view-project"
-                        to="/property-development/istana-negara"
+                        to={`/property-development${item.links.project}`}
                       >
                         View Project
                       </NavLink>
@@ -197,7 +202,7 @@ export default function CarouselDev() {
                     {item.links.website ? (
                       <NavLink
                         className="--btn-view-project"
-                        to="/property-development/istana-negara"
+                        to={item.links.website}
                       >
                         View Website
                       </NavLink>

@@ -11,6 +11,7 @@ import LandAcquisition from "./views/LandAcquisition";
 import LicensesAndRegistrations from "./views/LicensesAndRegistrations";
 import PorpertyDevelopment from "./views/PorpertyDevelopment";
 import PropertyDevelopmentProject from "./views/PropertyDevelopmentProject";
+import BuildingProject from "./views/BuildingProjects";
 import CivilEngineering from "./views/CivilEngineering";
 import ContactUs from "./views/ContactUs";
 import YmRajaDatoAzwaneBinRajaAriff from "./views/YmRajaDatoAzwaneBinRajaAriff";
@@ -88,6 +89,11 @@ export default function App() {
                   exact
                   path="/property-development/:name"
                   component={PropertyDevelopmentProject}
+                />
+                <Route
+                  exact
+                  path="/building/:name"
+                  component={BuildingProject}
                 />
                 <Route exact path="/contact-us" component={ContactUs} />
                 <Route

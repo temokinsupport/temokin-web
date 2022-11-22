@@ -10,7 +10,7 @@
 */
 .--property-development {
   position: relative;
-  &::after {
+  /* &::after {
     content: "";
     position: absolute;
     top: unset;
@@ -25,7 +25,7 @@
     background-size: 27.5vw auto;
     background-repeat: no-repeat;
     z-index: 2;
-  }
+  } */
   .--bg-1 {
     // padding: 10vw 0 0 0;
     min-height: 60vw;
@@ -80,6 +80,8 @@
         position: absolute;
         bottom: 0;
         left: 0;
+
+        pointer-events: none;
       }
     }
 

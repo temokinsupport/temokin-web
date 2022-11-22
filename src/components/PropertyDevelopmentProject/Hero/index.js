@@ -11,14 +11,16 @@ const Hero = ({ projectData }) => {
           <div className="--project-details">
             <Row className="justify-content-center">
               <Col xs={10}>
-                <Image
-                  className="d-block"
-                  src={
-                    require("../../../assets/images/propertydevelopment/PropertyDev_IMG-Istana.png")
-                      .default
-                  }
-                  alt="First slide"
-                />
+                {projectData.hero ? (
+                  <Image
+                    className="d-block"
+                    src={
+                      require(`../../../assets/images${projectData.hero}`)
+                        .default
+                    }
+                    alt="First slide"
+                  />
+                ) : null}
               </Col>
             </Row>
             <div className="--about-content">
