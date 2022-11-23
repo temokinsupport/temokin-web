@@ -82,7 +82,7 @@ export default function Licenses() {
           {licenses.map((license) => {
             return (
               <Row className="license justify-content-center align-items-center">
-                <Col xs={2}>
+                <Col sm={12} md={2} className="mobile-view-text">
                   <Image
                     className="license__image me-2"
                     fluid
@@ -92,7 +92,7 @@ export default function Licenses() {
                     }
                   />
                 </Col>
-                <Col xs={{span: 6, offset: 1}}>
+                <Col sm={12} md={{span: 6, offset: 1}} className="mobile-view-text">
                   <div className="license__content">
                     {license.descriptions.map((description) => {
                       if (description.type === "name") {
