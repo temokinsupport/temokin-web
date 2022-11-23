@@ -172,7 +172,7 @@ export default function Featured() {
                       </NavLink>
                     </Carousel.Caption>
                   </Carousel.Item>
-                  {/* <Carousel.Item>
+                  <Carousel.Item>
                       <img
                         className="d-block w-50"
                         src={require('../../../assets/images/home/Mask Group 65.jpg').default}
@@ -182,8 +182,8 @@ export default function Featured() {
                       <h3>PROPERTY DEVELOPMENT</h3>
                         <p> Temokin has a collective property development experience of over 50 years, having designed and built complex skycrapers, hospitals and vast modern retail spaces on behalf of our clients. Our current portfolio includes the building of high-quality duplex homes and the new Istana Negara (Malaysia's national palace).</p>
                         <NavLink to="/property-development" variant="light" className="--btn-check-our-work">CHECK OUT OUR WORK</NavLink>
-                      </Carousel.Caption> */}
-                  {/* </Carousel.Item> */}
+                      </Carousel.Caption>
+                  </Carousel.Item>
                 </Carousel>
               </div>
             )}
@@ -207,6 +207,13 @@ export default function Featured() {
       />
       <div
         className="overlay-white"
+        data-scroll
+        data-scroll-speed="5"
+        data-scroll-direction="horizontal"
+        data-scroll-delay="0.5"
+      />
+      <div
+        className="overlay-white2"
         data-scroll
         data-scroll-speed="5"
         data-scroll-direction="horizontal"
