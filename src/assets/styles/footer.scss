@@ -94,10 +94,12 @@
       flex-direction: column;
       a {
         &.--logo {
+          align-self: center;
           img {
             height: auto;
             width: 200px;
-            margin-bottom: 25px;
+            margin-right: 0px !important;
+            margin-bottom: 5vh;
           }
         }
       }
@@ -119,7 +121,8 @@
       }
     }
     .--right-container {
-      align-items: flex-start;
+      margin-top: 5vh;
+      align-items: center;
       p {
         font-size: 1em;
       }

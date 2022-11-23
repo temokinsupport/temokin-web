@@ -483,6 +483,9 @@
       }
     }
     .--launches-details {
+      .--desc-mobile {
+        display: none;
+      }
       height: 25.5vw;
       padding-left: 5vw;
       display: flex;
@@ -744,7 +747,7 @@
             position: relative;
             right: unset;
             left: unset;
-            margin-top: 8vw;
+            margin-top: 10vw;
             h3 {
               font-size: 1.1em;
               margin-bottom: 4.5vw;
@@ -828,7 +831,7 @@
       }
       img {
         &.--img {
-          width: 70vw;
+          width: 90vw;
           object-fit: contain;
           object-position: 0 0;
           height: unset;
@@ -911,7 +914,7 @@
         .--title {
           font-size: 1.2em;
           line-height: 1.6;
-          margin: 0 0 10vw 0;
+          margin: 7vw 0 10vw 0;
         }
       }
     }
@@ -938,6 +941,7 @@
       }
       .--title {
         margin-bottom: 55px;
+        margin-top: 2vw;
       }
       img {
         width: 120px;
@@ -977,7 +981,7 @@
       display: flex;
       text-align: center;
       margin: 0 !important;
-      padding-top: 10vh;
+      padding-top: 15vh;
       li {
         height: 20px;
         width: 20px;
@@ -985,7 +989,7 @@
         border: 1px solid #ffffff;
         background-color: transparent;
         transition: background-color 0.5s;
-        margin: 0 0 0 3vw;
+        margin: 4vw 0 0 3vw;
         cursor: pointer;
 
         &.active {
@@ -1009,7 +1013,7 @@
     }
     .--bg-2 {
       background-color: #283a97;
-      padding-bottom: 10vh;
+      padding-bottom: 20vh;
     }
     .overlay-blue::before {
       height: 20vw;
@@ -1030,7 +1034,7 @@
     }
         .overlay-white2 {
           height: 24vw;
-          top: 94%;
+          top: 96%;
           left: -30vw;
     
           &::before {
@@ -1085,6 +1089,13 @@
         clip-path: none !important;
       }
       .--launches-details {
+        .--desc-mobile {
+          display: block;
+          font-size: 3.3vw;
+        }
+        .--desc {
+          display: none;
+        }
         width: 80vw;
         grid-template-areas: unset !important;
         grid-template-columns: 26vw 1fr;
@@ -1157,7 +1168,7 @@
     }
     
     .--container-3 {
-      top: 24vh !important;
+      top: 25vh !important;
     }
     button.carousel-control-next {
       display: none !important;

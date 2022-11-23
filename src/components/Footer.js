@@ -52,7 +52,7 @@ function Footer() {
                     }
                     width="30"
                     height="30"
-                    className="me-5 d-inline-block align-top"
+                    className="me-md-5 md-sm-0 d-inline-block align-top"
                   />
                 </a>
               </div>

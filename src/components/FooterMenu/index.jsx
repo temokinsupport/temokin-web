@@ -31,7 +31,7 @@ export default function FooterMenu() {
                     src="/insta-icon.png"
                     width="30"
                     height="30"
-                    className="me-5 d-inline-block align-top"
+                    className="me-md-5 me-sm-0 d-inline-block align-top"
                   />{" "}
                 </div>
               </div>

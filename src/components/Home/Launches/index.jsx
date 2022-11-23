@@ -26,6 +26,12 @@ export default function Launches() {
                                 fencing and 24-hour security, nestled in the growing township of <br/>
                                 Nusa Damai with all the features to call it your ideal home.
                             </p>
+                            <p className="--desc-mobile">
+                                Mahligai offers spacious yet affordable terrace homes <br/>
+                                with perimeter fencing and 24-hour security, nestled <br/>
+                                in the growing township of Nusa Damai with all the <br/>
+                                features to call it your ideal home.
+                            </p>
                         </div>
                     </Col>
                 </Row>
