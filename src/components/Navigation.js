@@ -80,6 +80,8 @@ function Navigation() {
   }, [isMobile]);
 
   const [open, setOpen] = useState(false);
+  const [openAbout, setOpenAbout] = useState(false);
+  const [openConstruction, setOpenConstruction] = useState(false);
 
   const setNavLinkHoverState = (link, isActive) => {
     setHovered((prevState) => ({
@@ -100,7 +102,13 @@ function Navigation() {
     <Navbar expand="lg" className="--navigation">
       <NavLink data-scroll exact to="/" className="--logo">
         <img
+          className="web-logo"
           src={require("../assets/images/home/Group 833.png").default}
+          alt="logo"
+        />
+        <img
+          className="mobile-logo"
+          src={require("../assets/images/mobile/home/Group 838@3x.png").default}
           alt="logo"
         />
       </NavLink>
@@ -110,7 +118,9 @@ function Navigation() {
         onClick={() => setOpen(!open)}
         aria-controls="basic-navbar-nav"
         aria-expanded={open}
-        className={`navbar-toggler ${isMobile ? "" : "hide"}`}
+        className={` ${isMobile ? "" : "hide"}  ${
+          open ? "navbar-toggler-close" : "navbar-toggler"
+        } `}
         data-scroll
       />
 
@@ -123,6 +133,7 @@ function Navigation() {
           <li>
             <NavLink
               exact
+              className="--mobile-nav-text"
               to="/"
               onClick={() => setOpen(!open)}
               aria-controls="basic-navbar-nav"
@@ -131,111 +142,147 @@ function Navigation() {
               Home
             </NavLink>
           </li>
-          <li>
-            <p className="static_nav">ABOUT TEMOKIN</p>
-          </li>
-          <li>
-            <NavLink
-              exact
-              to="/about-temokin"
-              onClick={() => setOpen(!open)}
-              aria-controls="basic-navbar-nav"
-              aria-expanded={open}
-              className="dynamic_nav"
+          <li onClick={() => setOpenAbout(!openAbout)} className="w-100 ">
+            <p
+              onClick={() => setOpenAbout(!openAbout)}
+              className="static_nav w-100 "
             >
-              About Us
-            </NavLink>
+              ABOUT TEMOKIN
+            </p>
+            <span
+              onClick={() => setOpenAbout(!openAbout)}
+              className={`${openAbout ? "openNav" : "closeNav"}`}
+            ></span>
           </li>
-          <li>
-            <NavLink
-              exact
-              to="/team-leaders"
-              onClick={() => setOpen(!open)}
-              aria-controls="basic-navbar-nav"
-              aria-expanded={open}
-              className="dynamic_nav"
+          <Collapse
+            in={openAbout}
+            data-scroll
+            className={`navbar-collapse w-100  ${isMobile ? "" : "hide"}`}
+          >
+            <div>
+              <li>
+                <NavLink
+                  exact
+                  to="/about-temokin"
+                  onClick={() => setOpenAbout(!open)}
+                  aria-controls="basic-navbar-nav"
+                  aria-expanded={open}
+                  className="dynamic_nav --mobile-nav-text"
+                >
+                  About Us
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink
+                  exact
+                  to="/team-leaders"
+                  onClick={() => setOpen(!open)}
+                  aria-controls="basic-navbar-nav"
+                  aria-expanded={open}
+                  className="dynamic_nav --mobile-nav-text"
+                >
+                  Team Leaders
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  exact
+                  to="/awards-and-achievements"
+                  onClick={() => setOpen(!open)}
+                  aria-controls="basic-navbar-nav"
+                  aria-expanded={open}
+                  className="dynamic_nav --mobile-nav-text"
+                >
+                  Awards & Achievements
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  exact
+                  to="/licenses-and-registrations"
+                  onClick={() => setOpen(!open)}
+                  aria-controls="basic-navbar-nav"
+                  aria-expanded={open}
+                  className="dynamic_nav --mobile-nav-text"
+                >
+                  Licenses & Registrations
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  exact
+                  to="/other-business-ventures"
+                  onClick={() => setOpen(!open)}
+                  aria-controls="basic-navbar-nav"
+                  aria-expanded={open}
+                  className="dynamic_nav --mobile-nav-text"
+                >
+                  Other Business Ventures
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  exact
+                  to="/land-acquisition"
+                  onClick={() => setOpen(!open)}
+                  aria-controls="basic-navbar-nav"
+                  aria-expanded={open}
+                  className="dynamic_nav --mobile-nav-text"
+                >
+                  Land Acquisition
+                </NavLink>
+              </li>
+            </div>
+          </Collapse>
+          <li onClick={() => setOpenConstruction(!openConstruction)}>
+            <p
+              onClick={() => setOpenConstruction(!openConstruction)}
+              className="static_nav w-100 "
             >
-              Team Leaders
-            </NavLink>
+              CONSTRUCTION
+            </p>
+            <span
+              onClick={() => setOpenConstruction(!openConstruction)}
+              className={`${openConstruction ? "openNav" : "closeNav"}`}
+            ></span>
           </li>
+          <Collapse
+            in={openConstruction}
+            data-scroll
+            className={`navbar-collapse w-100  ${isMobile ? "" : "hide"}`}
+          >
+            <div>
+              <li>
+                <NavLink
+                  exact
+                  to="/building"
+                  onClick={() => setOpen(!open)}
+                  aria-controls="basic-navbar-nav"
+                  aria-expanded={open}
+                  className="dynamic_nav --mobile-nav-text"
+                >
+                  Building
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  exact
+                  to="/civil-engineering"
+                  onClick={() => setOpen(!open)}
+                  aria-controls="basic-navbar-nav"
+                  aria-expanded={open}
+                  className="dynamic_nav --mobile-nav-text"
+                >
+                  Civil Engineering
+                </NavLink>
+              </li>
+            </div>
+          </Collapse>
           <li>
             <NavLink
               exact
-              to="/awards-and-achievements"
-              onClick={() => setOpen(!open)}
-              aria-controls="basic-navbar-nav"
-              aria-expanded={open}
-              className="dynamic_nav"
-            >
-              Awards & Achievements
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              exact
-              to="/licenses-and-registrations"
-              onClick={() => setOpen(!open)}
-              aria-controls="basic-navbar-nav"
-              aria-expanded={open}
-              className="dynamic_nav"
-            >
-              Licenses & Registrations
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              exact
-              to="/other-business-ventures"
-              onClick={() => setOpen(!open)}
-              aria-controls="basic-navbar-nav"
-              aria-expanded={open}
-              className="dynamic_nav"
-            >
-              Other Business Ventures
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              exact
-              to="/land-acquisition"
-              onClick={() => setOpen(!open)}
-              aria-controls="basic-navbar-nav"
-              aria-expanded={open}
-              className="dynamic_nav"
-            >
-              Land Acquisition
-            </NavLink>
-          </li>
-          <li>
-            <p className="static_nav">CONSTRUCTION</p>
-          </li>
-          <li>
-            <NavLink
-              exact
-              to="/building"
-              onClick={() => setOpen(!open)}
-              aria-controls="basic-navbar-nav"
-              aria-expanded={open}
-              className="dynamic_nav"
-            >
-              Building
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              exact
-              to="/civil-engineering"
-              onClick={() => setOpen(!open)}
-              aria-controls="basic-navbar-nav"
-              aria-expanded={open}
-              className="dynamic_nav"
-            >
-              Civil Engineering
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              exact
+              className="--mobile-nav-text"
               to="/property-development"
               onClick={() => setOpen(!open)}
               aria-controls="basic-navbar-nav"
@@ -247,12 +294,25 @@ function Navigation() {
           <li>
             <NavLink
               exact
+              className="--mobile-nav-text"
               to="/contact-us"
               onClick={() => setOpen(!open)}
               aria-controls="basic-navbar-nav"
               aria-expanded={open}
             >
               Contact Us
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              exact
+              className="--mobile-nav-text"
+              to="/career"
+              onClick={() => setOpen(!open)}
+              aria-controls="basic-navbar-nav"
+              aria-expanded={open}
+            >
+              Career
             </NavLink>
           </li>
         </Nav>

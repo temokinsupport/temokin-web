@@ -94,7 +94,7 @@
             &.active {
               color: #ffffff !important;
               transition: color 0.3s;
-              font-weight: 600;
+              font-weight: bold;
             }
           }
         }
@@ -157,7 +157,51 @@
       display: none !important;
     }
   }
+  .openNav {
+    border: 0 !important;
+    background: url("../images/mobile/home/up-chevron@3x.png");
+    background-size: 15px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    span {
+      display: none;
+    }
+  }
+  .closeNav {
+    border: 0 !important;
+    background: url("../images/mobile/home/down-chevron@3x.png");
+    background-size: 15px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    margin-bottom: 16px;
+    cursor: pointer;
 
+    span {
+      display: none;
+    }
+  }
+  .navbar-toggler-close {
+    border: 0 !important;
+    background: url("../images/mobile/home/close@3x.png");
+    background-size: 18px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    outline: 0 !important;
+    box-shadow: none !important;
+    margin: 2.6vw 5.4vw 2vw 0 !important;
+    cursor: pointer;
+    span {
+      display: none;
+    }
+  }
   .navbar-toggler {
     border: 0 !important;
     background: url("../images/mobile/Temokin_MobileVer_Icon-01.png");
@@ -183,6 +227,9 @@
     }
   }
   @media (max-width: 1000px) {
+    .dynamic_nav {
+      padding-left: 5vw !important;
+    }
     position: absolute !important;
     width: 100%;
     padding: 0 !important;
@@ -241,12 +288,9 @@
     .static_nav {
       text-align: left;
       width: 100%;
-      font-family: "gill sans", sans-serif;
+      font-family: "gill sans light", sans-serif;
     }
-    .dynamic_nav {
-      padding-left: 10vw !important;
-      
-    }
+    
     .navbar-nav {
       li {
         a {
