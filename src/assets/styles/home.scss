@@ -747,6 +747,7 @@
             position: relative;
             right: unset;
             left: unset;
+            white-space: break-spaces;
             margin-top: 10vw;
             h3 {
               font-size: 1.1em;
@@ -756,7 +757,7 @@
             }
             p {
               font-size: 0.875em;
-              letter-spacing: 0.2vw;
+              letter-spacing: 0.1vw !important;
               font-family: "gill sans medium", sans-serif;
               br {
                 display: none;
@@ -924,12 +925,12 @@
       &::before {
         content: "";
         position: absolute;
-        top: 0;
-        left: 0;
+        top: -10vh;
+        left: -27vh;
         bottom: 0;
         right: 0;
         background: url("../images/mobile/home/Page3_BG.png") top left;
-        background-size: 225% 100%;
+        background-size: 197% 100%;
         background-repeat: no-repeat;
         background-attachment: scroll;
         padding: 100px 0;
