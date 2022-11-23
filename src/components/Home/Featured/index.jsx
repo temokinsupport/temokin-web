@@ -146,14 +146,13 @@ export default function Featured() {
                     />
                     <Carousel.Caption>
                       <h3>CONSTRUCTION</h3>
-                      <p>
-                        From its humble beginnings as a high-quality pipe
-                        jacking specialist, Temokin led the <br />
-                        way with Malaysia's first microtunnelling project and
-                        has since expanded into the <br />
-                        building of electricity substations, major underground
-                        sewage lines, complex <br />
-                        bridges and major highways.
+                      <p className="--font-normal">
+                        From its humble beginnings as a high-quality pipe <br />
+                        jacking specialist, Temokin led the way with <br />
+                        Malaysia's first microtunnelling project and has since<br />
+                        expanded into the building of electricity substations, <br />
+                        major underground sewage lines, complex bridges <br />
+                        and major highways.
                       </p>
                       <NavLink
                         to="/building"
