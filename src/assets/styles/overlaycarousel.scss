@@ -30,11 +30,10 @@
   }
 
   .carousel-item {
-    min-height: 100vh;
+    height: 0;
     position: relative;
-    height: 100%;
-    // display: flex;
     display: flex;
+
     justify-content: end;
     align-items: center;
     opacity: 0;
@@ -43,6 +42,7 @@
 
     &.true {
       opacity: 1;
+      height: 100%;
     }
   }
   .carousel-inner {
