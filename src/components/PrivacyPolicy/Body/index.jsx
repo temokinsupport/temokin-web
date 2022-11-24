@@ -262,11 +262,11 @@ export default class EmailUs extends React.Component {
                 * meeting any legal or regulatory requirements relating to our
                 provision of services and products and to make disclosure under
                 the requirements of any applicable law, regulation, direction,
-                court order, by-law, guidline, circular, code applicable to us
+                court order, by-law, guideline, circular, code applicable to us
                 or any member companies of TEMOKIN;
                 <br />
                 <br />
-                * for purpose relating to any of the above (include but not
+                * for purposes relating to any of the above (including but not
                 limited to research, benchmarking and statistical analysis);
                 <br />
                 <br />
@@ -274,9 +274,9 @@ export default class EmailUs extends React.Component {
                 telecommunication means (telephone cell or text messages) or
                 social media about products and services offered by selected
                 third parties that we think may interest you but in doing so we
-                maintain control over you Personal Data and we will not disclose
-                you Personal Data to such third parties without your prior
-                conset;
+                maintain control over your Personal Data and we will not
+                disclose you Personal Data to such third parties without your
+                prior consent;
                 <br />
                 <br />
                 * in relation to the property, for delivery of vacant
@@ -291,12 +291,12 @@ export default class EmailUs extends React.Component {
               </div>
               <div className="bodyContent">
                 Personal Data provided to us will generally be kept confidential
-                but you hereby conset and authorize us to provide or disclose
+                but you hereby consent and authorize us to provide or disclose
                 your Personal Data to the following categories of parties:
                 <br />
                 <br />
-                * amy person to whom we are compelled or required to do so under
-                law or in response to be a competent or goverment agency:
+                * any person to whom we are compelled or required to do so under
+                law or in response to be a competent or government agency:
                 <br />
                 <br />
                 * any other company within the TEMOKIN, including those
@@ -307,7 +307,7 @@ export default class EmailUs extends React.Component {
                 related services or products in connection with our business;
                 <br />
                 <br />
-                * goverment agencies, statutory authorities and industry
+                * government agencies, statutory authorities and industry
                 regulators;
                 <br />
                 <br />
@@ -328,7 +328,7 @@ export default class EmailUs extends React.Component {
               </div>
               <div className="bodyContent">
                 We shall keep and process your data in a secure manner. We
-                endeavour, where practicable, to implement the approrieate
+                endeavor, where practicable, to implement the appropriate
                 administrative and security safeguards and procedures in
                 accordance with the applicable laws and regulations to prevent
                 the unauthorized or unlawful processing of your Personal Data.
@@ -340,7 +340,7 @@ export default class EmailUs extends React.Component {
               <div className="bodyContent">
                 Where we consider it necessary or appropriate for the purpose of
                 data storage or processing or providing any service or product
-                on our behalf to you. we may transfer your Personal Data to
+                on our behalf to you, we may transfer your Personal Data to
                 other members of TEMOKIN or to any third-party service or
                 product providers [within or outside the country] which we have
                 established similar conditions of confidentiality and levels of
@@ -350,16 +350,16 @@ export default class EmailUs extends React.Component {
                 7. YOUR RIGHTS TO ACCESS AND CORRECTION
               </div>
               <div className="bodyContent">
-                You mamy request for access to, correction or deletion or not to
-                disclose your personal information or limit the proccessing
-                thereof (including perosnal data of others provide by you) at
+                You may request for access to, correction or deletion or not to
+                disclose your personal information or limit the processing
+                thereof (including personal data of others provided by you) at
                 any time hereafter by emailing us your written instruction to us
                 at the email address provided below.
                 <br />
                 <br />
                 Any inquiries or complaints with respect to your personal
                 information may also be channelled to us by submitting such
-                request to us via post. email or facsimile transimission to the
+                request to us via post. email or facsimile transmission to the
                 following: -
                 <br />
                 <br />
