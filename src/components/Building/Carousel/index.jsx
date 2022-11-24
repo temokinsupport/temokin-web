@@ -43,7 +43,7 @@ export default function CarouselIndex() {
       },
     },
     {
-      name: "MAHLIGAI AT NUSA DAMAI, 2 & 2.5 STOREY HOUSING, JOHOR",
+      name: "MAHLIGAI AT NUSA DAMAI, \n 2 & 2.5 STOREY HOUSING, JOHOR",
       background: "Group 879.jpg",
       client: "TEMOKIN Development Sdn. Bhd.",
       value: "RM100 million",

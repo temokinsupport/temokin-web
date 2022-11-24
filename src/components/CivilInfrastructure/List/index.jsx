@@ -228,7 +228,7 @@ export default function CivilInfrastructure() {
       <Image
         className="--right-1"
         src={
-          require("../../../assets/images/civilinfrastructure/right-1.png")
+          require("../../../assets/images/civilinfrastructure/right-1.svg")
             .default
         }
       />
@@ -250,7 +250,7 @@ export default function CivilInfrastructure() {
       <Image
         className="--right-5"
         src={
-          require("../../../assets/images/civilinfrastructure/right-5.png")
+          require("../../../assets/images/civilinfrastructure/right-5.svg")
             .default
         }
       />

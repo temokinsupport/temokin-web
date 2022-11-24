@@ -80,6 +80,21 @@
       z-index: 2;
       bottom: -2%;
     }
+
+    &--10 {
+      left: 0;
+      bottom: 0%;
+      width: 30%;
+      height: auto;
+      // z-index: 2;
+    }
+    &--11 {
+      left: 0;
+      bottom: -23%;
+      width: 30%;
+      height: auto;
+      z-index: 2;
+    }
   }
 
   &--building {
@@ -208,11 +223,12 @@
       align-items: flex-end;
 
       p {
-        width: 43%;
-        font-size: 2.1vw;
+        width: 31%;
+        font-size: 1.6vw;
         color: white;
         letter-spacing: 0.1em;
         line-height: 1.7em;
+        font-family: "gill sans medium", sans-serif !important;
       }
     }
   }

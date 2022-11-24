@@ -30,7 +30,7 @@ export default function CarouselDev() {
 
   const carousel = [
     {
-      name: "MAHILGAI AT NUSA DAMAI 2 & 2.5 STOREY HOUSING, JOHOR",
+      name: "MAHILGAI AT NUSA DAMAI \n 2 & 2.5 STOREY HOUSING, JOHOR",
       background: "carousel/mahligai.png",
       description:
         "Mahilgai at Nusa Damai consists of 163 landed houses in the already-mature neighborhood of Masai in Johor",
@@ -111,7 +111,7 @@ export default function CarouselDev() {
       />
       {isTablet && (
         <Carousel
-          interval={3000}
+          interval={null}
           className="overlay-carousel"
           activeIndex={carouselIndex}
           onSelect={controlCarousel}

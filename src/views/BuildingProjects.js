@@ -45,8 +45,6 @@ const BuildingProject = () => {
         return project.name === name;
       })
     );
-
-    console.log(projectData.name, projectData.name === "tropicana-cenang");
   }, []);
 
   useEffect(() => {
@@ -138,6 +136,22 @@ const BuildingProject = () => {
                 className="svg svg--2"
                 src={require("../assets/images/building/svg-2.svg").default}
               />
+              {projectData.name === "natl-camp" ? (
+                <>
+                  <Image
+                    className="svg svg--10"
+                    src={
+                      require("../assets/images/building/svg-16.svg").default
+                    }
+                  />
+                  <Image
+                    className="svg svg--11"
+                    src={
+                      require("../assets/images/building/svg-17.svg").default
+                    }
+                  />
+                </>
+              ) : null}
               <Hero projectData={projectData} />
             </section>
             {projectData.name === "tropicana-cenang" ? (
@@ -193,7 +207,8 @@ const BuildingProject = () => {
             )}
 
             <section className="related">
-              {projectData.name === "tropicana-cenang" ? null : (
+              {projectData.name === "tropicana-cenang" ||
+              projectData.name === "natl-camp" ? null : (
                 <Image
                   className="svg svg--7"
                   src={require("../assets/images/building/svg-6.svg").default}

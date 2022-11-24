@@ -85,7 +85,7 @@
     // display: table;
     display: flex;
     gap: 1rem;
-    align-items: center;
+    align-items: flex-start;
 
     .form-check-input {
       width: 1rem;
@@ -94,7 +94,7 @@
     }
 
     .form-check-label {
-      font-size: 0.5rem;
+      font-size: 0.8rem;
       letter-spacing: 0.2em;
       width: 80%;
       flex: 1;
@@ -102,6 +102,7 @@
   }
   .land-radio__row .land-check {
     font-size: 8pt;
+    align-items: flex-start;
   }
   .land-submit {
     width: 15vw;

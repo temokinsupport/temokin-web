@@ -7,7 +7,7 @@ export default function CivilInfrastructure() {
       <Image
         className="--right-3"
         src={
-          require("../../../assets/images/civilinfrastructure/right-3.png")
+          require("../../../assets/images/civilinfrastructure/right-3.svg")
             .default
         }
       />

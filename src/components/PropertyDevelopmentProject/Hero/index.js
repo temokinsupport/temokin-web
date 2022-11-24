@@ -52,7 +52,7 @@ const Hero = ({ projectData }) => {
                     ) : null}
                     {projectData.website ? (
                       <>
-                        <Label>Client</Label>
+                        <Label>Website</Label>
                         <Text>{projectData.website}</Text>
                       </>
                     ) : null}

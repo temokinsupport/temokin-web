@@ -39,6 +39,7 @@ export default function useLocoScroll(start) {
 
   useEffect(() => {
     console.log(!!locoScroll.current);
+
     if (!!locoScroll.current) {
       locoScroll.current.scrollTo("top", {
         offset: 0,
@@ -48,4 +49,20 @@ export default function useLocoScroll(start) {
       });
     }
   }, [location]);
+
+  useEffect(() => {
+    return () => {
+      console.log(location.pathname);
+      if (
+        location.pathname.includes("/building/") ||
+        location.pathname.includes("/property-development/")
+      ) {
+        setTimeout(() => {
+          if (!!locoScroll.current) {
+            locoScroll.current.destroy();
+          }
+        });
+      }
+    };
+  });
 }

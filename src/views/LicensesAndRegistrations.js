@@ -4,8 +4,8 @@ import "../assets/styles/licensesandregistrations.scss";
 import Header from "../components/LicensesAndRegistration/Header";
 import Licenses from "../components/LicensesAndRegistration/Licenses";
 import QualityAssurance from "../components/LicensesAndRegistration/QualityAssurance";
-// import FooterMenu from '../components/FooterMenu';
-import Footer from "../components/Footer";
+import FooterMenu from "../components/FooterMenu";
+// import Footer from "../components/Footer";
 
 const LicensesAndRegistrations = () => {
   const [preloader, setPreloader] = useState(true);
@@ -45,7 +45,7 @@ const LicensesAndRegistrations = () => {
           <Header />
           <Licenses />
           <QualityAssurance />
-          <Footer />
+          <FooterMenu />
         </div>
       }
     </>
