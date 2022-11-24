@@ -94,7 +94,7 @@ export default function Header() {
           </Col>
         </Row>
       </Container>
-      <div className="header-bg" data-scroll data-scroll-speed="-3" />
+      <div className="header-bg" />
       <div className="header-shapes" data-scroll data-scroll-speed="-1" />
     </div>
   );

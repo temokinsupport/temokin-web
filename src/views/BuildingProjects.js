@@ -42,10 +42,11 @@ const BuildingProject = () => {
 
     setProjectData(
       projects.find((project) => {
-        console.log(project.name, name);
         return project.name === name;
       })
     );
+
+    console.log(projectData.name, projectData.name === "tropicana-cenang");
   }, []);
 
   useEffect(() => {
@@ -62,6 +63,51 @@ const BuildingProject = () => {
       clear();
     }
   }, [timer]);
+
+  const buildingProjectMiddle = () => {
+    const middle = projectData.middle ? (
+      <section className="middle">
+        <Image
+          className="svg svg--3"
+          src={require("../assets/images/building/svg-3.svg").default}
+        />
+        <Image
+          className="svg svg--4"
+          src={require("../assets/images/building/svg-4.svg").default}
+        />
+        <div className="middle__polygon-image">
+          <Image
+            src={require(`../assets/images${projectData.middle}`).default}
+          />
+        </div>
+        <div className="middle__caption">
+          <p>{projectData.caption}</p>
+        </div>
+      </section>
+    ) : null;
+
+    return middle;
+  };
+
+  const buildingProjectCarousel = () => {
+    const carousel = projectData.carousel ? (
+      <section className="preview">
+        <Image
+          className="svg svg--5"
+          src={require("../assets/images/building/svg-5.svg").default}
+        />
+        <Image
+          className="svg svg--6"
+          src={require("../assets/images/building/svg-7.svg").default}
+        />
+        <div className="preview-carousel__container">
+          <PreviewCarousel slides={projectData.carousel} />
+        </div>
+      </section>
+    ) : null;
+
+    return carousel;
+  };
 
   return (
     <>
@@ -94,7 +140,55 @@ const BuildingProject = () => {
               />
               <Hero projectData={projectData} />
             </section>
-            {projectData.middle ? (
+            {projectData.name === "tropicana-cenang" ? (
+              <section className="middle middle--tropicana-senang middle--tropicana-cenang--1">
+                <Image
+                  className="svg svg--3"
+                  src={require("../assets/images/building/svg-3.svg").default}
+                />
+                <Image
+                  className="svg svg--4"
+                  src={require("../assets/images/building/svg-4.svg").default}
+                />
+                <div className="middle__polygon-image">
+                  <Image
+                    src={
+                      require(`../assets/images/building/tropicana-middle-1.png`)
+                        .default
+                    }
+                  />
+                </div>
+              </section>
+            ) : (
+              buildingProjectMiddle()
+            )}
+            {projectData.name === "tropicana-cenang" ? (
+              <section className="middle middle--tropicana-cenang middle--tropicana-cenang--2">
+                <Image
+                  className="svg svg--5"
+                  src={require("../assets/images/building/svg-12.svg").default}
+                />
+                <Image
+                  className="svg svg--6"
+                  src={require("../assets/images/building/svg-14.svg").default}
+                />
+                <div className="middle__polygon-image">
+                  <Image
+                    src={
+                      require(`../assets/images/building/tropicana-middle-2.png`)
+                        .default
+                    }
+                  />
+                </div>
+                <div className="middle__caption">
+                  <p>{projectData.caption}</p>
+                </div>
+              </section>
+            ) : (
+              buildingProjectCarousel()
+            )}
+
+            {/* {projectData.middle ? (
               <section className="middle">
                 <Image
                   className="svg svg--3"
@@ -130,7 +224,7 @@ const BuildingProject = () => {
                   <PreviewCarousel slides={projectData.carousel} />
                 </div>
               </section>
-            ) : null}
+            ) : null} */}
 
             <section className="related">
               <Image

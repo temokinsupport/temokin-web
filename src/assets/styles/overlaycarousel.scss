@@ -12,6 +12,7 @@
   min-height: 100vh;
 
   &--building {
+    min-height: unset;
     .carousel-caption {
       .--bottom-detail {
         position: relative;
@@ -27,10 +28,14 @@
         }
       }
     }
+
+    .carousel-indicators {
+      top: 5vw !important;
+    }
   }
 
   .carousel-item {
-    height: 0;
+    height: 100vh;
     position: relative;
     display: flex;
 
@@ -42,7 +47,7 @@
 
     &.true {
       opacity: 1;
-      height: 100%;
+      // height: 100%;
     }
   }
   .carousel-inner {
@@ -192,7 +197,7 @@
       }
     }
     .--buttons {
-      margin-top: 5vw;
+      margin-top: 7vw;
       display: flex;
       flex-direction: column;
     }
@@ -216,6 +221,11 @@
       position: relative;
 
       border: 0.2px solid #283a97;
+
+      &:hover {
+        color: white;
+        background-color: #283997 !important;
+      }
 
       &:last-child:not(:only-of-type) {
         margin-top: 2vw;

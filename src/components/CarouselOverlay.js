@@ -30,7 +30,7 @@ export default function CarouselDev() {
   return (
     <div className="--bg-2" data-scroll-section>
       {isTablet && (
-        <Carousel interval={null} fade>
+        <Carousel fade>
           <Carousel.Item>
             <img
               className="d-block w-100"

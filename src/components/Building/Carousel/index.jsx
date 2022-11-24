@@ -1,5 +1,5 @@
-import React, { useCallback, useEffect, useRef, useState } from "react";
-import { Container, Row, Col, Image, Carousel } from "react-bootstrap";
+import React, { useCallback, useRef, useState } from "react";
+import { Image, Carousel } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 export default function CarouselIndex() {
@@ -56,6 +56,10 @@ export default function CarouselIndex() {
 
   return (
     <section className="--container-2" data-scroll-section>
+      <Image
+        className="--right"
+        src={require("../../../assets/images/building/svg-9.svg").default}
+      />
       <Carousel
         className="overlay-carousel overlay-carousel--building"
         activeIndex={carouselIndex}
@@ -124,6 +128,10 @@ export default function CarouselIndex() {
           );
         })}
       </Carousel>
+      <Image
+        className="svg svg--1"
+        src={require("../../../assets/images/building/svg-10.svg").default}
+      />
       {/* <Image className="--right" src={require('../../../assets/images/building/shape-right.png').default} /> */}
       {/* <Splide
         className={`splide--${slide}`}

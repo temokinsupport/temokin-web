@@ -5,7 +5,7 @@ import "../assets/styles/civilinfrastructure.scss";
 import { Image } from "react-bootstrap";
 
 import Header from "../components/CivilInfrastructure/Header";
-import FooterMenu from "../components/FooterMenu";
+import Footer from "../components/FooterMenu";
 import CivilInfrastructureData from "../components/CivilInfrastructure/CivilInfrastructure";
 import List from "../components/CivilInfrastructure/List";
 import Carousel from "../components/CivilInfrastructure/Carousel";
@@ -37,32 +37,10 @@ const CivilInfrastructure = () => {
   }, [timer]);
 
   const isTablet = useMediaQuery({ query: "(min-width: 992px)" });
-  // const isMobile = useMediaQuery({ query: '(max-width: 992px)' });
-
-  // // MOBILE CAROUSEL
-  // const ref = useRef(null);
-  // const onPrevClick = () => {
-  //   ref.current.prev();
-  //   setRightActive(!isRightActive);
-  //   setLeftActive(!isLeftActive);
-  // };
-  // const onNextClick = () => {
-  //   ref.current.next();
-  //   setRightActive(!isRightActive);
-  //   setLeftActive(!isLeftActive);
-  // };
-
-  // // TOGGLE CLASS
-  // const [isRightActive, setRightActive] = useState(false);
-  // const [isLeftActive, setLeftActive] = useState(false);
 
   return (
     <>
       {
-        // preloader?
-        //   <div className="loader-wrapper absolute">
-        //       {/* <h1>Flirty Flowrs</h1> */}
-        //   </div> :
         <div
           className="--civil-infrastructure main-container"
           id="main-container"
@@ -72,16 +50,7 @@ const CivilInfrastructure = () => {
           <CivilInfrastructureData />
           <Carousel />
           <List />
-
-          {/* {isTablet && <Section4 />} */}
-          {/* <OperatingPrinciples /> */}
-
-          {/* {isTablet && <Section6 />} */}
-          {/* { isTablet && */}
-          {/* <OurValues /> */}
-          {/* } */}
-          {/* <WeDig /> */}
-          <FooterMenu />
+          <Footer />
         </div>
       }
     </>

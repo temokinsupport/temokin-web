@@ -1,7 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { NavLink, useHistory } from "react-router-dom";
 
 export default function Join() {
+  const history = useHistory();
+
   return (
     <Container className="--max">
       <Row>
@@ -30,6 +33,7 @@ export default function Join() {
             career with Temokin Holdings.
           </p>
           <Button
+            onClick={() => history.push("/career")}
             data-scroll
             data-scroll-speed="2"
             className="--btn-send-resume"

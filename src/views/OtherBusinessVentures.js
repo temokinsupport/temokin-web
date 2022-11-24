@@ -1,7 +1,9 @@
 import "../assets/styles/otherbusinessventures.scss";
 import useLocoScroll from "../components/hooks/useLocoScroll";
 import Navigation from "../components/Navigation";
-import FooterMenu from "../components/FooterMenu";
+// import FooterMenu from "../components/FooterMenu";
+import Footer from "../components/Footer";
+
 const OtherBusinessVentures = () => {
   return (
     <>
@@ -19,7 +21,7 @@ const OtherBusinessVentures = () => {
               <p className="hero__desc">coming soon</p>
             </div>
           </section>
-          <FooterMenu />
+          <Footer />
         </div>
       }
     </>

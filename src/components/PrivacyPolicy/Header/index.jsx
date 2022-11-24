@@ -42,19 +42,30 @@ export default function Header() {
             <h1 className="--title gnopopd" data-scroll id="header-text">
               GENERAL NOTICE ON PROCESSING OF PERSONAL DATA
             </h1>
-           
-          
           </Col>
         </Row>
         <Row className="justify-content-center">
           <Col md="7" sm="12">
             <div className="--subContent">
-              We treat and view your personal data seriously. 
+              We treat and view your personal data seriously.
               <br />
-              This Personal Data & Information Notice is issued to all our valued customers / prospective customers, pursuant to the requirements of the Malaysian Personal Data Protection Act (2010).
-              <br/><br />
-              In the course pf your dealings with TEMOKIN [meaning TEMOKIN, and the holding, subsidiary and/or related companies (as defined by the Companies Act 1965) of TEMOKIN] as our valued customer / prospective customer, we may request that your provide data and
-              information about yourself ("Personal Data") to enable us to enter into transactions with you or to deliver the necessary notices, services and/ or products in connection with our business.
+              This Personal Data & Information Notice is issued to all our
+              valued <br /> customers / prospective customers, pursuant to the
+              requirements of <br /> the Malaysian Personal Data Protection Act
+              (2010).
+              <br />
+              <br />
+              In the course pf your dealings with TEMOKIN [meaning TEMOKIN, and
+              <br /> the holding, subsidiary and/or related companies (as
+              defined by the <br />
+              Companies Act 1965) of TEMOKIN] as our valued customer / <br />
+              prospective customer, we may request that your provide data and
+              <br />
+              information about yourself ("Personal Data") to enable us to enter
+              into <br />
+              transactions with you or to deliver the necessary notices,
+              services and/ <br />
+              or products in connection with our business.
             </div>
           </Col>
         </Row>

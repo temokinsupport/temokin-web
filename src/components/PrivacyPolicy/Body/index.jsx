@@ -217,7 +217,7 @@ export default class EmailUs extends React.Component {
                 </ul>
               </div>
               <div className="textBodyTitle" data-scroll>
-                3. PURPOSE OF COLLECTING PERSONAL DATA
+                3. PURPOSES OF COLLECTING PERSONAL DATA
               </div>
               <div className="bodyContent">
                 Personal Data you provide will be collected, used and otherwise
@@ -287,7 +287,7 @@ export default class EmailUs extends React.Component {
               </div>
               <br />
               <div className="textBodyTitle" data-scroll>
-                4. DISCLOSURE OF PERSNOAL DATA
+                4. DISCLOSURE OF PERSONAL DATA
               </div>
               <div className="bodyContent">
                 Personal Data provided to us will generally be kept confidential

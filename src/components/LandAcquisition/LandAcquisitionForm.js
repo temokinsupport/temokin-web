@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import {
+import { Button, Col, Container, Form, Image, Row } from "react-bootstrap";
+/* import {
   SVG1,
   SVG2,
   SVG3,
@@ -11,7 +11,7 @@ import {
   SVG8,
   SVG9,
   SVG10,
-} from "../../assets/svg/LandAcquisitionSVG/index";
+} from "../../assets/svg/LandAcquisitionSVG/index"; */
 
 const LandAcquisitionForm = () => {
   const documentUploadRef = useRef();
@@ -175,7 +175,7 @@ const LandAcquisitionForm = () => {
           </Col>
         </Row>
       </Container>
-      <div className="svg--1 svg">
+      {/* <div className="svg--1 svg">
         <SVG1 />
       </div>
       <div className="svg--2 svg">
@@ -204,7 +204,7 @@ const LandAcquisitionForm = () => {
       </div>
       <div className="svg--10 svg">
         <SVG10 />
-      </div>
+      </div> */}
     </>
   );
 };

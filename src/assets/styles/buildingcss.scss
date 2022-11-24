@@ -10,6 +10,18 @@
 */
 
 .--building {
+  .svg {
+    position: absolute;
+
+    &--1 {
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+      mix-blend-mode: multiply;
+    }
+  }
+
   .--header-building {
     position: relative;
     width: 100%;
@@ -19,7 +31,8 @@
     position: absolute;
     right: 0;
     z-index: 9;
-    top: -15vw;
+    top: -21vw;
+    width: 30vw;
   }
 
   .--left {
@@ -112,7 +125,7 @@
       margin-bottom: 0;
       font-size: 1.5vw;
       letter-spacing: 0.19vw;
-      color: #676ab1;
+      color: #283a96;
       line-height: 1.8;
       margin-top: 2.8vw;
       text-align: center;
@@ -254,7 +267,7 @@
       color: white;
     }
     .--btn-view-project:hover {
-      background: #283a97;
+      background-color: #283a97 !important;
       color: white;
     }
 
@@ -1377,6 +1390,9 @@
 
       .--carousel-mb {
         .carousel-inner {
+          .carousel-indicators {
+            top: 5vw;
+          }
           .carousel-caption {
             position: relative;
             right: unset;

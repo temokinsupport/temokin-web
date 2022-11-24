@@ -8,20 +8,22 @@
 |  Last update     : July 6 2021
 *
 */
-.svg {
-  position: absolute;
-}
+
 .--projects {
   min-height: 100vh;
   // margin-top: -9.1vw;
   width: 100%;
-  background: url("../images/propertyprojects/PropertyDev_BG-01.png") top center;
+  // background: url("../images/propertyprojects/PropertyDev_BG-01.png") top center;
   transition: background 0.3s;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100vw auto;
   position: relative;
   overflow: hidden;
+  .svg {
+    position: absolute;
+  }
+
   .--bg-1 {
     min-height: 50vw;
     // padding: 15vw 0 0 0;

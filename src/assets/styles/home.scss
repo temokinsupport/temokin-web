@@ -273,7 +273,7 @@
             }
             p {
               font-family: "gill sans medium", sans-serif !important;
-              font-size: 0.95vw;
+              font-size: 0.85vw;
               min-height: 19vw;
               font-weight: 400 !important;
               line-height: 1.9;
@@ -281,8 +281,8 @@
             }
             .--btn-check-our-work-1 {
               font-family: "gill sans medium", sans-serif !important;
-              letter-spacing: 0.3vw;
-              font-size: 0.9vw;
+              letter-spacing: 0.2em;
+              font-size: 0.7vw;
               color: #283a97;
               font-weight: 600;
               padding: 1.3vw 1.5vw;
@@ -298,8 +298,8 @@
             }
             .--btn-check-our-work-2 {
               font-family: "gill sans medium", sans-serif !important;
-              letter-spacing: 0.3vw;
-              font-size: 0.9vw;
+              letter-spacing: 0.2em;
+              font-size: 0.7vw;
               color: #283a97;
               font-weight: 600;
               padding: 1.3vw 1.5vw;
@@ -468,7 +468,7 @@
     padding: 10vw 12vw 5vw 12vw;
     position: relative;
 
-    &::before {
+    /* &::before {
       content: "";
       position: absolute;
 
@@ -496,7 +496,7 @@
       bottom: 0;
       right: 0;
       height: 20vw;
-    }
+    } */
     &.--max {
       max-width: unset;
     }

@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import useLocoScroll from "../components/hooks/useLocoScroll";
 import "../assets/styles/landacquisition.scss";
 import Header from "../components/LandAcquisition/Header/index";
+import { Image } from "react-bootstrap";
 const LandAcquisition = () => {
   const [preloader, setPreloader] = useState(true);
 
@@ -32,11 +33,31 @@ const LandAcquisition = () => {
     <>
       {" "}
       {
-        <div
-          className="--landacquisition main-container"
-          id="main-container"
-          data-scroll-container
-        >
+        <div className="--landacquisition main-container" id="main-container">
+          {/* <Image
+            className="svg svg--1"
+            src={require("../assets/images/landacquisition/svg-1.svg").default}
+          />
+          <Image
+            className="svg svg--2"
+            src={require("../assets/images/landacquisition/svg-2.svg").default}
+          />
+          <Image
+            className="svg svg--3"
+            src={require("../assets/images/landacquisition/svg-3.svg").default}
+          />
+          <Image
+            className="svg svg--4"
+            src={require("../assets/images/landacquisition/svg-4.svg").default}
+          />
+          <Image
+            className="svg svg--5"
+            src={require("../assets/images/landacquisition/svg-5.svg").default}
+          />
+          <Image
+            className="svg svg--6"
+            src={require("../assets/images/landacquisition/svg-6.svg").default}
+          /> */}
           <Header />
         </div>
       }{" "}

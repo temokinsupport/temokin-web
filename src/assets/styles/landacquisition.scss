@@ -13,25 +13,94 @@
   position: relative;
   color: #283a97;
 
+  .svg {
+    position: absolute;
+    display: block;
+    z-index: 9;
+
+    &--1 {
+      top: 5%;
+      right: 0;
+      width: 21vw;
+      height: 21vw;
+    }
+
+    &--2 {
+      top: 14%;
+      left: 0;
+      width: 14vw;
+      height: 30vw;
+    }
+
+    &--3 {
+      top: 38%;
+      left: 0;
+      width: 7vw;
+      height: 12vw;
+    }
+
+    &--4 {
+      top: 30%;
+      right: 0;
+      width: 12vw;
+      height: 20vw;
+    }
+
+    &--5 {
+      bottom: 0;
+      right: 0;
+      width: 17vw;
+      height: 20vw;
+    }
+
+    &--6 {
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+      // height: 18vw;
+    }
+  }
+
   .land-label {
     font-size: 15px;
-    margin-top: 1vh;
+    // margin-top: 1vh;
+  }
+  .land-label__container {
+    display: fl;
+    align-items: center;
   }
   .land-form {
     border: 1px solid #283a97;
     height: 3.5vw;
   }
   .land-supporting {
-    font-size: 8pt;
+    font-size: 9pt;
     padding-left: 1.5em;
+    margin-bottom: 0;
   }
   .land-remarks {
     height: 30vh;
   }
   .land-radio {
-    display: table;
+    // display: table;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    .form-check-input {
+      width: 1rem;
+      height: 1rem;
+      flex-shrink: 0;
+    }
+
+    .form-check-label {
+      font-size: 0.5rem;
+      letter-spacing: 0.2em;
+      width: 80%;
+      flex: 1;
+    }
   }
-  .land-check {
+  .land-radio__row .land-check {
     font-size: 8pt;
   }
   .land-submit {
@@ -70,7 +139,7 @@
 
   .--bg-1 {
     // background: url("../images/landacquisition/Group 851.png") top left -3vw;
-    background: url("../images/landacquisition/Group 851.png") top center;
+    // background: url("../images/landacquisition/Group 851.png") top center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 10vw 0 0 0;
@@ -78,8 +147,16 @@
     width: 100%;
     background-color: white;
 
+    .land-acquisition__container {
+      padding-bottom: 12vw;
+    }
+
     .--max {
       max-width: 86%;
+
+      .header-text {
+        font-size: 1.2rem;
+      }
       // img {
       //   margin: 0 auto 3vw auto;
       //   display: block;
