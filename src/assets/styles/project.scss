@@ -73,6 +73,13 @@
       right: 0;
       width: 30%;
     }
+    &--9 {
+      left: 0;
+      width: 30%;
+      height: auto;
+      z-index: 2;
+      bottom: -2%;
+    }
   }
 
   &--building {
@@ -147,7 +154,15 @@
     &--tropicana-cenang {
       // background-color: #cc833d !important;
 
+      &--1 {
+        .middle__polygon-image {
+          padding-bottom: 0;
+        }
+      }
+
       &--2 {
+        margin-top: unset;
+
         .middle__caption {
           height: 100% !important;
         }

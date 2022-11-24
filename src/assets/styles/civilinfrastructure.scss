@@ -82,18 +82,19 @@
     font-family: "gill sans", sans-serif !important;
 
     hr {
-      margin: 1.4rem 0;
+      margin: 2rem 0;
     }
 
     h5 {
       letter-spacing: 0.3em;
-      font-size: 0.8rem;
+      font-size: 1.3rem;
+      margin-top: 1em;
     }
     .header {
       font-family: "gill sans medium", sans-serif !important;
       letter-spacing: 0.2em;
       margin: 0;
-      font-size: 0.7rem;
+      font-size: 1.1rem;
 
       & > * {
         padding: 0 !important;
@@ -102,7 +103,7 @@
     .content {
       letter-spacing: 0.2em;
       margin: 0;
-      font-size: 0.7rem;
+      font-size: 1.1rem;
 
       & > * {
         padding: 0 !important;
@@ -218,14 +219,14 @@
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.2em;
       line-height: 1.7em;
-      font-size: 0.8rem;
+      font-size: 1.3rem;
     }
 
     .header {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.15em;
       margin-top: 2.5em;
-      font-size: 0.7rem;
+      font-size: 1rem;
     }
 
     .content {
@@ -233,7 +234,7 @@
       font-family: "gill sans light", sans-serif !important;
       letter-spacing: 0.15em;
       line-height: 1.2em;
-      font-size: 0.7rem;
+      font-size: 1rem;
     }
   }
   .--container-2 {
@@ -346,7 +347,7 @@
     }
     .carousel-indicators {
       bottom: unset;
-      top: 49vw;
+      top: 50vw;
       gap: 3rem;
 
       & > * {

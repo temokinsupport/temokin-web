@@ -12,6 +12,7 @@
 .--building {
   .svg {
     position: absolute;
+    pointer-events: none;
 
     &--1 {
       bottom: 0;

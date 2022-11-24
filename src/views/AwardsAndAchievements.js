@@ -4,8 +4,8 @@ import "../assets/styles/awardsandachievements.scss";
 import Header from "../components/AwardsAndAchievements/Header";
 import Winner from "../components/AwardsAndAchievements/Winner";
 import Testimonials from "../components/AwardsAndAchievements/Testimonials";
-// import FooterMenu from '../components/FooterMenu';
-import Footer from "../components/Footer";
+import FooterMenu from "../components/FooterMenu";
+// import Footer from "../components/Footer";
 
 const AwardsAndAchievements = () => {
   const [preloader, setPreloader] = useState(true);
@@ -45,7 +45,7 @@ const AwardsAndAchievements = () => {
           <Header />
           <Winner />
           <Testimonials />
-          <Footer />
+          <FooterMenu />
         </div>
       }
     </>

@@ -280,7 +280,7 @@ export default class EmailUs extends React.Component {
                 <br />
                 <br />
                 * in relation to the property, for delivery of vacant
-                possession, key handover, property/estate management, customer
+                possession, keys handover, property/estate management, customer
                 care and/or defect rectification works; and/or
                 <br />
                 <br />* for post vacant possession services.
