@@ -6,6 +6,14 @@
     display: none;
   }
 
+  .carousel-inner {
+    height: 50vw;
+  }
+
+  .carousel-item img {
+    height: 100%;
+  }
+
   .carousel-indicators {
     gap: 2%;
     transform: translateY(100%);

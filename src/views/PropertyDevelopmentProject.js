@@ -6,7 +6,6 @@ import { NavLink, useLocation, useParams } from "react-router-dom";
 
 import "../assets/styles/project.scss";
 import overlayImage from "../assets/images/propertyprojects/PropertyDev_Shapes-01.png";
-import polygonImage from "../assets/images/propertyprojects/showcase-mahligai.png";
 
 import Hero from "../components/PropertyDevelopmentProject/Hero";
 import Footer from "../components/Footer";
@@ -40,7 +39,6 @@ const PropertyDevelopmentProject = () => {
 
     // setProject(project[0]);
 
-    console.log(projects);
     setProjectData(
       projects.find((project) => {
         return project.name === name;
@@ -51,7 +49,6 @@ const PropertyDevelopmentProject = () => {
   useEffect(() => {
     setProjectData(
       projects.find((project) => {
-        console.log(project.name, name);
         return project.name === name;
       })
     );
@@ -101,47 +98,57 @@ const PropertyDevelopmentProject = () => {
               />
               <Hero projectData={projectData} />
             </section>
-            <section className="middle">
-              <Image
-                className="svg svg--3"
-                src={
-                  require("../assets/images/propertydevelopment/svg-3.svg")
-                    .default
-                }
-              />
-              <Image
-                className="svg svg--4"
-                src={
-                  require("../assets/images/propertydevelopment/svg-4.svg")
-                    .default
-                }
-              />
-              <div className="middle__polygon-image">
-                <img src={polygonImage} alt="" />
-              </div>
-              <div className="middle__caption">
-                <p>{projectData.caption}</p>
-              </div>
-            </section>
-            <section className="preview">
-              <Image
-                className="svg svg--5"
-                src={
-                  require("../assets/images/propertydevelopment/svg-5.svg")
-                    .default
-                }
-              />
-              <Image
-                className="svg svg--6"
-                src={
-                  require("../assets/images/propertydevelopment/svg-7.svg")
-                    .default
-                }
-              />
-              <div className="preview-carousel__container">
-                <PreviewCarousel data={projectData} />
-              </div>
-            </section>
+            {projectData.middle ? (
+              <section className="middle">
+                <Image
+                  className="svg svg--3"
+                  src={
+                    require("../assets/images/propertydevelopment/svg-3.svg")
+                      .default
+                  }
+                />
+                <Image
+                  className="svg svg--4"
+                  src={
+                    require("../assets/images/propertydevelopment/svg-4.svg")
+                      .default
+                  }
+                />
+                <div className="middle__polygon-image">
+                  <Image
+                    src={
+                      require(`../assets/images${projectData.middle}`).default
+                    }
+                  />
+                </div>
+                <div className="middle__caption">
+                  <p>{projectData.caption}</p>
+                </div>
+              </section>
+            ) : null}
+
+            {projectData.carousel ? (
+              <section className="preview">
+                <Image
+                  className="svg svg--5"
+                  src={
+                    require("../assets/images/propertydevelopment/svg-5.svg")
+                      .default
+                  }
+                />
+                <Image
+                  className="svg svg--6"
+                  src={
+                    require("../assets/images/propertydevelopment/svg-7.svg")
+                      .default
+                  }
+                />
+                <div className="preview-carousel__container">
+                  <PreviewCarousel slides={projectData.carousel} />
+                </div>
+              </section>
+            ) : null}
+
             <section className="related">
               <Image
                 className="svg svg--7"

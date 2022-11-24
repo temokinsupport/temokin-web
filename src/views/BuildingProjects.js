@@ -94,35 +94,44 @@ const BuildingProject = () => {
               />
               <Hero projectData={projectData} />
             </section>
-            <section className="middle">
-              <Image
-                className="svg svg--3"
-                src={require("../assets/images/building/svg-3.svg").default}
-              />
-              <Image
-                className="svg svg--4"
-                src={require("../assets/images/building/svg-4.svg").default}
-              />
-              <div className="middle__polygon-image">
-                <img src={polygonImage} alt="" />
-              </div>
-              <div className="middle__caption">
-                <p>{projectData.caption}</p>
-              </div>
-            </section>
-            <section className="preview">
-              <Image
-                className="svg svg--5"
-                src={require("../assets/images/building/svg-5.svg").default}
-              />
-              <Image
-                className="svg svg--6"
-                src={require("../assets/images/building/svg-7.svg").default}
-              />
-              <div className="preview-carousel__container">
-                <PreviewCarousel data={projectData} />
-              </div>
-            </section>
+            {projectData.middle ? (
+              <section className="middle">
+                <Image
+                  className="svg svg--3"
+                  src={require("../assets/images/building/svg-3.svg").default}
+                />
+                <Image
+                  className="svg svg--4"
+                  src={require("../assets/images/building/svg-4.svg").default}
+                />
+                <div className="middle__polygon-image">
+                  <Image
+                    src={
+                      require(`../assets/images${projectData.middle}`).default
+                    }
+                  />
+                </div>
+                <div className="middle__caption">
+                  <p>{projectData.caption}</p>
+                </div>
+              </section>
+            ) : null}
+            {projectData.carousel ? (
+              <section className="preview">
+                <Image
+                  className="svg svg--5"
+                  src={require("../assets/images/building/svg-5.svg").default}
+                />
+                <Image
+                  className="svg svg--6"
+                  src={require("../assets/images/building/svg-7.svg").default}
+                />
+                <div className="preview-carousel__container">
+                  <PreviewCarousel slides={projectData.carousel} />
+                </div>
+              </section>
+            ) : null}
+
             <section className="related">
               <Image
                 className="svg svg--7"

@@ -8,7 +8,9 @@
     "client": "Tropicana Corporation Berhad",
     "value": "",
     "period": "Ongoing",
-    "caption": "AN INSPIRED DECISION. A STATEMENT OF TASTE.",
+    "caption": "AN ISLAND OF MANY ATTRACTIONS, A TREAT FOR THE SENSES.",
+    "middle": "/building/tropicana-middle.png",
+    "carousel": ["/building/carousel/tropicana/1.png"],
     "related": [
       {
         "image": "/building/natl-camp.png",
@@ -32,7 +34,6 @@
     "client": "Ministry of Defence, Malaysia ",
     "value": "RM30 million",
     "period": "Sept 2004 to Dec 2004",
-    "caption": "A HAVEN OF TRANQUILITY IN A THRIVING TOWNSHIP. WELCOME HOME.",
     "related": [
       {
         "image": "/building/tropicana-cenang.png",
@@ -57,6 +58,13 @@
     "value": "RM100 million",
     "period": "Sept 2017 to Ongoing",
     "caption": "A HAVEN OF TRANQUILITY IN A THRIVING TOWNSHIP. WELCOME HOME.",
+    "middle": "/building/mahligai-middle.png",
+    "carousel": [
+      "/building/carousel/mahligai/1.png",
+      "/building/carousel/mahligai/2.png",
+      "/building/carousel/mahligai/3.png",
+      "/building/carousel/mahligai/4.png"
+    ],
     "related": [
       {
         "image": "/building/tropicana-cenang.png",

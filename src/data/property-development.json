@@ -9,6 +9,13 @@
     "value": "RM100 million ",
     "period": "Feb 2017 to ongoing",
     "caption": "A HAVEN OF TRANQUILITY IN A THRIVING TOWNSHIP. WELCOME HOME.",
+    "middle": "/propertydevelopment/mahligai-middle.png",
+    "carousel": [
+      "/propertydevelopment/carousel/mahligai/1.png",
+      "/propertydevelopment/carousel/mahligai/2.png",
+      "/propertydevelopment/carousel/mahligai/3.png",
+      "/propertydevelopment/carousel/mahligai/4.png"
+    ],
     "awards": [
       {
         "image": "apa.png",
@@ -41,6 +48,13 @@
     "value": "RM48 million",
     "period": "September 2021 to ongoing",
     "caption": "AN INSPIRED DECISION. A STATEMENT OF TASTE.",
+    "middle": "/propertydevelopment/diami-middle.png",
+    "carousel": [
+      "/propertydevelopment/carousel/diami/1.png",
+      "/propertydevelopment/carousel/diami/2.png",
+      "/propertydevelopment/carousel/diami/3.png",
+      "/propertydevelopment/carousel/diami/4.png"
+    ],
     "links": {
       "project": "/diami",
       "website": ""
@@ -67,6 +81,13 @@
     "value": "RM261 million",
     "period": "September 2020 to ongoing",
     "caption": "ENVISIONING ITSELF AS BEING A PERFECT HOME FOR INDIVIDUALS AND THEIR LOVED ONE.",
+    "middle": "/propertydevelopment/tropicana-middle.png",
+    "carousel": [
+      "/propertydevelopment/carousel/tropicana/1.png",
+      "/propertydevelopment/carousel/tropicana/2.png",
+      "/propertydevelopment/carousel/tropicana/3.png",
+      "/propertydevelopment/carousel/tropicana/4.png"
+    ],
     "awards": [
       {
         "image": "tdba.png",
