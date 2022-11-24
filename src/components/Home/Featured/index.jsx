@@ -105,7 +105,7 @@ export default function Featured() {
                       variant="light"
                       className="--btn-check-our-work-2 w-75"
                     >
-                      CHECK OUT OUR WORK
+                      VIEW MORE
                     </NavLink>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -149,8 +149,10 @@ export default function Featured() {
                       <p className="--font-normal">
                         From its humble beginnings as a high-quality pipe{"\n"}
                         jacking specialist, Temokin led the way with{"\n"}
-                        Malaysia's first microtunnelling project and has since{"\n"}
-                        expanded into the building of electricity substations,{"\n"}
+                        Malaysia's first microtunnelling project and has since
+                        {"\n"}
+                        expanded into the building of electricity substations,
+                        {"\n"}
                         major underground sewage lines, complex bridges{"\n"}
                         and major highways.
                       </p>

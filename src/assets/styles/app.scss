@@ -4,12 +4,8 @@
 .social-med {
   img {
     width: 30px !important;
-    
   }
 }
-
-
-
 
 @media (max-width: 768px) {
   .mobile-logo {
@@ -26,16 +22,14 @@
   }
   .web-logo {
     display: block;
-   
   }
 }
-
 
 html,
 body,
 #root {
   height: 100%;
-  overflow-x: hidden !important;
+  // overflow-x: hidden !important;
 }
 html,
 body {
