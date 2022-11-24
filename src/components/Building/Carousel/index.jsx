@@ -57,7 +57,6 @@ export default function CarouselIndex() {
   return (
     <section className="--container-2" data-scroll-section>
       <Carousel
-        interval={null}
         className="overlay-carousel overlay-carousel--building"
         activeIndex={carouselIndex}
         onSelect={controlCarousel}
