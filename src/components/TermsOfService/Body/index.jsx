@@ -165,7 +165,8 @@ export default class EmailUs extends React.Component {
               <div className="bodyContent">
                 The Content of the pages of this website is for your general
                 information and use only. <br /> and we reserve the rights to
-                change, vary or modify any of the information and terms <br />
+                and we reserve the rights to change, vary or modify any of the
+                information and terms <br />
                 contained herein without notice.
               </div>
               <hr className="separator" />
@@ -185,7 +186,8 @@ export default class EmailUs extends React.Component {
               <hr className="separator" />
               <div className="bodyContent">
                 Your use of any information or materials on this website is
-                entirely at your own risk, for <br />
+                entirely at your own risk, for
+                <br />
                 which we shall not be liable. It shall be your own
                 responsibility to ensure that any products,
                 <br />
@@ -211,16 +213,18 @@ export default class EmailUs extends React.Component {
               </div>
               <hr className="separator" />
               <div className="bodyContent">
-                Unauthorised use of this website may give rise to a claim for
+                Unauthorized use of this website may give rise to a claim for
                 damages and/or be a <br />
-                criminal offence.
+                criminal offense.
               </div>
               <hr className="separator" />
               <div className="bodyContent">
                 From time to time this website may also include links to other
-                websites. These links are <br />
-                provided for your convenience to provide futher information.
-                They do not signify that we <br />
+                websites. These links are
+                <br />
+                provided for your convenience to provide further information.
+                They do not signify that we
+                <br />
                 endorse the website(s). We Have no responsibility for the
                 content of the linked website(s).
               </div>
