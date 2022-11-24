@@ -8,13 +8,13 @@ function Footer() {
   return (
     <footer className="--footer">
       <Container fluid className="--max">
-        <Row>
+        <Row className="align-items-center">
           <Col>
             <div className="--left-container">
               <NavLink exact to="/" className="--logo">
                 <img
                   data-scroll
-                  src={require("../assets/Logo.png").default}
+                  src={require("../assets/images/home/Group 833.png").default}
                   alt="logo"
                 />
               </NavLink>

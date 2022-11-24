@@ -46,7 +46,7 @@ function Navigation() {
     },
     {
       id: 1,
-      linkname: "Civil Infrastructure",
+      linkname: "Civil & Infrastructure",
       linkpath: "/civil-infrastructure",
     },
   ];

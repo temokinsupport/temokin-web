@@ -79,7 +79,7 @@ export default function CarouselDev() {
         },
       ],
       links: {
-        project: "tropicana-miyu",
+        project: "/tropicana-miyu",
         website: "",
       },
     },

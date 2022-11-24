@@ -30,33 +30,39 @@
   .--right-1 {
     position: absolute;
     top: 110vw;
+    width: 16vw;
   }
   .--right-2 {
     position: absolute;
     top: 47vw;
+    width: 11vw;
   }
 
   .--right-3 {
     position: absolute;
     top: 7vw;
+    width: 22vw;
   }
 
   .--right-4 {
     position: absolute;
     right: 0;
-    top: 138vw;
+    top: -130px;
+    width: 23vw;
   }
 
   .--right-5 {
     position: absolute;
     right: 0;
     top: 85vw;
+    width: 14vw;
   }
 
   .--right-6 {
     position: absolute;
-    right: 0;
-    top: -13.7vw;
+    left: 0;
+    bottom: 0;
+    width: 60vw;
   }
 
   .--bg-mid {
@@ -76,16 +82,18 @@
     font-family: "gill sans", sans-serif !important;
 
     hr {
-      margin: 2rem 0;
+      margin: 1.4rem 0;
     }
 
     h5 {
       letter-spacing: 0.3em;
+      font-size: 0.8rem;
     }
     .header {
       font-family: "gill sans medium", sans-serif !important;
       letter-spacing: 0.2em;
       margin: 0;
+      font-size: 0.7rem;
 
       & > * {
         padding: 0 !important;
@@ -94,6 +102,7 @@
     .content {
       letter-spacing: 0.2em;
       margin: 0;
+      font-size: 0.7rem;
 
       & > * {
         padding: 0 !important;
@@ -197,7 +206,8 @@
   }
   .--container-4 {
     position: relative;
-    padding-top: 50vw;
+    padding-top: 25vw;
+    padding-bottom: 30vw;
     height: 100%;
 
     hr {
@@ -208,13 +218,14 @@
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.2em;
       line-height: 1.7em;
+      font-size: 0.8rem;
     }
 
     .header {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.15em;
       margin-top: 2.5em;
-      font-size: 0.9rem;
+      font-size: 0.7rem;
     }
 
     .content {
@@ -222,6 +233,7 @@
       font-family: "gill sans light", sans-serif !important;
       letter-spacing: 0.15em;
       line-height: 1.2em;
+      font-size: 0.7rem;
     }
   }
   .--container-2 {
@@ -343,7 +355,7 @@
         aspect-ratio: 1/1;
         width: 15px;
 
-        border: white 2px solid;
+        border: white 1px solid;
         border-radius: 100%;
 
         &.active {

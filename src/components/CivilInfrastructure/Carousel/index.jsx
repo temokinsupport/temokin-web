@@ -25,7 +25,7 @@ export default function CarouselIndex() {
             />
             <Carousel.Caption className="carousel-caption">
               <br />
-              <br />
+
               <h5>SEREMBAN MIDDLE RING ROAD (MRRS)</h5>
               <hr className="hr-carousel" />
               <Row className="header">

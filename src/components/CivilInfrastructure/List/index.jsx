@@ -256,7 +256,7 @@ export default function CivilInfrastructure() {
       />
 
       <Image
-        className="item pt-5"
+        className="--right-6 item pt-5"
         src={
           require("../../../assets/images/civilinfrastructure/bg-bottom.png")
             .default

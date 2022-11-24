@@ -189,7 +189,7 @@
       left: 0;
       width: 100%;
       //   background-color: #283a97;
-      // background: url("../images/aboutus/About_BG-08.svg");
+      background: url("../images/aboutus/About_BG-08.svg");
       background-size: 100%;
       background-position: contain;
       background-repeat: no-repeat;
@@ -357,6 +357,23 @@
     }
   }
   .--bg-3 {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+
+      background-image: url("../images/home/Page3_BG.jpg");
+      background-size: contain;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+
+      width: 100%;
+      height: 120%;
+      bottom: 0;
+      left: 0;
+    }
+
     .hero-container {
       width: 100vw;
       position: absolute;
@@ -448,9 +465,40 @@
     }
   }
   .--container-4 {
-    padding: 10vw 0 5vw 0;
+    padding: 10vw 12vw 5vw 12vw;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+
+      background-image: url("../images/home/About_BG-10.svg");
+      background-size: contain;
+      background-position: top left;
+      background-repeat: no-repeat;
+
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 20vw;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+
+      background-image: url("../images/home/About_BG-09.svg");
+      background-size: contain;
+      background-position: bottom right;
+      background-repeat: no-repeat;
+
+      width: 100%;
+      bottom: 0;
+      right: 0;
+      height: 20vw;
+    }
     &.--max {
-      max-width: 77%;
+      max-width: unset;
     }
     .--title {
       font-family: "gill sans", sans-serif !important;
@@ -607,7 +655,7 @@
     height: 13vw;
     width: 50vw;
     top: -1.5vw;
-  
+
     &::before {
       content: "";
       height: 7.8vw;
@@ -999,7 +1047,7 @@
         }
       }
     }
-  
+
     .hero h1 {
       font-size: 8vw !important;
       top: 47% !important;
@@ -1033,16 +1081,16 @@
         height: 11.8vw;
       }
     }
-        .overlay-white2 {
-          height: 24vw;
-          top: 96%;
-          left: -30vw;
-    
-          &::before {
-            left: 20vw;
-            height: 11.8vw;
-          }
-        }
+    .overlay-white2 {
+      height: 24vw;
+      top: 96%;
+      left: -30vw;
+
+      &::before {
+        left: 20vw;
+        height: 11.8vw;
+      }
+    }
     .--carousel-container {
       text-align: -webkit-center !important;
     }
@@ -1104,7 +1152,6 @@
         display: block;
         text-align: center;
         img {
-          
           &.--img-logo {
             width: 30vw !important;
             margin: 0 auto;
@@ -1113,7 +1160,6 @@
         p {
           &.--txt {
             font-size: 5.6vw !important;
-           
           }
         }
       }
@@ -1167,7 +1213,7 @@
     .carousel {
       width: 92vw !important;
     }
-    
+
     .--container-3 {
       top: 25vh !important;
     }
@@ -1222,7 +1268,5 @@
       border: 1px solid white;
       color: white;
     }
-
-    
   }
 }
