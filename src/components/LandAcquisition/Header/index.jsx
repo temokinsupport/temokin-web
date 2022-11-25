@@ -99,7 +99,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" plaintext />
                 </Col>
                 <Col md="3" className="text-end land-label__container">
                   <Form.Label column className="land-label text-end">
@@ -107,7 +107,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" plaintext />
                 </Col>
                 <Col md="3" className="text-end land-label__container">
                   <Form.Label column className="land-label text-end">
@@ -115,7 +115,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" plaintext />
                 </Col>
                 <Col md="3" className="text-end land-label__container">
                   <Form.Label column className="land-label text-end">
@@ -123,7 +123,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" plaintext />
                 </Col>
                 <Col md="3" className="text-end land-label__container">
                   <Form.Label column className="land-label text-end">
@@ -131,7 +131,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" plaintext />
                 </Col>
                 <Col md="3" className="text-end land-label__container">
                   <Form.Label column className="land-label text-end">
@@ -189,11 +189,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control
-                    className="land-form land-remarks"
-                    value=""
-                    plaintext
-                  />
+                  <Form.Control className="land-form land-remarks" plaintext />
                 </Col>
                 <Col md={{ span: 7, offset: 3 }}>
                   <Form.Check

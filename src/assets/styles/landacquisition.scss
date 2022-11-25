@@ -72,6 +72,9 @@
   .land-form {
     border: 1px solid #283a97;
     height: 3.5vw;
+    padding: 0.375rem 0.5em;
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
   }
   .land-supporting {
     font-size: 9pt;
@@ -318,6 +321,10 @@
         font-family: "gill sans medium", sans-serif !important;
         letter-spacing: 0.1vw;
       }
+
+      /* .form-control-plaintext {
+        padding: ;
+      } */
 
       textarea {
         color: #ffffff;
