@@ -210,9 +210,12 @@
       position: relative;
       transform: scale(0) !important;
       transition: transform 0.6s cubic-bezier(0.17, 0.67, 0.3, 1.33);
+      pointer-events: none;
+
       &.is-reveal {
         transform: scale(1) !important;
         transition-delay: 0.3s;
+        position: all;
       }
       iframe {
         margin-left: -2.5vw;
