@@ -35,7 +35,7 @@ export default function CarouselIndex() {
               </Row>
               <Row className="content">
                 <Col md={6}>
-                  Public Works Department, <br /> Malaysia
+                  Public Works Department, <br /> Malaysia (JKR)
                 </Col>
                 <Col md={3}>RM2.5 million</Col>
                 <Col md={3}>May 2004 to Nov 2017</Col>
@@ -96,7 +96,7 @@ export default function CarouselIndex() {
                   Perbadanan Kemajuan Negeri, <br /> Selangor (PKNS)
                 </Col>
                 <Col md={3}>RM10 million</Col>
-                <Col md={3}>Jun 1993 to jun 1994</Col>
+                <Col md={3}>Jun 1993 to Jun 1994</Col>
               </Row>
             </Carousel.Caption>
           </Carousel.Item>

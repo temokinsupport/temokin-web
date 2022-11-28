@@ -425,7 +425,8 @@
     }
     h5 {
       &.--project-title {
-        font-family: "Myriad Pro", sans-serif !important;
+        // font-family: "Myriad Pro", sans-serif !important;
+        font-family: "gill sans", sans-serif !important;
         letter-spacing: 0.2vw;
         font-size: 1.1vw;
         font-weight: 600;
@@ -442,7 +443,8 @@
     p {
       &.--desc {
         color: #676ab1;
-        font-family: "Myriad Pro", sans-serif !important;
+        // font-family: "Myriad Pro", sans-serif !important;
+        font-family: "gill sans medium", sans-serif !important;
         font-size: 1.1vw;
         font-weight: 400;
         letter-spacing: 0.02vw;
@@ -580,7 +582,7 @@
       }
     }
     .--btn-im-interested {
-      font-family: "Myriad Pro", sans-serif !important;
+      font-family: "gill sans medium", sans-serif !important;
       letter-spacing: 0.3vw;
       font-size: 1.1vw;
       background-color: #283a97;

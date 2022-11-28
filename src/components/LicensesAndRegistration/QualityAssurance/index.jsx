@@ -43,7 +43,7 @@ export default function QualityAssurance() {
       descriptions: [
         {
           sub: "SIJIL KONTRAKTOR JOHOR",
-          name: "TARIKH MULA BERKUATKUASA: 01 JULAI 2021 TARIKH TAMAT TEMPOH PERAKUAN: 31 DISEMBER 2023",
+          name: "TARIKH MULA BERKUATKUASA: 01 JULAI 2021 \n TARIKH TAMAT TEMPOH PERAKUAN: 31 DISEMBER 2023",
         },
       ],
     },
@@ -59,9 +59,12 @@ export default function QualityAssurance() {
               Quality Assurance
             </h1>
             <p className="--desc">
-              WE MAINTAIN A QUALITY MANAGEMENT SYSTEM WHICH FULFILS THE REQUIREMENTS OF ISO <br />
-              9001:2008, SPECIFICALLY FOR ROADWORKS AND INFRASTRUCTURE CONSTRUCTION, CERTIFIED BY SIRIM <br />
-              QAS INTERNATIONAL SDN BHD AND THE INTERNATIONAL CERTIFICATION NETWORK, IQNET.
+              WE MAINTAIN A QUALITY MANAGEMENT SYSTEM WHICH FULFILS THE
+              REQUIREMENTS OF ISO <br />
+              9001:2008, SPECIFICALLY FOR ROADWORKS AND INFRASTRUCTURE
+              CONSTRUCTION, CERTIFIED BY SIRIM <br />
+              QAS INTERNATIONAL SDN BHD AND THE INTERNATIONAL CERTIFICATION
+              NETWORK, IQNET.
             </p>
           </Col>
         </Row>

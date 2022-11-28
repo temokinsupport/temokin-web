@@ -316,7 +316,7 @@ export default class EmailUs extends React.Component {
                 <br />
                 <br />
                 * our contractors, sub-contractors or third party service or
-                product providers as w may determine to be necessary or
+                product providers as we may determine to be necessary or
                 appropriate: and/or;
                 <br />
                 <br />* third party property management companies/entities in
@@ -365,7 +365,7 @@ export default class EmailUs extends React.Component {
                 <br />
                 <b>Sales & Marketing Department</b>
                 <br />
-                Tel No: 03-044 1111 <br />
+                Tel No: 03-4044 1111 <br />
                 Email address: sales.admin@temokin.com <br />
                 Address : No. 2, Jalan 15/48A, Sentul Raya Boulevard, 51000
                 Kuala Lumpur, MALAYSIA

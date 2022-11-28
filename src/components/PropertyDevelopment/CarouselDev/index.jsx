@@ -30,10 +30,10 @@ export default function CarouselDev() {
 
   const carousel = [
     {
-      name: "MAHILGAI AT NUSA DAMAI \n 2 & 2.5 STOREY HOUSING, JOHOR",
+      name: "MAHLIGAI AT NUSA DAMAI \n 2 & 2.5 STOREY HOUSING, JOHOR",
       background: "carousel/mahligai.png",
       description:
-        "Mahilgai at Nusa Damai consists of 163 landed houses in the already-mature neighborhood of Masai in Johor",
+        "Mahligai at Nusa Damai consists of 163 landed houses in the already-mature neighborhood of Masai in Johor",
       value: "RM100 million ",
       period: "Feb 2017 to ongoing",
       awards: [
@@ -74,7 +74,7 @@ export default function CarouselDev() {
             "Honours The Distinctive Build Award in StarProperty Awards 2021: Real Estate Developer",
         },
         {
-          image: "tdba.png",
+          image: "appa.png",
           description: "Winner 2021-2022 in Asia Pacific Property Awards",
         },
       ],
@@ -88,10 +88,6 @@ export default function CarouselDev() {
   const controlCarousel = (index) => {
     setCarouselIndex(index);
   };
-
-  useEffect(() => {
-    console.log(carouselIndex);
-  }, [carouselIndex]);
 
   return (
     <div className="--bg-2" data-scroll-section>
@@ -111,7 +107,7 @@ export default function CarouselDev() {
       />
       {isTablet && (
         <Carousel
-          interval={3000}
+          interval={7000}
           className="overlay-carousel"
           activeIndex={carouselIndex}
           onSelect={controlCarousel}

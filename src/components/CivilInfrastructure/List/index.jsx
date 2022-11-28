@@ -4,9 +4,9 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 export default function CivilInfrastructure() {
   return (
     <section className="--container-4" data-scroll-section>
-      <Container>
+      <Container fluid>
         <Row className="justify-content-center">
-          <Col md={8}>
+          <Col md={7}>
             <div>
               <Row className="item">
                 <Col md={12} className="name">
@@ -21,7 +21,7 @@ export default function CivilInfrastructure() {
                 <Row className="content">
                   <Col md={5}> Palm Grove Housing Sdn Bhd </Col>
                   <Col md={3}> RM3 million </Col>
-                  <Col md={4}> Jul 1991 to May </Col>
+                  <Col md={4}> Jul 1991 to May 1995</Col>
                 </Row>
                 <br />
                 <br />
@@ -30,7 +30,7 @@ export default function CivilInfrastructure() {
               <Row className="item">
                 <Col md={12} className="name">
                   {" "}
-                  PIPE JACKING FOR SG BULOH TO JOHOR BAHRU FOR WATER
+                  PIPE JACKING FOR SG BULOH TO JOHOR BAHRU FOR <br /> WATER
                   PRIVATIZATION @1500M DIA. & 1350 DIA{" "}
                 </Col>
                 <Row className="header">
@@ -50,8 +50,8 @@ export default function CivilInfrastructure() {
               <Row className="item">
                 <Col md={12} className="name">
                   {" "}
-                  PIPE JACKING ULU TIRAM, JOHOR BAHRU FOR WATER PRIVATIZATION @
-                  1500MM DIA. & 1350MM DIA.{" "}
+                  PIPE JACKING ULU TIRAM, JOHOR BAHRU FOR <br /> WATER
+                  PRIVATIZATION @ 1500MM DIA. & 1350MM DIA.{" "}
                 </Col>
                 <Row className="header">
                   <Col md={5}> Client </Col>
@@ -70,7 +70,7 @@ export default function CivilInfrastructure() {
               <Row className="item">
                 <Col md={12} className="name">
                   {" "}
-                  KTM LINE RAILWAY ALOR STAR, @ SIZE ID= 1.8M{" "}
+                  KTM LINE RAILWAY N. SEMBILAN @ SIZE ID <br /> 1.5M & ID= 1.8M
                 </Col>
                 <Row className="header">
                   <Col md={5}> Client </Col>
@@ -149,7 +149,8 @@ export default function CivilInfrastructure() {
               <Row className="item">
                 <Col md={12} className="name">
                   {" "}
-                  R.C. BRIDGE 50M SPAN LOT PT 60, MUKIM PAGOH, ALOR GAJAH MELAKA{" "}
+                  R.C. BRIDGE 50M SPAN LOT PT 60, MUKIM PAGOH, <br /> ALOR GAJAH
+                  MELAKA{" "}
                 </Col>
                 <Row className="header">
                   <Col md={5}> Client </Col>
@@ -168,7 +169,8 @@ export default function CivilInfrastructure() {
               <Row className="item">
                 <Col md={12} className="name">
                   {" "}
-                  DANGER AREA, ROAD WORKS CONTRACT NO. LKR/NS/P/R/104 @ KM32.1 –
+                  DANGER AREA, ROAD WORKS CONTRACT NO. LKR/NS/P/R/104 @ KM32.1 –{" "}
+                  <br />
                   KM33.4 OF JLN SEREMBAN TAMPIN, REMBAU, N. SEMBILAN{" "}
                 </Col>
                 <Row className="header">
@@ -188,7 +190,8 @@ export default function CivilInfrastructure() {
               <Row className="item">
                 <Col md={12} className="name">
                   {" "}
-                  COMPLETION OF SEWERAGE LINE- RANCANGAN JAYA SELATAN, PJS2-PKNS{" "}
+                  COMPLETION OF SEWERAGE LINE- RANCANGAN JAYA <br /> SELATAN,
+                  PJS2-PKNS{" "}
                 </Col>
                 <Row className="header">
                   <Col md={5}> Client </Col>
@@ -207,8 +210,8 @@ export default function CivilInfrastructure() {
               <Row className="item mb-5 pb-5">
                 <Col md={12} className="name">
                   {" "}
-                  GRADE SEPARATED INTERCHANGE AND ASSOCIATE WORKS, TMN MOUNT
-                  AUSTIN, JOHOR BAHRU- KOTA TINGGI ROAD{" "}
+                  GRADE SEPARATED INTERCHANGE AND ASSOCIATE WORKS, <br /> TMN
+                  MOUNT AUSTIN, JOHOR BAHRU- KOTA TINGGI ROAD{" "}
                 </Col>
                 <Row className="header">
                   <Col md={5}> Client </Col>

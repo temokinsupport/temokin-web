@@ -23,7 +23,7 @@ export default function Testimonials() {
                   src={require("../../../assets/images/awards/jkr.png").default}
                 />
               </div>
-              <p className="client__name">Jabatan Kerha Raja Malaysia</p>
+              <p className="client__name">Jabatan Kerja Raya Malaysia</p>
             </div>
           </div>
           <div className="testimonial__message message">

@@ -15,7 +15,7 @@ export default function Licenses() {
           type: "alt",
         },
         {
-          content: "BAHAGIAN PEMBANGUNAN KONTRAKTOR DAN USAHAWAN",
+          content: "KEMENTERIAN KEWANGAN MALAYSIA",
           type: "name",
         },
       ],
@@ -46,12 +46,12 @@ export default function Licenses() {
       image: "bpkud.png",
       descriptions: [
         {
-          content: "SIJIL PEROLEHAN KERJA KERAJAAN",
+          content: "KEMENTERIAN KEWANGAN MALAYSIA",
           type: "name",
         },
         {
-          content: "SIJIL AKUAN PENDAFTARAN SYARIKAT",
-          type: "name",
+          content: "AKUAN PENDAFTARAN KONTRAKTOR",
+          type: "alt",
         },
       ],
     },
@@ -77,7 +77,7 @@ export default function Licenses() {
 
   return (
     <div className="--bg-2" data-scroll-section>
-      <Container>
+      <Container fluid>
         <Row className="licenses ">
           {licenses.map((license) => {
             return (
@@ -92,7 +92,7 @@ export default function Licenses() {
                     }
                   />
                 </Col>
-                <Col xs={{span: 6, offset: 1}}>
+                <Col xs={{ span: 6 }}>
                   <div className="license__content">
                     {license.descriptions.map((description) => {
                       if (description.type === "name") {

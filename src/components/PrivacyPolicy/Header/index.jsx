@@ -45,7 +45,7 @@ export default function Header() {
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col md="7" sm="12">
+          <Col md="8" sm="12">
             <div className="--subContent">
               We treat and view your personal data seriously.
               <br />
