@@ -64,7 +64,7 @@ export default function CarouselIndex() {
               </Row>
               <Row className="content">
                 <Col md={6}>
-                  Dewan Bandaraya, <br /> Kuala Lumpur (DBKL)
+                  Dewan Bandaraya <br /> Kuala Lumpur (DBKL)
                 </Col>
                 <Col md={3}>RM10 million</Col>
                 <Col md={3}>Mar 2002 to Mar 2004</Col>
@@ -93,7 +93,7 @@ export default function CarouselIndex() {
               </Row>
               <Row className="content">
                 <Col md={6}>
-                  Perbadanan Kemajuan Negeri, <br /> Selangor (PKNS)
+                  Perbadanan Kemajuan Negeri <br /> Selangor (PKNS)
                 </Col>
                 <Col md={3}>RM10 million</Col>
                 <Col md={3}>Jun 1993 to Jun 1994</Col>

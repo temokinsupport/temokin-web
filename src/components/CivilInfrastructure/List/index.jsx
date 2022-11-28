@@ -59,6 +59,25 @@ export default function CivilInfrastructure() {
                   <Col md={4}> Period </Col>
                 </Row>
                 <Row className="content">
+                  <Col md={5}> Active Review Sdn Bhd </Col>
+                  <Col md={3}> RM10 million </Col>
+                  <Col md={4}> May 1994 to Oct 1994 </Col>
+                </Row>
+                <br />
+                <br />
+              </Row>
+              <hr className="opacity-100" />
+              <Row className="item">
+                <Col md={12} className="name">
+                  {" "}
+                  KTM LINE RAILWAY N. SEMBILAN @ SIZE ID <br /> 1.5M & ID= 1.8M
+                </Col>
+                <Row className="header">
+                  <Col md={5}> Client </Col>
+                  <Col md={3}> Value </Col>
+                  <Col md={4}> Period </Col>
+                </Row>
+                <Row className="content">
                   <Col md={5}> Hong Leong Property </Col>
                   <Col md={3}> RM8.6 million </Col>
                   <Col md={4}> Apr 1994 to Aug 1994 </Col>
@@ -70,7 +89,7 @@ export default function CivilInfrastructure() {
               <Row className="item">
                 <Col md={12} className="name">
                   {" "}
-                  KTM LINE RAILWAY N. SEMBILAN @ SIZE ID <br /> 1.5M & ID= 1.8M
+                  KTM LINE RAILWAY ALOR STAR, @ SIZE ID= 1.8M
                 </Col>
                 <Row className="header">
                   <Col md={5}> Client </Col>
