@@ -1,27 +1,27 @@
 import React from "react";
-import { Container, Row, Col, Carousel, Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 export default function Winner() {
   const rewards = [
     {
-      name: "Jabatan kerja raya malaysia",
+      name: "Jabatan kerja \n raya malaysia",
       place: "winner",
       description:
-        "Excellent contractor award 2015 for infrastructure project costing more than rm10 million and less than rm50 million ",
+        "Excellent contractor award 2015 for infrastructure project \n costing more than rm10 million and less than rm50 million ",
       address: "Middle ring road seremban, negeri sembilan phase 3a",
     },
     {
-      name: "Jabatan kerja raya malaysia",
-      place: "first-runner-up",
+      name: "Jabatan kerja \n raya malaysia",
+      place: "first runner up",
       description:
-        "Excellent contractor award 2015 for infrastructure project costing more than rm50 million",
+        "Excellent contractor award 2015 for infrastructure project \n costing more than rm50 million",
       address: "Middle ring road seremban, negeri sembilan phase 2b",
     },
   ];
 
   return (
     <div className="--bg-2" data-scroll-section>
-      <Container className="--max">
+      <Container fluid className="--max">
         <Row className="awards">
           {rewards.map((reward, index) => {
             return (

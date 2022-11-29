@@ -84,7 +84,9 @@ export default function CarouselIndex() {
             <Carousel.Caption className="carousel-caption">
               <br />
               <br />
-              <h5>EARTHWORK CONSTRUCTION, POWER STATION BANDAR BARU ARANG</h5>
+              <h5>
+                EARTHWORK CONSTRUCTION, POWER STATION <br /> BANDAR BARU ARANG
+              </h5>
               <hr className="hr-carousel" />
               <Row className="header">
                 <Col md={6}>Client</Col>

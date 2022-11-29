@@ -88,8 +88,8 @@ export default function Header() {
               welcome you to
               <br />
               share with us any land opportunities, be it for residential,
-              commercial <br />
-              or industrial developments.
+              commercial or
+              <br /> industrial developments.
             </Col>
             <Col md="12" sm="12" className="mb-4">
               <Row className="row-cols-2 row-cols-lg-5 g-2 g-lg-3">

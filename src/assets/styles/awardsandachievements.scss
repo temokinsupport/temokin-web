@@ -81,7 +81,7 @@
       }
     }
     .--max {
-      max-width: 75%;
+      max-width: 80%;
     }
     .--awards {
       width: 90%;
@@ -338,7 +338,11 @@
 
     &__left {
       font-size: 1.5vw;
-      padding: 0 1.8em;
+      //
+
+      img {
+        padding: 0 1.8em;
+      }
     }
 
     &__right {
@@ -348,15 +352,22 @@
 
     &__name {
       text-align: center;
+      line-height: 1.5em;
+      letter-spacing: 0.2em;
+      font-size: 1.2vw;
+      white-space: pre-line;
     }
 
     &__place {
       font-size: 1.3vw;
+      letter-spacing: 0.2em;
     }
 
     &__description,
     &__address {
-      font-size: 1.1vw;
+      font-size: 1vw;
+      letter-spacing: 0.2em;
+      white-space: pre-line;
     }
   }
 

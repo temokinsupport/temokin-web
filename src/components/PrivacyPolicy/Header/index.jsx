@@ -55,11 +55,11 @@ export default function Header() {
               (2010).
               <br />
               <br />
-              In the course pf your dealings with TEMOKIN [meaning TEMOKIN, and
+              In the course of your dealings with TEMOKIN [meaning TEMOKIN, and
               <br /> the holding, subsidiary and/or related companies (as
               defined by the <br />
               Companies Act 1965) of TEMOKIN] as our valued customer / <br />
-              prospective customer, we may request that your provide data and
+              prospective customer, we may request that you provide data and
               <br />
               information about yourself ("Personal Data") to enable us to enter
               into <br />

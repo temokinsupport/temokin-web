@@ -15,7 +15,7 @@ export default function Licenses() {
           type: "alt",
         },
         {
-          content: "KEMENTERIAN KEWANGAN MALAYSIA",
+          content: "KEMENTERIAN KERJA RAYA MALAYSIA",
           type: "name",
         },
       ],

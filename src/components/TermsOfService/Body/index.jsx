@@ -164,7 +164,7 @@ export default class EmailUs extends React.Component {
 
               <div className="bodyContent">
                 The Content of the pages of this website is for your general
-                information and use only. <br /> and we reserve the rights to
+                information and use only, <br /> and we reserve the rights to
                 and we reserve the rights to change, vary or modify any of the
                 information and terms <br />
                 contained herein without notice.
@@ -225,7 +225,7 @@ export default class EmailUs extends React.Component {
                 provided for your convenience to provide further information.
                 They do not signify that we
                 <br />
-                endorse the website(s). We Have no responsibility for the
+                endorse the website(s). We have no responsibility for the
                 content of the linked website(s).
               </div>
               <hr className="separator" />
