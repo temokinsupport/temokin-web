@@ -61,7 +61,7 @@ export default function Featured() {
                       <br />
                       building of electricity substations, major underground
                       sewage <br />
-                      lines, complex bridges and major highways.
+                      lines, complex bridges, and major highways.
                     </p>
                     <NavLink
                       to="/building"

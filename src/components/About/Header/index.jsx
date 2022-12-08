@@ -74,13 +74,13 @@ export default function AboutTemokin() {
                           <br />
                           OURS IS NO EXCEPTION. ESTABLISHED IN 1989, WE SECURED
                           OUR <br />
-                          FIRST CONTRACT IN INFRASTRUCTURE AND BUILDINGS WORKS{" "}
+                          FIRST CONTRACT IN INFRASTRUCTURE AND BUILDINGS WORK{" "}
                           <br />
                           IN EARLY 1990. THEN IN 1993, WE GREW IN OUR JOURNEY,{" "}
                           <br />
-                          DELIVERING HIGH QUALITY PIPE JACKING AND EARTH WORKS{" "}
+                          DELIVERING HIGH-QUALITY PIPE JACKING AND EARTHWORKS{" "}
                           <br />
-                          WITH PROMINENT CLIENTS BY DELIVERING AHEAD OF TIME AND{" "}
+                          WITH PROMINENT CLIENTS BY DELIVERING AHEAD OF TIME{" "}
                           <br />
                           WITH QUALITY AS OUR FIRST PRIORITY. IN 1997, WE
                           DELIVERED <br />
@@ -118,7 +118,7 @@ export default function AboutTemokin() {
                       <Col md={5} className="--pl3v">
                         <p className="--desc">
                           FROM A SOLID FOUNDATION, WE EXPANDED TO BECOME THE
-                          PRE- <br />
+                          PRE-<br />
                           EMINENT TURKEY CIVIL ENGINEERING AND PROPERTY <br />
                           conglomerate that the nation and the world have come{" "}
                           <br />

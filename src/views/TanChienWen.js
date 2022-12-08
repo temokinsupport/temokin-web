@@ -81,7 +81,7 @@ const TanChienWen = () => {
                             award-winning utilities company in the United
                             Kingdom, where he was involved in supporting capital
                             programmes Wessex Water, which is United Kingdom’s
-                            preeminent awardwinning utilities company that
+                            preeminent award-winning utilities company that
                             serves over 1.3 million people every day.
                           </Description>
                         </Col>

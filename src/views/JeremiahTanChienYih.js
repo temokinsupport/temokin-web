@@ -79,7 +79,7 @@ const TanChienWen = () => {
                             Manager, generating widespread visibility for YES
                             4G, its anchor brand, while concurrently acting as
                             the Executive Director of Autodome, the F&B arm of
-                            YTL Land, revitalising older assets into profitable
+                            YTL Land, revitalizing older assets into profitable
                             world-class restaurants and bars. Soon after, he was
                             promoted to Vice President of YTL Hotels, overseeing
                             the Malaysian portfolio while assisting in the
@@ -87,7 +87,7 @@ const TanChienWen = () => {
                             <br />
                             <br />
                             He is also passionately involved in the development
-                            of lifestyle brands and has co- founded several
+                            of lifestyle brands and has co-founded several
                             health and fitness companies, including Fort Gyms
                             and PWRHOUSE.
                           </Description>
