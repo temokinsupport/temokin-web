@@ -71,9 +71,9 @@ const YBhgDatoIrRobertTanKimKuan = () => {
                             our business development, technical and investment arms. <br /> <br />
 
                             A chartered Engineer (UK) and a Professional Engineer (PE), bachelor in Civil <br />
-                            Engineering (Hons.) degree from University Malaya, Malaysia, and has worked 47 years  <br />
-                            construction industry. He is well respected in the construction of key <br />
-                            in the infrastructural and development projects in Malaysia. <br /> <br />
+                            Engineering (Hons.) degree from University Malaya, Malaysia, and has worked 47 years <br />
+                            in the construction industry. He is well respected in the construction of key <br />
+                            infrastructural and development projects in Malaysia. <br /> <br />
 
                             He previously holds position in the Klang Chinese Chamber of Commerce, Master <br /> 
                             Builders Association Malaysia, SIRIM Standard Committee, Council Member Of <br />
