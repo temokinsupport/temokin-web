@@ -12,7 +12,7 @@ export default function Header() {
             <h1 className="--title">Property Development</h1>
             <p className="--desc">
               As a people developer, we are only as successful as the
-              developments we weave in with trust, passion and love.{" "}
+              developments we weave in with trust, passion, and love.{" "}
             </p>
             <p className="--desc">
               Here are some of the projects that people can call home. We never

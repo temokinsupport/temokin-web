@@ -108,7 +108,7 @@ export default function CivilInfrastructure() {
               <Row className="item">
                 <Col md={12} className="name">
                   {" "}
-                  ASSOCIATED WORKS KTMB, NILAI ,NEG. SEMBILAN @ 1.9M{" "}
+                  ASSOCIATED WORKS KTMB, NILAI, NEG. SEMBILAN @ 1.9M{" "}
                 </Col>
                 <Row className="header">
                   <Col md={5}> Client </Col>

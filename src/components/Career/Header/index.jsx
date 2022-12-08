@@ -102,7 +102,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" plaintext /> 
                 </Col>
                 <Col md="3" className="text-end">
                   <Form.Label column className="land-label text-end">
@@ -110,7 +110,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" plaintext />
                 </Col>
                 <Col md="3" className="text-end">
                   <Form.Label column className="land-label text-end">
@@ -118,7 +118,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" value="" plaintext />
+                  <Form.Control className="land-form" plaintext /> 
                 </Col>
 
                 <Col md="3" className="text-end">
@@ -129,7 +129,6 @@ export default function Header() {
                 <Col md="7">
                   <Form.Control
                     className="career-form-textarea"
-                    value=""
                     as="textarea"
                     rows={10}
                     cols={10}
@@ -137,7 +136,7 @@ export default function Header() {
                 </Col>
 
                 <Col md="3" className="text-end d-flex align-items-center">
-                  <Form.Label column className="land-label text-end">
+                  <Form.Label column className="land-label-resume text-end">
                     UPLOAD RESUME
                   </Form.Label>
                 </Col>

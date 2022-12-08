@@ -51,7 +51,7 @@ export default function Header() {
               Welcome to our website. If you continue to browse and use website
               you <br /> are agreeing to comply with and be bound by the
               following terms and <br />
-              condition of use, set out below.
+              condition of use set out below.
               <br />
               <br />
               The term "TEMOKIN", "us" or "we" refers to TEMOKIN Group of

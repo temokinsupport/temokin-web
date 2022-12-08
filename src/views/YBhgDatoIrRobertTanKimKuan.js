@@ -85,7 +85,7 @@ const YBhgDatoIrRobertTanKimKuan = () => {
                           <Qoute>
                             “We want to be remembered not just for great work,
                             but as good people who did great work. Integrity,
-                            fairness and compassion must be the key in all we
+                            fairness, and compassion must be the key in all we
                             do.”
                           </Qoute>
                         </Col>
