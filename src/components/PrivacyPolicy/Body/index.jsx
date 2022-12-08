@@ -196,7 +196,7 @@ export default class EmailUs extends React.Component {
                   <li>children's basic details</li>
                   <li>marital status, occupation</li>
                   <li>income range</li>
-                  <li>contract information</li>
+                  <li>contact information</li>
                   <li>email address</li>
                   <li>employer</li>
                   <li>ethnic origin</li>
@@ -224,7 +224,7 @@ export default class EmailUs extends React.Component {
                 processed by us for, amongst others, the following purposes:
                 <br />
                 <br />
-                * for the delivery of notices, services or products and the
+                * for the delivery of notices, services, or products and the
                 marketing of such services or products whether present or
                 future, to you:
                 <br />
@@ -255,7 +255,7 @@ export default class EmailUs extends React.Component {
                 * for collection of outstanding payments from clients;
                 <br />
                 <br />
-                * for prevention, detection or prosecution of crime, and
+                * for prevention, detection, or prosecution of crime, and
                 compliance of legal and regulatory obligations;
                 <br />
                 <br />
@@ -315,7 +315,7 @@ export default class EmailUs extends React.Component {
                 financial or professional advisers;
                 <br />
                 <br />
-                * our contractors, sub-contractors or third party service or
+                * our contractors, sub-contractors, or third party service or
                 product providers as we may determine to be necessary or
                 appropriate: and/or;
                 <br />

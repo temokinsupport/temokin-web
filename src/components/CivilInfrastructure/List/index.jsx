@@ -230,7 +230,7 @@ export default function CivilInfrastructure() {
                 <Col md={12} className="name">
                   {" "}
                   GRADE SEPARATED INTERCHANGE AND ASSOCIATE WORKS, <br /> TMN
-                  MOUNT AUSTIN, JOHOR BAHRU- KOTA TINGGI ROAD{" "}
+                  MOUNT AUSTIN, JOHOR BAHRU-KOTA TINGGI ROAD{" "}
                 </Col>
                 <Row className="header">
                   <Col md={5}> Client </Col>

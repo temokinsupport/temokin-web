@@ -56,7 +56,7 @@ export default function Header() {
               <br />
               <br />
               In the course of your dealings with TEMOKIN [meaning TEMOKIN, and
-              <br /> the holding, subsidiary and/or related companies (as
+              <br /> the holding, subsidiary, and/or related companies (as
               defined by the <br />
               Companies Act 1965) of TEMOKIN] as our valued customer / <br />
               prospective customer, we may request that you provide data and
@@ -64,7 +64,7 @@ export default function Header() {
               information about yourself ("Personal Data") to enable us to enter
               into <br />
               transactions with you or to deliver the necessary notices,
-              services and/ <br />
+              services, and/ <br />
               or products in connection with our business.
             </div>
           </Col>
