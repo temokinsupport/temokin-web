@@ -89,12 +89,18 @@
   }
   .land-label {
     font-size: 15px;
-    // margin-top: 1vh;
+    margin-top: 1vw;
+  }
+
+  .land-label-resume {
+    font-size: 15px;
+    // margin-top: 1vw;
   }
 
   .land-form {
     border: 1px solid #676ab1;
     height: 3.5vw;
+    padding-left: 1vw;
   }
 
   .land-supporting {

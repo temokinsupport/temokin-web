@@ -29,7 +29,7 @@ export default function CivilInfrastructure() {
               Our expertise in engineering has seen <br />
               us build many of the nation’s electricity <br />
               substations, major underground sewage <br />
-              lines, complex bridges and major highways.
+              lines, complex bridges, and major highways.
             </p>
           </Col>
         </Row>

@@ -208,7 +208,7 @@ export default class EmailUs extends React.Component {
               <hr className="separator" />
               <div className="bodyContent">
                 All trademarks reproduced in this website which are not the
-                property of, or licensed to, the <br />
+                property of or licensed to, the <br />
                 operator is acknowledged on the website.
               </div>
               <hr className="separator" />

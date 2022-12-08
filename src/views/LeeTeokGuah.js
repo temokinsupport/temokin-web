@@ -77,7 +77,7 @@ const LeeTeokGuah = () => {
                             <br />
                             He was the Project General Manager of Scientex Bhd
                             leading the Central Project Team, in charge of their
-                            Ipoh, Rawang, Kundang and Cheras project.
+                            Ipoh, Rawang, Kundang, and Cheras project.
                             <br />
                             <br />
                             Prior to that, he was the General Manager of TAHPS
