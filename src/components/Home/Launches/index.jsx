@@ -58,7 +58,7 @@ export default function Launches() {
               rel="noreferrer"
               className="--btn-im-interested"
             >
-              IM INTERESTED
+              I'M INTERESTED
             </a>
           </Col>
         </Row>

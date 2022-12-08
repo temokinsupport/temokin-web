@@ -91,7 +91,7 @@ export default function Header() {
               aptitude. Of course, hard work is rewarded, and excellence is our
               lifestyle. If <br />
               you're energetic, eager to learn and a team player, send us your
-              resume and you <br /> could be on your way to a creer with
+              resume and you <br /> could be on your way to a career with
               Temokin.
             </Col>
             <Col md="12" sm="12" className="mb-4">

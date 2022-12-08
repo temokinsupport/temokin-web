@@ -82,7 +82,7 @@ const LeeTeokGuah = () => {
                             <br />
                             Prior to that, he was the General Manager of TAHPS
                             Group Bhd (now known as Ayer Holdings Bhd),
-                            developer of a I, 200 acre of Integrated Township
+                            developer of a 1,200 acre of Integrated Township
                             called Bandar Bukit Puchong, responsible for Project
                             Management, Sales & Marketing, Sales Admin, Township
                             Maintenance & Customer Care and also overseeing the
@@ -95,7 +95,7 @@ const LeeTeokGuah = () => {
                             Manager until he reached the position of General
                             Manager. His projects include the urban renewal
                             project of Sentul East & West, Lake Edge, Pantai
-                            Hillpark, Lake Fields and Housing project at Ipoh
+                            Hillpark, Lake Fields, and Housing project at Ipoh
                             and Pasir Gudang.
                           </Description>
                         </Col>

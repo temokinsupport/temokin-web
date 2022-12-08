@@ -37,7 +37,7 @@ export default function CarouselIndex() {
                 <Col md={6}>
                   Public Works Department, <br /> Malaysia (JKR)
                 </Col>
-                <Col md={3}>RM2.5 million</Col>
+                <Col md={3}>RM2.5 billion</Col>
                 <Col md={3}>May 2004 to Nov 2017</Col>
               </Row>
             </Carousel.Caption>
