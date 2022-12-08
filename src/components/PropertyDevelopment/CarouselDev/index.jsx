@@ -40,7 +40,7 @@ export default function CarouselDev() {
         {
           image: "apa.png",
           description:
-            "Highly Commended for Best High End Landed Development (Southern)",
+            "Highly Commended for Best High-End Landed Development (Southern)",
         },
       ],
       links: {

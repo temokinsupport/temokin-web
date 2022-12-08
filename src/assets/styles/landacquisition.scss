@@ -64,6 +64,8 @@
   .land-label {
     font-size: 15px;
     // margin-top: 1vh;
+    color: #676AB1;
+    
   }
   .land-label__container {
     display: fl;
@@ -106,6 +108,12 @@
   .land-radio__row .land-check {
     font-size: 8pt;
     align-items: flex-start;
+  }
+
+  .land-radio__row  {
+    .form-check-label {
+      color: #676AB1;
+    }
   }
   .land-submit {
     width: 15vw;
