@@ -95,7 +95,7 @@ export default function AboutTemokin() {
                         <br />
                         <br />
                         <NavLink
-                          to="/contact-us"
+                          to="/land-acquisition" 
                           variant="light"
                           className="--grow-with-us"
                         >
