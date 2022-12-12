@@ -101,6 +101,12 @@
     border: 1px solid #676ab1;
     height: 3.5vw;
     padding-left: 1vw;
+
+    &:focus {
+      outline-color: #283a97;
+      outline-width: 2px;
+      outline-style: solid;
+    }
   }
 
   .land-supporting {
@@ -166,6 +172,7 @@
 
     &__desc {
       margin-bottom: 8vw !important;
+      font-size: 1.4vw;
     }
   }
 

@@ -83,7 +83,7 @@ export default function Header() {
             </Col>
           </Row>
           <Row className="justify-content-center text-header">
-            <Col md="8" sm="12" className="pb-5 mb-5 text-header__desc">
+            <Col md="10" sm="12" className="pb-5 mb-5 text-header__desc">
               From our humble start, we have grown tremendously and now we are
               looking to go <br />
               next level. We have a no-discrimination policy and believe in
@@ -102,7 +102,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" plaintext /> 
+                  <Form.Control className="land-form" plaintext />
                 </Col>
                 <Col md="3" className="text-end">
                   <Form.Label column className="land-label text-end">
@@ -118,7 +118,7 @@ export default function Header() {
                   </Form.Label>
                 </Col>
                 <Col md="7">
-                  <Form.Control className="land-form" plaintext /> 
+                  <Form.Control className="land-form" plaintext />
                 </Col>
 
                 <Col md="3" className="text-end">
