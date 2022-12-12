@@ -108,7 +108,7 @@ export default function CarouselDev() {
       {isTablet && (
         <Carousel
           interval={7000}
-          className="overlay-carousel"
+          className="overlay-carousel overlay-carousel--property-development"
           activeIndex={carouselIndex}
           onSelect={controlCarousel}
           onSlide={controlCarousel}

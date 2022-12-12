@@ -12,33 +12,6 @@
   min-height: 100vh;
   margin-top: 20vw;
 
-  &--building {
-    min-height: unset;
-    .carousel-caption {
-      .--bottom-detail {
-        position: relative;
-
-        &:not(:last-child):after {
-          content: "";
-          position: absolute;
-          bottom: -17.5px;
-          left: 0;
-          width: 120%;
-          height: 1px;
-          background-color: #283997;
-        }
-      }
-
-      .--desc::after {
-        display: none;
-      }
-    }
-
-    .carousel-indicators {
-      top: 5vw !important;
-    }
-  }
-
   .carousel-item {
     height: 100vh;
     position: relative;
@@ -274,6 +247,39 @@
       &:last-child:not(:only-of-type) {
         margin-top: 2vw;
       }
+    }
+  }
+
+  &--building {
+    min-height: unset;
+    .carousel-caption {
+      .--bottom-detail {
+        position: relative;
+
+        &:not(:last-child):after {
+          content: "";
+          position: absolute;
+          bottom: -17.5px;
+          left: 0;
+          width: 120%;
+          height: 1px;
+          background-color: #283997;
+        }
+      }
+
+      .--desc::after {
+        display: none;
+      }
+    }
+
+    .carousel-indicators {
+      top: 5vw !important;
+    }
+  }
+
+  &--property-development {
+    .carousel-item {
+      height: 80vw;
     }
   }
 
