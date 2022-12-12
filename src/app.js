@@ -39,10 +39,21 @@ import PrivacyPolicy from "./views/PrivacyPolicy";
 import Career from "./views/Career";
 import CivilInfrastructure from "./views/CivilInfrastructure";
 import Building from "./views/Building";
+import { useEffect } from "react";
 
 export default function App() {
   var AOS = require("aos");
   AOS.init();
+
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      let width = parseInt(window.innerWidth);
+
+      if (width <= 420) {
+        window.location.replace("https://temokin-mobile.hirayamnl.com/");
+      }
+    });
+  }, []);
 
   return (
     <BrowserRouter>
