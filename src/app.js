@@ -46,6 +46,12 @@ export default function App() {
   AOS.init();
 
   useEffect(() => {
+    let width = parseInt(window.innerWidth);
+
+    if (width <= 420) {
+      window.location.replace("https://temokin-mobile.hirayamnl.com/");
+    }
+
     window.addEventListener("resize", () => {
       let width = parseInt(window.innerWidth);
 
