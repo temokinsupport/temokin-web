@@ -50,14 +50,14 @@ export default function App() {
   useEffect(() => {
     let width = parseInt(window.innerWidth);
 
-    if (width <= 420) {
+    if (width <= 480) {
       window.location.replace("https://temokin-mobile.hirayamnl.com");
     }
 
     window.addEventListener("resize", () => {
       let width = parseInt(window.innerWidth);
 
-      if (width <= 420) {
+      if (width <= 480) {
         /* history.push(
           "https://temokin-mobile.hirayamnl.com" + window.location.pathname
         ); */
