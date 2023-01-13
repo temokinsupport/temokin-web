@@ -12,7 +12,6 @@ const OtherBusinessVentures = () => {
           className="ventures
             main-container"
           id="main-container"
-          data-scroll-container
         >
           <Navigation />
           <section className=" hero">

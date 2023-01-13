@@ -45,7 +45,7 @@ export default function CarouselDev() {
       ],
       links: {
         project: "/mahligai",
-        website: "/mahligai",
+        website: "https://www.mahligai.my/",
       },
     },
     {
@@ -108,7 +108,7 @@ export default function CarouselDev() {
       {isTablet && (
         <Carousel
           interval={7000}
-          className="overlay-carousel"
+          className="overlay-carousel overlay-carousel--property-development"
           activeIndex={carouselIndex}
           onSelect={controlCarousel}
           onSlide={controlCarousel}
@@ -197,12 +197,12 @@ export default function CarouselDev() {
                       </NavLink>
                     ) : null}
                     {item.links.website ? (
-                      <NavLink
+                      <a
                         className="--btn-view-project"
-                        to={item.links.website}
+                        href={item.links.website}
                       >
                         View Website
-                      </NavLink>
+                      </a>
                     ) : null}
                   </div>
                 </Carousel.Caption>
@@ -292,7 +292,7 @@ export default function CarouselDev() {
                 <p className="--desc">
                   Mahligai at Nusa Damai consists of 163 <br />
                   landed houses in the already-mature <br />
-                  neighbourhood of Masai in Johor.
+                  neighborhood of Masai in Johor.
                 </p>
                 <div className="--hr" />
                 <p className="--bottom-detail">

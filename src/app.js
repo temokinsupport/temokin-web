@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, useHistory } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./assets/styles/app.scss";
 import Home from "./views/Home";
@@ -42,10 +42,18 @@ import Building from "./views/Building";
 import { useEffect } from "react";
 
 export default function App() {
+  const history = useHistory();
+
   var AOS = require("aos");
   AOS.init();
 
   useEffect(() => {
+    let width = parseInt(window.innerWidth);
+
+    if (width <= 1024) {
+      window.location.replace("https://temokin-mobile.hirayamnl.com");
+    }
+
     window.addEventListener("resize", () => {
       let width = parseInt(window.innerWidth);
 

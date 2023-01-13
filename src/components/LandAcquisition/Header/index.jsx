@@ -133,7 +133,7 @@ export default function Header() {
                 <Col md="7">
                   <Form.Control className="land-form" plaintext />
                 </Col>
-                <Col md="3" className="text-end land-label__container"> 
+                <Col md="3" className="text-end land-label__container">
                   <Form.Label column className="land-label text-end">
                     MODE OF COLLABORATION
                   </Form.Label>

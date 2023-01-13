@@ -49,8 +49,7 @@ export default function Header() {
             <Image
               data-aos="zoom-in"
               src={
-                require("../../../assets/images/contactus/icon1.svg")
-                  .default
+                require("../../../assets/images/contactus/Icon-1.svg").default
               }
             />
             <h3 data-aos="zoom-in" data-aos-duration="1000" className="--title">
@@ -66,8 +65,7 @@ export default function Header() {
             <Image
               data-aos="zoom-in"
               src={
-                require("../../../assets/images/contactus/icon2.svg")
-                  .default
+                require("../../../assets/images/contactus/Icon-2.svg").default
               }
             />
             <h3 data-aos="zoom-in" data-aos-duration="1000" className="--title">
@@ -81,8 +79,7 @@ export default function Header() {
             <Image
               data-aos="zoom-in"
               src={
-                require("../../../assets/images/contactus/icon3.svg")
-                  .default
+                require("../../../assets/images/contactus/Icon-3.svg").default
               }
             />
             <h3 data-aos="zoom-in" data-aos-duration="1000" className="--title">
