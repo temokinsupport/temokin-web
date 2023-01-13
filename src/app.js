@@ -49,7 +49,7 @@ export default function App() {
     window.addEventListener("resize", () => {
       let width = parseInt(window.innerWidth);
 
-      if (width <= 420) {
+      if (width <= 1024) {
         window.location.replace("https://temokin-mobile.hirayamnl.com/");
       }
     });
