@@ -51,14 +51,14 @@ export default function App() {
     let width = parseInt(window.innerWidth);
 
     if (width <= 1024) {
-      window.location.replace("https://temokin-mobile.hirayamnl.com");
+      window.location.replace("https://mobile.temokin.com");
     }
 
     window.addEventListener("resize", () => {
       let width = parseInt(window.innerWidth);
 
       if (width <= 1024) {
-        window.location.replace("https://temokin-mobile.hirayamnl.com/");
+        window.location.replace("https://mobile.temokin.com");
       }
     });
   }, []);
