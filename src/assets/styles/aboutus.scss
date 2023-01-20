@@ -389,6 +389,7 @@
       width: 100%;
       position: absolute;
       top: -10vw;
+      margin-top: -1px;
       &::before {
         content: "";
         background-color: #283997;
@@ -519,6 +520,8 @@
     min-height: 59vw;
     padding: 10vw 0;
     position: relative;
+    margin-top: -1px;
+
     .--title {
       font-family: "gill sans", sans-serif !important;
       letter-spacing: 0.6vw;
