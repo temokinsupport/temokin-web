@@ -19,7 +19,7 @@ export default function Launches() {
             <Image
               data-scroll
               className="--img"
-              src={require("../../../assets/images/home/Group 49.jpg").default}
+              src={require("../../../assets/images/home/Group 49.png").default}
             />
           </Col>
           <Col>
