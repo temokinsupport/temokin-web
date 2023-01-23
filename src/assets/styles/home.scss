@@ -462,8 +462,7 @@
       width: 105vw;
       position: absolute;
       z-index: -9;
-      min-height: 69vw;
-      top: 0vw;
+      min-height: 100vh;
     }
   }
   .--container-4 {
@@ -692,7 +691,7 @@
     position: relative;
     z-index: -9;
     min-height: 69vw;
-    top: -2vw;
+    top: -69vw;
   }
   @media (max-width: 1200px) {
     overflow: hidden;
@@ -702,13 +701,21 @@
     }
     .--bg-4 {
       .hero-container {
-        display: none;
+        // display: none;
       }
     }
     .--bg-3 {
       .hero-container {
         display: none;
       }
+    }
+
+    .launches-bg {
+      width: 105vw;
+      position: relative;
+      z-index: -9;
+      min-height: 69vw;
+      top: -69vw;
     }
   }
 

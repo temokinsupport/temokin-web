@@ -122,7 +122,7 @@ export default function App() {
                 />
                 <Route
                   exact
-                  path="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan"
+                  path="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan" 
                   component={YBhgDatoIrRobertTanKimKuan}
                 />
                 <Route
