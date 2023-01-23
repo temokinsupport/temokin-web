@@ -51,7 +51,7 @@ export default function Launches() {
         </Row>
         <Row>
           <Col>
-            <a
+            <a 
               data-scroll
               href="https://www.mahligai.my/"
               target="_blank"
@@ -66,7 +66,7 @@ export default function Launches() {
       {/* <div className="launches-bg"/> */}
       <div className="hero-container">
         <LazyLoadImage
-          src={require("../../../assets/images/home/Home_BG-04.png").default}
+          src={require("../../../assets/images/home/Home_BG-04.png").default} 
           className="launches-bg"
         />
       </div>

@@ -73,6 +73,7 @@ function Navigation() {
       "resize",
       () => {
         const ismobile = window.innerWidth < 992;
+        
         if (ismobile !== isMobile) setIsMobile(ismobile);
       },
       false
@@ -164,7 +165,7 @@ function Navigation() {
                 <NavLink
                   exact
                   to="/about-temokin"
-                  onClick={() => setOpenAbout(!open)}
+                  onClick={() => setOpen(!open)}
                   aria-controls="basic-navbar-nav"
                   aria-expanded={open}
                   className="dynamic_nav --mobile-nav-text"
@@ -328,6 +329,7 @@ function Navigation() {
         <li
           onMouseEnter={() => setNavLinkHoverState("about", true)}
           onMouseLeave={() => setNavLinkHoverState("about", false)}
+          onClick={() => setNavLinkHoverState("about", true)}
         >
           <Button>About Temokin</Button>
           <div
@@ -349,6 +351,7 @@ function Navigation() {
         <li
           onMouseEnter={() => setNavLinkHoverState("construction", true)}
           onMouseLeave={() => setNavLinkHoverState("construction", false)}
+          onClick={() => setNavLinkHoverState("construction", true)}
         >
           <Button>Construction</Button>
           <div
