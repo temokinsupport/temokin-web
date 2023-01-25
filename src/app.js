@@ -51,6 +51,7 @@ export default function App() {
     let width = parseInt(window.innerWidth);
 
     if (width <= 1024) {
+      
       window.location.replace("https://mobile.temokin.com");
     }
 
