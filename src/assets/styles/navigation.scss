@@ -51,7 +51,7 @@
         &-container {
           position: absolute;
           top: 3vw;
-          width: 12vw;
+          width: 17vw;
           opacity: 0;
           background-color: #283a97;
           -webkit-transition: all 0.3s;
@@ -278,6 +278,19 @@
         margin: 2.6vw 0 0 5.4vw !important;
         img {
           width: 200px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1200px)
+  {
+    .navbar-nav {
+      li {
+        .--dropdown {
+          &-container {
+            width: 12vw;
+          }
         }
       }
     }
