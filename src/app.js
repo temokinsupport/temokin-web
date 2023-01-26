@@ -50,12 +50,7 @@ export default function App() {
   useEffect(() => {
     let width = parseInt(window.innerWidth);
 
-<<<<<<< Updated upstream
     if (width <= 1024) {
-      
-=======
-    /* if (width <= 1024) {
->>>>>>> Stashed changes
       window.location.replace("https://mobile.temokin.com");
     }
 
@@ -65,7 +60,7 @@ export default function App() {
       if (width <= 1024) {
         window.location.replace("https://mobile.temokin.com");
       }
-    }); */
+    });
 
     window.addEventListener("orientationchange", () => {
       window.location.reload();
@@ -131,7 +126,7 @@ export default function App() {
                 />
                 <Route
                   exact
-                  path="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan" 
+                  path="/team-leaders/y-bhg-dato-ir-robert-tan-kim-kuan"
                   component={YBhgDatoIrRobertTanKimKuan}
                 />
                 <Route
