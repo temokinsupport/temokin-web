@@ -50,20 +50,28 @@ export default function App() {
   useEffect(() => {
     let width = parseInt(window.innerWidth);
 
-    if (width <= 1024) {
+    if (width < 1024) {
       window.location.replace("https://mobile.temokin.com");
     }
 
     window.addEventListener("resize", () => {
       let width = parseInt(window.innerWidth);
 
-      if (width <= 1024) {
+      if (width < 1024) {
         window.location.replace("https://mobile.temokin.com");
       }
     });
 
     window.addEventListener("orientationchange", () => {
-      window.location.reload();
+      let width = parseInt(window.innerWidth);
+      let height = parseInt(window.innerHeight);
+      let orientation = parseInt(window.orientation);
+
+      if(orientation == 0) {
+        if(width < 1024) {
+          window.location.replace("https://mobile.temokin.com");
+        }
+      }
     });
   }, []);
 
