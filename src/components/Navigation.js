@@ -333,7 +333,7 @@ function Navigation() {
         >
           <Button>About Temokin</Button>
           <div
-            className={`--dropdown-container --dropdown__about ${
+            className={`--dropdown-container --dropdown__about ${ 
               hovered.about ? "--dropdown--active" : ""
             }`}
           >
