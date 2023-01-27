@@ -220,7 +220,7 @@ const TeamLeaders = () => {
               <Image
                 src={
                   require("../assets/images/teamleaders/Group 89.png").default
-                }
+                } 
               />
             </div>
             <Join />
