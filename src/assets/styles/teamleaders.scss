@@ -338,6 +338,42 @@
       }
     }
   }
+
+  @media (min-width: 1024px) {
+    .--bg-1 {
+      .--shape-left {
+        transition: background 0.3s;
+        left: -15vw;
+        width: 20vw;
+        position: absolute;
+        top: 13vw;
+      }
+      .--shape-right-1 {
+        transition: background 0.3s;
+        right: -20vw;
+        width: 37vw;
+        position: absolute;
+        top: 30vw;
+      }
+
+      img {
+        width: 30vw;
+      }
+    }
+    .--bg-2 {
+      .--shape-right {
+        transition: background 0.3s;
+        right: -15vw;
+        width: 37vw;
+        position: absolute;
+        top: 7vw;
+      }
+      img {
+        width: 25vw;
+      }
+    }
+  }
+
   @media (max-width: 992px) {
     background: url("../images/teamleaders/Leaders_BG-01.png") top center;
     transition: background 0.3s;
