@@ -70,6 +70,8 @@ export default function App() {
       if(orientation == 0) {
         if(width < 1024) {
           window.location.replace("https://mobile.temokin.com");
+
+          window.location.reload()
         }
       }
     });
