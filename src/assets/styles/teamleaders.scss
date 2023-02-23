@@ -380,6 +380,9 @@
     background-repeat: no-repeat;
     margin-top: 0;
     background-size: auto 100% !important;
+    .--shape-right-1 {
+      display: none;
+    }
     .--bg-1 {
       padding: 100px 0;
       background: url("../images/teamleaders/Leaders_BG-02.png") top 65vw center,
