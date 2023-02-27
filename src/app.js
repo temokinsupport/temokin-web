@@ -51,16 +51,16 @@ export default function App() {
     let width = parseInt(window.innerWidth);
 
     if (width < 1024) {
-      const currentUrl = window.location.pathname.replace(/\//g, "");
-      window.location.replace(`https://mobile.temokin.com/#/${currentUrl}`);
+      const currentUrl = window.location.pathname;
+      window.location.replace(`https://mobile.temokin.com/#${currentUrl}`);
     }
 
     window.addEventListener("resize", () => {
       let width = parseInt(window.innerWidth);
 
       if (width < 1024) {
-        const currentUrl = window.location.pathname.replace(/\//g, "");
-        window.location.replace(`https://mobile.temokin.com/#/${currentUrl}`);
+        const currentUrl = window.location.pathname;
+        window.location.replace(`https://mobile.temokin.com/#${currentUrl}`);
       }
     });
 
@@ -71,8 +71,8 @@ export default function App() {
 
       if (orientation == 0) {
         if (width < 1024) {
-          const currentUrl = window.location.pathname.replace(/\//g, "");
-          window.location.replace(`https://mobile.temokin.com/#/${currentUrl}`);
+          const currentUrl = window.location.pathname;
+          window.location.replace(`https://mobile.temokin.com/#${currentUrl}`);
 
           window.location.reload();
         }
